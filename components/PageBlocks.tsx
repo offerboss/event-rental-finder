@@ -109,3 +109,48 @@ export function ProviderCtaPanel({
     </section>
   );
 }
+
+const primaryActionClass =
+  "inline-flex h-12 items-center justify-center rounded-lg bg-[#2C7A78] px-7 text-base font-semibold text-white transition hover:bg-[#256866] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]";
+
+const secondaryActionClass =
+  "inline-flex h-12 items-center justify-center rounded-lg border border-[#E8E1D5] bg-white px-7 text-base font-semibold text-[#1F2937] transition hover:border-[#2C7A78] hover:text-[#2C7A78] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]";
+
+// Centered panel used when a content collection has no entries yet.
+// The first action is styled as the primary button, the rest as secondary.
+export function EmptyStatePanel({
+  icon,
+  heading,
+  description,
+  actions,
+}: {
+  icon: React.ReactNode;
+  heading: string;
+  description: string;
+  actions: { label: string; href: string }[];
+}) {
+  return (
+    <div className="rounded-3xl border border-[#E8E1D5] bg-white px-6 py-12 text-center shadow-[0_4px_20px_-8px_rgba(30,42,54,0.12)] sm:px-10 lg:py-16">
+      <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-[#C8A96B]/50 bg-[#F8F5EF] text-[#2C7A78]">
+        {icon}
+      </span>
+      <h2 className="mt-6 font-serif text-3xl font-medium tracking-tight text-[#1F2937] sm:text-4xl">
+        {heading}
+      </h2>
+      <p className="mx-auto mt-3 max-w-2xl text-lg leading-8 text-[#1F2937]/70">
+        {description}
+      </p>
+      <div className="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+        {actions.map((action, index) => (
+          <Link
+            key={action.href}
+            href={action.href}
+            className={index === 0 ? primaryActionClass : secondaryActionClass}
+          >
+            {action.label}
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}

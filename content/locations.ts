@@ -1,0 +1,58 @@
+import type { Location } from "@/types";
+
+export const locations: Location[] = [
+  {
+    city: "Denver",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "denver-co",
+    county: "Denver County",
+    featured: true,
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "centennial-co"],
+  },
+  {
+    city: "Colorado Springs",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "colorado-springs-co",
+    county: "El Paso County",
+    featured: true,
+    nearbyCities: ["monument-co", "fountain-co", "manitou-springs-co"],
+  },
+  {
+    city: "Fort Collins",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "fort-collins-co",
+    county: "Larimer County",
+    featured: true,
+    nearbyCities: ["loveland-co", "windsor-co", "greeley-co"],
+  },
+  {
+    city: "Boulder",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "boulder-co",
+    county: "Boulder County",
+    featured: true,
+    nearbyCities: ["longmont-co", "louisville-co", "lafayette-co"],
+  },
+  {
+    city: "Greeley",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "greeley-co",
+    county: "Weld County",
+    featured: true,
+    nearbyCities: ["windsor-co", "evans-co", "fort-collins-co"],
+  },
+  {
+    city: "Grand Junction",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "grand-junction-co",
+    county: "Mesa County",
+    featured: true,
+    nearbyCities: ["fruita-co", "palisade-co"],
+  },
+];

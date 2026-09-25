@@ -8,6 +8,7 @@ import {
   cardClass,
   container,
   heroBackground,
+  linkCardClass,
 } from "@/components/PageBlocks";
 import { resources } from "@/content/resources";
 
@@ -95,38 +96,48 @@ export default function ResourcesPage() {
           {resources.length > 0 ? (
             <>
               <SectionHeading id="guides" title="Guides and Tips" />
-              {/* No /resources/[slug] route exists yet, so cards are not links. */}
               <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3 lg:gap-8">
                 {[...resources]
                   .sort((a, b) => Number(!!b.featured) - Number(!!a.featured))
                   .map((article) => {
                     const date = formatDate(article.updatedAt ?? article.publishedAt);
                     return (
-                      <li
-                        key={article.slug}
-                        className={`${cardClass} flex flex-col p-6`}
-                      >
-                        <div className="mb-4 flex flex-wrap items-center gap-2 text-xs font-semibold">
-                          {article.featured && (
-                            <span className="rounded-full bg-[#C8A96B]/20 px-3 py-1 text-[#1F2937]">
-                              Featured
-                            </span>
+                      <li key={article.slug}>
+                        <Link
+                          href={`/resources/${article.slug}`}
+                          className={`${linkCardClass} flex h-full flex-col p-6`}
+                        >
+                          <div className="mb-4 flex flex-wrap items-center gap-2 text-xs font-semibold">
+                            {article.featured && (
+                              <span className="rounded-full bg-[#C8A96B]/20 px-3 py-1 text-[#1F2937]">
+                                Featured
+                              </span>
+                            )}
+                            {article.category && (
+                              <span className="rounded-full bg-[#2C7A78]/10 px-3 py-1 text-[#2C7A78]">
+                                {article.category}
+                              </span>
+                            )}
+                          </div>
+                          <h3 className="font-serif text-xl font-medium text-[#1F2937]">
+                            {article.title}
+                          </h3>
+                          <p className="mt-3 flex-1 text-[15px] leading-7 text-[#1F2937]/70">
+                            {article.excerpt}
+                          </p>
+                          {date && (
+                            <p className="mt-4 text-sm text-[#1F2937]/55">{date}</p>
                           )}
-                          {article.category && (
-                            <span className="rounded-full bg-[#2C7A78]/10 px-3 py-1 text-[#2C7A78]">
-                              {article.category}
+                          <span className="mt-5 inline-flex items-center gap-1.5 text-[15px] font-semibold text-[#2C7A78]">
+                            Read Guide
+                            <span
+                              aria-hidden
+                              className="transition-transform duration-200 group-hover:translate-x-1"
+                            >
+                              →
                             </span>
-                          )}
-                        </div>
-                        <h3 className="font-serif text-xl font-medium text-[#1F2937]">
-                          {article.title}
-                        </h3>
-                        <p className="mt-3 flex-1 text-[15px] leading-7 text-[#1F2937]/70">
-                          {article.excerpt}
-                        </p>
-                        {date && (
-                          <p className="mt-4 text-sm text-[#1F2937]/55">{date}</p>
-                        )}
+                          </span>
+                        </Link>
                       </li>
                     );
                   })}

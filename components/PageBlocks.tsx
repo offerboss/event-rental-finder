@@ -12,6 +12,36 @@ export const linkCardClass = `group ${cardClass} transition duration-200 hover:-
 export const heroBackground =
   "border-b border-[#E8E1D5] bg-[radial-gradient(ellipse_at_top_right,rgba(200,169,107,0.14),transparent_60%)]";
 
+// Body copy can reference an internal page with `[label](/path)` markdown-link
+// syntax. This renders that as a real Next Link inline; plain strings (with
+// no such syntax) render exactly as-is. Shared by the resource article and
+// location page templates so both use one link-parsing implementation.
+export function renderRichText(text: string): React.ReactNode {
+  const pattern = /\[([^\]]+)\]\((\/[a-z0-9\-/]*)\)/gi;
+  const nodes: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = pattern.exec(text))) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    nodes.push(
+      <Link
+        key={key++}
+        href={match[2]}
+        className="font-semibold text-[#2C7A78] underline decoration-[#2C7A78]/30 underline-offset-4 transition hover:text-[#256866] hover:decoration-[#2C7A78]"
+      >
+        {match[1]}
+      </Link>,
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+  return nodes;
+}
+
 export function Breadcrumb({
   items,
 }: {

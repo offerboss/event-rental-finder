@@ -150,8 +150,8 @@ export default async function LocationPage({ params }: Props) {
               {image && (
                 <div className="relative aspect-[3/2] overflow-hidden rounded-3xl border border-[#E8E1D5] shadow-[0_20px_50px_-20px_rgba(30,42,54,0.3)]">
                   <Image
-                    src={image}
-                    alt={place}
+                    src={image.src}
+                    alt={image.alt}
                     fill
                     priority
                     sizes="(min-width: 1280px) 560px, (min-width: 1024px) 45vw, 100vw"

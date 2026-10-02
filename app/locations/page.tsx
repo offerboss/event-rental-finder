@@ -66,8 +66,8 @@ export default function LocationsPage() {
                     <div className="relative aspect-[3/2] overflow-hidden bg-gradient-to-br from-[#E8E1D5] via-[#F2EEE7] to-[#F8F5EF]">
                       {image ? (
                         <Image
-                          src={image}
-                          alt=""
+                          src={image.src}
+                          alt={image.alt}
                           fill
                           sizes="(min-width: 1280px) 384px, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                           className="object-cover transition duration-500 group-hover:scale-[1.03]"

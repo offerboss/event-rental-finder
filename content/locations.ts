@@ -17,7 +17,7 @@ export const locations: Location[] = [
     slug: "colorado-springs-co",
     county: "El Paso County",
     featured: true,
-    nearbyCities: ["monument-co", "fountain-co", "manitou-springs-co"],
+    nearbyCities: ["monument-co", "fountain-co", "manitou-springs-co", "woodland-park-co"],
   },
   {
     city: "Fort Collins",
@@ -486,7 +486,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "castle-rock-co",
     county: "Douglas County",
-    nearbyCities: ["denver-co", "colorado-springs-co"],
+    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co"],
     heroSupportingCopy:
       "Find event rental companies serving Castle Rock and the south Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -773,6 +773,420 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Loveland?",
       description:
         "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Loveland and across Northern Colorado.",
+    },
+  },
+  {
+    city: "Monument",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "monument-co",
+    county: "El Paso County",
+    nearbyCities: ["colorado-springs-co", "castle-rock-co", "manitou-springs-co"],
+    metaDescription:
+      "Plan event rentals in Monument, CO and the Tri-Lakes area: tents, tables and chairs, wedding rentals, restroom trailers, staging and AV, plus the Town's tent permit rules.",
+    heroSupportingCopy:
+      "Compare event rental options for Monument and the Tri-Lakes area, from tents, tables and chairs to restroom trailers, staging, AV, inflatables and wedding rentals.",
+    heroTagline:
+      "Monument sits on the south side of the Palmer Divide, where open meadow lots, town parks and a busy downtown Fourth of July make tent permits, anchoring and weather part of planning an outdoor event here.",
+    categoriesIntro:
+      "Explore the rental categories Monument hosts use most for Tri-Lakes weddings, graduation parties, park events, Fourth of July gatherings and backyard celebrations.",
+    localIntro: [
+      "Monument is one of the Tri-Lakes communities at the north end of El Paso County, alongside Palmer Lake and Woodmoor. The town sits at about 6,980 feet, and Monument Hill just north of town reaches roughly 7,350 feet on the Palmer Divide, a ridge the Town of Palmer Lake describes as creating its own weather patterns. That height and the open, pine-edged ground around much of the area shape how outdoor events here are planned.",
+      "Events here run from weddings and graduation parties on meadow or wooded properties to gatherings at Town parks, Monument Lake and the Limbach Park band shell. The Fourth of July brings the Monument Hill Kiwanis parade and a downtown street fair, so plan around closures if your event lands that weekend. The Air Force Academy, about five miles south, warns of heavy traffic during its late-May graduation week, which can affect delivery timing.",
+      "Monument handles tents a little differently from many towns. The Town's special event permit covers street closures, 100 or more people in a public park or at Monument Lake, outdoor events with alcohol and use of the Limbach Park band shell. A tent or other temporary structure calls for a separate temporary use permit. Special event applications are due 30 days ahead for events under 1,000 people and 120 days ahead for larger ones, which need Town Council approval.",
+      "The Town's 2026 application packet adds details that affect a rental order: tents at permitted events may not be staked because of buried sprinkler lines, each tent needs a fire extinguisher, and larger tents, stages or generators may need review by the Tri-Lakes Monument Fire Protection District. A private party on private land may not go through this process, so check with the Town about your address and share what applies with your rental provider.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Monument",
+      intro:
+        "How Tri-Lakes hosts tend to use event rentals, and where the Monument details come in.",
+      items: [
+        {
+          title: "Meadow & Backyard Weddings",
+          description:
+            "Weddings on Tri-Lakes properties often pair a ceremony on open ground with a tented reception, seating, lighting and a [dance floor](/categories/dance-floor-rentals). On larger lots, the walk from the driveway to the reception site affects how long setup takes, so walk the route with your provider.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents on Open Ground",
+          description:
+            "Meadows and hilltop yards give a tent room to breathe but leave it exposed to wind. Ask how the provider anchors on your surface, whether stakes are allowed at your site or weights are needed instead, and whether sidewalls come with the order.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Graduation & Open-House Parties",
+          description:
+            "Graduation parties and open houses usually run on simple pieces: banquet tables, folding chairs, a food table and some shade. If your date falls during Air Force Academy graduation week, book early and plan delivery around heavier traffic.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Park & Band Shell Events",
+          description:
+            "Concerts, fundraisers and community programs at Limbach Park or other Town spaces need a special event permit for the band shell or for crowds of 100 or more. Rented staging, sound and lighting can supplement what's on site, and stages may draw fire district review.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Neighborhood & Family Celebrations",
+          description:
+            "Birthdays, reunions and block-style gatherings around Monument often mix [inflatables](/categories/inflatable-rentals), a photo booth, extra seating and a small tent. Wind is the main thing to plan around with inflatables on open ground, so ask about the provider's wind limits.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Larger Gatherings & Fundraisers",
+          description:
+            "For Town-permitted events, Monument recommends two portable toilets for every 250 people at peak with at least ten percent of units, and never fewer than one, accessible. A restroom trailer is worth pricing when guests will stay for several hours.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Monument",
+      intro:
+        "The Monument-specific questions that most often change a quote or a setup plan.",
+      items: [
+        "Whether your event needs the Town's special event permit, the temporary use permit for tents and structures, both or neither",
+        "Lead time: 30 days for events under 1,000 people, 45 days for a special event liquor permit and 120 days for events of 1,000 or more",
+        "Whether stakes are allowed at your site, since Town-permitted events may not stake tents because of sprinkler lines",
+        "A fire extinguisher for each tent, and possible fire district review for larger tents, stages or a generator",
+        "Wind on open meadow and hilltop lots, and the anchoring method the provider uses on that surface",
+        "Evening temperatures at nearly 7,000 feet, and whether heaters belong in the order",
+        "Gravel or long driveways on larger Tri-Lakes lots, and where a delivery truck can turn around",
+        "Downtown closures on the Fourth of July and heavier traffic during Air Force Academy graduation week",
+        "The 20-foot emergency access lanes the Town asks for on permitted event site plans",
+        "Each provider's pricing, delivery area, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Permit details here summarize the Town of Monument's special event page and 2026 application packet. Confirm current rules with the Town, the Tri-Lakes Monument Fire Protection District and your rental provider.",
+      closing:
+        "Working out tent size or budget? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost).",
+    },
+    checklist: {
+      heading: "Monument Event Rental Checklist",
+      intro:
+        "Details worth having in hand before you ask Tri-Lakes providers for a quote:",
+      items: [
+        "Address, and whether it's private land, a Town park or Monument Lake",
+        "Peak headcount (100 or more in a park needs a Town permit)",
+        "Which permits apply: special event, temporary use, liquor",
+        "Tent size and whether stakes are allowed",
+        "Ground surface: meadow grass, lawn, gravel or pavement",
+        "Truck access and turnaround space",
+        "Sidewalls and evening heaters",
+        "Power source: house circuits or a generator",
+        "Restrooms, including accessible units",
+        "Storm and lightning backup location",
+      ],
+    },
+    faqs: {
+      heading: "Monument Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit to put up a tent in Monument?",
+          answer:
+            "The Town of Monument requires a temporary use permit for tents and other temporary structures, separate from its special event permit. Rules for a private party on private land can differ, so ask the Town about your specific address.",
+        },
+        {
+          question: "How far ahead should I apply for a Monument special event permit?",
+          answer:
+            "At least 30 days before the event for under 1,000 people, 45 days if you also need a special event liquor permit, and 120 days for 1,000 or more people, since those events go to the Town Council.",
+        },
+        {
+          question: "Can a tent be staked at a Monument park?",
+          answer:
+            "Not at Town-permitted events: the Town's packet bars staking because of buried sprinkler lines. Rental companies can usually anchor with weights instead; confirm the method and any added cost with your provider.",
+        },
+        {
+          question: "What weather should I plan for at an outdoor Monument event?",
+          answer:
+            "Plan for wind on open ground, cooler evenings and summer thunderstorms, and know which building or hard-topped vehicles guests can reach if lightning moves in.",
+        },
+        {
+          question: "How many restrooms should a larger Monument event have?",
+          answer:
+            "For Town-permitted events, Monument recommends two portable toilets per 250 people at peak, with at least ten percent accessible and never fewer than one. For private events, ask your provider to size restrooms to your guest count and event length.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Monument?",
+      description:
+        "List your business on Event Rental Finder and get discovered by customers planning events in Monument, Palmer Lake, Woodmoor and the rest of the Tri-Lakes area.",
+    },
+  },
+  {
+    city: "Manitou Springs",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "manitou-springs-co",
+    county: "El Paso County",
+    nearbyCities: ["colorado-springs-co", "woodland-park-co", "monument-co"],
+    metaDescription:
+      "Plan event rentals in Manitou Springs, CO: reception tents, farm tables, dance floors, lighting and restroom trailers, plus the City's permit timeline and Garden of the Gods wedding limits.",
+    heroSupportingCopy:
+      "Compare event rental options for Manitou Springs, from farm tables, string lighting and dance floors to tents, restroom trailers and photo booths for weddings, receptions and town celebrations.",
+    heroTagline:
+      "Manitou's historic district, mountain setting and closeness to Garden of the Gods make it a natural fit for small weddings and destination celebrations, and receptions held outside a full-service venue depend on rented tables, lighting and tenting.",
+    categoriesIntro:
+      "Explore the rental categories most used for Manitou Springs weddings, receptions, rehearsal dinners, park events and community celebrations.",
+    localIntro: [
+      "Manitou Springs is a home rule city of about 5,000 residents, five miles west of Colorado Springs at the base of the Pikes Peak foothills. It began in the 1870s as a scenic health resort and still runs mainly on tourism. Its historic district, listed on the National Register of Historic Places in 1983, covers almost the entire city, with winding roads, mineral springs and historic hotels.",
+      "Couples drawn to nearby Garden of the Gods should know that the City of Colorado Springs, which runs the park, allows only small, brief ceremonies at six first-come areas. Tables, tents, arches and decorations aren't allowed, chairs are limited to elderly or disabled guests, and receptions are limited to picnics at the Scotsman or South Spring Canyon picnic areas. So the reception moves somewhere else, such as private property, an inn or a rented hall, and that's where the rental order comes in.",
+      "If any part of your event uses public property in Manitou, the City's Special Event Use Guide applies. A permit is needed for public-property events with 25 or more people, tents or structures, amplified sound, or alcohol or food, and for exclusive use of a city park or Memorial Hall. Applications open up to 364 days ahead and must show all tents, structures and fencing. The final site plan is due 60 days out, tent details 30 days out, and insurance and the final delivery schedule 14 days out.",
+      "Tents must be secured against high winds and sudden microbursts, weights are required unless Parks approves stakes in writing, and tents over 2,400 square feet need Fire Department approval. Music in city parks stops at 9 p.m., and the City recommends at least one portable toilet per 100 people, with ten percent accessible. A wedding on private property may not need a city permit, but the same questions about anchoring, restrooms and sound still apply.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Manitou Springs",
+      intro:
+        "The setups Manitou hosts plan for most often, from destination receptions to downtown events.",
+      items: [
+        {
+          title: "Receptions After a Garden of the Gods Ceremony",
+          description:
+            "Because Garden of the Gods doesn't allow tables, tents or receptions outside its picnic areas, couples who marry there usually move to a second site for dinner and dancing. That site needs the full reception kit: seating, linens, lighting and often a tent.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Farm-Table Dinners on Private Grounds",
+          description:
+            "Long farm tables with cross-back chairs suit garden and inn settings around town. Hillside lawns can be uneven, so ask whether the provider levels tables and whether flooring makes sense under the dining area.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Weather Cover for Mountain Receptions",
+          description:
+            "A tent gives an outdoor reception a fallback for sun, wind and summer storms. In city parks, the guide calls for tents secured against high winds and microbursts and anchored with weights unless Parks approves stakes in writing.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Dancing Under the Lights",
+          description:
+            "A rented dance floor gives guests a level surface on grass, and string lighting carries the reception past sunset. At a city park, music has to end by 9 p.m., so plan first dances and DJ timing around that.",
+          categorySlug: "dance-floor-rentals",
+        },
+        {
+          title: "Rehearsal Dinners & Welcome Parties",
+          description:
+            "Some destination weddings add a welcome night or rehearsal dinner for traveling guests. A [photo booth](/categories/photo-booth-rentals), lounge seating and a few cocktail tables can turn a courtyard or garden into a relaxed gathering space.",
+          categorySlug: "photo-booth-rentals",
+        },
+        {
+          title: "Park & Community Events",
+          description:
+            "Public events in Manitou parks or at Memorial Hall go through the City's permit process, which asks for the location of every portable restroom and wash station on the site plan. Restroom trailers and accessible units are worth planning for on longer events.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Manitou Springs",
+      intro:
+        "Questions to settle before booking, most of them specific to Manitou and its neighbors.",
+      items: [
+        "Where the ceremony and reception will each happen, since Garden of the Gods doesn't allow tables, tents, arches or receptions outside two picnic areas",
+        "Whether any part of the event uses public property and triggers the City's special event permit",
+        "The City's 60-, 30- and 14-day deadlines for the final site plan, tent details and insurance",
+        "Tent weights rather than stakes in city parks unless Parks approves stakes in writing",
+        "Fire Department approval for any tent larger than 2,400 square feet",
+        "The 9 p.m. music cut-off in city parks and how it shapes DJ and dance-floor timing",
+        "Delivery access on the historic district's winding streets, and where a truck can unload",
+        "Downtown closures for big local events, such as the Emma Crawford Coffin Races on Manitou Avenue in late October",
+        "Level ground for tables and a dance floor on sloped lawns",
+        "Each provider's pricing, delivery fees, damage terms and cancellation policy, which vary",
+      ],
+      disclaimer:
+        "Requirements summarize the City of Manitou Springs 2026 Special Event Use Guide and the City of Colorado Springs' Garden of the Gods wedding rules. Confirm current details with both cities and your rental provider.",
+      closing:
+        "For help sizing a reception tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+    },
+    checklist: {
+      heading: "Manitou Springs Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact rental companies about a Manitou event:",
+      items: [
+        "Ceremony site and reception site",
+        "Guest count at the busiest point of the evening",
+        "Private property, rented venue or public park",
+        "Tent size and whether weights are required",
+        "Dance floor size and music end time",
+        "Lighting for after sunset",
+        "Restroom plan and accessible units",
+        "Load-in route and truck parking",
+        "Permit dates you're working toward (60, 30 and 14 days out)",
+        "Rain and lightning backup",
+      ],
+    },
+    faqs: {
+      heading: "Manitou Springs Event Rental FAQ",
+      items: [
+        {
+          question: "Can I rent tables and a tent for a Garden of the Gods wedding?",
+          answer:
+            "No. The park doesn't allow tables, tents, arches or decorations, and receptions are only allowed as picnics at two designated picnic areas. Plan the reception, and the rental order, for a separate site.",
+        },
+        {
+          question: "Do I need a permit for an event in a Manitou Springs park?",
+          answer:
+            "Public-property events with 25 or more people, tents, amplified sound, or alcohol or food service, and any exclusive use of a city park or Memorial Hall, need a special event permit. Applications go to the City Event Coordinator and can be submitted up to 364 days ahead.",
+        },
+        {
+          question: "When are tent details due for a permitted Manitou event?",
+          answer:
+            "Tent locations go on the initial application. The final site plan with tent sizes is due 60 days out, tent permits and details 30 days out, and insurance and the final delivery schedule 14 days out.",
+        },
+        {
+          question: "Can a rental company stake a tent in a Manitou Springs park?",
+          answer:
+            "Only with written approval from the Parks department. Otherwise the City requires weights, and every tent must be secured to withstand high winds and microbursts.",
+        },
+        {
+          question: "Is there a time limit for music at a Manitou park event?",
+          answer:
+            "Yes. The City's guide sets a 9 p.m. music cut-off in all city parks. Private venues set their own rules, so ask the venue before booking a DJ or band.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Manitou Springs?",
+      description:
+        "List your business on Event Rental Finder and get discovered by couples and planners arranging weddings and events in Manitou Springs and the west side of the Pikes Peak region.",
+    },
+  },
+  {
+    city: "Woodland Park",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "woodland-park-co",
+    county: "Teller County",
+    nearbyCities: ["manitou-springs-co", "colorado-springs-co"],
+    metaDescription:
+      "Plan event rentals in Woodland Park, CO at 8,465 feet: tents, heaters, restroom trailers, lighting and seating, plus the City's Temporary Use Permit and Pike National Forest group rules.",
+    heroSupportingCopy:
+      "Compare event rental options for Woodland Park and the Teller County high country, from tents and patio heaters to restroom trailers, tables and chairs, lighting and power for mountain weddings and summer events.",
+    heroTagline:
+      "At 8,465 feet, Woodland Park events deal with strong sun, cool nights and a permit process that asks you to map every toilet and handwashing station before the City signs off.",
+    categoriesIntro:
+      "Explore the rental categories most used for Woodland Park mountain weddings, reunions, park events, summer festivals and private celebrations.",
+    localIntro: [
+      "Woodland Park calls itself the City Above the Clouds. It sits at 8,465 feet in Teller County, about 30 minutes from Colorado Springs, as a gateway to Pikes Peak and Pike National Forest. That setting draws mountain weddings, family reunions and summer gatherings, and it changes the rental plan compared with an event down in the city.",
+      "Sun and temperature are the big differences. The World Health Organization notes that UV levels rise about 10 percent per 1,000 meters of altitude, and Woodland Park is close to 2,600 meters up, so shade matters even on mild days. At nearby Mueller State Park's group campground (9,600 feet), Colorado Parks and Wildlife lists summer highs around 80 degrees and nighttime lows in the 40s. Summer storms bring lightning, and the National Weather Service says there's no safe place outside when thunderstorms are in the area.",
+      "Inside city limits, special events need a Temporary Use Permit from the Planning Department, filed 45 days ahead. The site plan must show structures with dimensions, parking including accessible stalls, and the location of portable and accessible toilets, handwashing stations and trash containers. Tents over 1,000 square feet or cooking under a tent involve the Northeast Teller County Fire Protection District, and events between 9 p.m. and 7 a.m. need City Council approval at a public hearing.",
+      "Events involving US 24 or State Highway 67 need a highway special event permit through the Colorado State Patrol and CDOT, and food vendors go through Teller County Environmental Health. On Pike National Forest land, the U.S. Forest Service requires a noncommercial group use permit for 75 or more people, counting guests and participants, with applications due at least 72 hours ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Woodland Park",
+      intro:
+        "Common ways Woodland Park hosts use rentals, with the high-country details that shape each one.",
+      items: [
+        {
+          title: "Mountain Meadow Weddings",
+          description:
+            "Weddings in aspen and pine settings around Woodland Park usually need the whole kit brought in: a tent, seating, a dance floor, lighting and restrooms. If the site is on national forest land and the guest count reaches 75, the Forest Service group use permit comes first.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Shade & Storm Cover",
+          description:
+            "A tent here does two jobs: shade from strong high-altitude sun at midday and cover when an afternoon storm rolls through. Sidewalls help after dark when temperatures drop, and tents over 1,000 square feet involve the fire district inside city limits.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Sites Without Plumbing",
+          description:
+            "Meadows, ranch properties and park fields often lack restrooms close to the event area. The City's permit site plan asks where every portable toilet, accessible toilet and handwashing station will go, so a restroom trailer or portable units belong in the plan from the start.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Power & Lighting After Dark",
+          description:
+            "Mountain receptions that run into the evening need lighting, and heaters, sound and catering gear all need power. On City property, permitted events can rent City electrical pedestals, subject to availability; elsewhere you may need a generator, so work out the power plan with your provider.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Park Days & Reunions",
+          description:
+            "Family reunions and group picnics at Memorial Park, Bergstrom Park or Meadow Wood Sports Complex go through a park rental application that asks about tents, [inflatables](/categories/inflatable-rentals), electricity and amplified sound, so list everything you plan to rent.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Group Dinners & Celebrations",
+          description:
+            "Rehearsal dinners, milestone birthdays and company retreats in the area tend to center on a long table setup with comfortable seating, linens and a few heaters for when the sun goes down.",
+          categorySlug: "table-chair-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Woodland Park",
+      intro:
+        "High-country and permit questions to answer before you book rentals for a Woodland Park event.",
+      items: [
+        "Whether your event needs a City Temporary Use Permit, filed 45 days ahead",
+        "A site plan showing tents, parking, accessible stalls, portable and accessible toilets, handwashing stations and trash",
+        "Fire district involvement for tents over 1,000 square feet or any cooking under a tent",
+        "Highway permits through the Colorado State Patrol and CDOT if US 24 or State Highway 67 is involved",
+        "A Forest Service group use permit for 75 or more people on Pike National Forest land",
+        "Strong sun at altitude and how much shade guests will need through the day",
+        "Cold evenings, and how heaters will be placed and fueled safely under or near a tent",
+        "Delivery on mountain roads and gravel drives, and whether a truck can reach the setup area",
+        "Power: City electrical pedestals (subject to availability), house circuits or a generator",
+        "Each provider's travel charges, weather policy and setup timing, which vary from company to company",
+      ],
+      disclaimer:
+        "Requirements summarize Woodland Park's 2026 Temporary Use Permit application and park rental form and the Forest Service's group use rules. Confirm current details with the City, the fire district, the Forest Service and your provider.",
+      closing:
+        "Still deciding on tent size or budget? Our guides on [what size tent you need](/resources/what-size-tent-do-i-need) and [tent rental cost](/resources/tent-rental-cost) cover the basics.",
+    },
+    checklist: {
+      heading: "Woodland Park Event Rental Checklist",
+      intro:
+        "Gather these details before you ask providers to quote a Woodland Park event:",
+      items: [
+        "Site: city park, private land, venue or national forest",
+        "Peak headcount (75 or more matters on forest land)",
+        "Temporary Use Permit filing date (45 days out)",
+        "Draft site plan with tents, toilets, handwashing and trash",
+        "Tent size (over 1,000 sq ft involves the fire district)",
+        "Shade, sidewalls and evening heaters",
+        "Power source and cord routing",
+        "Road and driveway access for delivery",
+        "Lightning plan with a building or vehicles nearby",
+        "End time (City Council approval after 9 p.m. for permitted events)",
+      ],
+    },
+    faqs: {
+      heading: "Woodland Park Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for an event in Woodland Park?",
+          answer:
+            "Special events inside city limits need a Temporary Use Permit from the Planning Department, submitted 45 days ahead, and city parks need a separate facility use permit from Parks and Recreation. For a private gathering, ask the Planning Department whether a permit applies.",
+        },
+        {
+          question: "Why does Woodland Park ask about restrooms on the permit?",
+          answer:
+            "The permit application requires a site plan showing portable toilets, accessible toilets, handwashing stations and trash containers, and asks who provides them. Having your rental provider's restroom plan ready makes that part easier.",
+        },
+        {
+          question: "Do I need a Forest Service permit for a wedding near Woodland Park?",
+          answer:
+            "If the wedding is on Pike National Forest land with 75 or more people, the Forest Service requires a noncommercial group use permit. Apply at least 72 hours ahead and ask the ranger district about rules for vendors and equipment.",
+        },
+        {
+          question: "What should I rent for weather at 8,465 feet?",
+          answer:
+            "Shade, sidewalls, heaters and lighting cover most of it. UV is stronger at altitude, evenings can be cold even in summer, and afternoon storms happen, so have a plan to move guests into a building or vehicles if lightning threatens.",
+        },
+        {
+          question: "Will a Colorado Springs rental company deliver to Woodland Park?",
+          answer:
+            "Some may, but delivery areas, mountain travel charges and scheduling vary by provider. Confirm your exact address is covered and ask about gravel drives or steep access.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Woodland Park?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings and events in Woodland Park and the Teller County high country.",
     },
   },
 ];

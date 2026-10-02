@@ -17,7 +17,147 @@ export const locations: Location[] = [
     slug: "colorado-springs-co",
     county: "El Paso County",
     featured: true,
-    nearbyCities: ["monument-co", "fountain-co", "manitou-springs-co", "woodland-park-co"],
+    nearbyCities: [
+      "monument-co",
+      "manitou-springs-co",
+      "woodland-park-co",
+      "fountain-co",
+      "pueblo-co",
+      "castle-rock-co",
+    ],
+    metaDescription:
+      "Plan event rentals in Colorado Springs, CO: tents, tables and chairs, wedding and party rentals, staging and AV, plus park permits, the 2,400-square-foot tent rule, summer storms and nearby Pikes Peak towns.",
+    heroSupportingCopy:
+      "Find local event rental companies serving Colorado Springs and the Pikes Peak region. Explore tents, tables and chairs, wedding rentals, inflatables, photo booths, restroom trailers, staging, AV and more.",
+    heroTagline:
+      "Colorado Springs anchors the Pikes Peak region, and planning an event here starts with a few local rules: park permits above 50 guests, noise permits for amplified sound and a fire permit for large tents.",
+    categoriesIntro:
+      "Explore the rental categories most used for Colorado Springs weddings, park events, graduations, corporate gatherings and backyard parties.",
+    localIntro: [
+      "Colorado Springs is El Paso County's largest city and a natural starting point for planning events anywhere in the Pikes Peak region. Event Rental Finder helps you compare local rental options for weddings, parties, corporate events and community gatherings, then reach out to providers about availability, delivery and pricing for your date.",
+      "The towns around the city each plan a little differently: [Monument](/locations/monument-co), on the Palmer Divide, requires a separate temporary use permit for tents; [Manitou Springs](/locations/manitou-springs-co) is the historic wedding town just west, with its own park permit timeline; [Woodland Park](/locations/woodland-park-co) brings 8,465-foot weather and a Forest Service permit for gatherings of 75 or more on national forest land; [Fountain](/locations/fountain-co) parks require tents weighted rather than staked; [Pueblo](/locations/pueblo-co) is lower and hotter, with Riverwalk and park venues; and [Castle Rock](/locations/castle-rock-co) covers Douglas County events on the way to Denver.",
+      "Inside the city, parks have clear thresholds. If you expect more than 50 people, you'll need to rent a pavilion or apply for a park Special Event Permit, and any amplified sound needs a Noise Hardship Permit. The City's park permit guide also routes bounce houses and equipment setups like tents, chairs and stages to a Special Event Permit, with applications due 30 days before the event, and it bans hanging decorations on park trees and structures.",
+      "Garden of the Gods, a City park, allows only small, brief wedding ceremonies at six first-come areas, with no tables, tents, arches or decorations and no Noise Hardship Permits for weddings. Anywhere in the city, the Fire Marshal's office requires a permit before tents, canopies or membrane structures larger than 2,400 square feet go up, counting structures attached to each other as one.",
+      "Summer storms are the main weather factor. NOAA's 1991–2020 normals for the Colorado Springs airport make July the wettest month, at 3.12 inches, with an average high of 86.5°F. The National Weather Service says there's no safe place outside when thunderstorms are in the area, so plan where guests can go: a substantial building or hard-topped vehicles, not a tent or picnic shelter.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Colorado Springs",
+      intro:
+        "Common Colorado Springs setups and the city rules that come with them.",
+      items: [
+        {
+          title: "Weddings Across the Region",
+          description:
+            "A wedding here might pair a brief park ceremony with a reception at a private property or rented hall. The reception site usually needs the full kit: seating, linens, lighting, a [dance floor](/categories/dance-floor-rentals) and often a tent.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Park Events Over 50 Guests",
+          description:
+            "Once a park gathering tops 50 people, you'll need a pavilion rental or a Special Event Permit, and the City's guide treats bringing in tents, chairs or stages as an equipment setup that needs the Special Event Permit. Settle the permit before you order seating.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Large Tents & the 2,400-Square-Foot Rule",
+          description:
+            "A tent, or a group of attached tents, larger than 2,400 square feet needs a Fire Marshal permit before it goes up. A 40-by-60 tent is exactly 2,400 square feet, so anything bigger falls into the permit range; ask your provider who handles the application.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard & Graduation Parties",
+          description:
+            "Backyard parties for graduations and summer birthdays usually call for tables, chairs, a canopy and maybe a [bounce house](/categories/inflatable-rentals). In a city park, an inflatable needs a Special Event Permit rather than a pavilion reservation.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Corporate & Community Events",
+          description:
+            "Company picnics, fundraisers and community events may need a stage, sound and [lighting](/categories/av-lighting-rentals). Amplified sound in a city park needs a Noise Hardship Permit, which the City's park guide says to request 30 days ahead.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms for Long Events",
+          description:
+            "Not every park site has restrooms or power close by, so check the pavilion listing before you plan. Restroom trailers and portable units cover sites without plumbing, and accessible units should be part of the order.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Colorado Springs",
+      intro:
+        "City rules and local conditions that most often change a Colorado Springs rental plan.",
+      items: [
+        "Whether a park event tops 50 guests and needs a pavilion rental or a park Special Event Permit",
+        "A Noise Hardship Permit for any amplified sound, requested about 30 days ahead",
+        "Special Event Permit applications, due 30 days before the event",
+        "Bounce houses and equipment setups (tents, chairs, stages) in parks, which the City's guide routes to a Special Event Permit",
+        "A Fire Marshal permit for any tent, or attached tents, over 2,400 square feet",
+        "Garden of the Gods limits: brief ceremonies only, with no tables, tents, arches or decorations",
+        "July storms, and a lightning plan with a building or hard-topped vehicles nearby",
+        "No decorations hung on park trees or structures",
+        "Which town the event is actually in, since Monument, Manitou Springs, Woodland Park, Fountain and Pueblo each have their own rules",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Colorado Springs' Weddings in Parks page, park permit guide and Fire Department tent guidance, plus NOAA climate normals. Confirm current rules with the City's Parks and Fire departments and your rental provider.",
+      closing:
+        "Sizing a tent around the 2,400-square-foot line? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+    },
+    checklist: {
+      heading: "Colorado Springs Event Rental Checklist",
+      intro:
+        "Have these details ready before you request quotes from Colorado Springs providers:",
+      items: [
+        "Venue: park, private property or rented hall",
+        "Peak guest count (over 50 matters in parks)",
+        "Pavilion reservation or Special Event Permit",
+        "Noise Hardship Permit for amplified sound",
+        "Tent size (over 2,400 sq ft needs a fire permit)",
+        "Seating, linens and serving tables",
+        "Lighting and power",
+        "Restrooms and accessible units",
+        "Storm and lightning plan",
+        "Delivery and pickup windows",
+      ],
+    },
+    faqs: {
+      heading: "Colorado Springs Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Do I need a permit for a party in a Colorado Springs park?",
+          answer:
+            "If you expect more than 50 people, rent a pavilion or apply for a park Special Event Permit. The City's permit guide also routes bounce houses, vendors and equipment setups like tents and stages to a Special Event Permit, with applications due 30 days ahead.",
+        },
+        {
+          question: "Do I need a permit for a tent in Colorado Springs?",
+          answer:
+            "The Fire Marshal's office requires a permit before you put up a tent, canopy or membrane structure larger than 2,400 square feet, counting attached structures together. Ask your rental provider whether they handle the application.",
+        },
+        {
+          question: "Can I have amplified music at a park event?",
+          answer:
+            "Any amplified sound in a city park needs a Noise Hardship Permit, and the City's park guide says to request it 30 days before the event. Garden of the Gods doesn't grant Noise Hardship Permits for weddings.",
+        },
+        {
+          question: "Can I hold a wedding reception at Garden of the Gods?",
+          answer:
+            "Only as a picnic at the Scotsman or South Spring Canyon picnic areas. Tables, tents, arches and decorations aren't allowed, so plan the reception at a separate site; our [Manitou Springs page](/locations/manitou-springs-co) covers that setup.",
+        },
+        {
+          question:
+            "When is storm season for outdoor events in Colorado Springs?",
+          answer:
+            "NOAA's 1991–2020 normals make July the wettest month at the Colorado Springs airport, with August close behind. Book a tent with sidewalls for summer dates and know where guests will shelter if lightning moves in.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Colorado Springs?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Colorado Springs and the Pikes Peak region.",
+    },
   },
   {
     city: "Fort Collins",
@@ -781,7 +921,12 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "monument-co",
     county: "El Paso County",
-    nearbyCities: ["colorado-springs-co", "castle-rock-co", "manitou-springs-co"],
+    nearbyCities: [
+      "colorado-springs-co",
+      "castle-rock-co",
+      "manitou-springs-co",
+      "fountain-co",
+    ],
     metaDescription:
       "Plan event rentals in Monument, CO and the Tri-Lakes area: tents, tables and chairs, wedding rentals, restroom trailers, staging and AV, plus the Town's tent permit rules.",
     heroSupportingCopy:
@@ -1187,6 +1332,284 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Woodland Park?",
       description:
         "List your business on Event Rental Finder and get discovered by people planning weddings and events in Woodland Park and the Teller County high country.",
+    },
+  },
+  {
+    city: "Fountain",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "fountain-co",
+    county: "El Paso County",
+    nearbyCities: ["colorado-springs-co", "pueblo-co", "monument-co"],
+    metaDescription:
+      "Plan event rentals in Fountain, CO: tables and chairs, restroom trailers, tents, bounce houses, photo booths and staging for park parties, reunions and community events near Fort Carson.",
+    heroSupportingCopy:
+      "Compare event rental options for Fountain and the south end of El Paso County, from tables, chairs and tents to restroom trailers, inflatables, photo booths and staging for park gatherings and community events.",
+    heroTagline:
+      "Fountain's parks and neighborhoods host reunions, birthday parties, graduations and city events, and because the City doesn't supply tents, portable toilets, tables or chairs for events, most of what guests use arrives on a rental truck.",
+    categoriesIntro:
+      "Explore the rental categories Fountain hosts use most for park parties, reunions, community events, car shows and backyard celebrations.",
+    localIntro: [
+      "Fountain sits along Fountain Creek and I-25 at the south end of El Paso County, between Colorado Springs and Pueblo. Founded in 1859 and incorporated in 1903, it's one of the oldest incorporated towns in the Pikes Peak region, and Fort Carson has been its neighbor since 1942. Fountain-Fort Carson School District 8 runs schools both in the city and on the post, and more than 60 percent of its students are military-connected.",
+      "Most rental orders here are for city parks and backyards. Fountain rents park pavilions and gazebos through Parks and Recreation, and electricity is an add-on at only some shelters, such as the Metcalfe Park gazebo and pavilions. The park rules are specific: nothing can be staked into the ground without Parks Division approval, so tents and canopies are held down with sandbags or cinder blocks. Potable water isn't available for activities, amplified sound needs prior approval, vehicles stay off the turf unless Parks approves it in writing, and reservations aren't accepted on holiday weekends.",
+      "Public and larger events use the City's event permit application, which states plainly that the City does not provide tents, port-o-lets, tables or chairs. It asks how many tents you'll put up, how many regular, accessible and handwashing units you'll bring, and whether there will be amplified sound. Closing a street takes a separate parade or street closure permit from the Police Department. The event map has to show 20-foot emergency access lanes and the location of stages, tents, canopies, portable toilets, generators and trash containers.",
+      "The city calendar shows the local style: Thunder in the Valley, a car cruise and car show, runs in July, alongside a Saturday farmers market at Metcalfe Park, movie nights in the park and a fall festival. Car shows have their own line on the permit application, which requires an impermeable barrier under each car. For weather, NOAA's 1991–2020 normals for the Colorado Springs airport station, north of Fountain, make July the wettest month, with average highs in the mid-80s, so plan shade and a storm fallback for summer events.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Fountain",
+      intro:
+        "The setups Fountain hosts ask about most, and the city rules that shape each one.",
+      items: [
+        {
+          title: "Park Pavilion Parties",
+          description:
+            "A pavilion or gazebo gives you a roof, but the City doesn't supply event tables or chairs, so extra seating, serving tables and linens come from a rental company. Schedule delivery and pickup inside your reservation block, since the facility has to be vacated when the rental time ends.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Restrooms & Handwashing",
+          description:
+            "The City doesn't provide portable toilets, and its event application asks how many regular, accessible and handwashing units you'll have. Potable water isn't available for park activities, so handwashing stations with their own water are worth adding. A restroom trailer suits longer events and private-property weddings.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Shade Without Stakes",
+          description:
+            "Fountain parks don't allow staking into the ground without Parks Division approval, and the rules call for sandbags or cinder blocks instead. Ask your provider for a ballasted tent or canopy and how much weight they bring for wind on open ground.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses & Birthday Parties",
+          description:
+            "A bounce house is the centerpiece of plenty of kids' parties, and [party rentals](/categories/party-rentals) cover the rest. In a city park the no-staking rule still applies, so ask how the unit is weighted, whether it needs a generator (only some shelters have power) and what wind limits the provider follows.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Reunions & Homecoming Parties",
+          description:
+            "Family reunions, retirements and welcome-home parties suit a [photo booth](/categories/photo-booth-rentals) or backdrop with a few cocktail tables. If the booth needs power, check whether your pavilion has electricity or plan for a generator.",
+          categorySlug: "photo-booth-rentals",
+        },
+        {
+          title: "Community Events & Car Shows",
+          description:
+            "Festivals, car shows and fundraisers may need a small stage, sound and lighting. The City's event map asks where stages and generators will go, and amplified sound needs approval, so get those details from your provider before you apply.",
+          categorySlug: "stage-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Fountain",
+      intro:
+        "Fountain-specific details that change what you rent and how it's delivered.",
+      items: [
+        "The City doesn't provide tents, port-o-lets, tables or chairs for events, so plan to rent all of them",
+        "Whether your gathering needs only a park reservation or the City's full event permit",
+        "No staking in parks without Parks Division approval; sandbags or cinder blocks instead",
+        "Electricity only at some shelters, such as the Metcalfe Park gazebo and pavilions, and none at the Hibbard Park gazebo",
+        "No potable water for park activities, which affects handwashing and food prep",
+        "Prior approval for amplified sound, including a DJ or speakers",
+        "Delivery vehicles kept off the turf unless Parks approves it in writing",
+        "No park reservations on holiday weekends",
+        "A parade or street closure permit from the Police Department if a street needs to close",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Fountain's park rules, park reservation page and event permit application. Confirm current requirements with the City Clerk's office, Parks and Recreation and your rental provider.",
+      closing:
+        "For help sizing a tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+    },
+    checklist: {
+      heading: "Fountain Event Rental Checklist",
+      intro:
+        "Have these details ready before you ask Fountain-area providers for a quote:",
+      items: [
+        "Park and shelter name, or private address",
+        "Reservation block and vacate time",
+        "Guest count at the busiest point",
+        "Tables, chairs and linens (none supplied by the City)",
+        "Tent or canopy size and ballast plan",
+        "Restrooms, accessible units and handwashing",
+        "Water for handwashing and food prep",
+        "Power: shelter outlet or generator",
+        "Amplified sound approval",
+        "A delivery route that stays off the turf",
+      ],
+    },
+    faqs: {
+      heading: "Fountain Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Does the City of Fountain provide tables, chairs or tents for events?",
+          answer:
+            "No. The City's event permit application says it doesn't provide tents, port-o-lets, tables or chairs, so plan to rent what you need. Ask Parks and Recreation what's already at your shelter.",
+        },
+        {
+          question: "Can a tent or bounce house be staked in a Fountain park?",
+          answer:
+            "Not without Parks Division approval. The park rules call for securing items with sandbags or cinder blocks instead, so tell your rental provider before they quote.",
+        },
+        {
+          question: "Is there electricity at Fountain park pavilions?",
+          answer:
+            "At some. Electricity is an add-on at the Metcalfe Park gazebo, Metcalfe Park pavilions 1 and 2 and Aga Park pavilion 1, and the Hibbard Park gazebo has none. Plan a generator if your shelter has no power.",
+        },
+        {
+          question: "Can I play music at a Fountain park party?",
+          answer:
+            "Amplified sound needs prior approval under the park rules, and the City's event application asks whether you'll have performers or announcements. Get approval before booking a DJ or sound system.",
+        },
+        {
+          question:
+            "Will Colorado Springs or Pueblo rental companies deliver to Fountain?",
+          answer:
+            "Some may. Delivery zones, travel charges and setup windows vary by provider, so confirm your exact park or address when you ask for a quote.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Fountain?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning parties, reunions and community events in Fountain and the south end of El Paso County.",
+    },
+  },
+  {
+    city: "Pueblo",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "pueblo-co",
+    county: "Pueblo County",
+    nearbyCities: ["fountain-co", "colorado-springs-co"],
+    metaDescription:
+      "Plan event rentals in Pueblo, CO: tents, tables and chairs, wedding rentals, staging and AV, dance floors and restroom trailers, plus park permits, street-closure rules and summer heat.",
+    heroSupportingCopy:
+      "Compare event rental options for Pueblo, from tents, tables and chairs to wedding rentals, staging, AV, dance floors and restroom trailers for Riverwalk receptions, park gatherings and downtown events.",
+    heroTagline:
+      "Pueblo is lower and hotter than Colorado Springs and the Pikes Peak towns to the north, and several of its event spaces, from a City Park hall to a Riverwalk lawn, start as a blank canvas, so shade, seating and power go on the rental list early.",
+    categoriesIntro:
+      "Explore the rental categories Pueblo hosts use most for weddings, Riverwalk receptions, park gatherings, festivals and corporate events.",
+    localIntro: [
+      "Pueblo sits on the Arkansas River at about 4,700 feet, well below Colorado Springs, and its summers are noticeably hotter. NOAA's 1991–2020 normals for Pueblo Memorial Airport put the average July high at 93.4°F, compared with 86.5°F at the Colorado Springs airport, and August is Pueblo's wettest month. That heat shapes outdoor rentals: tents for shade, sidewalls that open for airflow and water for guests at long afternoon events.",
+      "Venues set much of the rental plan. George L. Williams Hall in City Park is an indoor hall with electricity and restrooms, but the City notes it has no tables, chairs or kitchen. Historic Mineral Palace Park has its own wedding sites and a band shell. Downtown, the Historic Arkansas Riverwalk of Pueblo rents spaces including the Boettcher Natural Area for ceremonies and the Activity Green, a lawn it describes as a blank canvas for concerts, festivals and wedding receptions. The Pueblo Convention Center, also on the Riverwalk, offers in-house catering and audio-visual services, so ask what outside rentals are allowed there.",
+      "City parks have their own rules. Under the Pueblo Municipal Code, you need a permit or reservation from the Parks and Recreation Director to use any shelterhouse, for gatherings expected to draw 25 or more people, and for any bounce house. Putting up a tent or other structure in a park takes the Director's written permission. Separately, the Pueblo Fire Department issues tent and membrane structure permits; its application asks for the tent's dimensions, square footage and installer, with an example diagram showing a stage area and generator.",
+      "Downtown events add another layer. Closing a street, sidewalk or alley requires a revocable permit, which takes at least 30 days, needs a certified barricade plan and is approved by City Council, and parades go through the Police Department 45 days ahead. Two big events affect delivery schedules: the Colorado State Fair runs 11 days ending on Labor Day, and the Chile & Frijoles Festival fills Union Avenue downtown in September.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Pueblo",
+      intro:
+        "How Pueblo hosts use rentals, from riverside weddings to downtown festivals.",
+      items: [
+        {
+          title: "Shade for Hot Afternoons",
+          description:
+            "With July highs averaging in the 90s, a tent is as much about shade as rain. Ask about sidewalls that roll up for airflow, and check whether your site needs the Parks Director's written permission or a Fire Department tent permit.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Furnishing a Bare Hall",
+          description:
+            "George L. Williams Hall comes with electricity and restrooms but no tables or chairs, and open lawns start empty too. Count seating for every guest, then add serving, gift and cake tables.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Riverwalk & Park Weddings",
+          description:
+            "Ceremony spots like the Riverwalk's Boettcher Natural Area or Mineral Palace Park's wedding sites often lead to a reception space that needs everything brought in: linens, lighting, a tent and seating for dinner.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Stages & Sound for Festivals",
+          description:
+            "Concerts, fundraisers and community events on lawns like the Activity Green may need a stage, sound and [lighting](/categories/av-lighting-rentals). Indoors at the Convention Center, in-house audio-visual services may cover some of this, so confirm before renting.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Dancing After Sunset",
+          description:
+            "Summer evenings cool off after dark (the July normal low is about 61°F), which makes late receptions comfortable. A rented dance floor gives guests a level surface on grass, and string lighting carries the party into the night.",
+          categorySlug: "dance-floor-rentals",
+        },
+        {
+          title: "Restrooms for Outdoor Events",
+          description:
+            "Lawns and riverside spaces may have restrooms some distance away, and hot weather makes comfortable facilities matter more over a long event. Restroom trailers and handwashing stations are worth pricing for weddings and festivals on open ground.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Pueblo",
+      intro: "Pueblo-specific details to settle before you book rentals.",
+      items: [
+        "Heat: July highs average 93.4°F at Pueblo Memorial Airport, so plan shade, airflow and water",
+        "A rain and lightning plan, especially in August, Pueblo's wettest month",
+        "What the venue includes; George L. Williams Hall, for example, has no tables, chairs or kitchen",
+        "A permit or reservation from the Parks Director for shelters, groups of 25 or more and bounce houses",
+        "The Director's written permission to put up a tent or other structure in a city park",
+        "A Pueblo Fire Department tent and membrane structure permit, with dimensions and a tent diagram",
+        "Whether a venue like the Convention Center uses in-house catering and AV, and what outside rentals it allows",
+        "A revocable permit, certified barricade plan and at least 30 days for any street, sidewalk or alley closure",
+        "Delivery timing around the State Fair (11 days ending on Labor Day) and the Chile & Frijoles Festival downtown",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize City of Pueblo park and permit pages, the Pueblo Municipal Code, the Pueblo Fire Department tent application, venue pages and NOAA climate normals. Confirm current requirements with the City, the venue and your rental provider.",
+      closing:
+        "Planning a tent for shade or a reception? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost).",
+    },
+    checklist: {
+      heading: "Pueblo Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Pueblo rental companies:",
+      items: [
+        "Venue and what it includes (tables, chairs, power, kitchen)",
+        "Guest count at the busiest point",
+        "Park permit or reservation, if using a city park",
+        "Tent size and Fire Department permit",
+        "Shade, sidewalls and airflow for the heat",
+        "Seating plus serving, gift and cake tables",
+        "Dance floor size and lighting",
+        "Stage, sound and power needs",
+        "Restrooms and handwashing",
+        "Street closure or parade permit dates",
+      ],
+    },
+    faqs: {
+      heading: "Pueblo Event Rental FAQ",
+      items: [
+        {
+          question: "Does George L. Williams Hall come with tables and chairs?",
+          answer:
+            "No. The City lists it as an indoor hall with electricity and restrooms but no tables, chairs or kitchen facility, so plan to rent seating and serving tables. Pueblo Parks and Recreation handles bookings.",
+        },
+        {
+          question:
+            "Do I need a permit for a party or wedding in a Pueblo park?",
+          answer:
+            "Under the Pueblo Municipal Code, you need a permit or reservation from the Parks and Recreation Director to use a shelterhouse, for gatherings expected to reach 25 or more people, or to set up a bounce house. A tent or other structure needs the Director's written permission.",
+        },
+        {
+          question: "How hot does Pueblo get for outdoor events?",
+          answer:
+            "NOAA's 1991–2020 normals put Pueblo's average July high at 93.4°F, with June and August highs near 90°F. Plan shade, airflow and water for afternoon events, and save dancing for the evening when temperatures drop.",
+        },
+        {
+          question: "Can I close a street for an event in Pueblo?",
+          answer:
+            "Closing a street, sidewalk or alley requires a revocable permit. The process takes at least 30 days, needs a certified barricade plan from a barricade company, and permits are approved by City Council. Parades need a separate Police Department permit filed 45 days ahead.",
+        },
+        {
+          question: "Can I serve alcohol at an event in a Pueblo park?",
+          answer:
+            "Alcohol is generally prohibited in city parks. The municipal code allows it only under a concession agreement or a permit from the Director and Mayor for a park building, tent or fenced area, and the City Clerk asks for special event liquor permit applications six weeks to two months ahead.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Pueblo?",
+      description:
+        "List your business on Event Rental Finder and get discovered by couples and planners arranging weddings, festivals and events in Pueblo and southern Colorado.",
     },
   },
 ];

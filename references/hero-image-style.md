@@ -1,6 +1,6 @@
 # ERF Hero Image Style
 
-Last updated: 2026-10-01 (standard approved by Adam; first used for Monument, Manitou Springs and Woodland Park)
+Last updated: 2026-10-01 (standard approved by Adam; used for Monument, Manitou Springs, Woodland Park, Fountain and Pueblo)
 
 **Approval status:** Every new hero needs Adam's approval before it ships, until he says otherwise.
 
@@ -62,6 +62,8 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 | monument-co | public/images/locations/monument-co-event-rentals.webp | 1080x720, 132 KB | Frame tent with banquet tables and white folding chairs in a pine-edged meadow near Monument, Colorado | 2026-10-01 |
 | manitou-springs-co | public/images/locations/manitou-springs-co-event-rentals.webp | 1080x720, 120 KB | Farm-table wedding reception with string lights and a dance floor below red-rock foothills in Manitou Springs, Colorado | 2026-10-01 |
 | woodland-park-co | public/images/locations/woodland-park-co-event-rentals.webp | 1080x720, 108 KB | Pole tent with round tables and patio heaters beside a restroom trailer in an aspen meadow near Woodland Park, Colorado | 2026-10-01 |
+| fountain-co | public/images/locations/fountain-co-event-rentals.webp | 1080x720, 124 KB | Frame tent with round tables and a white bounce house in a cottonwood park on the plains near Fountain, Colorado | 2026-10-01 |
+| pueblo-co | public/images/locations/pueblo-co-event-rentals.webp | 1080x720, 161 KB | Riverside tent reception with string lights and an uplit stage at dusk in Pueblo, Colorado | 2026-10-01 |
 
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.

@@ -33,4 +33,12 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/woodland-park-co-event-rentals.webp",
     alt: "Pole tent with round tables and patio heaters beside a restroom trailer in an aspen meadow near Woodland Park, Colorado",
   },
+  "fountain-co": {
+    src: "/images/locations/fountain-co-event-rentals.webp",
+    alt: "Frame tent with round tables and a white bounce house in a cottonwood park on the plains near Fountain, Colorado",
+  },
+  "pueblo-co": {
+    src: "/images/locations/pueblo-co-event-rentals.webp",
+    alt: "Riverside tent reception with string lights and an uplit stage at dusk in Pueblo, Colorado",
+  },
 };

@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-10-01 (Batch 1)
+Last updated: 2026-10-01 (Batch 2)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -27,7 +27,7 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | City | Primary Keyword | URL | Emphasized categories (use-case cards) | Date Added |
 |---|---|---|---|---|
 | Denver | event rentals Denver CO | /locations/denver-co | (thin page) | Before Batch 1 |
-| Colorado Springs | event rentals Colorado Springs CO | /locations/colorado-springs-co | (thin page) | Before Batch 1 |
+| Colorado Springs | event rentals Colorado Springs CO | /locations/colorado-springs-co | wedding, table-chair, tent, party, stage, restroom-trailer (cluster hub, upgraded 2026-10-01) | Before Batch 1 |
 | Fort Collins | event rentals Fort Collins CO | /locations/fort-collins-co | (thin page) | Before Batch 1 |
 | Boulder | event rentals Boulder CO | /locations/boulder-co | (thin page) | Before Batch 1 |
 | Greeley | event rentals Greeley CO | /locations/greeley-co | (thin page) | Before Batch 1 |
@@ -40,12 +40,17 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Monument | event rentals Monument CO | /locations/monument-co | wedding, tent, table-chair, stage, inflatable, restroom-trailer | 2026-10-01 |
 | Manitou Springs | event rentals Manitou Springs CO | /locations/manitou-springs-co | wedding, table-chair, tent, dance-floor, photo-booth, restroom-trailer | 2026-10-01 |
 | Woodland Park | event rentals Woodland Park CO | /locations/woodland-park-co | wedding, tent, restroom-trailer, av-lighting, inflatable, table-chair | 2026-10-01 |
+| Fountain | event rentals Fountain CO | /locations/fountain-co | table-chair, restroom-trailer, tent, inflatable, photo-booth, stage | 2026-10-01 |
+| Pueblo | event rentals Pueblo CO | /locations/pueblo-co | tent, table-chair, wedding, stage, dance-floor, restroom-trailer | 2026-10-01 |
 
 Secondary angles in use (don't build a second page around these without differentiating it):
 
 - Monument: Tri-Lakes event rentals; Monument tent permit.
 - Manitou Springs: Manitou Springs wedding rentals; Garden of the Gods wedding reception rentals.
 - Woodland Park: Woodland Park wedding rentals; mountain wedding rentals at altitude; Pike National Forest group event.
+- Fountain: Fountain park party rentals; Fountain CO tent and table rentals.
+- Pueblo: Pueblo wedding rentals; Pueblo Riverwalk event rentals.
+- Colorado Springs: Colorado Springs park event permit; Colorado Springs tent permit.
 
 ---
 
@@ -79,5 +84,3 @@ Secondary angles in use (don't build a second page around these without differen
 |---|---|
 | Colorado outdoor event tent planning | /resources/colorado-outdoor-event-tent-planning |
 | Colorado wedding rental checklist | /resources/colorado-wedding-rental-checklist |
-| event rentals Fountain CO | /locations/fountain-co (Batch 2) |
-| event rentals Pueblo CO | /locations/pueblo-co (Batch 2) |

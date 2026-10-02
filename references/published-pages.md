@@ -1,12 +1,41 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-01 (Batch 1: Monument, Manitou Springs, Woodland Park; sitemap, robots, root metadata, hero alt)
+Last audited: 2026-10-01 (Batch 2: Fountain, Pueblo, Colorado Springs hub enrichment)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-01: ERF Batch 2
+
+- **New rich city pages** (content in `content/locations.ts`):
+  - Fountain (`/locations/fountain-co`). Angle: park and community events next to Fort Carson; the City provides no
+    tents, port-o-lets, tables or chairs; park rules (no staking, no potable water, sound approval, no vehicles on
+    turf); Thunder in the Valley.
+  - Pueblo (`/locations/pueblo-co`). Angle: lower and hotter (NOAA normals); municipal-code park permits; George L.
+    Williams Hall has no tables or chairs; Riverwalk venues; Convention Center in-house catering/AV; State Fair;
+    Chile & Frijoles; revocable street-closure permits.
+- **Colorado Springs hub upgrade** (`/locations/colorado-springs-co`): thin page upgraded to rich fields (5 intro
+  paragraphs including the in-body hub links to Monument, Manitou Springs, Woodland Park, Fountain, Pueblo and Castle Rock;
+  6 use cases; 10 considerations; 10-item checklist; 5 FAQs). URL, hero and alt unchanged.
+- **Heroes:** `public/images/locations/fountain-co-event-rentals.webp` (124 KB) and `pueblo-co-event-rentals.webp`
+  (161 KB), 1080x720 WebP, Adam-approved.
+- **Nearby links:** Fountain → Colorado Springs, Pueblo, Monument; Pueblo → Fountain, Colorado Springs; Colorado
+  Springs → Monument, Manitou Springs, Woodland Park, Fountain, Pueblo, Castle Rock; Fountain added to Monument.
+- **Sources:**
+  - Fountain: City of Fountain Parks & Open Space page (reservations, electricity), Parks Rules & Regulations, Event
+    Permit Application (City provides no tents, port-o-lets, tables or chairs; event map; car show barrier), About Fountain
+    (1859/1903, Fort Carson 1942, District 8), city 2026 annual events list; NOAA normals (Colorado Springs airport).
+  - Pueblo: NOAA 1991–2020 normals (Pueblo Memorial Airport, USW00093058); USGS GNIS elevation; City Park Pavilions
+    page; Mineral Palace Park facility page; Pueblo Municipal Code Title X Ch. 1 (Sec. 10-1-5 and park rules on tents
+    and alcohol); Pueblo Fire Department tent application; City Special Events (revocable permit) page; Police parade
+    permit; City Clerk special event liquor permit info; Pueblo Riverwalk Facility Rentals; Pueblo Convention Center;
+    Colorado State Fair; Chile & Frijoles Festival.
+  - Colorado Springs: City Weddings in Parks page; park permit guide; Fire Department tents/canopies page; NOAA normals
+    (USW00093037); NWS lightning safety.
+- **Sitemap URLs:** 32, now 34. **Location pages:** 14, now 16.
 
 ### 2026-10-01: ERF Batch 1
 
@@ -52,12 +81,12 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (14)
+## Location Pages (16)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
 | Denver | Denver County | Thin | https://www.eventrentalfinder.com/locations/denver-co | Before Batch 1 |
-| Colorado Springs | El Paso County | Thin | https://www.eventrentalfinder.com/locations/colorado-springs-co | Before Batch 1 |
+| Colorado Springs | El Paso County | Rich (hub, upgraded 2026-10-01) | https://www.eventrentalfinder.com/locations/colorado-springs-co | Before Batch 1 |
 | Fort Collins | Larimer County | Thin | https://www.eventrentalfinder.com/locations/fort-collins-co | Before Batch 1 |
 | Boulder | Boulder County | Thin | https://www.eventrentalfinder.com/locations/boulder-co | Before Batch 1 |
 | Greeley | Weld County | Thin | https://www.eventrentalfinder.com/locations/greeley-co | Before Batch 1 |
@@ -70,6 +99,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Monument | El Paso County | Rich | https://www.eventrentalfinder.com/locations/monument-co | 2026-10-01 |
 | Manitou Springs | El Paso County | Rich | https://www.eventrentalfinder.com/locations/manitou-springs-co | 2026-10-01 |
 | Woodland Park | Teller County | Rich | https://www.eventrentalfinder.com/locations/woodland-park-co | 2026-10-01 |
+| Fountain | El Paso County | Rich | https://www.eventrentalfinder.com/locations/fountain-co | 2026-10-01 |
+| Pueblo | Pueblo County | Rich | https://www.eventrentalfinder.com/locations/pueblo-co | 2026-10-01 |
 
 ## Category Pages (10)
 
@@ -97,5 +128,5 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 | File | URL |
 |---|---|
-| Sitemap (32 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (34 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

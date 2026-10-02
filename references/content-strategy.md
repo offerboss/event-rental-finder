@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-01 (Batch 1 of the Colorado Springs / Pikes Peak cluster shipped)
+Last updated: 2026-10-01 (Batches 1 and 2 of the Colorado Springs / Pikes Peak cluster shipped; the two cluster resources are next, pending Adam's approval)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -45,11 +45,10 @@ Other links:
 | Batch | Pages | Status |
 |---|---|---|
 | Batch 1 | Monument (`monument-co`), Manitou Springs (`manitou-springs-co`), Woodland Park (`woodland-park-co`) | Live 2026-10-01 |
-| Batch 2 | Fountain (`fountain-co`), Pueblo (`pueblo-co`) | Planned. Hero files are drafted on the box but not approved for use yet |
-| Resources | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Planned. Don't link them until they exist |
-| Hub upgrade | Upgrade `colorado-springs-co` from the thin format to a rich page | Planned |
+| Batch 2 | Fountain (`fountain-co`), Pueblo (`pueblo-co`), plus the Colorado Springs hub upgrade | Live 2026-10-01 |
+| Resources (next) | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Next, pending Adam's approval. Don't link them until they exist |
 
-Batch 1 local angles (keep future pages distinct from these):
+Cluster local angles (keep future pages distinct from these):
 
 - **Monument:** Tri-Lakes and the Palmer Divide. The Town requires a temporary use permit for tents, separate from its
   special event permit. Not the "between Denver and the Springs" angle, which belongs to Castle Rock.
@@ -59,8 +58,28 @@ Batch 1 local angles (keep future pages distinct from these):
 - **Woodland Park:** 8,465 ft. The City's 45-day Temporary Use Permit requires a site plan showing toilets and
   handwashing. Highway permits for US 24 and SH 67. Forest Service group use permit for 75+ people.
 
-Reciprocal nearby links added in Batch 1: `woodland-park-co` on Colorado Springs, `monument-co` on Castle Rock.
-Fountain and Pueblo links get added in Batch 2.
+- **Fountain:** park and community events next to Fort Carson. The City provides no tents, port-o-lets, tables or
+  chairs. Park rules: no staking (sandbags or cinder blocks), no potable water, amplified sound needs approval, no
+  vehicles on turf. Thunder in the Valley car show.
+- **Pueblo:** lower and hotter (NOAA July normal high 93.4°F vs 86.5°F in Colorado Springs). Municipal-code park
+  permits (shelters, 25+ people, bounce houses, tents). George L. Williams Hall has no tables or chairs. Riverwalk
+  venues, the Convention Center (in-house catering/AV), the State Fair, Chile & Frijoles, revocable street-closure permits.
+- **Colorado Springs (hub):** parks over 50 guests need a pavilion or Special Event Permit; Noise Hardship Permit for
+  amplified sound; 2,400 sq ft Fire Marshal tent permit; brief Garden of the Gods limits; July storms. The hub
+  paragraph links in-body to Monument, Manitou Springs, Woodland Park, Fountain, Pueblo and Castle Rock, each with a
+  one-line reason.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Colorado Springs | monument, manitou-springs, woodland-park, fountain, pueblo, castle-rock |
+| Monument | colorado-springs, castle-rock, manitou-springs, fountain |
+| Manitou Springs | colorado-springs, woodland-park, monument |
+| Woodland Park | manitou-springs, colorado-springs |
+| Fountain | colorado-springs, pueblo, monument |
+| Pueblo | fountain, colorado-springs |
+| Castle Rock | denver, colorado-springs, monument |
 
 ---
 
@@ -110,7 +129,7 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 
 **Content**
 
-- Six thin city pages: Denver, Colorado Springs, Fort Collins, Boulder, Greeley, Grand Junction.
+- Five thin city pages: Denver, Fort Collins, Boulder, Greeley, Grand Junction (Colorado Springs was upgraded in Batch 2).
 - Aurora is described only as Arapahoe County.
 - The tent cost guide doesn't link back to the size guide. Resource intros don't render links.
 - Nine of the 10 category pages are thin.

@@ -536,6 +536,10 @@ export const resources: ResourceArticle[] = [
       "Plan a Colorado event tent around lightning, hail, wind and altitude, and learn how tent permit thresholds differ in Colorado Springs, Monument, Manitou Springs and Pueblo.",
     h1: "Colorado Outdoor Event Tent Planning: Wind, Hail, Lightning, Altitude and Permits",
     topicCategorySlug: "tent-rentals",
+    heroImage: {
+      src: "/images/resources/colorado-outdoor-event-tent-planning.webp",
+      alt: "Weighted frame tent with banquet tables and rolled sidewalls in a pine meadow on Colorado's Front Range",
+    },
     intro: [
       "A tent is only as good as the plan around it. On Colorado's Front Range, that plan has to account for afternoon thunderstorms, hail, sudden gusts, strong high-elevation sun, cold evenings and a permit threshold that changes from one town to the next.",
       "This guide covers the weather and site questions to work through with a tent rental provider, how lightning safety should shape the event schedule, and how tent permits work in the Pikes Peak region. Rules, equipment and pricing vary by provider, venue and jurisdiction, so treat it as a planning checklist and confirm the details locally before you book.",
@@ -807,6 +811,10 @@ export const resources: ResourceArticle[] = [
       "Plan Colorado wedding rentals with a checklist of what to book, when to confirm tents, tables, restrooms and permits, what to ask providers, and marriage license basics.",
     h1: "Colorado Wedding Rental Checklist: What to Book, When to Confirm, What to Ask",
     topicCategorySlug: "wedding-rentals",
+    heroImage: {
+      src: "/images/resources/colorado-wedding-rental-checklist.webp",
+      alt: "Wedding tent with round tables, ivory linens and string lights beside a dance floor at golden hour in the Colorado foothills",
+    },
     intro: [
       "A wedding rental plan comes down to three things: what to book, when to confirm each piece, and what to ask before you sign. The order matters, because a few early decisions, such as the site, the guest count and whether you need a tent, shape almost everything else on the list.",
       "This checklist walks through the rentals Colorado couples most often compare, a timeline for confirming them, the questions worth asking every provider, and the paperwork that runs alongside the rentals, including permits and the marriage license. Inventory, pricing and policies vary by provider and venue, so use it as a working list and confirm the details with the people you hire.",

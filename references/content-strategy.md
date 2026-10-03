@@ -55,7 +55,7 @@ Other links:
 |---|---|---|
 | Batch 1 | Monument (`monument-co`), Manitou Springs (`manitou-springs-co`), Woodland Park (`woodland-park-co`) | Live 2026-10-01 |
 | Batch 2 | Fountain (`fountain-co`), Pueblo (`pueblo-co`), plus the Colorado Springs hub upgrade | Live 2026-10-01 |
-| Resources | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Live 2026-10-02. Linked from both tent guides, each other, and the Colorado Springs, Monument, Manitou Springs, Woodland Park, Pueblo (both) and Fountain (tent guide) pages. Hero images pending (see `hero-image-style.md`) |
+| Resources | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Live 2026-10-02. Linked from both tent guides, each other, and the Colorado Springs, Monument, Manitou Springs, Woodland Park, Pueblo (both) and Fountain (tent guide) pages. Hero images shipped 2026-10-02 (see `hero-image-style.md`) |
 
 Cluster local angles (keep future pages distinct from these):
 

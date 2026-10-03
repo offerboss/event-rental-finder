@@ -26,7 +26,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
   guides; Fountain links the tent planning guide.
 - **Resources hub:** "Tent Sizing and Planning" and "Wedding Rentals" removed from `plannedTopics`.
 - **Hero support:** optional `heroImage { src, alt }` added to `ResourceArticle` and rendered in the resource hero
-  (3:2 frame, same as city pages). No resource hero images shipped yet (no image generation available in this run).
+  (3:2 frame, same as city pages). Heroes shipped in a follow-up commit the same day: `public/images/resources/<slug>.webp` (1080x720 WebP, about 125 KB each, Adam-generated and approved).
 - **Sources:**
   - Weather: NWS Lightning Safety Overview, Lightning Safety When Outdoors and Lightning Science pages; NWS Pueblo
     June (lightning), July (monsoon) and August (climate) 2026 safety outreach PDFs, including the June 13, 2018 hail

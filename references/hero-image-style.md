@@ -74,10 +74,10 @@ Resource guides can show the same 3:2 hero as city pages. Set `heroImage: { src,
 `content/resources.ts` and save the file at `public/images/resources/<slug>.webp` (1080x720 WebP, under 300 KB). The
 hero renders beside the H1 only when `heroImage` is set; the resources hub cards don't show images.
 
-| Slug | File | Status |
-|---|---|---|
-| colorado-outdoor-event-tent-planning | public/images/resources/colorado-outdoor-event-tent-planning.webp | Pending (not generated yet) |
-| colorado-wedding-rental-checklist | public/images/resources/colorado-wedding-rental-checklist.webp | Pending (not generated yet) |
+| Slug | File | Size | Alt text | Status |
+|---|---|---|---|---|
+| colorado-outdoor-event-tent-planning | public/images/resources/colorado-outdoor-event-tent-planning.webp | 1080x720, 124 KB | Weighted frame tent with banquet tables and rolled sidewalls in a pine meadow on Colorado's Front Range | Shipped 2026-10-02 (Adam-generated and approved) |
+| colorado-wedding-rental-checklist | public/images/resources/colorado-wedding-rental-checklist.webp | 1080x720, 125 KB | Wedding tent with round tables, ivory linens and string lights beside a dance floor at golden hour in the Colorado foothills | Shipped 2026-10-02 (Adam-generated and approved) |
 
 ## Reference Images
 

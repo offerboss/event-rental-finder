@@ -180,6 +180,8 @@ export type ResourceArticle = {
   intro?: string[];
   /** A category this article relates to most, shown as a badge near the top. */
   topicCategorySlug?: string;
+  /** Optional 3:2 hero image shown beside the H1 (e.g. /images/resources/<slug>.webp). */
+  heroImage?: { src: string; alt: string };
   sections?: ResourceSection[];
   /** Heading for the closing related-links section. Defaults to a generic label. */
   relatedHeading?: string;

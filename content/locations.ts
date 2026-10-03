@@ -102,7 +102,7 @@ export const locations: Location[] = [
       disclaimer:
         "Details here summarize the City of Colorado Springs' Weddings in Parks page, park permit guide and Fire Department tent guidance, plus NOAA climate normals. Confirm current rules with the City's Parks and Fire departments and your rental provider.",
       closing:
-        "Sizing a tent around the 2,400-square-foot line? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+        "Sizing a tent around the 2,400-square-foot line? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). For storms, wind, altitude and permits across the region, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist).",
     },
     checklist: {
       heading: "Colorado Springs Event Rental Checklist",
@@ -1003,7 +1003,7 @@ export const locations: Location[] = [
       disclaimer:
         "Permit details here summarize the Town of Monument's special event page and 2026 application packet. Confirm current rules with the Town, the Tri-Lakes Monument Fire Protection District and your rental provider.",
       closing:
-        "Working out tent size or budget? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost).",
+        "Working out tent size or budget? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost). Tents can't be staked at Town-permitted events, so our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) covers anchoring, storms and permits, and the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers wedding timelines.",
     },
     checklist: {
       heading: "Monument Event Rental Checklist",
@@ -1141,7 +1141,7 @@ export const locations: Location[] = [
       disclaimer:
         "Requirements summarize the City of Manitou Springs 2026 Special Event Use Guide and the City of Colorado Springs' Garden of the Gods wedding rules. Confirm current details with both cities and your rental provider.",
       closing:
-        "For help sizing a reception tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+        "For help sizing a reception tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). Our [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers what to book and when to confirm it, and the [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) covers wind, lightning and tent permits.",
     },
     checklist: {
       heading: "Manitou Springs Event Rental Checklist",
@@ -1279,7 +1279,7 @@ export const locations: Location[] = [
       disclaimer:
         "Requirements summarize Woodland Park's 2026 Temporary Use Permit application and park rental form and the Forest Service's group use rules. Confirm current details with the City, the fire district, the Forest Service and your provider.",
       closing:
-        "Still deciding on tent size or budget? Our guides on [what size tent you need](/resources/what-size-tent-do-i-need) and [tent rental cost](/resources/tent-rental-cost) cover the basics.",
+        "Still deciding on tent size or budget? Our guides on [what size tent you need](/resources/what-size-tent-do-i-need) and [tent rental cost](/resources/tent-rental-cost) cover the basics. For cold evenings, generator sizing at altitude and afternoon storms, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for mountain weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist).",
     },
     checklist: {
       heading: "Woodland Park Event Rental Checklist",
@@ -1417,7 +1417,7 @@ export const locations: Location[] = [
       disclaimer:
         "Details here summarize the City of Fountain's park rules, park reservation page and event permit application. Confirm current requirements with the City Clerk's office, Parks and Recreation and your rental provider.",
       closing:
-        "For help sizing a tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost).",
+        "For help sizing a tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). Since City park rules call for sandbags or cinder blocks instead of stakes, our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) is worth a read for anchoring, wind, hail and lightning plans.",
     },
     checklist: {
       heading: "Fountain Event Rental Checklist",
@@ -1556,7 +1556,7 @@ export const locations: Location[] = [
       disclaimer:
         "Details here summarize City of Pueblo park and permit pages, the Pueblo Municipal Code, the Pueblo Fire Department tent application, venue pages and NOAA climate normals. Confirm current requirements with the City, the venue and your rental provider.",
       closing:
-        "Planning a tent for shade or a reception? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost).",
+        "Planning a tent for shade or a reception? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost). Our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) explains Pueblo's tent permit alongside storm and heat planning, and the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers reception rentals and timing.",
     },
     checklist: {
       heading: "Pueblo Event Rental Checklist",

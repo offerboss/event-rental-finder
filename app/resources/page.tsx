@@ -22,16 +22,8 @@ export const metadata: Metadata = {
 // don't exist yet.
 const plannedTopics = [
   {
-    title: "Tent Sizing and Planning",
-    description: "Choosing a tent size and layout that fits your guest count.",
-  },
-  {
     title: "Tables and Seating",
     description: "Planning tables, chairs and seating arrangements.",
-  },
-  {
-    title: "Wedding Rentals",
-    description: "Rental options for ceremonies, receptions and celebrations.",
   },
   {
     title: "Event Restrooms",

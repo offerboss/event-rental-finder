@@ -150,21 +150,42 @@ export default async function ResourceArticlePage({ params }: Props) {
               ]}
             />
 
-            <div className="mt-10 max-w-3xl lg:mt-14">
-              {topicCategory && (
-                <Link
-                  href={`/categories/${topicCategory.slug}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-[#E8E1D5] bg-white px-4 py-1.5 text-sm font-medium text-[#1F2937] transition hover:border-[#2C7A78] hover:text-[#2C7A78]"
-                >
-                  <span aria-hidden className="h-2 w-2 rounded-full bg-[#C8A96B]" />
-                  {topicCategory.name}
-                </Link>
-              )}
-              <h1 className="mt-5 font-serif text-4xl font-medium leading-[1.1] tracking-tight text-[#1F2937] sm:text-5xl lg:text-6xl">
-                {article.h1 ?? article.title}
-              </h1>
-              {date && (
-                <p className="mt-4 text-sm text-[#1F2937]/55">{date}</p>
+            <div
+              className={
+                article.heroImage
+                  ? "mt-10 grid items-center gap-10 lg:mt-14 lg:grid-cols-[1.1fr_1fr] lg:gap-16"
+                  : "mt-10 max-w-3xl lg:mt-14"
+              }
+            >
+              <div>
+                {topicCategory && (
+                  <Link
+                    href={`/categories/${topicCategory.slug}`}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#E8E1D5] bg-white px-4 py-1.5 text-sm font-medium text-[#1F2937] transition hover:border-[#2C7A78] hover:text-[#2C7A78]"
+                  >
+                    <span aria-hidden className="h-2 w-2 rounded-full bg-[#C8A96B]" />
+                    {topicCategory.name}
+                  </Link>
+                )}
+                <h1 className="mt-5 font-serif text-4xl font-medium leading-[1.1] tracking-tight text-[#1F2937] sm:text-5xl lg:text-6xl">
+                  {article.h1 ?? article.title}
+                </h1>
+                {date && (
+                  <p className="mt-4 text-sm text-[#1F2937]/55">{date}</p>
+                )}
+              </div>
+
+              {article.heroImage && (
+                <div className="relative aspect-[3/2] overflow-hidden rounded-3xl border border-[#E8E1D5] shadow-[0_20px_50px_-20px_rgba(30,42,54,0.3)]">
+                  <Image
+                    src={article.heroImage.src}
+                    alt={article.heroImage.alt}
+                    fill
+                    priority
+                    sizes="(min-width: 1280px) 560px, (min-width: 1024px) 45vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
               )}
             </div>
           </div>

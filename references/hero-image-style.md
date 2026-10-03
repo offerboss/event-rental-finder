@@ -68,6 +68,17 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.
 
+## Resource Guide Heroes
+
+Resource guides can show the same 3:2 hero as city pages. Set `heroImage: { src, alt }` on the article in
+`content/resources.ts` and save the file at `public/images/resources/<slug>.webp` (1080x720 WebP, under 300 KB). The
+hero renders beside the H1 only when `heroImage` is set; the resources hub cards don't show images.
+
+| Slug | File | Status |
+|---|---|---|
+| colorado-outdoor-event-tent-planning | public/images/resources/colorado-outdoor-event-tent-planning.webp | Pending (not generated yet) |
+| colorado-wedding-rental-checklist | public/images/resources/colorado-wedding-rental-checklist.webp | Pending (not generated yet) |
+
 ## Reference Images
 
 `references/hero-image-references/` holds copies of two approved heroes (Monument and Woodland Park) to use as style

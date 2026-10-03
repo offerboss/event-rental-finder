@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-10-01 (Batch 2)
+Last updated: 2026-10-02 (Resource Run)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -77,10 +77,17 @@ Secondary angles in use (don't build a second page around these without differen
 |---|---|---|
 | tent rental cost | /resources/tent-rental-cost | 2026-09-24 |
 | what size tent do I need | /resources/what-size-tent-do-i-need | 2026-09-24 |
+| Colorado outdoor event tent planning | /resources/colorado-outdoor-event-tent-planning | 2026-10-02 |
+| Colorado wedding rental checklist | /resources/colorado-wedding-rental-checklist | 2026-10-02 |
+
+Secondary angles in use for resources (don't build a second page around these without differentiating it):
+
+- Tent planning guide: Colorado tent permit thresholds (2021 IFC 400 sq ft vs Colorado Springs and Manitou Springs
+  2,400 sq ft, Woodland Park 1,000 sq ft, Monument 400 sq ft); lightning safety for tented events; hail, wind and
+  anchoring; tents at altitude.
+- Wedding checklist: Colorado wedding rental timeline; questions to ask wedding rental providers; Colorado marriage
+  license basics (35 days, self-solemnization, 63-day return).
 
 ## Reserved (planned, not live)
 
-| Keyword | Planned URL |
-|---|---|
-| Colorado outdoor event tent planning | /resources/colorado-outdoor-event-tent-planning |
-| Colorado wedding rental checklist | /resources/colorado-wedding-rental-checklist |
+None right now.

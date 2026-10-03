@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-01 (Batches 1 and 2 of the Colorado Springs / Pikes Peak cluster shipped; the two cluster resources are next, pending Adam's approval)
+Last updated: 2026-10-02 (Resource Run shipped: both cluster resources are live; this week's 5 cities + 2 resources target is met)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -17,6 +17,13 @@ merits and must not imply provider coverage, prices or rankings the site doesn't
 
 Pages ship in small batches. Each batch is reviewed, built, pushed to `main` (Vercel auto-deploys) and verified on
 production before the next batch starts. Hero images need Adam's approval before they ship (see `hero-image-style.md`).
+
+### Week of 2026-09-28 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Monument, Manitou Springs, Woodland Park, Fountain, Pueblo (plus the Colorado Springs hub upgrade) |
+| New planning resources | 2 | 2 | Colorado outdoor event tent planning; Colorado wedding rental checklist |
 
 ---
 
@@ -35,6 +42,8 @@ Other links:
 - `nearbyCities` drives the "Event Rentals Near <City>" block. Only slugs that exist render, but keep the lists clean
   anyway, and add reciprocal links on the neighboring pages when a city goes live.
 - `considerations.closing` (and use-case descriptions) can link resources. Only link resources that exist.
+- Resource body blocks (paragraph, list, callout) render `[label](/path)` links; `intro` paragraphs, section intros and
+  table rows don't. Resources cross-link through `relatedResourceSlugs` (rendered as guide cards) and in-body links.
 - The locations hub (`/locations`) lists every location automatically. The sitemap (`app/sitemap.ts`) is data-driven
   and picks up new locations, categories and resources without edits.
 
@@ -46,7 +55,7 @@ Other links:
 |---|---|---|
 | Batch 1 | Monument (`monument-co`), Manitou Springs (`manitou-springs-co`), Woodland Park (`woodland-park-co`) | Live 2026-10-01 |
 | Batch 2 | Fountain (`fountain-co`), Pueblo (`pueblo-co`), plus the Colorado Springs hub upgrade | Live 2026-10-01 |
-| Resources (next) | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Next, pending Adam's approval. Don't link them until they exist |
+| Resources | `/resources/colorado-outdoor-event-tent-planning`, `/resources/colorado-wedding-rental-checklist` | Live 2026-10-02. Linked from both tent guides, each other, and the Colorado Springs, Monument, Manitou Springs, Woodland Park, Pueblo (both) and Fountain (tent guide) pages. Hero images pending (see `hero-image-style.md`) |
 
 Cluster local angles (keep future pages distinct from these):
 
@@ -125,13 +134,14 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 - "Get the Best Rates" and "growing network" wording.
 - The Western Slope and Ski Towns cards link to `/locations`.
 - The homepage featured-location cards use hard-coded image paths with `alt=""`.
-- The `plannedTopics` list on the resources page is stale.
+- The `plannedTopics` list on the resources page: "Tent Sizing and Planning" and "Wedding Rentals" were removed in the
+  Resource Run (now covered); the other four are still unlinked placeholders.
 
 **Content**
 
 - Five thin city pages: Denver, Fort Collins, Boulder, Greeley, Grand Junction (Colorado Springs was upgraded in Batch 2).
 - Aurora is described only as Arapahoe County.
-- The tent cost guide doesn't link back to the size guide. Resource intros don't render links.
+- Resource intros don't render links. (The tent cost guide now links back to the size guide, fixed in the Resource Run.)
 - Nine of the 10 category pages are thin.
 - The older rich pages (Aurora, Lakewood, Arvada, Castle Rock, Loveland) share near-duplicate considerations,
   checklists and FAQs.

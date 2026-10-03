@@ -1,12 +1,46 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-01 (Batch 2: Fountain, Pueblo, Colorado Springs hub enrichment)
+Last audited: 2026-10-02 (Resource Run: Colorado outdoor event tent planning, Colorado wedding rental checklist)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-02: ERF Resource Run
+
+- **New resource guides** (content in `content/resources.ts`, published 2026-10-02):
+  - Colorado Outdoor Event Tent Planning: Wind, Hail, Lightning, Altitude and Permits
+    (`/resources/colorado-outdoor-event-tent-planning`), about 2,420 words in `<main>`. Sections: why Colorado changes the
+    plan (at-a-glance table), lightning, hail, wind and anchoring, altitude, tent permits by city, site plan, provider
+    questions, Pikes Peak region links.
+  - Colorado Wedding Rental Checklist: What to Book, When to Confirm, What to Ask
+    (`/resources/colorado-wedding-rental-checklist`), about 1,860 words in `<main>`. Sections: start with the site,
+    core rental list, milestone timeline (table) plus city permit deadlines, provider questions, weather plan, marriage
+    license, local notes, final-week checklist.
+- **Links:** each guide links in-body to Colorado Springs, Monument, Manitou Springs, Woodland Park, Fountain and Pueblo,
+  the relevant categories, both tent guides and each other. Reciprocal: the tent cost guide now links (in-body and
+  related cards) to the size guide and the tent planning guide; the size guide links to the tent planning guide. City
+  `considerations.closing` links: Colorado Springs, Monument, Manitou Springs, Woodland Park and Pueblo link both
+  guides; Fountain links the tent planning guide.
+- **Resources hub:** "Tent Sizing and Planning" and "Wedding Rentals" removed from `plannedTopics`.
+- **Hero support:** optional `heroImage { src, alt }` added to `ResourceArticle` and rendered in the resource hero
+  (3:2 frame, same as city pages). No resource hero images shipped yet (no image generation available in this run).
+- **Sources:**
+  - Weather: NWS Lightning Safety Overview, Lightning Safety When Outdoors and Lightning Science pages; NWS Pueblo
+    June (lightning), July (monsoon) and August (climate) 2026 safety outreach PDFs, including the June 13, 2018 hail
+    event; NWS severe thunderstorm criteria (58 mph, 1 inch hail); NOAA NSSL Severe Weather 101 hail and damaging winds
+    pages; NOAA 1991–2020 normals (Colorado Springs and Pueblo airports); WHO UV and altitude Q&A; Honda generator
+    owner's manual (altitude power loss); Colorado 811.
+  - Permits: 2021 International Fire Code Section 3103.2 and 3103.9 (via UpCodes); Colorado Springs Fire Department
+    tents, canopies and membrane structures page; Colorado Springs Weddings in Parks page and park permit guide; City of
+    Manitou Springs Special Event Use Guide 2026; Town of Monument 2026 Special Events Application packet; City of
+    Woodland Park 2026 Temporary Use Permit; City of Fountain Parks Rules and Event Permit Application; Pueblo Fire
+    Department Tent and Membrane Structure Permit Application; Pueblo Municipal Code Sec. 10-1-5.
+  - Marriage license: El Paso County Clerk and Recorder marriage license page and Recording FAQs; Pueblo County Clerk
+    and Recorder marriage license page; C.R.S. 14-2-109 (as cited by both clerks).
+- **Sitemap URLs:** 34, now 36. **Resource pages:** 2, now 4.
 
 ### 2026-10-01: ERF Batch 2
 
@@ -117,16 +151,18 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (2)
+## Resource Pages (4)
 
 | Title | URL | Published |
 |---|---|---|
 | How Much Does a Tent Rental Cost? | https://www.eventrentalfinder.com/resources/tent-rental-cost | 2026-09-24 |
 | What Size Tent Do I Need for My Event? | https://www.eventrentalfinder.com/resources/what-size-tent-do-i-need | 2026-09-24 |
+| Colorado Outdoor Event Tent Planning: Wind, Hail, Lightning, Altitude and Permits | https://www.eventrentalfinder.com/resources/colorado-outdoor-event-tent-planning | 2026-10-02 |
+| Colorado Wedding Rental Checklist: What to Book, When to Confirm, What to Ask | https://www.eventrentalfinder.com/resources/colorado-wedding-rental-checklist | 2026-10-02 |
 
 ## Machine-Readable
 
 | File | URL |
 |---|---|
-| Sitemap (34 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (36 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

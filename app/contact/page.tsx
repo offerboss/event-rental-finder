@@ -31,10 +31,10 @@ const iconProps = {
 
 const contactOptions = [
   {
-    title: "Business Listings",
-    description: "Questions about adding or updating your event rental company?",
-    cta: "List Your Business",
-    href: "/list-your-business",
+    title: "Featured Placement",
+    description: "Questions about getting your event rental company featured?",
+    cta: "Get Featured",
+    href: "/for-rental-companies",
     icon: (
       <svg {...iconProps}>
         <rect x="5.5" y="5" width="13" height="16" rx="2" />
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: "Can I add my rental company to Event Rental Finder?",
     answer:
-      "Yes. Visit the List Your Business page and submit your company information.",
+      "Event Rental Finder may include rental companies in its directory independently. If you're interested in featured placement, visit our For Rental Companies page and submit your company information.",
   },
   {
     question: "Can I request coverage in a new city?",

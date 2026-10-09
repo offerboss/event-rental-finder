@@ -482,10 +482,10 @@ export default function Home() {
 
             <div className="mt-8 flex flex-col items-start gap-3">
               <Link
-                href="/list-your-business"
+                href="/for-rental-companies"
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-[#2C7A78] px-8 text-base font-semibold text-white transition hover:bg-[#348f8c] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                List Your Business <span aria-hidden className="ml-2">→</span>
+                Get Featured on Event Rental Finder <span aria-hidden className="ml-2">→</span>
               </Link>
               <p className="text-sm text-white/60">
                 Join our growing network of event rental providers.

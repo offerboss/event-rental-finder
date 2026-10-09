@@ -14,7 +14,7 @@ const footerColumns = [
   {
     title: "For Businesses",
     links: [
-      { label: "List Your Business", href: "/list-your-business" },
+      { label: "For Rental Companies", href: "/for-rental-companies" },
       { label: "Provider Directory", href: "/providers" },
       { label: "Contact", href: "/contact" },
     ],

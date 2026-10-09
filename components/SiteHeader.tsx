@@ -6,7 +6,7 @@ const navLinks = [
   { label: "Categories", href: "/categories" },
   { label: "Providers", href: "/providers" },
   { label: "Resources", href: "/resources" },
-  { label: "List Your Business", href: "/list-your-business" },
+  { label: "For Rental Companies", href: "/for-rental-companies" },
 ];
 
 const iconProps = {
@@ -60,10 +60,10 @@ export default function SiteHeader() {
             </svg>
           </button>
           <Link
-            href="/list-your-business"
+            href="/for-rental-companies"
             className="rounded-lg bg-[#2C7A78] px-5 py-2.5 text-[15px] font-semibold text-white transition hover:bg-[#256866]"
           >
-            List Your Business
+            Get Featured
           </Link>
         </div>
 
@@ -94,10 +94,10 @@ export default function SiteHeader() {
             </nav>
             <div className="mt-5 flex gap-3">
               <Link
-                href="/list-your-business"
+                href="/for-rental-companies"
                 className="flex-1 rounded-lg bg-[#2C7A78] px-4 py-2.5 text-center text-[15px] font-semibold text-white"
               >
-                List Your Business
+                Get Featured
               </Link>
             </div>
           </div>

@@ -124,10 +124,10 @@ export default function CategoriesPage() {
                 Browse Locations
               </Link>
               <Link
-                href="/list-your-business"
+                href="/for-rental-companies"
                 className="inline-flex h-12 items-center justify-center rounded-lg border border-[#E8E1D5] bg-white px-7 text-base font-semibold text-[#1F2937] transition hover:border-[#2C7A78] hover:text-[#2C7A78] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]"
               >
-                List Your Business
+                Get Featured
               </Link>
             </div>
           </div>

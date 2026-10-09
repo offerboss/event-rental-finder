@@ -130,10 +130,10 @@ export function ProviderCtaPanel({
           <p className="mt-4 text-lg leading-8 text-white/75">{description}</p>
         </div>
         <Link
-          href="/list-your-business"
+          href="/for-rental-companies"
           className="mt-8 inline-flex h-12 shrink-0 items-center justify-center rounded-lg bg-[#2C7A78] px-8 text-base font-semibold text-white transition hover:bg-[#348f8c] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white lg:mt-0"
         >
-          List Your Business <span aria-hidden className="ml-2">→</span>
+          Get Featured on Event Rental Finder <span aria-hidden className="ml-2">→</span>
         </Link>
       </div>
     </section>

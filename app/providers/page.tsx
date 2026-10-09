@@ -154,7 +154,10 @@ export default function ProvidersPage() {
               actions={[
                 { label: "Browse Categories", href: "/categories" },
                 { label: "Browse Locations", href: "/locations" },
-                { label: "List Your Business", href: "/list-your-business" },
+                {
+                  label: "Get Featured on Event Rental Finder",
+                  href: "/for-rental-companies",
+                },
               ]}
             />
           )}

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { categories } from "@/content/categories";
 import { categoryImages } from "@/content/categoryImages";
 import { locations } from "@/content/locations";
+import { resources } from "@/content/resources";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -103,6 +104,21 @@ export default async function CategoryPage({ params }: Props) {
   const related = (category.relatedCategories ?? [])
     .map((relatedSlug) => categories.find((c) => c.slug === relatedSlug))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
+
+  // Planning guides for this category: articles whose main topic is this
+  // category first, then articles that list it as related. Only full
+  // articles (with sections) are linked.
+  const guides = [
+    ...resources.filter(
+      (r) => r.sections && r.topicCategorySlug === category.slug,
+    ),
+    ...resources.filter(
+      (r) =>
+        r.sections &&
+        r.topicCategorySlug !== category.slug &&
+        r.relatedCategorySlugs?.includes(category.slug),
+    ),
+  ].slice(0, 3);
 
   const providerCta = category.providerCta ?? {
     heading: "Are You an Event Rental Provider?",
@@ -334,6 +350,37 @@ export default async function CategoryPage({ params }: Props) {
                   <span className="text-base leading-7 text-[#1F2937]">
                     {question}
                   </span>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
+
+        {/* Planning guides */}
+        {guides.length > 0 && (
+          <Section label="guides">
+            <SectionHeading
+              id="guides"
+              title={`${category.name} Planning Guides`}
+              intro="Read these before you request quotes."
+            />
+            <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3 lg:gap-6">
+              {guides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/resources/${guide.slug}`}
+                    className={`${linkCardClass} flex h-full flex-col p-6`}
+                  >
+                    <h3 className="font-serif text-xl font-medium text-[#1F2937]">
+                      {guide.title}
+                    </h3>
+                    <p className="mt-2 text-[15px] leading-7 text-[#1F2937]/70">
+                      {guide.excerpt}
+                    </p>
+                    <span className="mt-4 text-sm font-semibold text-[#2C7A78]">
+                      Read the guide <span aria-hidden>→</span>
+                    </span>
+                  </Link>
                 </li>
               ))}
             </ul>

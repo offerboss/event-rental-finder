@@ -217,7 +217,7 @@ export const locations: Location[] = [
     categoriesIntro:
       "Explore rental categories commonly used for Aurora weddings, parties, corporate events, school functions and outdoor gatherings.",
     localIntro: [
-      "Aurora is one of Colorado's largest cities by land area, stretching across the eastern Denver metro from established residential neighborhoods to newer development near the airport and the open plains to the east. That size means event rental providers cover a wide service area, so it's worth confirming exactly where a company delivers and whether your part of Aurora falls within their standard coverage or comes with an added travel charge.",
+      "Aurora is one of Colorado's largest cities by land area, stretching across the eastern Denver metro from established residential neighborhoods to newer development near the airport and the open plains to the east. That size means event rental providers cover a wide service area, so it's worth confirming exactly where a company delivers and if your part of Aurora falls within their standard coverage or comes with an added travel charge.",
       "Aurora events happen in a lot of different kinds of spaces — private backyards, neighborhood parks, community centers, schools, churches, office parks and dedicated event venues. Each setting raises its own practical questions: how much space is available for setup, whether the surface is grass, concrete or pavement, and whether there's a clear path from the street or driveway to the event area for delivery.",
       "Like the rest of the Front Range, Aurora can see a wide range of weather within a single event season, from warm, dry afternoons to sudden wind or an afternoon storm. Outdoor events often benefit from a tent with sidewalls, and depending on the season, heaters or fans can help keep guests comfortable.",
       "Larger Aurora events — weddings, graduations, community gatherings and festivals — tend to need more than just a tent. Tables and chairs, restroom trailers, staging, lighting and AV equipment all become more important as guest count grows, and it's usually worth planning these needs together rather than adding them one at a time.",
@@ -332,7 +332,7 @@ export const locations: Location[] = [
         {
           question: "Do I need a tent for an Aurora event?",
           answer:
-            "Not always. Tents are most useful for shade, weather protection and outdoor events, but whether you need one depends on your venue, the season and how much of the event happens outdoors.",
+            "Not always. Tents are most useful for shade, weather protection and outdoor events, but the need for one depends on your venue, the season and how much of the event happens outdoors.",
         },
       ],
     },
@@ -597,7 +597,7 @@ export const locations: Location[] = [
         {
           question: "Do event rental companies deliver throughout Arvada?",
           answer:
-            "Coverage varies by provider, so it's worth confirming whether your address falls within their standard delivery area and asking about any travel or delivery fees.",
+            "Coverage varies by provider, so it's worth checking if your address falls within their standard delivery area and asking about any travel or delivery fees.",
         },
         {
           question: "What rentals are useful for an outdoor event in Arvada?",
@@ -744,7 +744,7 @@ export const locations: Location[] = [
           question:
             "Do event rental companies deliver throughout Castle Rock?",
           answer:
-            "Service areas vary from one provider to the next, so it's worth confirming travel distance, any delivery charges, and whether your address falls within their normal setup coverage.",
+            "Service areas vary from one provider to the next, so it's worth confirming travel distance and any delivery charges, and checking that your address falls within their normal setup coverage.",
         },
         {
           question:
@@ -890,7 +890,7 @@ export const locations: Location[] = [
         {
           question: "Do event rental companies deliver throughout Loveland?",
           answer:
-            "Service coverage differs by provider, so it's worth confirming travel distance, delivery fees, and whether your address is within their normal setup area before booking.",
+            "Service coverage differs by provider, so it's worth confirming travel distance and delivery fees, and checking that your address is within their normal setup area before booking.",
         },
         {
           question: "What rentals are useful for an outdoor event in Loveland?",
@@ -997,7 +997,7 @@ export const locations: Location[] = [
       intro:
         "The Monument-specific questions that most often change a quote or a setup plan.",
       items: [
-        "Whether your event needs the Town's special event permit, the temporary use permit for tents and structures, both or neither",
+        "Which permits your event needs: the Town's special event permit, the temporary use permit for tents and structures, both or neither",
         "Lead time: 30 days for events under 1,000 people, 45 days for a special event liquor permit and 120 days for events of 1,000 or more",
         "Whether stakes are allowed at your site, since Town-permitted events may not stake tents because of sprinkler lines",
         "A fire extinguisher for each tent, and possible fire district review for larger tents, stages or a generator",
@@ -1273,7 +1273,7 @@ export const locations: Location[] = [
       intro:
         "High-country and permit questions to answer before you book rentals for a Woodland Park event.",
       items: [
-        "Whether your event needs a City Temporary Use Permit, filed 45 days ahead",
+        "If your event needs a City Temporary Use Permit, file it 45 days ahead",
         "A site plan showing tents, parking, accessible stalls, portable and accessible toilets, handwashing stations and trash",
         "Fire district involvement for tents over 1,000 square feet or any cooking under a tent",
         "Highway permits through the Colorado State Patrol and CDOT if US 24 or State Highway 67 is involved",
@@ -1395,7 +1395,7 @@ export const locations: Location[] = [
         {
           title: "Reunions & Homecoming Parties",
           description:
-            "Family reunions, retirements and welcome-home parties suit a [photo booth](/categories/photo-booth-rentals) or backdrop with a few cocktail tables. If the booth needs power, check whether your pavilion has electricity or plan for a generator.",
+            "Family reunions, retirements and welcome-home parties suit a [photo booth](/categories/photo-booth-rentals) or backdrop with a few cocktail tables. If the booth needs power, check if your pavilion has electricity or plan for a generator.",
           categorySlug: "photo-booth-rentals",
         },
         {
@@ -1412,7 +1412,7 @@ export const locations: Location[] = [
         "Fountain-specific details that change what you rent and how it's delivered.",
       items: [
         "The City doesn't provide tents, port-o-lets, tables or chairs for events, so plan to rent all of them",
-        "Whether your gathering needs only a park reservation or the City's full event permit",
+        "Which approval your gathering needs: a park reservation alone or the City's full event permit",
         "No staking in parks without Parks Division approval; sandbags or cinder blocks instead",
         "Electricity only at some shelters, such as the Metcalfe Park gazebo and pavilions, and none at the Hibbard Park gazebo",
         "No potable water for park activities, which affects handwashing and food prep",
@@ -1466,7 +1466,7 @@ export const locations: Location[] = [
         {
           question: "Can I play music at a Fountain park party?",
           answer:
-            "Amplified sound needs prior approval under the park rules, and the City's event application asks whether you'll have performers or announcements. Get approval before booking a DJ or sound system.",
+            "Amplified sound needs prior approval under the park rules, and the City's event application asks if you'll have performers or announcements. Get approval before booking a DJ or sound system.",
         },
         {
           question:
@@ -1511,7 +1511,7 @@ export const locations: Location[] = [
         {
           title: "Shade for Hot Afternoons",
           description:
-            "With July highs averaging in the 90s, a tent is as much about shade as rain. Ask about sidewalls that roll up for airflow, and check whether your site needs the Parks Director's written permission or a Fire Department tent permit.",
+            "With July highs averaging in the 90s, a tent is as much about shade as rain. Ask about sidewalls that roll up for airflow, and check if your site needs the Parks Director's written permission or a Fire Department tent permit.",
           categorySlug: "tent-rentals",
         },
         {
@@ -2016,7 +2016,7 @@ export const locations: Location[] = [
         {
           question: "When do Westminster pavilion reservations open?",
           answer:
-            "Reservations for the 2026 season have ended, and pavilions are first come, first served for now. Reservations for the 2027 season open January 4, 2027, through a household online account.",
+            "Westminster rents pavilions by season, and reservations are made online through a household account. The City posts each season's dates and opening day on its Park Pavilions page; the 2026 rental season ran April 15 through September 30. Outside the rental season, pavilions are first come, first served.",
         },
         {
           question: "Do I need a permit for a public event in Westminster?",

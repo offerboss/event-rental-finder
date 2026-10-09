@@ -700,7 +700,7 @@ export const resources: ResourceArticle[] = [
             type: "list",
             items: [
               "[Colorado Springs](/locations/colorado-springs-co): The Fire Marshal's office requires a revocable permit before tents, canopies or temporary membrane structures over 2,400 square feet go up. The 2,400 square feet applies to a single structure or the combined area of structures attached to each other.",
-              "[Monument](/locations/monument-co): The Town's special event application includes a fire code section, tied to the Tri-Lakes Monument Fire Protection District, that asks whether you'll put up a temporary tent over 400 square feet. Each tent needs a fire extinguisher.",
+              "[Monument](/locations/monument-co): The Town's special event application includes a fire code section, tied to the Tri-Lakes Monument Fire Protection District, that asks if you'll put up a temporary tent over 400 square feet. Each tent needs a fire extinguisher.",
               "[Manitou Springs](/locations/manitou-springs-co): The City's Special Event Use Guide requires Fire Department approval for tents over 2,400 square feet, and tent locations and sizes go on the event site map.",
               "[Woodland Park](/locations/woodland-park-co): The City's Temporary Use Permit application tells organizers to contact the Northeast Teller County Fire Protection District for any tent or canopy over 1,000 square feet, and asks about open flame or cooking under tents.",
               "[Fountain](/locations/fountain-co): The City doesn't provide tents for events, and park rules don't allow staking. Ask the City about fire review when you apply for an event permit.",
@@ -820,7 +820,7 @@ export const resources: ResourceArticle[] = [
       alt: "Wedding tent with round tables, ivory linens and string lights beside a dance floor at golden hour in the Colorado foothills",
     },
     intro: [
-      "A wedding rental plan comes down to three things: what to book, when to confirm each piece, and what to ask before you sign. The order matters, because a few early decisions, such as the site, the guest count and whether you need a tent, shape almost everything else on the list.",
+      "A wedding rental plan comes down to three things: what to book, when to confirm each piece, and what to ask before you sign. The order matters, because a few early decisions, such as the site, the guest count and the tent decision, shape almost everything else on the list.",
       "This checklist walks through the rentals Colorado couples most often compare, a timeline for confirming them, the questions worth asking every provider, and the paperwork that runs alongside the rentals, including permits and the marriage license. Inventory, pricing and policies vary by provider and venue, so use it as a working list and confirm the details with the people you hire.",
     ],
     sections: [

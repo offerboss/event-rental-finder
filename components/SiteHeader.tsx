@@ -60,12 +60,6 @@ export default function SiteHeader() {
             </svg>
           </button>
           <Link
-            href="/sign-in"
-            className="rounded-lg border border-[#E8E1D5] bg-white px-5 py-2.5 text-[15px] font-medium text-[#1E2A36] transition hover:border-[#2C7A78]"
-          >
-            Sign In
-          </Link>
-          <Link
             href="/list-your-business"
             className="rounded-lg bg-[#2C7A78] px-5 py-2.5 text-[15px] font-semibold text-white transition hover:bg-[#256866]"
           >
@@ -99,12 +93,6 @@ export default function SiteHeader() {
               ))}
             </nav>
             <div className="mt-5 flex gap-3">
-              <Link
-                href="/sign-in"
-                className="flex-1 rounded-lg border border-[#E8E1D5] bg-white px-4 py-2.5 text-center text-[15px] font-medium"
-              >
-                Sign In
-              </Link>
               <Link
                 href="/list-your-business"
                 className="flex-1 rounded-lg bg-[#2C7A78] px-4 py-2.5 text-center text-[15px] font-semibold text-white"

@@ -1,6 +1,6 @@
 # ERF Hero Image Style
 
-Last updated: 2026-10-01 (standard approved by Adam; used for Monument, Manitou Springs, Woodland Park, Fountain and Pueblo)
+Last updated: 2026-10-08 (standard approved by Adam; used for the Pikes Peak cluster and the Denver Infill Run)
 
 **Approval status:** Every new hero needs Adam's approval before it ships, until he says otherwise.
 
@@ -64,6 +64,11 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 | woodland-park-co | public/images/locations/woodland-park-co-event-rentals.webp | 1080x720, 108 KB | Pole tent with round tables and patio heaters beside a restroom trailer in an aspen meadow near Woodland Park, Colorado | 2026-10-01 |
 | fountain-co | public/images/locations/fountain-co-event-rentals.webp | 1080x720, 124 KB | Frame tent with round tables and a white bounce house in a cottonwood park on the plains near Fountain, Colorado | 2026-10-01 |
 | pueblo-co | public/images/locations/pueblo-co-event-rentals.webp | 1080x720, 161 KB | Riverside tent reception with string lights and an uplit stage at dusk in Pueblo, Colorado | 2026-10-01 |
+| littleton-co | public/images/locations/littleton-co-event-rentals.webp | 1080x720, 216 KB | Frame tent with round tables, white chairs and string lights on a backyard lawn with foothills beyond in Littleton, Colorado | 2026-10-08 |
+| centennial-co | public/images/locations/centennial-co-event-rentals.webp | 1080x720, 90 KB | Sandbag-weighted canopy and rented tables and chairs beside an open picnic pavilion on a park lawn in Centennial, Colorado | 2026-10-08 |
+| westminster-co | public/images/locations/westminster-co-event-rentals.webp | 1080x720, 122 KB | Backyard reception with a pole tent, dance floor and string lights facing the Front Range in Westminster, Colorado | 2026-10-08 |
+| thornton-co | public/images/locations/thornton-co-event-rentals.webp | 1080x720, 127 KB | Two 10-by-10 pop-up canopies over rented tables and chairs beside a picnic pavilion in a lakeside park in Thornton, Colorado | 2026-10-08 |
+| parker-co | public/images/locations/parker-co-event-rentals.webp | 1080x720, 180 KB | Frame tent on water-barrel weights with round tables and a restroom trailer on pavement in a park in Parker, Colorado | 2026-10-08 |
 
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.
@@ -78,6 +83,8 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 |---|---|---|---|---|
 | colorado-outdoor-event-tent-planning | public/images/resources/colorado-outdoor-event-tent-planning.webp | 1080x720, 124 KB | Weighted frame tent with banquet tables and rolled sidewalls in a pine meadow on Colorado's Front Range | Shipped 2026-10-02 (Adam-generated and approved) |
 | colorado-wedding-rental-checklist | public/images/resources/colorado-wedding-rental-checklist.webp | 1080x720, 125 KB | Wedding tent with round tables, ivory linens and string lights beside a dance floor at golden hour in the Colorado foothills | Shipped 2026-10-02 (Adam-generated and approved) |
+| how-many-tables-and-chairs-do-i-need | public/images/resources/how-many-tables-and-chairs-do-i-need.webp | 1080x720, 99 KB | Round tables and white folding chairs set with clear aisles under a frame tent for a reception in Colorado | Shipped 2026-10-08 (Adam-generated and approved) |
+| event-restroom-rental-guide | public/images/resources/event-restroom-rental-guide.webp | 1080x720, 120 KB | Restroom trailer with a ramp and an accessible portable unit on level ground beside a wedding tent in Colorado | Shipped 2026-10-08 (Adam-generated and approved) |
 
 ## Reference Images
 

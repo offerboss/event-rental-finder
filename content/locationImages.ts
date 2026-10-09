@@ -41,4 +41,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/pueblo-co-event-rentals.webp",
     alt: "Riverside tent reception with string lights and an uplit stage at dusk in Pueblo, Colorado",
   },
+  "littleton-co": {
+    src: "/images/locations/littleton-co-event-rentals.webp",
+    alt: "Frame tent with round tables, white chairs and string lights on a backyard lawn with foothills beyond in Littleton, Colorado",
+  },
+  "centennial-co": {
+    src: "/images/locations/centennial-co-event-rentals.webp",
+    alt: "Sandbag-weighted canopy and rented tables and chairs beside an open picnic pavilion on a park lawn in Centennial, Colorado",
+  },
+  "westminster-co": {
+    src: "/images/locations/westminster-co-event-rentals.webp",
+    alt: "Backyard reception with a pole tent, dance floor and string lights facing the Front Range in Westminster, Colorado",
+  },
+  "thornton-co": {
+    src: "/images/locations/thornton-co-event-rentals.webp",
+    alt: "Two 10-by-10 pop-up canopies over rented tables and chairs beside a picnic pavilion in a lakeside park in Thornton, Colorado",
+  },
+  "parker-co": {
+    src: "/images/locations/parker-co-event-rentals.webp",
+    alt: "Frame tent on water-barrel weights with round tables and a restroom trailer on pavement in a park in Parker, Colorado",
+  },
 };

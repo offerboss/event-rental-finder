@@ -345,7 +345,7 @@ export const resources: ResourceArticle[] = [
           },
           {
             type: "paragraph",
-            text: "In general, round tables and wider aisles require more space than tightly arranged rows of chairs, so seating style is one of the biggest factors in your final tent size.",
+            text: "In general, round tables and wider aisles require more space than tightly arranged rows of chairs, so seating style is one of the biggest factors in your final tent size. To count the tables and chairs themselves, see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need).",
           },
         ],
       },
@@ -503,7 +503,11 @@ export const resources: ResourceArticle[] = [
       },
     ],
     relatedHeading: "Related Event Planning Guides",
-    relatedResourceSlugs: ["tent-rental-cost", "colorado-outdoor-event-tent-planning"],
+    relatedResourceSlugs: [
+      "tent-rental-cost",
+      "colorado-outdoor-event-tent-planning",
+      "how-many-tables-and-chairs-do-i-need",
+    ],
     relatedCategorySlugs: [
       "tent-rentals",
       "table-chair-rentals",
@@ -874,7 +878,7 @@ export const resources: ResourceArticle[] = [
           {
             type: "list",
             items: [
-              "Guest tables and chairs, plus a head or sweetheart table",
+              "Guest tables and chairs, plus a head or sweetheart table (see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need))",
               "Cocktail tables for the social hour",
               "Tables for the cake, gifts, guest book and dessert",
               "Linens and napkins in the right sizes for each table",
@@ -894,7 +898,7 @@ export const resources: ResourceArticle[] = [
           {
             type: "list",
             items: [
-              "Restrooms and handwashing if the site has none or not enough. Woodland Park's event permit materials note that when portable toilets are grouped together, at least 5 percent, and no fewer than one, must comply with ADA standards.",
+              "Restrooms and handwashing if the site has none or not enough. Woodland Park's event permit materials note that when portable toilets are grouped together, at least 5 percent, and no fewer than one, must comply with ADA standards. Our [event restroom rental guide](/resources/event-restroom-rental-guide) covers trailers, portable units and how many to plan.",
               "Heaters for cool evenings, fans or shade for hot afternoons",
               "Bar, buffet and service tables, after confirming what your caterer brings",
               "A generator and cable covers if there's no power where you need it",
@@ -1048,8 +1052,9 @@ export const resources: ResourceArticle[] = [
     relatedHeading: "Related Event Planning Guides",
     relatedResourceSlugs: [
       "colorado-outdoor-event-tent-planning",
+      "how-many-tables-and-chairs-do-i-need",
+      "event-restroom-rental-guide",
       "what-size-tent-do-i-need",
-      "tent-rental-cost",
     ],
     relatedCategorySlugs: [
       "tent-rentals",
@@ -1065,6 +1070,491 @@ export const resources: ResourceArticle[] = [
         "Browse wedding rental options and compare local providers for your date, site and guest count.",
       primaryLabel: "Find Wedding Rentals",
       primaryHref: "/categories/wedding-rentals",
+      secondaryLabel: "Browse Locations",
+      secondaryHref: "/locations",
+    },
+  },
+  {
+    title:
+      "How Many Tables and Chairs Do I Need? Event Seating, Layouts and Spacing",
+    slug: "how-many-tables-and-chairs-do-i-need",
+    excerpt:
+      "Count chairs from the most guests seated at once, then work out tables, layouts, aisles and extras. Includes worked examples, tent spacing rules and accessible seating basics.",
+    category: "Tables & Seating",
+    stateCode: "CO",
+    publishedAt: "2026-10-08",
+    heroImage: {
+      src: "/images/resources/how-many-tables-and-chairs-do-i-need.webp",
+      alt: "Round tables and white folding chairs set with clear aisles under a frame tent for a reception in Colorado",
+    },
+    metaTitle: "How Many Tables and Chairs Do I Need? | Event Rental Finder",
+    metaDescription:
+      "Work out how many tables and chairs to rent: count seats from peak attendance, compare round and banquet layouts, plan aisles and tent spacing, and add accessible seating and extra tables.",
+    h1:
+      "How Many Tables and Chairs Do I Need? Event Seating, Layouts and Spacing",
+    topicCategorySlug: "table-chair-rentals",
+    intro: [
+      "Most rental orders start with a quick guess: one chair per guest and a table for every eight. That's a reasonable start, but the right count depends on how many people sit at the same time, the table sizes your provider stocks, the space you have and the rules for the site.",
+      "This guide walks through counting chairs and tables, comparing layouts, planning the space around them and the extra tables that are easy to forget. Table sizes, chair styles and inventory vary by provider, so use it to build a draft order, then confirm the numbers with the company you rent from.",
+    ],
+    sections: [
+      {
+        id: "start-with-chairs",
+        heading: "Start With Chairs, Not Tables",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Chairs come first because every other number follows from them. Count the most people who will be seated at the same time, not the total guest list. A wedding dinner seats nearly everyone at once; an open house or graduation party with guests coming and going may never seat more than part of the crowd.",
+          },
+          {
+            type: "list",
+            items: [
+              "Seated meal: a chair for every guest, plus a few spares.",
+              "Ceremony and reception: decide whether ceremony chairs move to the reception or you rent two sets, which depends on how much time the crew has between them.",
+              "Drop-in party: estimate the busiest hour and seat part of that crowd, then add standing-height cocktail tables.",
+              "Program or presentation: rows of chairs facing a stage, plus a few tables for registration, food and displays.",
+            ],
+          },
+          {
+            type: "callout",
+            text:
+              "Ask what the venue already has. Picnic tables at a park shelter, stacked chairs in a hall or built-in seating can shrink the order, but count what's actually there before you rely on it.",
+          },
+          {
+            type: "paragraph",
+            text:
+              "Colorado park venues show how much this varies. [Thornton](/locations/thornton-co)'s Carpenter Park West Pavilion has 13 picnic tables seating 100, while its East Pavilion seats 40 at five tables. [Centennial](/locations/centennial-co)'s Bluff Pavilion holds up to 100 people but comes with nine picnic tables. In [Pueblo](/locations/pueblo-co), George L. Williams Hall has electricity and restrooms but no tables or chairs at all.",
+          },
+        ],
+      },
+      {
+        id: "chairs-to-tables",
+        heading: "Turning Chairs Into Tables",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Once you know the chair count, divide it by the number of people each table seats. That number depends on the table size and the chair style your provider stocks, so ask rather than assume. As a reference point, two Colorado university event venues seat eight at a 5-foot (60-inch) round: CU Boulder's University Memorial Center bases its banquet capacities on eight people per 5-foot round, and CU Denver's Jake Jabs Event Center lists its 5-foot banquet rounds at eight seats each. The same CU Boulder fact sheet bases classroom layouts on three people per 6-foot table.",
+          },
+          {
+            type: "subheading",
+            text: "A Worked Example",
+          },
+          {
+            type: "paragraph",
+            text:
+              "For 120 seated guests at rounds that seat eight, 120 ÷ 8 = 15 guest tables. Round up any remainder, so 124 guests means 16 tables, then add the tables that don't seat guests (see below). If you squeeze ten onto each round instead, the same group needs 12 tables, but plates, centerpieces and elbows all compete for the space, so check the provider's recommended seating per table first.",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Most guests seated at once",
+                value: "Chairs to rent, plus a few spares",
+              },
+              {
+                label: "Chairs ÷ seats per table",
+                value: "Guest tables, rounded up",
+              },
+              {
+                label: "Head or sweetheart table",
+                value: "Count separately from guest tables",
+              },
+              {
+                label: "Food, drink and service",
+                value: "Buffet, bar, cake, gift and guest book tables",
+              },
+              {
+                label: "Guests who stand",
+                value: "Cocktail or high-top tables",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "layout-and-space",
+        heading: "Layout Changes How Many People Fit",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "The same room or tent holds very different numbers depending on how it's set. CU Boulder lists its 2,278-square-foot East Ballroom at 250 people theater-style, 200 for a reception, 120 at banquet rounds and 96 in a classroom setup with tables. The square footage doesn't change; the furniture does.",
+          },
+          {
+            type: "paragraph",
+            text:
+              "Fire codes reflect the same idea. The 2021 International Fire Code, the edition Colorado's Division of Fire Prevention and Control uses, assigns occupant loads by use: 7 net square feet per person for chairs only, 15 net square feet per person for tables and chairs, and 5 net square feet per person for standing space. Those are code figures for safety calculations, not comfort targets, but they show why a dinner layout needs about twice the floor area of a ceremony layout for the same number of people. Local fire departments adopt their own editions, so ask yours which applies.",
+          },
+          {
+            type: "paragraph",
+            text:
+              "For turning a layout into a tent size, see [what size tent you need](/resources/what-size-tent-do-i-need).",
+          },
+        ],
+      },
+      {
+        id: "aisles-and-spacing",
+        heading: "Leave Room to Move: Aisles and Spacing in Tents",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Space between tables is where layouts fail. Guests need room to pull out a chair, servers need a path, and inside a tent the fire code sets minimums. Under the 2021 IFC:",
+          },
+          {
+            type: "list",
+            items: [
+              "In the public areas of a tent, aisles from seating areas must be at least 44 inches wide, growing by 1 foot of width for every 50 people the aisle serves.",
+              "A tent with 10 to 199 occupants needs at least two exits, each at least 72 inches wide; 200 to 499 occupants need three.",
+              "A tent with an occupant load of 50 or more needs a floor plan showing exits, seating capacity, the seating arrangement and any heating and electrical equipment.",
+              "Where tables and chairs sit next to an aisle, the code's general means-of-egress chapter measures aisle width from a line 19 inches out from the table edge, which leaves room for the chair.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text:
+              "Your local fire department decides which code edition and permits apply, and thresholds differ from town to town. Our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) compares tent permit lines across the Pikes Peak region. In the Denver metro, [Westminster](/locations/westminster-co) and [Thornton](/locations/thornton-co) route tents over 400 square feet to their fire departments, and South Metro Fire Rescue, which serves [Littleton](/locations/littleton-co), [Centennial](/locations/centennial-co) and [Parker](/locations/parker-co), permits tents over 400 square feet.",
+          },
+        ],
+      },
+      {
+        id: "accessible-seating",
+        heading: "Plan Accessible Seating From the Start",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Where dining surfaces are provided, the 2010 ADA Standards call for at least 5 percent of the seating and standing spaces at them to be accessible, dispersed through the space. Accessible dining surfaces are 28 to 34 inches high, with knee and toe clearance and clear floor space for a forward approach. The same idea works at a private party: keep a few places that a wheelchair can pull up to, on a firm, level route from the entrance.",
+          },
+          {
+            type: "list",
+            items: [
+              "Ask whether the provider's tables have aprons or crossbars that block knee clearance.",
+              "Leave a chair out at a few tables instead of squeezing a wheelchair in beside a full set.",
+              "On grass or gravel, ask about flooring or a route that stays firm.",
+              "Put accessible places near the action, the restrooms and the exits, not at the edge of the room.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "non-guest-tables",
+        heading: "Tables That Aren't for Guests",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Service tables often add several tables to an order. Make a separate list:",
+          },
+          {
+            type: "list",
+            items: [
+              "Buffet and serving tables, sized with your caterer",
+              "Bar and beverage stations",
+              "Cake, dessert and gift tables",
+              "Guest book, place cards and a welcome table",
+              "A DJ or sound table",
+              "Registration or check-in for public events",
+              "A few utility tables for staff and supplies",
+            ],
+          },
+          {
+            type: "paragraph",
+            text:
+              "Ask the caterer, bartender and DJ what they bring before you rent, since some bring their own tables.",
+          },
+        ],
+      },
+      {
+        id: "linens-and-details",
+        heading: "Linens, Chairs and Other Details",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Linens are sized to the table, so confirm table dimensions before ordering tablecloths, and choose cloths that reach the floor or stop partway. Ask whether chair styles differ in width, since wider chairs can mean fewer seats per round. Outdoors, ask how tables, chairs and linens hold up in wind, and whether the provider sets up and breaks down or simply drops off stacks.",
+          },
+        ],
+      },
+      {
+        id: "before-you-request-a-quote",
+        heading: "Before You Request a Quote",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "Most guests seated at the same time",
+              "Layout: rounds, banquet rows, theater rows or a mix",
+              "Table sizes and seats per table from the provider",
+              "Non-guest tables: buffet, bar, cake, gifts, DJ",
+              "Accessible places and an accessible route",
+              "Venue tables and chairs you can use",
+              "Floor area or tent size",
+              "Ground surface: grass, pavement or a floor",
+              "Delivery access and setup timing",
+              "Linens and chair style",
+            ],
+          },
+          {
+            type: "paragraph",
+            text:
+              "Share the list with a provider and ask for a layout drawing with the quote. Browse [table and chair rentals](/categories/table-chair-rentals), and if you're planning a reception, see the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) and the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Event Planning Guides",
+    relatedResourceSlugs: [
+      "what-size-tent-do-i-need",
+      "event-restroom-rental-guide",
+      "colorado-wedding-rental-checklist",
+    ],
+    relatedCategorySlugs: [
+      "table-chair-rentals",
+      "tent-rentals",
+      "wedding-rentals",
+      "party-rentals",
+      "dance-floor-rentals",
+    ],
+    cta: {
+      heading: "Ready to Price Tables and Chairs?",
+      description:
+        "Browse table and chair rental options and compare local providers for your guest count and layout.",
+      primaryLabel: "Find Table & Chair Rentals",
+      primaryHref: "/categories/table-chair-rentals",
+      secondaryLabel: "Browse Locations",
+      secondaryHref: "/locations",
+    },
+  },
+  {
+    title:
+      "Event Restroom Rentals: Trailers vs. Portable Units, How Many, and Colorado Site Rules",
+    slug: "event-restroom-rental-guide",
+    excerpt:
+      "How to choose between restroom trailers and portable units, estimate how many an event needs, plan accessible units and handwashing, and meet the site rules Colorado cities ask about.",
+    category: "Restrooms",
+    stateCode: "CO",
+    publishedAt: "2026-10-08",
+    heroImage: {
+      src: "/images/resources/event-restroom-rental-guide.webp",
+      alt: "Restroom trailer with a ramp and an accessible portable unit on level ground beside a wedding tent in Colorado",
+    },
+    metaTitle: "Event Restroom Rental Guide | Event Rental Finder",
+    metaDescription:
+      "Plan event restrooms: restroom trailers vs. portable units, how many to rent, accessible units under the ADA, handwashing, placement and servicing, and what Colorado cities ask for on event site plans.",
+    h1:
+      "Event Restroom Rentals: Trailers vs. Portable Units, How Many, and Colorado Site Rules",
+    topicCategorySlug: "restroom-trailer-rentals",
+    intro: [
+      "Restrooms are easy to leave until last and hard to fix on the day. A park restroom may close before your event ends, a backyard has one bathroom for a crowd of guests, and a public event permit may ask exactly how many units you'll bring and where they'll stand.",
+      "This guide covers choosing between restroom trailers and portable units, estimating a count, planning accessible units and handwashing, and the placement, servicing and permit details Colorado cities ask about. Inventory, utility needs and pricing vary by provider, so confirm the specifics with the company you rent from.",
+    ],
+    sections: [
+      {
+        id: "check-the-site",
+        heading: "First, Check What the Site Already Has",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Start with the venue. Ask how many restrooms it has, whether they'll be open for your whole event and who stocks them. Park restrooms in particular come with limits. [Westminster](/locations/westminster-co)'s pavilion restrooms close at 8 p.m., and the City supplies a port-a-let when a pavilion restroom is out of service. In [Fountain](/locations/fountain-co), the City doesn't provide port-o-lets for park events, and potable water isn't available for park activities.",
+          },
+          {
+            type: "paragraph",
+            text:
+              "If the site's restrooms will cover only part of the crowd, or none of it, plan rentals for the gap.",
+          },
+        ],
+      },
+      {
+        id: "trailers-vs-portable-units",
+        heading: "Restroom Trailers vs. Portable Units",
+        blocks: [
+          {
+            type: "subheading",
+            text: "Portable Units",
+          },
+          {
+            type: "paragraph",
+            text:
+              "Single-user portable toilets are self-contained and quick to place, which makes them the default for park events, festivals and open land. They come in standard and accessible versions, and many events pair them with separate handwashing stations.",
+          },
+          {
+            type: "subheading",
+            text: "Restroom Trailers",
+          },
+          {
+            type: "paragraph",
+            text:
+              "Restroom trailers put multiple stalls, sinks and lighting in a towed unit, and they're common at weddings and longer private events. They also bring site requirements: a level spot a truck can reach, often a power source and sometimes a water connection, depending on the model. Ask each provider what its trailer needs, how it's serviced, and whether its steps or ramp make it usable for every guest.",
+          },
+          {
+            type: "subheading",
+            text: "Mixing Both",
+          },
+          {
+            type: "paragraph",
+            text:
+              "On a spread-out site, a trailer near the reception plus a few portable units, including an accessible one, near parking or a far corner can cover more ground than either alone.",
+          },
+        ],
+      },
+      {
+        id: "how-many",
+        heading: "How Many Restrooms Does an Event Need?",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "There's no single statewide number for private events, and requirements vary by jurisdiction. One published Colorado benchmark comes from Mesa County Public Health. Its guide for special event coordinators says the number of toilets depends on attendance, with current guidance of 2 toilets for 100 people and an additional toilet for each additional 100 attendees, plus accessible handwashing stations.",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "100 attendees",
+                value: "2 toilets",
+              },
+              {
+                label: "200 attendees",
+                value: "3 toilets",
+              },
+              {
+                label: "500 attendees",
+                value: "6 toilets",
+              },
+              {
+                label: "1,000 attendees",
+                value: "11 toilets",
+              },
+            ],
+          },
+          {
+            type: "callout",
+            text:
+              "The table applies Mesa County's guidance, which is written for public events in that county. Treat it as a starting point, not a rule for your town. Event length, alcohol service and a crowd that arrives all at once all affect the count, so ask your permit office and provider how they size orders.",
+          },
+          {
+            type: "paragraph",
+            text:
+              "Mesa County is home to [Grand Junction](/locations/grand-junction-co). Elsewhere, ask the city or county that issues your event permit whether it publishes its own guidance.",
+          },
+        ],
+      },
+      {
+        id: "accessible-units",
+        heading: "Accessible Units Are Part of the Count",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Under the 2010 ADA Standards, where single-user portable toilets are clustered at one location, 5 percent of the units in each cluster must be accessible, and because the standards round fractions up to the next whole unit, even a small cluster needs one. Accessible units are identified with the International Symbol of Accessibility. [Woodland Park](/locations/woodland-park-co)'s event permit materials apply the same rule, and Westminster's special event site plan asks organizers to show restroom locations and whether they're accessible.",
+          },
+          {
+            type: "list",
+            items: [
+              "Place accessible units on a firm, level surface along an accessible route, not on soft grass or a slope.",
+              "Keep them close to the event, not at the far end of a parking lot.",
+              "If you rent a trailer, ask whether it has an accessible stall, and add an accessible portable unit if it doesn't.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "handwashing",
+        heading: "Handwashing and Supplies",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Portable toilets don't always include a sink. Mesa County's guidance calls for accessible handwashing stations with the toilets, and Fountain's special event application asks how many regular, accessible and handwashing units you'll provide. Ask whether each unit includes a sink or sanitizer, how much water a freestanding station holds, and who restocks soap, paper towels and toilet paper during a long event. Where a park has no drinking water, freestanding stations need to bring their own.",
+          },
+        ],
+      },
+      {
+        id: "placement-and-servicing",
+        heading: "Placement, Delivery and Servicing",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Where the units stand affects guests, neighbors and the delivery truck, and several Colorado cities spell out what they expect:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Parker](/locations/parker-co) requires portable toilets on pavement, such as a parking lot or walk, not on turf or in plant beds, and the Town can require additional restrooms for larger events.",
+              "[Littleton](/locations/littleton-co) requires an event layout plan for permitted events that shows port-a-let locations along with tents, entries and exits.",
+              "[Westminster](/locations/westminster-co) asks for a written description of how restrooms will be provided, including delivery and pickup times.",
+              "[Woodland Park](/locations/woodland-park-co) requires a site plan showing toilets and handwashing for its special event Temporary Use Permit.",
+              "[Denver](/locations/denver-co) Parks and Recreation's event logistics guide asks that portable toilets be locked or zip-tied on arrival and again after the event, and notes that event insurance has to cover the whole time they're on site, such as a Saturday drop-off with a Monday pickup.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text:
+              "Ask the provider how close the truck needs to get, what surface it can drive on, whether servicing is included for multi-day events and when pickup happens. Units delivered the day before need to be secured overnight.",
+          },
+        ],
+      },
+      {
+        id: "weather",
+        heading: "Colorado Weather and Restrooms",
+        blocks: [
+          {
+            type: "paragraph",
+            text:
+              "Colorado's range of conditions changes the questions. For cold nights in spring, fall or the mountains, ask whether a restroom trailer is heated and how the provider protects its water lines from freezing. For summer events in hot places like [Pueblo](/locations/pueblo-co), where NOAA's normal July high is 93.4°F, ask about ventilation, shade and servicing frequency, and set units where guests won't wait in full sun.",
+          },
+        ],
+      },
+      {
+        id: "provider-questions",
+        heading: "Questions to Ask a Restroom Rental Provider",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "How many units do you recommend for our guest count, event length and alcohol service, and what's that based on?",
+              "Which units are accessible, and how are they marked?",
+              "Do units include handwashing, or do we add stations?",
+              "What does a trailer need: power, water, level ground, access width?",
+              "Can the truck reach our placement spot, and on what surface?",
+              "When do you deliver and pick up, and who secures units overnight?",
+              "Is servicing included during the event?",
+              "Who restocks supplies?",
+              "Can you provide a certificate of insurance if the venue asks?",
+            ],
+          },
+          {
+            type: "paragraph",
+            text:
+              "Browse [restroom trailer rentals](/categories/restroom-trailer-rentals) to compare options, and see the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) and [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need) for the rest of the plan.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Event Planning Guides",
+    relatedResourceSlugs: [
+      "how-many-tables-and-chairs-do-i-need",
+      "colorado-wedding-rental-checklist",
+      "colorado-outdoor-event-tent-planning",
+    ],
+    relatedCategorySlugs: [
+      "restroom-trailer-rentals",
+      "tent-rentals",
+      "table-chair-rentals",
+      "party-rentals",
+      "wedding-rentals",
+    ],
+    cta: {
+      heading: "Ready to Book Event Restrooms?",
+      description:
+        "Browse restroom trailer rental options and compare local providers for your site, guest count and event length.",
+      primaryLabel: "Find Restroom Trailer Rentals",
+      primaryHref: "/categories/restroom-trailer-rentals",
       secondaryLabel: "Browse Locations",
       secondaryHref: "/locations",
     },

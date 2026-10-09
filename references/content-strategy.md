@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-02 (Resource Run shipped: both cluster resources are live; this week's 5 cities + 2 resources target is met)
+Last updated: 2026-10-08 (Denver Infill Run shipped: 5 cities + 2 resources)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -24,6 +24,13 @@ production before the next batch starts. Hero images need Adam's approval before
 |---|---|---|---|
 | New city pages (rich) | 5 | 5 | Monument, Manitou Springs, Woodland Park, Fountain, Pueblo (plus the Colorado Springs hub upgrade) |
 | New planning resources | 2 | 2 | Colorado outdoor event tent planning; Colorado wedding rental checklist |
+
+### Week of 2026-10-05 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Littleton, Centennial, Westminster, Thornton, Parker |
+| New planning resources | 2 | 2 | How many tables and chairs do I need; Event restroom rental guide |
 
 ---
 
@@ -92,12 +99,62 @@ Nearby links (all reciprocal):
 
 ---
 
+## Current Cluster: Denver Infill (South and North Metro)
+
+Started from the "Denver infill" row of Next Candidate Clusters. Content was drafted on 2026-10-07 by an interrupted run,
+then re-verified against official sources, corrected, integrated and shipped on 2026-10-08.
+
+| Batch | Pages | Status |
+|---|---|---|
+| Denver Infill Run | Littleton (`littleton-co`), Centennial (`centennial-co`), Westminster (`westminster-co`), Thornton (`thornton-co`), Parker (`parker-co`) | Live 2026-10-08 |
+| Resources | `/resources/how-many-tables-and-chairs-do-i-need`, `/resources/event-restroom-rental-guide` | Live 2026-10-08 (heroes shipped). Linked from each other, the size guide, the wedding checklist, all five new cities, and the Fountain, Woodland Park (restroom guide) and Pueblo (tables guide) pages. "Tables and Seating" and "Event Restrooms" removed from `plannedTopics` |
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Littleton:** a Littleton mailing address isn't always city limits (Address Wizard). City Event Permit triggers (public,
+  more than 100 attendees, park, alcohol, sound, tents, stages, generators, closures), 30/45-day eTRAKiT deadlines, layout
+  plan with port-a-lets. Parks run by South Suburban (permit for tents, vendor COI for inflatables, staking locates, no
+  alcohol except nonprofit fundraisers). No permits for South Platte Park; Ketring Park City-only. Residential Amplified
+  Sound Permit for private parties with a DJ or band. South Metro Fire Rescue (tents over 400 sq ft; no event medical).
+- **Centennial:** contract city (incorporated 2001); parks split among the City and four districts. Centennial Center Park
+  rules: tents over 25 sq ft, inflatables, stages and sound beyond 25 ft need a City permit; no staking; Bluff Pavilion
+  (100 people, nine picnic tables). Temporary Use Permit for private property; block-party closures three weeks ahead with
+  MUTCD barricades.
+- **Westminster:** strict pavilion rules (no inflatables, no amplified music, tents 10x10 max, no outside grills, 10 a.m.
+  to 8 p.m.). Special Event – Temporary Use Permit 45 days ahead for public events of 25+ on City property; site plan
+  shows every tent and restroom; weather plan. Fire permit over 400/700 sq ft; generators 20 ft from tents. Standley Lake
+  Special Use Permit.
+- **Thornton:** City Code 46-40 pop-up exception (10x10, 8-inch stakes, natural turf); inflatables need a permit (46-42);
+  amplification needs the director's approval. Carpenter Park pavilions (both pavilions plus a noise permit for a DJ),
+  Harley Brown Amphitheater. Temporary Use Permit (7 to 10 days) with a cross-agency checklist.
+- **Parker:** permit levels (basic rental, General Event when tents exceed 10x10 or inflatables exceed 400 sq ft,
+  Community Event). No staking (weights; water for weights), portable toilets on pavement, electricity not guaranteed,
+  O'Brien Park summer limits, Building Division permit over 400 sq ft.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Denver | aurora, lakewood, arvada, littleton, centennial, westminster, thornton |
+| Littleton | centennial, denver, lakewood, parker |
+| Centennial | littleton, aurora, parker, denver |
+| Westminster | thornton, arvada, boulder, denver |
+| Thornton | westminster, denver |
+| Parker | castle-rock, centennial, aurora, littleton |
+| Aurora | denver, centennial, parker |
+| Lakewood | denver, arvada, littleton |
+| Arvada | denver, lakewood, boulder, westminster |
+| Boulder | arvada, westminster |
+| Castle Rock | denver, colorado-springs, monument, parker |
+
+Denver is still a thin page, so there's no in-body hub paragraph for this cluster yet (see Friday QA).
+
 ## Next Candidate Clusters
 
 | Cluster | Candidate cities | Notes |
 |---|---|---|
 | Northern Colorado / Estes Park | Windsor, Longmont, Estes Park | Builds on Fort Collins, Loveland and Greeley |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Builds on Denver, Aurora, Lakewood and Arvada |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | In progress (see Current Cluster above). Further infill candidates to scope: Englewood, Northglenn, Broomfield |
 | Western Slope | Fruita, Palisade (already referenced in Grand Junction's `nearbyCities`), others to be scoped | Builds on Grand Junction |
 
 ---
@@ -135,11 +192,15 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 - The Western Slope and Ski Towns cards link to `/locations`.
 - The homepage featured-location cards use hard-coded image paths with `alt=""`.
 - The `plannedTopics` list on the resources page: "Tent Sizing and Planning" and "Wedding Rentals" were removed in the
-  Resource Run (now covered); the other four are still unlinked placeholders.
+  Resource Run, and "Tables and Seating" and "Event Restrooms" in the Denver Infill Run (now covered); the other two are
+  still unlinked placeholders.
+- "whether you" still appears in older copy (Aurora, Arvada, Castle Rock, Loveland, Monument, Woodland Park, Fountain and Pueblo
+  pages, the tent planning guide and the wedding checklist). New pages avoid it.
 
 **Content**
 
 - Five thin city pages: Denver, Fort Collins, Boulder, Greeley, Grand Junction (Colorado Springs was upgraded in Batch 2).
+  Denver now lists seven nearby cities but has no rich hub copy for the Denver Infill cluster.
 - Aurora is described only as Arapahoe County.
 - Resource intros don't render links. (The tent cost guide now links back to the size guide, fixed in the Resource Run.)
 - Nine of the 10 category pages are thin.

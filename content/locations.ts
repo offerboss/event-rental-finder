@@ -8,7 +8,15 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co"],
+    nearbyCities: [
+      "aurora-co",
+      "lakewood-co",
+      "arvada-co",
+      "littleton-co",
+      "centennial-co",
+      "westminster-co",
+      "thornton-co",
+    ],
   },
   {
     city: "Colorado Springs",
@@ -175,7 +183,7 @@ export const locations: Location[] = [
     slug: "boulder-co",
     county: "Boulder County",
     featured: true,
-    nearbyCities: ["arvada-co"],
+    nearbyCities: ["arvada-co", "westminster-co"],
   },
   {
     city: "Greeley",
@@ -201,7 +209,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "aurora-co",
     county: "Arapahoe County",
-    nearbyCities: ["denver-co"],
+    nearbyCities: ["denver-co", "centennial-co", "parker-co"],
     heroSupportingCopy:
       "Find event rental companies serving Aurora and the eastern Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -340,7 +348,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "lakewood-co",
     county: "Jefferson County",
-    nearbyCities: ["denver-co", "arvada-co"],
+    nearbyCities: ["denver-co", "arvada-co", "littleton-co"],
     heroSupportingCopy:
       "Find event rental companies serving Lakewood and the western Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -482,7 +490,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "arvada-co",
     county: "Jefferson County",
-    nearbyCities: ["denver-co", "lakewood-co", "boulder-co"],
+    nearbyCities: ["denver-co", "lakewood-co", "boulder-co", "westminster-co"],
     heroSupportingCopy:
       "Find event rental companies serving Arvada and the northwest Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -626,7 +634,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "castle-rock-co",
     county: "Douglas County",
-    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co"],
+    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co", "parker-co"],
     heroSupportingCopy:
       "Find event rental companies serving Castle Rock and the south Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1279,7 +1287,7 @@ export const locations: Location[] = [
       disclaimer:
         "Requirements summarize Woodland Park's 2026 Temporary Use Permit application and park rental form and the Forest Service's group use rules. Confirm current details with the City, the fire district, the Forest Service and your provider.",
       closing:
-        "Still deciding on tent size or budget? Our guides on [what size tent you need](/resources/what-size-tent-do-i-need) and [tent rental cost](/resources/tent-rental-cost) cover the basics. For cold evenings, generator sizing at altitude and afternoon storms, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for mountain weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist).",
+        "Still deciding on tent size or budget? Our guides on [what size tent you need](/resources/what-size-tent-do-i-need) and [tent rental cost](/resources/tent-rental-cost) cover the basics. For cold evenings, generator sizing at altitude and afternoon storms, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for mountain weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist). Since the City's permit site plan has to show toilets and handwashing, the [event restroom rental guide](/resources/event-restroom-rental-guide) covers counts, accessible units and placement.",
     },
     checklist: {
       heading: "Woodland Park Event Rental Checklist",
@@ -1417,7 +1425,7 @@ export const locations: Location[] = [
       disclaimer:
         "Details here summarize the City of Fountain's park rules, park reservation page and event permit application. Confirm current requirements with the City Clerk's office, Parks and Recreation and your rental provider.",
       closing:
-        "For help sizing a tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). Since City park rules call for sandbags or cinder blocks instead of stakes, our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) is worth a read for anchoring, wind, hail and lightning plans.",
+        "For help sizing a tent or budgeting for one, see [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). Since City park rules call for sandbags or cinder blocks instead of stakes, our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) is worth a read for anchoring, wind, hail and lightning plans. The City doesn't supply port-o-lets for park events, so see the [event restroom rental guide](/resources/event-restroom-rental-guide) for counts, accessible units and handwashing.",
     },
     checklist: {
       heading: "Fountain Event Rental Checklist",
@@ -1556,7 +1564,7 @@ export const locations: Location[] = [
       disclaimer:
         "Details here summarize City of Pueblo park and permit pages, the Pueblo Municipal Code, the Pueblo Fire Department tent application, venue pages and NOAA climate normals. Confirm current requirements with the City, the venue and your rental provider.",
       closing:
-        "Planning a tent for shade or a reception? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost). Our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) explains Pueblo's tent permit alongside storm and heat planning, and the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers reception rentals and timing.",
+        "Planning a tent for shade or a reception? See [what size tent you need](/resources/what-size-tent-do-i-need) and [what drives tent rental cost](/resources/tent-rental-cost). Our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) explains Pueblo's tent permit alongside storm and heat planning, and the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers reception rentals and timing. Booking George L. Williams Hall, which has no tables or chairs? See [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need).",
     },
     checklist: {
       heading: "Pueblo Event Rental Checklist",
@@ -1610,6 +1618,697 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Pueblo?",
       description:
         "List your business on Event Rental Finder and get discovered by couples and planners arranging weddings, festivals and events in Pueblo and southern Colorado.",
+    },
+  },
+  {
+    city: "Littleton",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "littleton-co",
+    county: "Arapahoe County",
+    nearbyCities: ["centennial-co", "denver-co", "lakewood-co", "parker-co"],
+    metaDescription:
+      "Plan event rentals in Littleton, CO: tents, tables and chairs, wedding and party rentals, staging and restrooms, plus the City's event permit triggers, South Suburban park rules and street closures.",
+    heroSupportingCopy:
+      "Compare event rental options for Littleton and the southwest Denver metro, from tents, tables and chairs to wedding rentals, inflatables, stages, sound and restroom trailers for backyard parties, park gatherings and downtown events.",
+    heroTagline:
+      "A Littleton mailing address doesn't always mean City of Littleton rules, and parks here are run by South Suburban Parks and Recreation, so the first step is working out whose permit your event actually needs.",
+    categoriesIntro:
+      "Explore the rental categories Littleton hosts use most for backyard weddings, graduation parties, park shelter gatherings, neighborhood events and downtown celebrations.",
+    localIntro: [
+      "Littleton is the Arapahoe County seat on the South Platte River, with a historic downtown along Main Street and neighborhoods that blend into Centennial, Highlands Ranch and unincorporated Arapahoe and Jefferson counties. The City warns that a Littleton mailing address isn't necessarily inside city limits and points residents to its Address Wizard. Check it before applying for anything, because the permit office, fire district and park agency all follow from where the event really is.",
+      "Inside city limits, a City Event Permit is required when an event is open to the public or meets any of a long list of triggers: more than 100 attendees, use of a City park, trail, street or facility, alcohol, food trucks, outdoor amplified sound, stages, tents, canopies or generators, or a street, alley or sidewalk closure. Applications go through the City's eTRAKiT portal at least 30 days ahead, or 45 days if alcohol is involved, and every permitted event needs a layout plan showing canopies and tents, cooking areas, port-a-let locations, entries and exits, trash and vendors. Invitation-only parties at home, such as graduations or private weddings, don't need a formal permit, but the City requires a Residential Amplified Sound Permit for any private party with a DJ or live band.",
+      "Most local parks are operated by South Suburban Parks and Recreation (SSPR), and the City asks organizers of park events to complete South Suburban's special event request first. South Suburban's rules shape the rental order: picnic shelters are reserved online, the rental block has to include setup and cleanup, and tents, canopies and other structures need a District permit. Inflatables are allowed with a $1 million certificate of insurance from the rental company naming South Suburban, the District asks for a call to its permit office a week ahead for utility locates when tents or inflatables will be staked, and glass and personal charcoal grills aren't allowed. South Suburban also says alcohol isn't allowed in its parks unless the event is a nonprofit fundraiser with a municipal permit.",
+      "A few sites are off the table. The City won't issue event permits for events in or through South Platte Park, and Ketring Park is reserved for City-sponsored events. Downtown street closures need a map, a traffic control plan, barricades and signs rented from a reputable company, notice to every property owner fronting the closure, and a certificate of insurance naming the City. Organizers also have to notify South Metro Fire Rescue of special events. South Metro requires permits for tents and membrane structures over 400 square feet and doesn't provide medical services at events, so larger events contract for those privately.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Littleton",
+      intro:
+        "How Littleton hosts use rentals, from backyard graduations to downtown events.",
+      items: [
+        {
+          title: "Backyard Weddings & Graduations",
+          description:
+            "Invitation-only parties at home skip the City Event Permit, so a backyard is often the simpler setting for a reception or graduation party. If a DJ or band is part of the plan, apply for the Residential Amplified Sound Permit through eTRAKiT, and size the tent, seating and dance floor to the yard.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "South Suburban Park Shelters",
+          description:
+            "Shelters range from small family spots to large group pavilions, and the reserved time has to cover setup and cleanup. Bring extra tables and chairs for overflow seating, and get South Suburban's permit before adding a canopy or tent.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents Over 400 Square Feet",
+          description:
+            "A 20-by-20 tent is exactly 400 square feet, so anything larger needs a South Metro Fire Rescue tent permit. Ask the provider for the tent's dimensions and anchoring plan, and include it on the City layout plan if the event needs one.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses in Parks",
+          description:
+            "South Suburban needs a certificate of insurance from the rental company naming the District before the rental. Units that need water carry an extra fee, and staked inflatables need a utility locate request a week ahead.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Downtown & Main Street Events",
+          description:
+            "Public events with a stage, outdoor sound or a street closure need the City Event Permit, and the City's Building Division reviews stages and electrical. Plan [sound and lighting](/categories/av-lighting-rentals) with the provider so it matches the layout plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms for Public Events",
+          description:
+            "Port-a-let locations are part of the required layout plan for permitted events. Restroom trailers suit weddings and longer events, and accessible units belong close to the main event area.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Littleton",
+      intro: "Littleton-specific details to settle before you book rentals.",
+      items: [
+        "Whether the address is inside Littleton city limits, using the City's Address Wizard",
+        "A City Event Permit for public events, more than 100 attendees, alcohol, outdoor amplified sound, tents, stages or generators",
+        "eTRAKiT applications at least 30 days ahead, or 45 days with alcohol",
+        "An event layout plan showing tents, cooking, port-a-lets, entries, exits, trash and vendors",
+        "A Residential Amplified Sound Permit for any private party with a DJ or live band",
+        "South Suburban's special event request first for events in a park",
+        "A South Suburban permit for tents and canopies in its parks, and the inflatable vendor's insurance certificate",
+        "No event permits for South Platte Park, and Ketring Park limited to City-sponsored events",
+        "A South Metro Fire Rescue permit for tents over 400 square feet, and private medical coverage for larger events",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize City of Littleton event permit and private party pages, South Suburban Parks and Recreation park rules and special event materials, and South Metro Fire Rescue permit information. Confirm current requirements with the City, South Suburban and your rental provider.",
+      closing:
+        "Sizing a backyard or shelter tent? See [what size tent you need](/resources/what-size-tent-do-i-need) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning). For seating counts, see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need), and for public events, the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Littleton Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Littleton rental companies:",
+      items: [
+        "Exact address and whether it's in city limits",
+        "Guest count at the busiest point",
+        "Public, private or invitation-only event",
+        "City Event Permit and layout plan, if required",
+        "South Suburban shelter or special event approval",
+        "Tent size and South Metro Fire Rescue permit",
+        "Inflatable permission and vendor insurance",
+        "Amplified sound permit for a DJ or band",
+        "Restroom locations and accessible units",
+        "Seating plus serving, gift and cake tables",
+      ],
+    },
+    faqs: {
+      heading: "Littleton Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for a backyard party in Littleton?",
+          answer:
+            "Invitation-only parties at home, such as graduations, block parties and private weddings, don't need a formal City permit. If the party has a DJ or live band, the City requires a Residential Amplified Sound Permit, and closing a street means notifying the Public Works Traffic Division first.",
+        },
+        {
+          question: "When does a Littleton event need a City Event Permit?",
+          answer:
+            "When it's open to the public or has more than 100 attendees, uses a City park, trail, street or facility, serves alcohol, has food trucks or outdoor amplified sound, or includes stages, tents, canopies or generators. Apply through eTRAKiT at least 30 days ahead, or 45 days with alcohol.",
+        },
+        {
+          question: "Who handles park reservations in Littleton?",
+          answer:
+            "Most parks are run by South Suburban Parks and Recreation, which handles shelter reservations online and reviews special events. The City asks organizers of park events to complete South Suburban's request first and attach its approval to the City application.",
+        },
+        {
+          question: "Can I bring a bounce house to a South Suburban park?",
+          answer:
+            "Yes, with conditions. Before the rental, South Suburban needs a $1 million certificate of insurance from the rental company naming the District. Inflatables that need water carry an extra fee, and staked inflatables need a utility locate request a week ahead.",
+        },
+        {
+          question: "Does a tent need a fire permit in Littleton?",
+          answer:
+            "South Metro Fire Rescue requires permits for tents and membrane structures over 400 square feet, which means anything larger than a 20-by-20. Tents also count as a trigger for the City Event Permit, so check both before you order.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Littleton?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging weddings, graduations and events in Littleton and the south Denver metro.",
+    },
+  },
+  {
+    city: "Centennial",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "centennial-co",
+    county: "Arapahoe County",
+    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co"],
+    metaDescription:
+      "Plan event rentals in Centennial, CO: tables and chairs, tents, party and wedding rentals, inflatables and restrooms, plus Centennial Center Park rules, park district permits and block party closures.",
+    heroSupportingCopy:
+      "Compare event rental options for Centennial and the south Denver metro, from tables, chairs and tents to party rentals, inflatables, photo booths and restroom trailers for park gatherings, HOA events and backyard celebrations.",
+    heroTagline:
+      "Centennial is a contract city, so the rules for your event depend on who runs the ground you're on: the City's own Centennial Center Park, one of several park and recreation districts, or private property.",
+    categoriesIntro:
+      "Explore the rental categories Centennial hosts use most for park pavilion parties, HOA and neighborhood events, graduations, weddings and backyard celebrations.",
+    localIntro: [
+      "Centennial became a city on February 7, 2001, after 77 percent of voters approved incorporation, and it sits in Arapahoe County just south of Denver. It was built on a contract model: the City contracts for many services, the Arapahoe County Sheriff's Office provides public safety, and special districts provide services like fire protection. That structure carries over to event planning, because the permit you need depends on which agency controls the site.",
+      "Parks are the clearest example. The City works with South Suburban Parks and Recreation, the Arapahoe County Recreation District, Trails Park and Recreation District and the Smoky Hill Metro District, and together they offer more than 100 parks, but the City owns only a few itself, including Centennial Center Park, Cherokee Trail Park and Parker Jordan Centennial Open Space. Before you book rentals for a neighborhood park, find out which district manages it and ask for its rules on shelters, tents, inflatables and sound.",
+      "Centennial Center Park, the City's 15-acre park off Arapahoe Road next to the Civic Center, has been open since 2012 and has five reservable areas: the amphitheater, Bluff Pavilion, Coffee Shelter, Large Shelter and Plaza. The Bluff Pavilion holds up to 100 people, rents for a two-hour minimum and comes with nine picnic tables, electricity and two grills. Without a City permit, park rules prohibit tents larger than 25 square feet, inflatables, stages and platforms, vehicles in the park and amplified sound audible more than 25 feet away. Even with a permit, staking into the lawn or pavement isn't allowed; only above-ground tie-offs or weights the City approves, and the City can require a diagram controlling delivery, setup and placement.",
+      "Private property and streets follow other rules. The City's Temporary Use Permit covers temporary uses of private property and temporary structures, and tents on its site plan need a Commercial Temporary or Accessory Structure Permit. For a block party, submit a street closure request at least three weeks ahead; barricades must meet federal (MUTCD) standards, and cars, cones and trash cans can't serve as barricades. The City notes that large tents may need a separate permit from the local fire district, and South Metro Fire Rescue, which serves Centennial, permits tents over 400 square feet.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Centennial",
+      intro:
+        "How Centennial hosts use rentals, from pavilion parties to neighborhood events.",
+      items: [
+        {
+          title: "Bluff Pavilion & Shelter Parties",
+          description:
+            "The Bluff Pavilion's nine picnic tables seat only part of a 100-person group. Rent extra tables and chairs, plus serving and gift tables, and plan carry-in delivery, since vehicles can't enter Centennial Center Park without a permit.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Shade Without Big Tents",
+          description:
+            "Centennial Center Park allows shade awnings and umbrellas up to 25 square feet that leave with you. Anything larger needs a City permit and must be weighted rather than staked; in a district park or on private property, ask about the fire district's 400-square-foot line.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "HOA & Neighborhood Events",
+          description:
+            "HOA picnics and block parties often combine a street closure or district park with tables, canopies and games. Submit the City's street closure request three weeks ahead and line up MUTCD-compliant barricades before you finalize the rental order.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Bounce Houses & Kids' Parties",
+          description:
+            "Inflatables are prohibited at Centennial Center Park without a City permit, and district parks set their own approval and insurance rules. In a backyard, ask the provider about anchoring, power and the space each unit needs.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Amphitheater & Community Events",
+          description:
+            "The Centennial Center Park amphitheater is reservable for performances and larger gatherings. Stages, generators and sound beyond 25 feet need City approval, and the City notes that using the amphitheater's 800-amp electrical service requires a licensed electrician.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Photo Booths & Celebrations",
+          description:
+            "Graduation and anniversary parties often add a photo booth or backdrop. The Bluff Pavilion has electricity, but confirm outlet locations and keep cords off paths, and plan battery power where outlets aren't available.",
+          categorySlug: "photo-booth-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Centennial",
+      intro: "Centennial-specific details to settle before you book rentals.",
+      items: [
+        "Who manages the park: the City or one of its partner park and recreation districts",
+        "At Centennial Center Park, a City permit for tents over 25 square feet, inflatables, stages and sound audible beyond 25 feet",
+        "No staking at Centennial Center Park; only City-approved tie-offs or weights",
+        "A City diagram for delivery, setup and placement, if the City requires one",
+        "No vehicles in Centennial Center Park without a permit, so deliveries are carried in",
+        "Bluff Pavilion capacity of 100, a two-hour minimum and nine picnic tables",
+        "A separate alcohol permit with any park reservation that includes alcohol",
+        "A Temporary Use Permit for temporary uses of private property, with tents on the site plan",
+        "A block party street closure request three weeks ahead, with MUTCD-compliant barricades",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize City of Centennial pages on its parks, Centennial Center Park rules and administrative policy, park reservations, temporary use permits and block party street closures, plus South Metro Fire Rescue permit information. Confirm current requirements with the City, your park district and your rental provider.",
+      closing:
+        "For a pavilion or backyard party, see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need). Planning a tent instead? Start with [what size tent you need](/resources/what-size-tent-do-i-need) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for public events, see the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Centennial Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Centennial rental companies:",
+      items: [
+        "Park manager (City or district) or private address",
+        "Guest count at the busiest point",
+        "Pavilion or shelter reservation",
+        "Permits for tents, inflatables, stages or sound",
+        "Weights or tie-offs instead of stakes",
+        "Carry-in route if vehicles aren't allowed",
+        "Extra tables, chairs and linens",
+        "Alcohol permit, if serving",
+        "Street closure request and barricades",
+        "Power: pavilion outlet, battery or approved generator",
+      ],
+    },
+    faqs: {
+      heading: "Centennial Event Rental FAQ",
+      items: [
+        {
+          question: "Who manages my neighborhood park in Centennial?",
+          answer:
+            "It depends on the park. The City owns only a few, including Centennial Center Park, and works with South Suburban Parks and Recreation, the Arapahoe County Recreation District, Trails Park and Recreation District and the Smoky Hill Metro District for the rest. Reserve through the agency that manages the park and follow its rules.",
+        },
+        {
+          question: "Can I put up a tent at Centennial Center Park?",
+          answer:
+            "Shade awnings and umbrellas up to 25 square feet are allowed if you remove them when you leave. Anything larger needs a City permit, and approved structures must use above-ground tie-offs or weights, since staking into the lawn or pavement isn't allowed.",
+        },
+        {
+          question: "How many people fit at the Bluff Pavilion?",
+          answer:
+            "Up to 100. The reservation includes nine picnic tables, electricity and two grills, with a two-hour minimum, so larger groups usually add rented tables and chairs.",
+        },
+        {
+          question: "Do I need a permit for a block party in Centennial?",
+          answer:
+            "If you're closing the street, yes. Submit a street closure request at least three weeks ahead. Barricades must meet MUTCD standards, emergency vehicles need access between closure points, and approvals are shared with the fire protection district and the Sheriff's Office.",
+        },
+        {
+          question: "Can we serve alcohol at an event in Centennial?",
+          answer:
+            "At Centennial Center Park, alcohol needs a City permit, applied for with the reservation. A public event that serves alcohol needs a Special Event Permit, and Colorado law (C.R.S. 44-5-102) limits eligibility to organizations such as nonprofits and civic, religious, athletic and political groups.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Centennial?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families, HOAs and planners arranging parties and events in Centennial and the south Denver metro.",
+    },
+  },
+  {
+    city: "Westminster",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "westminster-co",
+    county: "Adams and Jefferson Counties",
+    nearbyCities: ["thornton-co", "arvada-co", "boulder-co", "denver-co"],
+    metaDescription:
+      "Plan event rentals in Westminster, CO: tables and chairs, tents, wedding rentals, restrooms and staging, plus the City's strict pavilion rules, Standley Lake permits and the 45-day special event permit.",
+    heroSupportingCopy:
+      "Compare event rental options for Westminster and the northwest Denver metro, from tables, chairs and tents to wedding rentals, restroom trailers, stages and sound for backyard parties, community events and lakeside gatherings.",
+    heroTagline:
+      "Westminster's park pavilions come with some of the metro's tightest rules, with no inflatables, no amplified music and no tent bigger than 10 by 10 feet, so larger celebrations usually move to private property or a special event permit.",
+    categoriesIntro:
+      "Explore the rental categories Westminster hosts use most for backyard parties, pavilion picnics, weddings, community events and gatherings near Standley Lake.",
+    localIntro: [
+      "Westminster sits between Denver and Boulder along the US 36 corridor and spans two counties: the City's own guidance places areas west of Sheridan Boulevard in Jefferson County and areas east of it in Adams County. The county line rarely changes a rental order, but applications sometimes ask for it, so note which side of Sheridan your site is on.",
+      "City park pavilions are the most common small-event venue, and their rules shape the rental list. Reservations run 10 a.m. to 8 p.m., and capacities range from 30 people at the smallest pavilions to 200 at Squires Park. Inflatables, including jump castles, aren't allowed in any City park, amplified music isn't allowed, outside grills can't be brought in, and only tents 10 by 10 feet or smaller are permitted. Piñatas, confetti, glitter and water balloons are out too, vehicles can't be driven to pavilions, and pavilion restrooms close at 8 p.m. Beer and wine are allowed only with an alcohol permit, in cans or boxes, never glass.",
+      "Larger and public events follow a different path. A Special Event – Temporary Use Permit is required when an event is open to the public, expects 25 or more people and uses City property, or when a public event at a business expands outdoors into a parking lot or onto adjacent property. Applications go in at least 45 days ahead. The site plan has to show every tent and canopy regardless of size, restrooms and whether they're accessible, trash and recycling, and parking for at least a third of attendees, and the written plan has to explain how the event will respond to extreme heat or cold, high winds, tornadoes, heavy rain or snow and lightning.",
+      "Tents get their own review. The City's application flags tents over 400 square feet, or over 700 square feet combined, for a Westminster Fire Department permit and inspection, and the Fire Department's special event requirements keep generators outside tents and at least 20 feet from tent walls and other combustibles. For a lakeside gathering, Standley Lake Regional Park, a 3,000-acre park in unincorporated Jefferson County, uses its own Special Use Permit for private gatherings, with the application due at least 30 days ahead. Its lake supplies drinking water to Westminster, Thornton and Northglenn, so swimming and wading aren't allowed.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Westminster",
+      intro:
+        "How Westminster hosts use rentals, from pavilion picnics to backyard receptions.",
+      items: [
+        {
+          title: "Pavilion Birthday & Graduation Parties",
+          description:
+            "Pavilion capacities run from 30 to 200 guests depending on the park, and the rental covers the pavilion area only. Rent extra tables and chairs for the overflow, and plan carry-in delivery, since vehicles can't be driven to pavilions.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Small Shade Tents Only",
+          description:
+            "In a City park, tents are capped at 10 by 10 feet. For anything larger, host on private property and ask the provider whether the tent crosses the Fire Department's 400-square-foot permit line.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Weddings & Receptions",
+          description:
+            "With no amplified music or large tents in City parks, receptions tend to land on private property, where the full kit applies: a tent, seating, linens, lighting and a [dance floor](/categories/dance-floor-rentals).",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Restrooms for Public Events",
+          description:
+            "The special event site plan has to show where restrooms go and whether they're gender-specific and accessible, and the written plan needs delivery and pickup times. Restroom trailers suit weddings and longer events on private property.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Community Events & Festivals",
+          description:
+            "Festivals, car shows and markets that draw 25 or more people to City property, or spill into a private parking lot, need the Special Event – Temporary Use Permit 45 days out. Stages, [sound and lighting](/categories/av-lighting-rentals) belong on the site plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Lakeside Gatherings at Standley Lake",
+          description:
+            "Private gatherings at Standley Lake go through the park's own Special Use Permit, due 30 days ahead. Ask the park which venues are available and what outside rentals it allows before you place an order.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Westminster",
+      intro: "Westminster-specific details to settle before you book rentals.",
+      items: [
+        "Pavilion rules: no inflatables, no amplified music, no outside grills and no tents larger than 10 by 10 feet",
+        "Fixed pavilion hours of 10 a.m. to 8 p.m., with restrooms closing at 8 p.m.",
+        "Pavilion capacity, from 30 to 200 guests depending on the park",
+        "No vehicles at pavilions, so deliveries are carried in from the parking lot",
+        "A Special Event – Temporary Use Permit 45 days ahead for public events of 25 or more on City property",
+        "A site plan showing every tent and canopy, restrooms, accessibility, trash and parking for a third of attendees",
+        "A weather plan covering heat, cold, high winds, tornadoes, heavy rain or snow and lightning",
+        "A Fire Department permit for tents over 400 square feet (or 700 combined), with generators 20 feet from tents",
+        "A Standley Lake Special Use Permit, due 30 days ahead, for lakeside events",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Westminster's park pavilion and special event permit pages and application packet, Westminster Fire Department special event requirements and Standley Lake Regional Park pages. Confirm current requirements with the City and your rental provider.",
+      closing:
+        "For layout and seating counts, see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need), and for public events, the [event restroom rental guide](/resources/event-restroom-rental-guide). Moving the party to a tent on private property? See [what size tent you need](/resources/what-size-tent-do-i-need) and the [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist).",
+    },
+    checklist: {
+      heading: "Westminster Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Westminster rental companies:",
+      items: [
+        "Park pavilion or private address",
+        "Guest count vs. pavilion capacity",
+        "Tent size (10 by 10 maximum in parks)",
+        "Special Event – Temporary Use Permit, if public",
+        "Site plan with tents, restrooms and parking",
+        "Weather and lightning plan",
+        "Fire Department permit for large tents",
+        "Generator placement 20 feet from tents",
+        "Alcohol permit (beer and wine only in parks)",
+        "Seating, linens and serving tables",
+      ],
+    },
+    faqs: {
+      heading: "Westminster Event Rental FAQ",
+      items: [
+        {
+          question: "Can I have a bounce house at a Westminster park?",
+          answer:
+            "No. The City says inflatables, including jump castles, aren't allowed in any City of Westminster park. Hold the party at home or another private property, and ask the provider about anchoring and power.",
+        },
+        {
+          question: "Can I play music at a Westminster pavilion?",
+          answer:
+            "Amplified music isn't allowed in City parks under the pavilion rules. Plan acoustic entertainment, or move a DJ or band to a private venue.",
+        },
+        {
+          question: "How big a tent can I put up in a Westminster park?",
+          answer:
+            "Tents 10 by 10 feet and smaller are permitted at pavilions. Larger tents belong on private property or in a permitted special event, and tents over 400 square feet need a Fire Department permit and inspection.",
+        },
+        {
+          question: "When do Westminster pavilion reservations open?",
+          answer:
+            "Reservations for the 2026 season have ended, and pavilions are first come, first served for now. Reservations for the 2027 season open January 4, 2027, through a household online account.",
+        },
+        {
+          question: "Do I need a permit for a public event in Westminster?",
+          answer:
+            "If it's open to the public, expects 25 or more people and uses City property, yes: a Special Event – Temporary Use Permit, submitted at least 45 days ahead. Public events that spill from a business into a parking lot or onto adjacent property need one too.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Westminster?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Westminster and the northwest Denver metro.",
+    },
+  },
+  {
+    city: "Thornton",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "thornton-co",
+    county: "Adams County",
+    nearbyCities: ["westminster-co", "denver-co"],
+    metaDescription:
+      "Plan event rentals in Thornton, CO: tables and chairs, tents, inflatables, stages and party rentals, plus Carpenter Park pavilion rules, the 10-by-10 canopy limit, temporary use permits and noise permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Thornton and the north Denver metro, from tables, chairs and canopies to inflatables, stages, sound and restroom trailers for pavilion parties, community events and backyard celebrations.",
+    heroTagline:
+      "Thornton's city code draws a clear line for park parties: a pop-up canopy up to 10 by 10 feet is fine on natural turf during park hours, but larger tents and every bounce house need a permit.",
+    categoriesIntro:
+      "Explore the rental categories Thornton hosts use most for pavilion parties, family reunions, community events, graduations and backyard celebrations.",
+    localIntro: [
+      "Thornton stretches north from Denver through Adams County, and the City says it manages more than 2,500 acres of parks and open space and over 140 miles of trails. City Code sets general park hours of 6 a.m. to 10 p.m., and some parks post their own (Carpenter Park lists 6 a.m. to 11 p.m.), so check the hours for your park: delivery, the party and pickup all have to fit inside them unless the City authorizes otherwise.",
+      "The park code is specific about rentals. No tent, shelter or structure can go up in a park without a permit from the Parks and Recreation director or a designee, with one exception: a temporary pop-up canopy no larger than 10 by 10 feet, used only for shade or protection from rain or wind, with stakes no longer than 8 inches, on natural turf during park hours. Inflatable bouncy houses, castles and slides need a permit, public address systems and other amplification need the director's written approval, and only authorized vehicles can drive or park on lawns, fields or sidewalks, so deliveries stop at the road or parking lot.",
+      "Carpenter Park, at 3498 E. 112th Avenue, is the city's best-known party park. Its East Pavilion has five picnic tables seating 40, with a maximum capacity of 50 and two outlets, and the West Pavilion has 13 picnic tables seating 100 and three outlets. Pavilions rent all day from April 1 to October 31, gas grills are allowed on the cement only, and beer needs an alcohol permit that takes two weeks. A DJ or any amplified sound requires renting both pavilions and getting a free noise permit five days ahead. The park's Harley Brown Amphitheater seats up to 500, and pavilion reservations are also required at Cherry Park, Community Park, Woodglen-Brookshire Park and Yorkborough Park.",
+      "Public events and temporary uses on private property go through a Temporary Use Permit, which the City says typically takes 7 to 10 calendar days once complete. The application needs a letter of intent, landowner authorization and a scaled site plan showing tents, fencing, barricades, distances to property lines and streets, entrances and emergency access. The City's checklist lists separate permits that often ride along: the Fire Department for tents over 400 square feet or canopies over 700 square feet, the Sales Tax Department for inflatable devices, the City Clerk for amplified sound and liquor, and Adams County Health for food.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Thornton",
+      intro:
+        "How Thornton hosts use rentals, from pavilion parties to community events.",
+      items: [
+        {
+          title: "Carpenter Park Pavilion Parties",
+          description:
+            "The West Pavilion's 13 picnic tables seat about 100 and the East Pavilion's five seat 40, so a bigger guest list needs rented tables and chairs. Add serving and cake tables, and plan carry-in delivery from the parking area.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Canopies Within the 10-by-10 Rule",
+          description:
+            "A 10-by-10 pop-up with stakes no longer than 8 inches can go on natural turf without a permit. Anything larger needs the director's permit in a park, and tents over 400 square feet go to the Fire Department.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses With a Permit",
+          description:
+            "Bouncy houses, castles and slides need a permit in any Thornton park. Ask your provider how the unit is anchored, whether it needs a generator and what wind limits they follow before you apply.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "DJs, Speakers & Noise Permits",
+          description:
+            "At Carpenter Park, any DJ or amplified sound means renting both pavilions and getting a free noise permit five days ahead. In other parks, amplification needs the director's written approval.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Community Events & Concerts",
+          description:
+            "The Harley Brown Amphitheater seats up to 500. For events on open lawns or private lots, a stage, [restroom trailers](/categories/restroom-trailer-rentals) and fencing all go on the Temporary Use Permit site plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Family Reunions & Backyard Parties",
+          description:
+            "Reunions and summer birthdays in Thornton backyards often combine a canopy, tables, a [photo booth](/categories/photo-booth-rentals) and games. Private property allows more room to grow, but ask the provider whether a large tent needs a Fire Department permit.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Thornton",
+      intro: "Thornton-specific details to settle before you book rentals.",
+      items: [
+        "No tents or structures in parks without the director's permit, except pop-ups up to 10 by 10 feet with stakes of 8 inches or less",
+        "A permit for any bouncy house, castle or slide in a park",
+        "The director's written approval for amplification in parks",
+        "Posted park hours (6 a.m. to 10 p.m. under City Code) for delivery, setup and pickup",
+        "No driving or parking on lawns, fields or sidewalks",
+        "At Carpenter Park, both pavilions plus a free noise permit (five days) for any DJ or amplified sound",
+        "At Carpenter Park, beer only with an alcohol permit (two weeks), no glass, and gas grills on cement only",
+        "A Temporary Use Permit (typically 7 to 10 days) with a scaled site plan for public events and temporary uses",
+        "Fire Department review for tents over 400 square feet or canopies over 700 square feet",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the Thornton City Code's park rules, the City's park, Carpenter Park and pavilion reservation pages, and its Temporary Use Permit checklist. Confirm current requirements with Thornton Parks and Recreation, City planning staff and your rental provider.",
+      closing:
+        "Counting picnic tables against a guest list? See [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need). For tent sizing past the 10-by-10 rule, see [what size tent you need](/resources/what-size-tent-do-i-need) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for community events, the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Thornton Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Thornton rental companies:",
+      items: [
+        "Park and pavilion, or private address",
+        "Guest count vs. pavilion seating",
+        "Canopy size (10 by 10 or a permit)",
+        "Inflatable permit",
+        "Noise permit or amplification approval",
+        "Alcohol permit, if serving beer",
+        "Temporary Use Permit and site plan",
+        "Fire Department review for large tents",
+        "Delivery route that stays off the lawn",
+        "Setup and pickup inside park hours",
+      ],
+    },
+    faqs: {
+      heading: "Thornton Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Can I put up a canopy at a Thornton park without a permit?",
+          answer:
+            "Yes, if it's a temporary pop-up canopy no larger than 10 by 10 feet, used for shade or protection from rain or wind, with stakes no longer than 8 inches, on natural turf during park hours. Larger tents and other structures need a permit from the Parks and Recreation director.",
+        },
+        {
+          question: "Do I need a permit for a bounce house in Thornton?",
+          answer:
+            "In a City park, yes. The City Code prohibits inflatable bouncy houses, castles, slides and similar inflatables without a permit from the director or a designee. For public events, the City's Temporary Use Permit checklist also routes inflatable devices to the Sales Tax Department.",
+        },
+        {
+          question: "Can I have a DJ at Carpenter Park?",
+          answer:
+            "Yes, with conditions. The City requires renting both pavilions and getting a noise permit, which is free and takes five days to process, for a DJ or any amplified sound.",
+        },
+        {
+          question: "How many people fit at Carpenter Park's pavilions?",
+          answer:
+            "The West Pavilion has 13 picnic tables seating 100. The East Pavilion has five tables seating 40, with a maximum capacity of 50. Both rent all day from April 1 to October 31.",
+        },
+        {
+          question: "How long does a Thornton Temporary Use Permit take?",
+          answer:
+            "The City lists a typical processing time of 7 to 10 calendar days after a complete application, and incomplete applications aren't accepted. Allow more time for related permits; special event liquor permit applications, for example, are due at least 45 days ahead.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Thornton?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, reunions and events in Thornton and the north Denver metro.",
+    },
+  },
+  {
+    city: "Parker",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "parker-co",
+    county: "Douglas County",
+    nearbyCities: [
+      "castle-rock-co",
+      "centennial-co",
+      "aurora-co",
+      "littleton-co",
+    ],
+    metaDescription:
+      "Plan event rentals in Parker, CO: tents, tables and chairs, inflatables, stages and restrooms, plus the Town's 10-by-10 tent trigger, community event permits, O'Brien Park limits and no-stake setups.",
+    heroSupportingCopy:
+      "Compare event rental options for Parker and northern Douglas County, from tents, tables and chairs to inflatables, stages, sound and restroom units for park parties, downtown events and backyard celebrations.",
+    heroTagline:
+      "In Parker, the size of your tent can change the paperwork: add a tent bigger than 10 by 10 feet, a generator, a stage or a large inflatable to a park rental, and it becomes a General Event that takes 45 to 60 days.",
+    categoriesIntro:
+      "Explore the rental categories Parker hosts use most for park parties, downtown events, graduations, weddings and backyard celebrations.",
+    localIntro: [
+      "Parker is a Douglas County town southeast of Denver, with its downtown along Mainstreet and a Parks and Recreation department that rents shelters, fields and downtown parks directly. The Town says most of its parks can support events of up to 100 people; O'Brien Park and Salisbury Park handle larger crowds, Discovery Park has a bandshell for performances, and Salisbury, Bar CCC and Tallman Meadow work for events that use trails.",
+      "Park rentals come in levels. A basic shelter or field rental covers a simple party, with requests at least 72 hours ahead. A General Event permit, with 45 to 60 days for approval, applies when a rental adds tents larger than 10 by 10 feet, generators, barricades, stages or inflatables over 400 square feet, or needs Town electricity or water, vendors or security. A Community Event permit, with 60 days for approval, applies to road or public parking lot closures, alcohol on public property, outdoor events of 100 or more people on public property, and 1,000 or more on private property. Applications for January–June events open November 1, and for July–December events, February 15.",
+      "Town property has its own setup rules. Tents and inflatables can't be staked without approval from Parks and Recreation, because stakes can damage irrigation, so plan on weights; most parks have water for filling water weights, available for a one-time fee. Portable toilets must sit on pavement, not turf or plant beds, and the Town can require additional restrooms for larger events. Some shelters have outlets, but the Town says electricity is never guaranteed, so a generator is the safer plan when power matters. Any structure over 400 square feet needs vendor specifications and hold-down details plus a separate Building Division permit.",
+      "Downtown is the busiest setting. O'Brien Park doesn't allow full-park rentals between Memorial Day and Labor Day, and the Town notes that new event requests there between May and September may not be approved. A Mainstreet closure makes an event Tier 3, the same tier as events of 3,000 or more people, and community events can't be marketed until the Town grants concept approval at its monthly staff review. Afternoon storms are part of the plan too: the National Weather Service says no place outside is safe when thunderstorms are in the area, and a tent isn't a lightning shelter.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Parker",
+      intro:
+        "How Parker hosts use rentals, from shelter parties to downtown events.",
+      items: [
+        {
+          title: "Shelter & Pavilion Parties",
+          description:
+            "Park shelters need at least 72 hours' notice, and the rental time has to include setup and teardown. Rent the tables, chairs and linens you need beyond what's at the shelter, and keep tents to 10 by 10 or smaller to stay a simple rental.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents Larger Than 10 by 10",
+          description:
+            "A tent bigger than 10 by 10 feet turns a park rental into a General Event, and anything over 400 square feet also needs a Building Division permit. Ask the provider for dimensions, specifications and a weighted hold-down plan.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses & Kids' Events",
+          description:
+            "Inflatables over 400 square feet trigger a General Event permit and Building Division review, and every inflatable on Town property needs weights unless Parks approves staking. List any inflatable on the rental application.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Performances at Discovery Park",
+          description:
+            "Discovery Park's bandshell is built for performances. Add [sound and lighting](/categories/av-lighting-rentals) as needed, plan on a generator since Town power isn't guaranteed, and remember that generators and stages count toward a General Event permit.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms on Pavement",
+          description:
+            "Portable toilets go on a parking lot or walk, never on turf or plant beds, and the Town can require extra units for larger events. If you're counting on park restrooms, confirm with the Town that they'll be open and stocked.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Weddings & Backyard Celebrations",
+          description:
+            "On private property, the Community Event permit only applies at 1,000 or more people outdoors, so most receptions come down to the rental order: a tent, seating, a [dance floor](/categories/dance-floor-rentals), lighting and restrooms. Ask whether a large tent needs a Town building permit.",
+          categorySlug: "wedding-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Parker",
+      intro: "Parker-specific details to settle before you book rentals.",
+      items: [
+        "Shelter rental requests at least 72 hours ahead, with setup and teardown inside the rental time",
+        "A General Event permit (45 to 60 days) for tents over 10 by 10 feet, generators, stages, barricades or inflatables over 400 square feet",
+        "A Community Event permit (60 days) for road closures, alcohol on public property, or 100 or more people outdoors on public property",
+        "A separate Building Division permit for structures over 400 square feet",
+        "No staking on Town property without Parks approval; weights instead",
+        "Portable toilets on pavement only, plus extra restrooms if the Town requires them",
+        "Electricity that isn't guaranteed, even where outlets exist",
+        "No full-park O'Brien Park rentals from Memorial Day to Labor Day",
+        "Concept approval before marketing a community event",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize Parker Parks and Recreation's event hosting and park rental pages, the Town of Parker's community event permit page and National Weather Service lightning guidance. Confirm current requirements with the Town's event staff, Parks and Recreation and your rental provider.",
+      closing:
+        "Sizing a tent around Parker's 10-by-10 and 400-square-foot lines? See [what size tent you need](/resources/what-size-tent-do-i-need) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning). For restroom placement and counts, see the [event restroom rental guide](/resources/event-restroom-rental-guide), and for seating, [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need).",
+    },
+    checklist: {
+      heading: "Parker Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Parker rental companies:",
+      items: [
+        "Park, shelter or private address",
+        "Guest count at the busiest point",
+        "Basic rental, General Event or Community Event permit",
+        "Tent sizes and a weighted hold-down plan",
+        "Building Division permit for anything over 400 square feet",
+        "Water for weights",
+        "Generator for reliable power",
+        "Portable toilets placed on pavement",
+        "Site map with tents, inflatables, stages and restrooms",
+        "Vendor list and insurance certificates",
+      ],
+    },
+    faqs: {
+      heading: "Parker Event Rental FAQ",
+      items: [
+        {
+          question: "What makes a Parker park rental a General Event?",
+          answer:
+            "Adding tents larger than 10 by 10 feet, generators, barricades, stages or inflatables over 400 square feet, or needing Town electricity or water, vendors or security. General Event permits take 45 to 60 days for approval.",
+        },
+        {
+          question: "Can I stake a tent in a Parker park?",
+          answer:
+            "Not without prior approval from Parks and Recreation, because stakes can damage irrigation lines. Plan on weights instead; most parks have water for filling water weights, available for a one-time fee.",
+        },
+        {
+          question: "Can I rent all of O'Brien Park for a summer event?",
+          answer:
+            "Full-park rentals aren't permitted between Memorial Day and Labor Day, and the Town notes that new event requests at O'Brien Park between May and September may not be approved. Salisbury Park and Discovery Park are alternatives for larger or performance events.",
+        },
+        {
+          question: "Where can portable toilets go at a Parker park event?",
+          answer:
+            "On pavement, such as a parking lot or walk, never on turf or in plant beds. The Town can require additional restrooms based on event size, so ask about ratios when you apply.",
+        },
+        {
+          question: "When can I apply for a Parker community event permit?",
+          answer:
+            "For events from January through June, applications open November 1; for July through December, they open February 15. Allow at least 60 days for approval, and don't promote the event until it has concept approval.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Parker?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Parker and northern Douglas County.",
     },
   },
 ];

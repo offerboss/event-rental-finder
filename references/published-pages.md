@@ -1,12 +1,56 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-02 (Resource Run: Colorado outdoor event tent planning, Colorado wedding rental checklist)
+Last audited: 2026-10-08 (Denver Infill Run: Littleton, Centennial, Westminster, Thornton, Parker; tables and chairs guide; event restroom guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-08: ERF Denver Infill Run 
+
+- **Origin:** an interrupted run on 2026-10-07 left uncommitted drafts of all seven pages. This run re-verified them at
+  official sources, corrected the facts that didn't match, wired heroes and links, and updated these references.
+- **New rich city pages** (content in `content/locations.ts`), rendered words in `<main>`:
+  - Littleton (`/locations/littleton-co`), about 1,570 words.
+  - Centennial (`/locations/centennial-co`), about 1,470 words.
+  - Westminster (`/locations/westminster-co`), about 1,470 words.
+  - Thornton (`/locations/thornton-co`), about 1,480 words.
+  - Parker (`/locations/parker-co`), about 1,470 words.
+- **New resource guides** (content in `content/resources.ts`, `publishedAt` 2026-10-08; update if shipping later):
+  - How Many Tables and Chairs Do I Need? (`/resources/how-many-tables-and-chairs-do-i-need`), about 1,575 words.
+  - Event Restroom Rentals (`/resources/event-restroom-rental-guide`), about 1,325 words.
+- **Links:** nearby lists updated on Denver, Aurora, Lakewood, Arvada, Boulder and Castle Rock (all reciprocal). New
+  resource links from the size guide (in-body and related), the wedding checklist (in-body and related) and the Fountain,
+  Woodland Park and Pueblo closings. "Tables and Seating" and "Event Restrooms" removed from `plannedTopics`.
+- **Heroes:** `public/images/locations/<slug>-event-rentals.webp` for the five cities and
+  `public/images/resources/<slug>.webp` for both guides (1080x720 WebP, 90 to 216 KB, Adam-generated and approved).
+- **Sources:**
+  - Littleton: City Event Permits page; Neighborhood and Private Parties page; City Permits and Licenses page; South
+    Suburban Parks and Recreation Park and Trail Rules (Sept. 2023) and Shelter Rentals & Special Events FAQ; South Metro
+    Fire Rescue special event permits page.
+  - Centennial: City History page; Parks, Trails & Open Spaces and Park and Recreation Districts pages; Centennial Center
+    Park page; Make a Park Reservation page; Centennial Center Park Rules and Regulations (Sec. 11-7-30), Administrative
+    Policy 2012-AP-01 and Use Restriction Exemption/Special Events Application; Permits for Special Events page; Apply for
+    a Temporary Use Permit page; Block Party/Street Closure Request page; South Metro Fire Rescue; C.R.S. 44-5-102.
+  - Westminster: Park Pavilions page (2026 season status, rules, capacities); Rules & Regulations page; Special Event
+    Permits page; Special Event – Temporary Use Permit Application Packet; Westminster Fire Department Special Events
+    requirements; Standley Lake Regional Park page; City elections/housing pages (Sheridan Boulevard county line).
+  - Thornton: City Code Ch. 46 (Secs. 46-32, 46-37, 46-40, 46-42, 46-44) via Municode; Carpenter Park page; Recreation
+    Rentals and Parks & Planning pages; Open Space page (2,500 acres, 140 miles); Temporary Use Permit checklist; Sound
+    Permit application; City Clerk Special Events (liquor) Permit packet.
+  - Parker: Parker Parks and Recreation Hosting an Event page and Park, Shelter, Court and Field Rentals page; Town
+    Community Event Permits page and guide; Building/Fire and Life Safety event permits page and A-Z supplement; NWS
+    lightning safety.
+  - Tables and chairs guide: CU Boulder Events Planning & Catering venue fact sheet; CU Denver Jake Jabs Event Center
+    page; 2021 IFC Table 1004.5 and Chapter 31 (Secs. 3103.6, 3103.12, Table 3103.12.1) via UpCodes (Colorado DFPC
+    edition); DFPC adopted codes page; 2010 ADA Standards 226.1, 902; Thornton, Centennial and Pueblo venue pages.
+  - Restroom guide: Mesa County Public Health Guide for Special Event Coordinators (2024); 2010 ADA Standards 213.2
+    exception and 104.2; Westminster pavilion page and special event packet; City of Fountain Special Events Permit
+    Application; Woodland Park Temporary Use Permit; Parker Hosting an Event page; Littleton Event Permits page; Denver
+    Parks and Recreation Event Logistics Guide; NOAA 1991–2020 normals (Pueblo).
+- **Sitemap URLs:** 36, now 43. **Location pages:** 16, now 21. **Resource pages:** 4, now 6.
 
 ### 2026-10-02: ERF Resource Run
 
@@ -115,7 +159,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (16)
+## Location Pages (21)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -135,6 +179,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Woodland Park | Teller County | Rich | https://www.eventrentalfinder.com/locations/woodland-park-co | 2026-10-01 |
 | Fountain | El Paso County | Rich | https://www.eventrentalfinder.com/locations/fountain-co | 2026-10-01 |
 | Pueblo | Pueblo County | Rich | https://www.eventrentalfinder.com/locations/pueblo-co | 2026-10-01 |
+| Littleton | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/littleton-co | 2026-10-08 |
+| Centennial | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/centennial-co | 2026-10-08 |
+| Westminster | Adams and Jefferson Counties | Rich | https://www.eventrentalfinder.com/locations/westminster-co | 2026-10-08 |
+| Thornton | Adams County | Rich | https://www.eventrentalfinder.com/locations/thornton-co | 2026-10-08 |
+| Parker | Douglas County | Rich | https://www.eventrentalfinder.com/locations/parker-co | 2026-10-08 |
 
 ## Category Pages (10)
 
@@ -151,7 +200,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (4)
+## Resource Pages (6)
 
 | Title | URL | Published |
 |---|---|---|
@@ -159,10 +208,12 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | What Size Tent Do I Need for My Event? | https://www.eventrentalfinder.com/resources/what-size-tent-do-i-need | 2026-09-24 |
 | Colorado Outdoor Event Tent Planning: Wind, Hail, Lightning, Altitude and Permits | https://www.eventrentalfinder.com/resources/colorado-outdoor-event-tent-planning | 2026-10-02 |
 | Colorado Wedding Rental Checklist: What to Book, When to Confirm, What to Ask | https://www.eventrentalfinder.com/resources/colorado-wedding-rental-checklist | 2026-10-02 |
+| How Many Tables and Chairs Do I Need? Event Seating, Layouts and Spacing | https://www.eventrentalfinder.com/resources/how-many-tables-and-chairs-do-i-need | 2026-10-08 |
+| Event Restroom Rentals: Trailers vs. Portable Units, How Many, and Colorado Site Rules | https://www.eventrentalfinder.com/resources/event-restroom-rental-guide | 2026-10-08 |
 
 ## Machine-Readable
 
 | File | URL |
 |---|---|
-| Sitemap (36 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (43 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

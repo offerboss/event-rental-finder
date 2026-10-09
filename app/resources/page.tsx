@@ -22,14 +22,6 @@ export const metadata: Metadata = {
 // don't exist yet.
 const plannedTopics = [
   {
-    title: "Tables and Seating",
-    description: "Planning tables, chairs and seating arrangements.",
-  },
-  {
-    title: "Event Restrooms",
-    description: "Understanding restroom trailer and portable restroom options.",
-  },
-  {
     title: "Inflatables and Party Rentals",
     description: "Fun rental options for parties, school events and gatherings.",
   },

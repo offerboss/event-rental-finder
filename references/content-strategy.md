@@ -214,3 +214,23 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 - `DJ-services.png` is unused.
 - The tagline is inconsistent ("Plan Better · Celebrate Bigger" vs "Plan local. Celebrate better."), and so is the ink
   color (#1E2A36 vs #1F2937).
+
+## Friday QA — 2026-10-09
+
+**Fixed** (`01cf111`)
+
+- Category pages now link to the relevant planning guides, using a data-driven match on `topicCategorySlug` and `relatedCategorySlugs`.
+- banned-phrase wording removed from the older pages.
+- Westminster pavilion FAQ rewritten as evergreen (no 2027 date).
+- Dead links removed: header "Sign In" (`/sign-in`) and footer Privacy/Terms (`/privacy` and `/terms` returned 404).
+
+**Drafted, not published**
+
+- `references/privacy-policy-draft.md` and `references/terms-of-use-draft.md`, based on what the code actually does: no analytics, no first-party cookies, an unconnected contact form, a GoHighLevel embed on `/for-rental-companies`, and Vercel hosting. Placeholders in `[[...]]` need Adam's input (legal entity, contact email, governing state and county, retention period, and the fields collected in the GHL form). These drafts are uncommitted; don't publish or restore the footer links until Adam approves. Empty `app/privacy` and `app/terms` folders already exist locally.
+
+**Open / not fixed**
+
+- No canonical, Open Graph or JSON-LD tags (needs a decision; this is a template-level change).
+- The Denver page is thin, and pages run long overall (report only).
+- The Parker hero framing is tight. A signage retouch on the tent hero and shortened tab titles are still deferred.
+- The `/contact` form isn't connected: submit shows a "not sent" notice. Wire it to GHL or remove it.

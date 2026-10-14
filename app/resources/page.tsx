@@ -19,17 +19,9 @@ export const metadata: Metadata = {
 };
 
 // Topics ERF plans to cover. These are intentionally not links: the guides
-// don't exist yet.
-const plannedTopics = [
-  {
-    title: "Inflatables and Party Rentals",
-    description: "Fun rental options for parties, school events and gatherings.",
-  },
-  {
-    title: "Staging, AV and Lighting",
-    description: "Stages, sound, lighting and equipment for your event.",
-  },
-];
+// don't exist yet. Remove an entry when its guide ships; the section hides
+// itself when the list is empty.
+const plannedTopics: { title: string; description: string }[] = [];
 
 function formatDate(value?: string) {
   if (!value) return null;
@@ -156,26 +148,28 @@ export default function ResourcesPage() {
         </Section>
 
         {/* Planned topics */}
-        <Section id="topics" tone="sand">
-          <SectionHeading
-            id="topics"
-            title="Topics We’ll Cover"
-            intro="Here’s what we’re working on for future guides."
-          />
-          <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3 lg:gap-6">
-            {plannedTopics.map((topic) => (
-              <li key={topic.title} className={`${cardClass} p-6`}>
-                <span aria-hidden className="block h-0.5 w-8 bg-[#C8A96B]" />
-                <h3 className="mt-4 font-serif text-xl font-medium text-[#1F2937]">
-                  {topic.title}
-                </h3>
-                <p className="mt-2 text-[15px] leading-7 text-[#1F2937]/70">
-                  {topic.description}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </Section>
+        {plannedTopics.length > 0 && (
+          <Section id="topics" tone="sand">
+            <SectionHeading
+              id="topics"
+              title="Topics We’ll Cover"
+              intro="Here’s what we’re working on for future guides."
+            />
+            <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3 lg:gap-6">
+              {plannedTopics.map((topic) => (
+                <li key={topic.title} className={`${cardClass} p-6`}>
+                  <span aria-hidden className="block h-0.5 w-8 bg-[#C8A96B]" />
+                  <h3 className="mt-4 font-serif text-xl font-medium text-[#1F2937]">
+                    {topic.title}
+                  </h3>
+                  <p className="mt-2 text-[15px] leading-7 text-[#1F2937]/70">
+                    {topic.description}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
 
         {/* CTA */}
         <section className={`${container} py-16 lg:py-24`}>

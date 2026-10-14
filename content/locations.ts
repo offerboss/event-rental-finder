@@ -174,7 +174,7 @@ export const locations: Location[] = [
     slug: "fort-collins-co",
     county: "Larimer County",
     featured: true,
-    nearbyCities: ["loveland-co", "greeley-co"],
+    nearbyCities: ["loveland-co", "greeley-co", "windsor-co"],
   },
   {
     city: "Boulder",
@@ -183,7 +183,7 @@ export const locations: Location[] = [
     slug: "boulder-co",
     county: "Boulder County",
     featured: true,
-    nearbyCities: ["arvada-co", "westminster-co"],
+    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co"],
   },
   {
     city: "Greeley",
@@ -192,7 +192,7 @@ export const locations: Location[] = [
     slug: "greeley-co",
     county: "Weld County",
     featured: true,
-    nearbyCities: ["fort-collins-co", "loveland-co"],
+    nearbyCities: ["fort-collins-co", "loveland-co", "windsor-co"],
   },
   {
     city: "Grand Junction",
@@ -783,7 +783,14 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "loveland-co",
     county: "Larimer County",
-    nearbyCities: ["fort-collins-co", "greeley-co"],
+    nearbyCities: [
+      "fort-collins-co",
+      "greeley-co",
+      "windsor-co",
+      "berthoud-co",
+      "longmont-co",
+      "estes-park-co",
+    ],
     heroSupportingCopy:
       "Find event rental companies serving Loveland and Northern Colorado. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1900,7 +1907,13 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "westminster-co",
     county: "Adams and Jefferson Counties",
-    nearbyCities: ["thornton-co", "arvada-co", "boulder-co", "denver-co"],
+    nearbyCities: [
+      "thornton-co",
+      "arvada-co",
+      "boulder-co",
+      "denver-co",
+      "erie-co",
+    ],
     metaDescription:
       "Plan event rentals in Westminster, CO: tables and chairs, tents, wedding rentals, restrooms and staging, plus the City's strict pavilion rules, Standley Lake permits and the 45-day special event permit.",
     heroSupportingCopy:
@@ -2037,7 +2050,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "thornton-co",
     county: "Adams County",
-    nearbyCities: ["westminster-co", "denver-co"],
+    nearbyCities: ["westminster-co", "denver-co", "erie-co"],
     metaDescription:
       "Plan event rentals in Thornton, CO: tables and chairs, tents, inflatables, stages and party rentals, plus Carpenter Park pavilion rules, the 10-by-10 canopy limit, temporary use permits and noise permits.",
     heroSupportingCopy:
@@ -2309,6 +2322,708 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Parker?",
       description:
         "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Parker and northern Douglas County.",
+    },
+  },
+  {
+    city: "Windsor",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "windsor-co",
+    county: "Weld and Larimer Counties",
+    nearbyCities: ["fort-collins-co", "greeley-co", "loveland-co"],
+    metaDescription:
+      "Plan event rentals in Windsor, CO: tents, tables and chairs, wedding and party rentals, inflatables and restrooms, plus the Town's 90-day Special Activities Permit, park tent rules and Windsor Lake limits.",
+    heroSupportingCopy:
+      "Compare event rental options for Windsor and the Weld–Larimer county line, from tents, tables and chairs to inflatables, staging, sound and restroom trailers for backyard parties, park shelter gatherings and community events.",
+    heroTagline:
+      "Windsor gives event planners a long runway and a few firm rules: Special Activities applications are due 90 days out, a tent larger than 10 by 10 is a permit trigger, and the Town's park rules don't allow tents after 6 p.m.",
+    categoriesIntro:
+      "Explore the rental categories Windsor hosts use most for backyard graduations, park shelter parties, Boardwalk Park gatherings, company picnics and weddings on private property.",
+    localIntro: [
+      "Windsor sits on the plains between Fort Collins and Greeley, and the Town straddles the Weld–Larimer county line, so parcel records and county services depend on which side of town you're on. On Town property, event planning starts early: every Special Activities application is due 90 days before the event, and the Town's Special Activities page says applications submitted after that window won't be reviewed. Submitting holds a spot on the events calendar, but the event isn't approved until every form and fee is in and the Special Event Coordinator issues the permit.",
+      "The Town's permit checklist doubles as a rental planning tool. A Special Activities Permit is likely needed if you expect 100 or more people, alcohol will be consumed or sold, vendors will sell goods or services, amplified sound goes beyond a small personal speaker for announcements, a street or alley closes, the event affects public use of a park, or you're bringing temporary structures such as tents larger than 10 by 10, bleachers, inflatables or stages. If none of those apply, a regular shelter reservation is usually the route. Parks are public space and can't be blocked off; only shelters can be reserved for private use.",
+      "Windsor's park rules shape the order. Parks are open 5 a.m. to 10 p.m., but tents and portable shelters aren't allowed after 6 p.m., so an evening party in a park relies on the shelter rather than a rented canopy. Glass containers and portable charcoal grills are prohibited, and gas grills are limited to 200 square inches with 1-pound cylinders unless staff agree otherwise. Ground stakes 12 inches or longer require line locates so irrigation isn't damaged, and the event site plan has to show every tent and canopy, portable restroom, generator and PA system, the direction of each speaker, and a 20-foot emergency access lane.",
+      "Windsor Severance Fire Rescue requires a permit for tents larger than 600 square feet and canopies larger than 900 square feet; smaller ones skip the permit but still have to meet the district's safety rules. Open-flame cooking isn't allowed under any tent, generators must sit at least 20 feet from tents, and outdoor propane heaters must be secured to the ground and kept 20 feet from combustible materials. Permitted park events need restrooms beyond the park's own, including at least one ADA portable unit for public events. Windsor Lake is mainly for boating and drop-in use, and events that close the lake are limited to athletic events booked before February 1, so a lakeside gathering is planned around Boardwalk Park's shelters, Band Shell and Market Pavilion instead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Windsor",
+      intro:
+        "How Windsor hosts use rentals, from park shelters to backyard receptions.",
+      items: [
+        {
+          title: "Shelter Parties Under 100 Guests",
+          description:
+            "Below 100 guests, with no alcohol, vendors, amplified sound or large structures, a shelter reservation is usually enough. The rest of the park stays public, so size extra tables and chairs to fit the shelter area rather than spreading across the lawn.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents and the 6 p.m. Rule",
+          description:
+            "In Town parks, a tent larger than 10 by 10 is a permit trigger, and tents have to come down by 6 p.m. Schedule setup and teardown inside the daytime window. Anything larger than a 20-by-30, which is exactly 600 square feet, also needs a Windsor Severance Fire Rescue permit.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses at Park Events",
+          description:
+            "The Town lists blow-up structures among the temporary structures that trigger a Special Activities Permit. If the unit uses ground stakes 12 inches or longer, line locates come first, so ask the provider how it anchors and weights the inflatable.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Backyard Graduations & Weddings",
+          description:
+            "The Town's Community Impact application covers events held mostly on private property that affect major roadways and the wider community. A typical backyard reception isn't in that category, so the planning is about the yard: tent size, seating, a [dance floor](/categories/dance-floor-rentals) and where the generator goes.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Stages and Amplified Sound",
+          description:
+            "A stage, or amplified sound beyond a small announcement speaker, puts an event into the Special Activities process, and the site plan has to show the PA and the direction of every speaker. Plan [sound and lighting](/categories/av-lighting-rentals) with the provider before you draw the plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms for Park Events",
+          description:
+            "Permitted park events need added restrooms that guests can reach from trails or the parking lot, and public events need at least one ADA portable unit. The Town's chart scales with attendance and hours, starting at two units for 100 to 500 people over a six-hour event.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Windsor",
+      intro: "Windsor-specific details to settle before you book rentals.",
+      items: [
+        "Special Activities applications due 90 days before the event",
+        "Permit triggers: 100 or more people, alcohol, vendors, amplified sound, street closures, or tents over 10 by 10, inflatables, bleachers or stages",
+        "Only shelters can be reserved; the rest of the park stays open to the public",
+        "No tents or portable shelters in parks after 6 p.m., and parks close at 10 p.m.",
+        "Line locates before using ground stakes 12 inches or longer",
+        "A Windsor Severance Fire Rescue permit for tents over 600 square feet or canopies over 900 square feet",
+        "No open-flame cooking under tents, and generators at least 20 feet from tents",
+        "A site plan showing tents, restrooms, generators, speakers and a 20-foot emergency lane",
+        "Added restrooms for park events, including an ADA unit for public events",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the Town of Windsor's Special Activity Guidelines (effective January 1, 2026), its Special Activities, Parks and Special Event Liquor Permit pages, and the Windsor Severance Fire Rescue tent requirements the Town publishes. Confirm current requirements with the Town and your rental provider.",
+      closing:
+        "Sizing a tent for a park or backyard? See [what size tent you need](/resources/what-size-tent-do-i-need) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning). For kids' parties, see the [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide), and for public events, the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Windsor Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Windsor rental companies:",
+      items: [
+        "Exact address and which county it's in",
+        "Guest count at the busiest point",
+        "Which Special Activities triggers apply",
+        "Application submitted 90 days out",
+        "Shelter reservation, if no permit is needed",
+        "Tent sizes and the 6 p.m. park cutoff",
+        "Stake length and line locates",
+        "Fire permit for tents over 600 square feet",
+        "Restroom count and an ADA unit",
+        "Generator, speaker and heater locations",
+      ],
+    },
+    faqs: {
+      heading: "Windsor Event Rental FAQ",
+      items: [
+        {
+          question: "How far ahead do I apply for an event permit in Windsor?",
+          answer:
+            "The Town requires Special Activities applications 90 days before the event, and its Special Activities page says applications submitted after that window won't be reviewed. Submitting holds a spot on the calendar, but the event isn't approved until all forms and fees are in and the permit is issued.",
+        },
+        {
+          question: "Do I need a permit for a party at a Windsor park shelter?",
+          answer:
+            "Not always. If you'll have fewer than 100 people, no alcohol, vendors or amplified sound, and no tents larger than 10 by 10, inflatables or stages, the Town says you can likely follow the shelter rental steps. Shelters are the only part of a park that can be reserved.",
+        },
+        {
+          question:
+            "Can a tent stay up for an evening party in a Windsor park?",
+          answer:
+            "No. The Town's park rules prohibit tents and portable shelters after 6 p.m., even though parks are open until 10 p.m. Plan evening gatherings around the shelter, or hold a tented event on private property.",
+        },
+        {
+          question: "When does a tent need a fire permit in Windsor?",
+          answer:
+            "Windsor Severance Fire Rescue requires a permit for tents and membrane structures over 600 square feet and canopies over 900 square feet. Smaller ones don't need a separate permit but still have to meet the district's safety requirements, and open-flame cooking isn't allowed under any tent.",
+        },
+        {
+          question: "Can alcohol be served at a Windsor park event?",
+          answer:
+            "Full-strength beer and wine are permitted in Town parks, but alcohol can't be sold without a Special Event Liquor Permit, which only nonprofits can apply for and which the Town Clerk wants 90 days ahead. Alcohol at an event is also on the Town's list of Special Activities Permit triggers.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Windsor?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging graduations, park parties and events in Windsor and Northern Colorado.",
+    },
+  },
+  {
+    city: "Longmont",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "longmont-co",
+    county: "Boulder and Weld Counties",
+    nearbyCities: [
+      "berthoud-co",
+      "erie-co",
+      "boulder-co",
+      "loveland-co",
+      "estes-park-co",
+    ],
+    metaDescription:
+      "Plan event rentals in Longmont, CO: tents, tables and chairs, party and wedding rentals, bounce houses, staging and sound, plus the 12-by-12 tent trigger, park shelter rules and the City's 45-day event permit.",
+    heroSupportingCopy:
+      "Compare event rental options for Longmont and the St. Vrain Valley, from tents, tables and chairs to inflatables, staging, sound and restroom trailers for park shelter parties, backyard celebrations and public events.",
+    heroTagline:
+      "In a Longmont park, anything bigger than a single 12-by-12 pop-up, a bounce house or sound that carries more than 25 feet turns a shelter rental into a Special Event on Public Property permit.",
+    categoriesIntro:
+      "Explore the rental categories Longmont hosts use most for park shelter birthdays, backyard graduations, weddings, reunions and public events.",
+    localIntro: [
+      "Longmont sits at 4,979 feet on the northern Front Range, in Boulder and Weld counties, with more than 1,500 acres of parks and open space, according to the City. Many gatherings start at a City park shelter, and the shelter rules decide a lot about the rental order. A reservation covers the shelter only, not exclusive use of the park or its restrooms. Events lasting more than two hours need a shelter reservation, fee-required reservations run April through October, and reservations for the coming weekend stop at noon on Thursday. Every renter signs an agreement confirming no alcohol, and no live music or amplified sound without a Special Event on Public Property permit.",
+      "That permit, also called a Use of Public Places permit, is required on public property when an event has alcohol, closes or blocks pedestrian, bike or vehicle traffic, sets up anything larger than a single 12-by-12 pop-up tent, invites the public and charges admission, has amplified sound audible more than 25 feet from the source, includes a bounce house or another higher-risk activity such as a climbing wall, or sells goods. Applications go through the City's eProval portal at least 45 days ahead, with a site plan, proof of the park reservation and a certificate of insurance with a $1 million combined single limit naming the City as additional insured. Block parties on neighborhood streets use a separate application, due 15 days ahead with signatures from impacted neighbors.",
+      "The City spells out bounce house rules in detail. Inflatables are allowed in parks only with the special event permit, must be secured with sandbags or stakes no longer than 6 inches (longer stakes need an 811 utility locate at least a week ahead), and need a generator rather than the shelter's outlets. Water inflatables aren't allowed, and the insurance certificate has to cover the bounce house; the City notes that some vendors supply that coverage. Photographers and other businesses working in parks need a separate Commercial Use permit, and drones aren't allowed in City parks or open spaces.",
+      "Events on private property follow different rules. The City says they may need a Temporary Use Special Event Permit through Planning and Development Services, events with alcohol service or sales to the public need approval from the Local Licensing Authority, and every event has to comply with the noise code, which has no permit for excessive noise. Summer heat matters here too: NOAA's 1991–2020 normals for the Longmont 2 ESE station put the average July high at 90.8°F, so shade and water belong in the plan for afternoon events.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Longmont",
+      intro: "Common Longmont setups and the City rules that come with them.",
+      items: [
+        {
+          title: "Park Shelter Birthdays",
+          description:
+            "Rented tables and chairs add overflow seating, a serving table and a cake table at a shelter. Book early in the week, since weekend reservations close Thursday at noon, and remember the rest of the park stays public.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Bounce Houses With a Permit",
+          description:
+            "A bounce house in a Longmont park needs the Special Event on Public Property permit, sandbags or stakes no longer than 6 inches, a generator and insurance naming the City. Ask the provider whether its policy meets the City's requirement and whether it brings the generator.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Tents Bigger Than a Pop-Up",
+          description:
+            "A single 12-by-12 pop-up works under a shelter reservation, but anything larger triggers the 45-day permit. For a 20-by-20 or bigger, start the eProval application when you book the tent and put it on the site plan.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Graduations & Weddings",
+          description:
+            "Private property skips the park permit, but the City may still require a Temporary Use Special Event Permit, and the noise code applies with no permit to exceed it. Point the [DJ's speakers](/categories/av-lighting-rentals) away from neighbors and set an end time.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Public Events and Stages",
+          description:
+            "Admission charges, vendor sales, or amplified sound over 80 decibels that carries more than 25 feet all point to the Use of Public Places permit. The stage, sound system, restrooms and entries and exits all belong on the site plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms Beyond the Park's",
+          description:
+            "Shelter renters don't get exclusive use of park restrooms, and the City's winter shelter reservations are fee-free because restrooms are winterized. For larger groups or cold-season events, plan portable units or a restroom trailer.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Longmont",
+      intro: "Longmont-specific details to settle before you book rentals.",
+      items: [
+        "A shelter reservation for park events over two hours, with weekend bookings closing Thursday at noon",
+        "No alcohol, live music or amplified sound at a shelter without a special event permit",
+        "A Special Event on Public Property permit for tents larger than a single 12-by-12, bounce houses, admission, sales or street closures",
+        "eProval applications at least 45 days ahead, with a site plan and proof of the park reservation",
+        "A $1 million certificate of insurance naming the City, including bounce house coverage",
+        "Sandbags or 6-inch stakes for inflatables, an 811 locate a week ahead for longer stakes, and a generator",
+        "A Liquor Special Event Permit for qualifying nonprofits, which the City Clerk asks for 60 days ahead",
+        "A possible Temporary Use Special Event Permit for private-property events, and the noise code everywhere",
+        "A Commercial Use permit for photographers in parks, and no drones",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize City of Longmont City Clerk special event, Park Shelter Reservations and Permits, Commercial Use and eProval pages, the City's About Longmont page and NOAA climate normals. Confirm current requirements with the City and your rental provider.",
+      closing:
+        "Booking a bounce house? Start with our [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide). For tents, see [what size tent you need](/resources/what-size-tent-do-i-need), and for public events with a stage or DJ, the [stage, sound and lighting rental guide](/resources/colorado-stage-av-lighting-rental-guide).",
+    },
+    checklist: {
+      heading: "Longmont Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Longmont rental companies:",
+      items: [
+        "Exact address and whether it's City property",
+        "Guest count and event length",
+        "Shelter reservation and proof of booking",
+        "Tent sizes compared with a 12-by-12",
+        "Bounce house anchoring, generator and insurance",
+        "Sound plan and speaker direction",
+        "eProval application 45 days out",
+        "Certificate of insurance naming the City",
+        "Restrooms if park facilities won't cover it",
+        "Shade and water for summer heat",
+      ],
+    },
+    faqs: {
+      heading: "Longmont Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Do I need a permit for a party at a Longmont park shelter?",
+          answer:
+            "A shelter reservation is required for events over two hours. You also need a Special Event on Public Property permit if you'll have alcohol, a tent larger than a single 12-by-12 pop-up, a bounce house, amplified sound audible beyond 25 feet, sales or admission.",
+        },
+        {
+          question: "Can I have a bounce house in a Longmont park?",
+          answer:
+            "Yes, with the special event permit. The City requires sandbags or stakes no longer than 6 inches, a generator instead of shelter outlets, no water inflatables, and a $1 million certificate of insurance naming the City that covers the inflatable.",
+        },
+        {
+          question:
+            "How far ahead do I apply for a Longmont special event permit?",
+          answer:
+            "Submit the Use of Public Places application through eProval at least 45 days before the event. Reserve the park first, because proof of the reservation is part of the application. Block party applications are due 15 days ahead.",
+        },
+        {
+          question: "Can I serve alcohol at a Longmont park shelter?",
+          answer:
+            "Not under a standard shelter reservation, which confirms no alcohol use. Alcohol on City property needs the special event permit, and Liquor Special Event Permits are limited to qualifying nonprofits and political candidates.",
+        },
+        {
+          question: "Do backyard parties in Longmont need a permit?",
+          answer:
+            "The City says private-property events may need a Temporary Use Special Event Permit from Planning and Development Services, and events with alcohol service or sales to the public need liquor approval. The noise code applies to every event, and there's no permit to exceed it.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Longmont?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Longmont and the St. Vrain Valley.",
+    },
+  },
+  {
+    city: "Estes Park",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "estes-park-co",
+    county: "Larimer County",
+    nearbyCities: ["loveland-co", "longmont-co"],
+    metaDescription:
+      "Plan event rentals in Estes Park, CO: wedding tents, tables and chairs, dance floors, restroom trailers and lighting, plus Rocky Mountain National Park ceremony limits, Town venue permits and Larimer County rules.",
+    heroSupportingCopy:
+      "Compare event rental options for Estes Park and the Estes Valley, from tents, tables and chairs to dance floors, restroom trailers, staging and lighting for mountain weddings, reunions and Town events.",
+    heroTagline:
+      "Many Estes Park weddings pair a small ceremony in Rocky Mountain National Park with a reception somewhere else, because the park's ceremony sites don't allow tables, tents or generators. The reception is where the rentals go.",
+    categoriesIntro:
+      "Explore the rental categories Estes Park hosts use most for mountain weddings and receptions, family reunions, retreats and Town events.",
+    localIntro: [
+      "Estes Park sits at 7,522 feet at the eastern edge of Rocky Mountain National Park, which surrounds the town on three sides, according to Visit Estes Park. That setting draws couples, and the park's rules shape how weddings here are planned. Every ceremony in the park needs a Special Use Permit for a designated site, and the largest group allowed at any site is 30 people, counting the couple, guests, officiant and photographer. Ceremonies are limited to two hours including setup, the permit prohibits or restricts decorations, altars, tables, tents, floral displays and generators, and only a few chairs are allowed for guests who can't stand. Amplified music isn't permitted.",
+      "The park says that for a large, exclusive or decorated celebration, there are locations outside the park that can accommodate it. Lily Lake Southside Picnic Area is the only park site that can host a picnic or simple food reception, with a separate permit and no tents, bands, food trucks or loud music. So receptions move to private venues, lodges, ranches and rented land in the Estes Valley, and that's where tents, seating, dance floors, heaters and restrooms come in. The Town runs O'Connor Pavilion, a seasonal site five miles west of downtown that backs up to the national park, with a covered, open-sided pavilion seating 140, a 350-person maximum, two ceremony meadows, electricity in the reception area, vault restrooms and no grilling.",
+      "In town, events in Bond Park, Performance Park, George Hix Riverside Plaza and on Town streets need a Town special event permit. Applications are due 120 days ahead for new events and 60 days for returning ones, review takes at least two weeks, and new events in Bond Park need Town Board approval. Outside town limits, Larimer County requires a Private Land Special Event permit when overall attendance on a property is expected to exceed 40 people; the process starts with an email to the County's special events staff and a pre-application meeting, and review can take 30 to 60 days. Tent and fire code questions go to the Estes Valley Fire Protection District, which enforces the 2021 International Fire Code in the Town and the surrounding valley.",
+      "Evenings are the weather factor most planners underestimate. NOAA's 1991–2020 normals for the Estes Park 3 SSE station put the average July high at 80.2°F and the average July low at 48.2°F, and September lows average 39.2°F, so a reception that runs past sunset needs heaters, sidewalls and a place to warm up even in midsummer. The National Weather Service says there's no safe place outside when thunderstorms are in the area, so plan a building or hard-topped vehicles guests can reach. Fall brings golden aspens and the elk rut, when bulls call and spar, so give wildlife room and keep food covered.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Estes Park",
+      intro:
+        "How Estes Park events use rentals, from mountain receptions to Town festivals.",
+      items: [
+        {
+          title: "Receptions After a Park Ceremony",
+          description:
+            "The ceremony in the park stays simple, so the reception carries the rentals: seating, linens, a [dance floor](/categories/dance-floor-rentals), lighting and often a tent sized for the full guest count, including guests who couldn't attend a 30-person ceremony.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Mountain Meadow Tents",
+          description:
+            "Meadow and ranch sites need a tent anchored for mountain wind and storms. Ask how the provider stakes or ballasts the tent, whether sidewalls are included, and who handles any Estes Valley Fire Protection District review.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Power for Lighting and Sound",
+          description:
+            "Rustic sites often have limited power; O'Connor Pavilion has electricity in the reception area only. Ask how [lighting and sound](/categories/av-lighting-rentals) will be powered, and where a generator would sit if one is needed.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms for Rustic Venues",
+          description:
+            "Mountain venues may have vault restrooms or none at all. A restroom trailer suits a wedding crowd, and an accessible unit belongs on firm, level ground near the reception rather than across a meadow.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Reunions and Retreats",
+          description:
+            "Family reunions and group retreats often pair a pavilion or lodge with extra seating. O'Connor Pavilion's picnic tables seat 140, so a larger group needs rented tables and chairs for the rest.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Town Events and Stages",
+          description:
+            "Events in Bond Park, Performance Park or Riverside Plaza go through the Town's permit, and the Riverside Plaza policy asks for tent permits, liquor licenses, security and insurance documents 30 days before the event. Put the stage and sound on the event layout early.",
+          categorySlug: "stage-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Estes Park",
+      intro: "Estes Park-specific details to settle before you book rentals.",
+      items: [
+        "Rocky Mountain National Park ceremony permits: designated sites, 30 people at most and two hours including setup",
+        "No tables, tents, decorations or generators at park ceremony sites, and no amplified music",
+        "Receptions in the park only at Lily Lake Southside Picnic Area, with a separate permit and no tents",
+        "Town special event permits for Bond Park, Performance Park, Riverside Plaza and streets: 120 days for new events, 60 for returning ones",
+        "A Larimer County Private Land Special Event permit for more than 40 people outside town limits",
+        "Tent and fire code questions for the Estes Valley Fire Protection District",
+        "Cool evenings, even in July, and heaters your provider approves for use near the tent",
+        "Thunderstorms, and a building or hard-topped vehicles guests can reach",
+        "Limited power and restrooms at rustic sites",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize National Park Service wedding information for Rocky Mountain National Park, Town of Estes Park event permit and venue pages, Larimer County special event rules, Estes Valley Fire Protection District code adoption, NOAA climate normals, National Weather Service lightning guidance and Visit Estes Park. Confirm current requirements with each agency, your venue and your rental provider.",
+      closing:
+        "Planning a mountain reception? See the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) for wind, hail, lightning and altitude. For restrooms at a rustic site, see the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Estes Park Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Estes Park rental companies:",
+      items: [
+        "Ceremony site and its group limit",
+        "Reception venue and its rental rules",
+        "Town limits or unincorporated Larimer County",
+        "Guest count at the reception",
+        "Tent size, anchoring and fire district review",
+        "Heaters and sidewalls for the evening",
+        "Power for lighting, sound and catering",
+        "Restroom trailer and an accessible unit",
+        "Storm shelter guests can reach",
+        "Parking or shuttles for guests",
+      ],
+    },
+    faqs: {
+      heading: "Estes Park Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Can we have tents or tables at a Rocky Mountain National Park wedding?",
+          answer:
+            "No. The park's wedding permit prohibits or restricts tables, tents, altars, decorations, floral displays and generators, and only a few chairs are allowed for guests who can't stand. Ceremonies are limited to designated sites, 30 people at most and two hours.",
+        },
+        {
+          question: "Can we hold our reception in the national park?",
+          answer:
+            "Only a picnic or simple food reception at Lily Lake Southside Picnic Area, with a separate Special Use Permit. The park doesn't allow food trucks, bands, loud music, tents or large quantities of alcohol there, so receptions with rentals happen outside the park.",
+        },
+        {
+          question:
+            "Does a private wedding near Estes Park need a county permit?",
+          answer:
+            "Outside town limits, Larimer County requires a Private Land Special Event permit when overall attendance on a property is expected to exceed 40 people. Start by emailing the County's special events staff, who set the submittal deadline at a pre-application meeting.",
+        },
+        {
+          question: "How cold does an Estes Park evening event get?",
+          answer:
+            "NOAA's 1991–2020 normals for the Estes Park 3 SSE station put the average July low at 48.2°F and the September low at 39.2°F. Plan heaters, sidewalls and a warm-up spot for any reception that runs past sunset.",
+        },
+        {
+          question:
+            "How far ahead do I apply for a Town of Estes Park event permit?",
+          answer:
+            "For Bond Park, Performance Park, George Hix Riverside Plaza and Town streets, apply 120 days ahead for a new event or 60 days for a returning one. Review takes at least two weeks, and new events in Bond Park need Town Board approval.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Estes Park?",
+      description:
+        "List your business on Event Rental Finder and get discovered by couples and planners arranging mountain weddings, reunions and events in Estes Park and the Estes Valley.",
+    },
+  },
+  {
+    city: "Berthoud",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "berthoud-co",
+    county: "Larimer and Weld Counties",
+    nearbyCities: ["loveland-co", "longmont-co"],
+    metaDescription:
+      "Plan event rentals in Berthoud, CO: tents, tables and chairs, party rentals, bounce houses and restrooms, plus Town pavilion rules, special event permits and Berthoud Fire tent requirements.",
+    heroSupportingCopy:
+      "Compare event rental options for Berthoud and the farmland between Loveland and Longmont, from tents, tables and chairs to inflatables, staging and restroom trailers for pavilion parties, backyard celebrations and rural events.",
+    heroTagline:
+      "Berthoud's pavilions are small, its fire district's tent rules apply to every tent, and a property just outside town can fall under Larimer or Weld County rules instead, so the site decides most of the plan.",
+    categoriesIntro:
+      "Explore the rental categories Berthoud hosts use most for pavilion birthdays, backyard graduations, farm and acreage weddings, reunions and community events.",
+    localIntro: [
+      "Berthoud calls itself the Garden Spot of Colorado. The Town was incorporated in 1888, named for Edward L. Berthoud, and agriculture is still a large part of the community, according to its budget documents. Its land is split about 54 percent in Larimer County and 46 percent in Weld County, though most residents live on the Larimer side, and the farms and acreages around town can sit in either county. That matters for events, because the permit office depends on where the property is: the Town inside town limits, or Larimer or Weld County outside them.",
+      "Town pavilions are built for small gatherings, with seating listed at 24 to 36 at most of them and six at Roberts Lake. Pioneer Park's three pavilions have electrical outlets and no grills, and the park has a bounce house install section. Town Park has charcoal grills, but its restrooms are seasonal and unavailable October through May; Waggener has year-round restrooms; and Roberts Lake has no public restrooms. Pavilion requests have to come in at least 30 days ahead. Any event open to the public, or a neighborhood function, is a special event that needs a Town permit: the Town responds to a preliminary request form within 72 hours, and the permit is submitted 30 to 60 days ahead depending on expected attendance, with alcohol permits due no later than 45 days before the event and two to three weeks for approval.",
+      "Berthoud Fire Protection District's rules reach every tent, not just the big ones. Tents and canopies over 700 square feet need a district permit, usually applied for by the tent company, with a flame-resistance certificate and a site plan. For tents of any size, no cooking, heating devices or fuel are allowed underneath, a serviced 2A:10BC fire extinguisher has to be on hand, and tents can't stand within 20 feet of lot lines, buildings, parked vehicles or engines, with guy ropes counted in the distance. The district also lists minimum anchor weights: 40 pounds per leg for a 10-by-10 canopy, 80 pounds per leg for a 10-by-20 and 500 pounds per leg for a six-leg 40-by-20 tent.",
+      "Bigger events add steps. A Planned Outdoor Event permit from the district applies to events with 1,000 or more people or four or more tents of 700 square feet or more, and the district decides during review whether a fire standby crew is required. Food trucks with a generator or propane need a district inspection and permit at least 10 business days before the event, though a permit from one of the participating Larimer and Weld County fire departments is honored at the others through December 31. Outside town limits, Larimer County requires a Private Land Special Event permit when attendance is expected to exceed 40 people, and the district points organizers to Weld and Boulder County special event permits as well.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Berthoud",
+      intro:
+        "Common Berthoud setups, from pavilion parties to weddings on open land.",
+      items: [
+        {
+          title: "Pavilion Birthday Parties",
+          description:
+            "With pavilions seating a few dozen, a birthday party often adds a canopy, extra [tables and chairs](/categories/table-chair-rentals) and a few party rentals. Pioneer Park has outlets but no grills, so plan cold food or catering there.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Bounce Houses at Pioneer Park",
+          description:
+            "Pioneer Park lists a bounce house install section among its pavilion features. Ask the provider for the unit's footprint and power needs, and mention the inflatable in your pavilion request.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Farm and Acreage Weddings",
+          description:
+            "Weddings on farmland around Berthoud often start from bare ground: a tent, seating, a [dance floor](/categories/dance-floor-rentals), lighting, power and restrooms. Check the county first, since a property outside town limits may need a Larimer or Weld County permit.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents and the 20-Foot Rule",
+          description:
+            "Berthoud Fire keeps tents 20 feet from lot lines, buildings, parked vehicles and engines, counting guy ropes. In a backyard, that can limit tent size more than the guest count does, so measure before you order.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Restrooms Where Pavilions Have None",
+          description:
+            "Roberts Lake has no public restrooms, and Town Park's are closed October through May. Portable units or a restroom trailer fill the gap, especially for spring and fall events.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Community Events and Stages",
+          description:
+            "Events open to the public need a Town special event permit, and large ones may also need a Planned Outdoor Event permit from Berthoud Fire. Plan the stage, [sound](/categories/av-lighting-rentals) and vendor layout before you draw the site plan.",
+          categorySlug: "stage-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Berthoud",
+      intro: "Berthoud-specific details to settle before you book rentals.",
+      items: [
+        "Whether the property is inside town limits or in unincorporated Larimer or Weld County",
+        "Pavilion requests at least 30 days ahead",
+        "A Town special event permit for public events, 30 to 60 days ahead depending on attendance",
+        "Alcohol permits no later than 45 days before the event",
+        "Seasonal restrooms at Town Park (unavailable October through May) and none at Roberts Lake",
+        "A Berthoud Fire permit for tents and canopies over 700 square feet",
+        "No cooking, heating or fuel under any tent, and a fire extinguisher at every tent",
+        "20 feet between tents and lot lines, buildings, parked vehicles and engines",
+        "Food truck fire inspections at least 10 business days ahead",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize Town of Berthoud special event, rental and pavilion request pages, the Town's 2025 budget book, Berthoud Fire Protection District special permit requirements and Larimer County special event rules. Confirm current requirements with the Town, the fire district and your rental provider.",
+      closing:
+        "Planning a pavilion party? See the [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide) and [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need). For a farm wedding, see the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) and our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning).",
+    },
+    checklist: {
+      heading: "Berthoud Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Berthoud rental companies:",
+      items: [
+        "Exact address and which county it's in",
+        "Guest count and whether it's open to the public",
+        "Pavilion choice and its seating",
+        "Special event and alcohol permit dates",
+        "Tent size and 20-foot clearances",
+        "Leg weights or stakes for each canopy",
+        "No cooking or heaters under tents",
+        "Restrooms for the season",
+        "Power for lighting, inflatables and catering",
+        "Food truck fire inspection",
+      ],
+    },
+    faqs: {
+      heading: "Berthoud Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for an event in Berthoud?",
+          answer:
+            "Any event open to the public, or a neighborhood function, is a special event that needs a Town permit. Start with the preliminary request form, submit the permit 30 to 60 days ahead depending on attendance, and allow two to three weeks for approval.",
+        },
+        {
+          question: "When does a tent need a fire permit in Berthoud?",
+          answer:
+            "Berthoud Fire Protection District requires a permit for tents and canopies over 700 square feet, usually applied for by the tent company. Every tent, regardless of size, needs a serviced fire extinguisher, and no cooking or heaters are allowed underneath.",
+        },
+        {
+          question: "How much weight does a canopy need in Berthoud?",
+          answer:
+            "Berthoud Fire lists a minimum of 40 pounds per leg for a 10-by-10 canopy and 80 pounds per leg for a 10-by-20. A 40-by-20 tent needs 500 pounds on each of its six legs.",
+        },
+        {
+          question: "How many people fit at a Berthoud pavilion?",
+          answer:
+            "The Town lists most pavilions with seating for 24 to 36 people, and the Roberts Lake pavilion seats six. Larger groups need rented tables, chairs and shade, and an event open to the public needs a special event permit.",
+        },
+        {
+          question:
+            "What permits apply to a wedding on a farm outside Berthoud?",
+          answer:
+            "Outside town limits, the county decides. Larimer County requires a Private Land Special Event permit when expected attendance exceeds 40 people, and Weld County has its own special events permit. For properties in the Berthoud Fire Protection District, its tent and food truck rules apply too.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Berthoud?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and couples arranging parties, farm weddings and events in Berthoud and Northern Colorado.",
+    },
+  },
+  {
+    city: "Erie",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "erie-co",
+    county: "Boulder and Weld Counties",
+    nearbyCities: [
+      "longmont-co",
+      "boulder-co",
+      "westminster-co",
+      "thornton-co",
+    ],
+    metaDescription:
+      "Plan event rentals in Erie, CO: party rentals, tables and chairs, tents, wedding rentals, lighting and photo booths, plus Town park shelter rules, Community Events permits, mobile vending and open container permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Erie and the open space between Boulder and the I-25 corridor, from tents, tables and chairs to party rentals, lighting, photo booths and restrooms for shelter parties, block parties and backyard celebrations.",
+    heroTagline:
+      "Erie draws a clear line between private property and Town property: a backyard party doesn't need a Community Events permit, but a food truck at that party still needs a Mobile Vending Permit, and Town park events are planned 90 days out.",
+    categoriesIntro:
+      "Explore the rental categories Erie hosts use most for park shelter parties, block parties, backyard graduations, weddings and community events.",
+    localIntro: [
+      "Erie began as a coal town. It was platted in 1871 after the Briggs Mine opened, was incorporated on November 16, 1874, and was once called the most important coal town in Colorado, according to the Town's history page. Today it's a home rule town in Boulder and Weld counties, with an estimated 41,916 residents in 2025 and about 1,500 acres of parks and open space, according to the Town's community profile. Families fill park shelters for birthdays and reunions, neighborhoods hold block parties, and many graduations and weddings happen in backyards with mountain views to the west.",
+      "Where the event happens sets the paperwork. The Town's Community Events application covers commercial activities and special events on Town property and is due at least 90 days before the event; depending on the event, the Town may ask for proof of insurance, a site map, resident notification, a traffic plan, a vendor list and a Zero Waste plan. Events held entirely on private property don't need that application, though Town ordinances such as noise rules still apply. One permit follows vendors everywhere: a Mobile Vending Permit is required for mobile vending on any property, private property included, and the event coordinator is responsible for making sure vendors have one.",
+      "Park shelters are first come, first served unless reserved, and reservations run March 15 through November 15. The Town's parks and open space rules shape the rental order: amplified sound needs the parks director's prior written consent, nothing can be attached to park structures to decorate them, fires are limited to designated devices, and vehicles stay in designated areas. Most parks are open from dawn to dusk, while Erie Community Park is open 6 a.m. to 10 p.m., so an evening party needs the right park. Alcohol is prohibited in parks under the code, with one route around it: an Open Container Permit allows beer and wine at a reserved park shelter or an approved block party, filed with the Town Clerk at least 10 days before the event.",
+      "Indoor events at the Erie Community Center have their own rules. Renters can bring in outside furniture rentals when the Center's seating falls short, but rice, confetti, birdseed, glitter and decorative candles aren't allowed, groups of 100 or more pay a damage deposit, and alcohol permits are due 10 days ahead. Fire code questions for tents and generators go to Mountain View Fire Rescue, which serves Erie, so ask the district directly rather than relying on a neighboring city's thresholds. Weather on the open-space plains can turn quickly, so plan tent weights and a storm shelter guests can reach.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Erie",
+      intro: "Common Erie setups, from shelter parties to backyard receptions.",
+      items: [
+        {
+          title: "Shelter Birthday Parties",
+          description:
+            "A reserved shelter gives a party a base; the rentals add the rest. Decorations can't be attached to shelter structures, so bring freestanding [tables and chairs](/categories/table-chair-rentals), banners on stands and a serving table instead.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Block Parties",
+          description:
+            "Block parties need a Town permit, and an Open Container Permit filed 10 days ahead covers beer and wine. Folding tables, chairs and a canopy are the usual order; keep the street layout within the area your permit covers.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Backyard Tents With a View",
+          description:
+            "Private property skips the Community Events application, so a backyard tent is mostly a sizing and anchoring question. Ask the provider about weights or stakes, irrigation lines and how the tent handles wind off the plains.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Weddings and Receptions",
+          description:
+            "A backyard or private-venue wedding in Erie typically combines a tent, seating, linens, a [dance floor](/categories/dance-floor-rentals) and lighting. If a food truck or coffee cart is coming, confirm it holds an Erie Mobile Vending Permit.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Lighting for Evening Events",
+          description:
+            "Most Erie parks close at dusk, so evening parties belong at Erie Community Park, which is open until 10 p.m., or on private property. String lights, uplighting and a sound system need power, and amplified sound in a park needs written consent.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Photo Booths at Indoor Events",
+          description:
+            "Community Center rentals rule out confetti, glitter and decorative candles, so a photo booth with props is an easy alternative. Confirm the booth's footprint and outlet needs with the Center.",
+          categorySlug: "photo-booth-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Erie",
+      intro: "Erie-specific details to settle before you book rentals.",
+      items: [
+        "A Community Events application at least 90 days ahead for events and commercial activities on Town property",
+        "No Community Events application for events solely on private property, though Town ordinances still apply",
+        "A Mobile Vending Permit for every food truck or vendor, private property included",
+        "Shelter reservations from March 15 through November 15",
+        "Park hours from dawn to dusk, except Erie Community Park (6 a.m. to 10 p.m.)",
+        "Written consent from the parks director for amplified sound",
+        "Nothing attached to park structures, and fires only in designated devices",
+        "An Open Container Permit 10 days ahead for beer and wine at a shelter or block party",
+        "Tent and generator questions for Mountain View Fire Rescue",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize Town of Erie history, community profile, Community Events Permit, Facility and Park Rentals, Open Container and Private Event Permit, and facility rental pages, and the Town's parks and open space rules. Confirm current requirements with the Town, Mountain View Fire Rescue and your rental provider.",
+      closing:
+        "Planning a shelter or block party? See the [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide) and [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need). For an evening reception with sound and lighting, see the [stage, sound and lighting rental guide](/resources/colorado-stage-av-lighting-rental-guide).",
+    },
+    checklist: {
+      heading: "Erie Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Erie rental companies:",
+      items: [
+        "Exact address and whether it's Town property",
+        "Guest count and event hours",
+        "Shelter reservation or block party permit",
+        "Community Events application, if on Town property",
+        "Mobile Vending Permits for food trucks",
+        "Open Container Permit 10 days out",
+        "Sound plan and written consent",
+        "Freestanding decor, nothing attached",
+        "Power for lighting and the photo booth",
+        "Tent weights and a storm plan",
+      ],
+    },
+    faqs: {
+      heading: "Erie Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for a backyard party in Erie?",
+          answer:
+            "Not a Community Events permit; the Town says that application isn't required for activities solely on private property. Town ordinances still apply, and any food truck or vendor needs an Erie Mobile Vending Permit even on private property.",
+        },
+        {
+          question: "How far ahead do I apply for an event in an Erie park?",
+          answer:
+            "Community Events applications for events and commercial activities on Town property are due at least 90 days before the event. Shelter reservations are available March 15 through November 15.",
+        },
+        {
+          question: "Can I serve beer or wine at an Erie park shelter?",
+          answer:
+            "Only with an Open Container Permit, which covers beer, fermented malt beverages and wine at a reserved shelter or an approved block party. File it with the Town Clerk at least 10 days before the event.",
+        },
+        {
+          question: "Can I play amplified music in an Erie park?",
+          answer:
+            "The Town's park rules require the parks director's prior written consent for amplified sound. Ask when you reserve, and keep the speakers pointed away from homes and trails.",
+        },
+        {
+          question:
+            "Can I bring rented tables and chairs into the Erie Community Center?",
+          answer:
+            "Yes. The Center's rental guidelines allow outside furniture rentals when its own seating isn't enough. Rice, confetti, birdseed, glitter and decorative candles aren't allowed, and groups of 100 or more pay a damage deposit.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Erie?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, block parties and backyard events in Erie and the north metro.",
     },
   },
 ];

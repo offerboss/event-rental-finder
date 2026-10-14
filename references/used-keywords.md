@@ -48,6 +48,13 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Thornton | event rentals Thornton CO | /locations/thornton-co | table-chair, tent, inflatable, av-lighting, stage, party | 2026-10-08 |
 | Parker | event rentals Parker CO | /locations/parker-co | table-chair, tent, inflatable, stage, restroom-trailer, wedding | 2026-10-08 |
 
+| Windsor | event rentals Windsor CO | /locations/windsor-co | table-chair, tent, inflatable, wedding, stage, restroom-trailer | 2026-10-14 |
+| Longmont | event rentals Longmont CO | /locations/longmont-co | table-chair, inflatable, tent, wedding, stage, restroom-trailer | 2026-10-14 |
+| Estes Park | event rentals Estes Park CO | /locations/estes-park-co | wedding, tent, av-lighting, restroom-trailer, table-chair, stage | 2026-10-14 |
+| Berthoud | event rentals Berthoud CO | /locations/berthoud-co | party, inflatable, wedding, tent, restroom-trailer, stage | 2026-10-14 |
+| Erie | event rentals Erie CO | /locations/erie-co | party, table-chair, tent, wedding, av-lighting, photo-booth | 2026-10-14 |
+
+
 Secondary angles in use (don't build a second page around these without differentiating it):
 
 - Monument: Tri-Lakes event rentals; Monument tent permit.
@@ -63,6 +70,12 @@ Secondary angles in use (don't build a second page around these without differen
 - Parker: Parker park rental tent rules; Parker General Event and Community Event permits.
 
 ---
+
+- Windsor: Windsor Special Activities Permit; Windsor park tent 6 p.m. rule; Windsor Severance Fire Rescue tent permit.
+- Longmont: Longmont 12-by-12 tent trigger; Longmont bounce house park rules; Longmont eProval special event permit.
+- Estes Park: Rocky Mountain National Park wedding ceremony limits; Estes Park reception rentals; O'Connor Pavilion.
+- Berthoud: Berthoud pavilion rentals; Berthoud Fire tent weights and clearances; Berthoud farm wedding rentals.
+- Erie: Erie Community Events Permit; Erie Mobile Vending Permit; Erie Open Container Permit; Erie park shelter rentals.
 
 ## Category Pages
 
@@ -91,6 +104,8 @@ Secondary angles in use (don't build a second page around these without differen
 | Colorado wedding rental checklist | /resources/colorado-wedding-rental-checklist | 2026-10-02 |
 | how many tables and chairs do I need | /resources/how-many-tables-and-chairs-do-i-need | 2026-10-08 |
 | event restroom rental | /resources/event-restroom-rental-guide | 2026-10-08 |
+| Colorado bounce house and party rentals | /resources/colorado-inflatable-and-party-rental-guide | 2026-10-14 |
+| Colorado stage sound lighting rentals | /resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 
@@ -103,6 +118,10 @@ Secondary angles in use for resources (don't build a second page around these wi
   accessible seating at tables.
 - Restroom guide: restroom trailer vs. porta potty; how many portable toilets per guest (Mesa County benchmark); ADA
   portable toilet 5 percent rule; handwashing stations.
+- Inflatable and party guide: Colorado amusement ride registration for inflatables; Colorado 811 for stakes; city park
+  bounce house permit patterns; generators and COI for park events.
+- Stage/AV/lighting guide: IFC 3105 temporary special event structure over 400 sq ft; C.R.S. 25-12-103 noise limits;
+  stage and amplified-sound permit triggers across Front Range cities.
 
 ## Reserved (planned, not live)
 

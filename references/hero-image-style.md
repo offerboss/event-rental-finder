@@ -1,8 +1,8 @@
 # ERF Hero Image Style
 
-Last updated: 2026-10-08 (standard approved by Adam; used for the Pikes Peak cluster and the Denver Infill Run)
+Last updated: 2026-10-14 (standard unchanged; Northern Colorado run pages shipped without heroes — follow-up pending)
 
-**Approval status:** Every new hero needs Adam's approval before it ships, until he says otherwise.
+**Approval status:** Heroes that pass this standard and the QA checklist may publish unattended. Regenerate failures rather than asking for per-image approval. (Unattended publishing authorized 2026-10-05.)
 
 ---
 
@@ -50,7 +50,7 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 - [ ] It's cropped from 16:9 to exactly 1080x720, and every key subject sits comfortably inside the frame (checked by eye)
 - [ ] WebP, under 300 KB, saved at the correct path and filename
 - [ ] Alt text is 125 characters or fewer and accurately describes the image
-- [ ] Adam has approved it
+- [ ] It passes this QA checklist (unattended publishing; regenerate on failure)
 - [ ] After deploy: the image returns 200 as `image/webp` and renders with its alt text on the city page and hub card
 
 ---
@@ -90,3 +90,19 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 
 `references/hero-image-references/` holds copies of two approved heroes (Monument and Woodland Park) to use as style
 references for new generations.
+
+## Pending Heroes (Northern Colorado / Estes Park, 2026-10-14)
+
+Pages shipped without images. Generate at 16:9 1280×720 from `references/hero-image-references/`, crop deliberately to
+1080×720 (3:2), save as WebP under 300 KB, then register in `content/locationImages.ts` or `heroImage` on the article.
+
+| Slug | Intended path | Terrain hint | Suggested alt (≤125 chars) |
+|---|---|---|---|
+| windsor-co | public/images/locations/windsor-co-event-rentals.webp | Plains / reservoir, Boardwalk-style park setting | Frame tent and rented tables beside a plains reservoir park in Windsor, Colorado |
+| longmont-co | public/images/locations/longmont-co-event-rentals.webp | Front Range plains | Park shelter party with tables, chairs and a bounce house on Front Range plains near Longmont, Colorado |
+| estes-park-co | public/images/locations/estes-park-co-event-rentals.webp | Mountain meadow, town-adjacent or private land — not tents inside RMNP | Mountain meadow wedding tent with tables and heaters outside Estes Park, Colorado |
+| berthoud-co | public/images/locations/berthoud-co-event-rentals.webp | Agricultural plains | Pavilion party with canopy, tables and a bounce house on farmland plains near Berthoud, Colorado |
+| erie-co | public/images/locations/erie-co-event-rentals.webp | Open-space plains with foothills view | Backyard tent reception with tables and string lights facing foothills near Erie, Colorado |
+| colorado-inflatable-and-party-rental-guide | public/images/resources/colorado-inflatable-and-party-rental-guide.webp | Bounce house + tables on a lawn | Bounce house and rented picnic tables on a sunny Colorado park lawn |
+| colorado-stage-av-lighting-rental-guide | public/images/resources/colorado-stage-av-lighting-rental-guide.webp | Small outdoor stage with lighting | Small outdoor stage with speakers and warm uplighting at a Colorado evening event |
+

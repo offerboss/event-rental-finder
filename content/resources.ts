@@ -1055,6 +1055,7 @@ export const resources: ResourceArticle[] = [
       "how-many-tables-and-chairs-do-i-need",
       "event-restroom-rental-guide",
       "what-size-tent-do-i-need",
+      "colorado-stage-av-lighting-rental-guide",
     ],
     relatedCategorySlugs: [
       "tent-rentals",
@@ -1310,6 +1311,7 @@ export const resources: ResourceArticle[] = [
       "what-size-tent-do-i-need",
       "event-restroom-rental-guide",
       "colorado-wedding-rental-checklist",
+      "colorado-inflatable-and-party-rental-guide",
     ],
     relatedCategorySlugs: [
       "table-chair-rentals",
@@ -1557,6 +1559,385 @@ export const resources: ResourceArticle[] = [
       primaryHref: "/categories/restroom-trailer-rentals",
       secondaryLabel: "Browse Locations",
       secondaryHref: "/locations",
+    },
+  },
+  {
+    title:
+      "Bounce House and Party Rentals in Colorado: Permits, Anchoring, Power and Safety",
+    slug: "colorado-inflatable-and-party-rental-guide",
+    excerpt:
+      "What Colorado cities ask before a bounce house or party rental goes up: state registration, park and fire rules, anchoring and Colorado 811, generators, insurance and weather.",
+    category: "Party Rentals",
+    stateCode: "CO",
+    publishedAt: "2026-10-14",
+    metaTitle:
+      "Colorado Bounce House and Party Rental Guide | Event Rental Finder",
+    metaDescription:
+      "Plan bounce house and party rentals in Colorado: state amusement ride registration, city park rules, anchoring and Colorado 811, generators, insurance, weather and what to ask providers.",
+    h1: "Bounce House and Party Rentals in Colorado: Permits, Anchoring, Power and Safety",
+    topicCategorySlug: "inflatable-rentals",
+    intro: [
+      "A bounce house looks simple until a city asks for a permit, a generator and a certificate of insurance, or until a stake hits an irrigation line. Colorado treats many inflatables as amusement rides when they're open to the public, and cities layer on park, fire and insurance rules of their own.",
+      "This guide covers the state registration rules that apply to public events, the city-by-city park triggers that show up most often, anchoring and Colorado 811, power and generators, insurance, weather and the party rentals that usually travel with a bounce house. Inventory, delivery areas and pricing vary by provider, so confirm the specifics with the company you rent from.",
+    ],
+    sections: [
+      {
+        id: "state-rules",
+        heading: "Colorado's Amusement Ride Rules for Inflatables",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The Colorado Division of Oil and Public Safety, part of the Colorado Department of Labor and Employment, regulates amusement rides. Its rules define an inflatable amusement ride as a bounce, climb, slide or interactive play structure made of flexible fabric and kept upright by continuous airflow from blowers.",
+          },
+          {
+            type: "paragraph",
+            text: "Before opening a ride to the public, an operator has to register with the Division and get a permit. Registration lasts 12 months, each device needs an annual third-party inspection certificate, and the application asks for insurance carrier details. The Division publishes a list of registered operators, so for a public event you can ask whether the company you're booking is on it.",
+          },
+          {
+            type: "callout",
+            text: "Private backyard parties aren't the same as opening a ride to the public. Still ask the provider about inspection and insurance, and check the city rules below, which apply whether the event is public or private.",
+          },
+        ],
+      },
+      {
+        id: "check-the-site",
+        heading: "Check the Site: City Rules That Come Up Often",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Park and special event rules vary by city. These are the patterns that show up most often on Colorado Front Range sites:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Longmont](/locations/longmont-co): bounce houses in parks need a Special Event on Public Property permit, sandbags or stakes no longer than 6 inches, a generator and a $1 million certificate of insurance naming the City; water inflatables aren't allowed.",
+              "[Windsor](/locations/windsor-co): blow-up structures are on the Special Activities Permit trigger list, and ground stakes 12 inches or longer need line locates.",
+              "[Thornton](/locations/thornton-co): the City Code prohibits bouncy houses and similar inflatables in City parks without a permit from the director.",
+              "[Centennial](/locations/centennial-co): Centennial Center Park requires a City permit for inflatables.",
+              "[Parker](/locations/parker-co): a General Event permit when inflatables exceed 400 square feet.",
+              "[Colorado Springs](/locations/colorado-springs-co): bounce houses in City parks go through a Special Event Permit.",
+              "[Westminster](/locations/westminster-co): inflatables, including jump castles, aren't allowed in City parks.",
+              "[Berthoud](/locations/berthoud-co): Pioneer Park lists a bounce house install section among its pavilion features; tent and canopy rules from Berthoud Fire still apply to the rest of the setup.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "When the event is on private property, ask the city about temporary use or special event permits, and ask the fire district about tents and generators that travel with the party.",
+          },
+        ],
+      },
+      {
+        id: "anchoring",
+        heading: "Anchoring, Stakes and Colorado 811",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Inflatables stay up with stakes, sandbags or water barrels. Cities often set the stake length: Longmont's park rule is 6 inches or shorter without a locate, and [South Suburban Parks and Recreation](/locations/littleton-co) asks for a call to its permit office a week ahead for utility locates when tents or inflatables will be staked. Windsor requires line locates for stakes 12 inches or longer.",
+          },
+          {
+            type: "paragraph",
+            text: "Colorado 811 is the statewide call-before-you-dig service. State law requires contacting Colorado 811 at least three business days before digging, and you wait at least three full business days after the request. Ask the provider who places the locate call, and don't assume a short stake is always enough: on soft ground or a windy plains site, ballast may be the better answer.",
+          },
+          {
+            type: "callout",
+            text: "Berthoud Fire Protection District publishes minimum leg weights for canopies and tents: 40 pounds per leg for a 10-by-10, 80 pounds per leg for a 10-by-20 and 500 pounds per leg for a six-leg 40-by-20. Ask your bounce house provider for the weight or stake plan for the specific unit.",
+          },
+        ],
+      },
+      {
+        id: "power",
+        heading: "Power and Generators",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Most bounce houses need continuous blower power. Longmont's park rules require a generator rather than plugging into a shelter outlet. Ask what wattage the unit needs, whether the provider brings a quiet generator, where it will sit and how fuel is stored.",
+          },
+          {
+            type: "paragraph",
+            text: "When a tent is part of the same party, fire districts often set generator clearances. Windsor Severance Fire Rescue, for example, keeps generators at least 20 feet from tents. Confirm the distance with the district that covers your address.",
+          },
+        ],
+      },
+      {
+        id: "insurance",
+        heading: "Insurance Cities Ask For",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A $1 million certificate of insurance naming the park owner is a common requirement for inflatables in Colorado parks. Longmont asks for a $1 million combined single limit naming the City as additional insured, and South Suburban Parks asks for a $1 million certificate from the rental company naming the District. Some cities also ask that the certificate specifically cover the bounce house, and Longmont notes that some vendors supply that coverage themselves.",
+          },
+          {
+            type: "paragraph",
+            text: "Ask the rental company for a certificate early, confirm the named insured matches the city's or district's wording, and keep a copy with the permit packet.",
+          },
+        ],
+      },
+      {
+        id: "weather",
+        heading: "Weather and When to Take It Down",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Wind and lightning end an inflatable event faster than rain. Ask the provider for its wind-speed shutdown number and how it monitors weather on the day. The National Weather Service says there's no safe place outside when thunderstorms are in the area, so plan a building or hard-topped vehicles guests can reach.",
+          },
+          {
+            type: "paragraph",
+            text: "Heat matters on the Front Range plains. NOAA's 1991–2020 normals put Longmont's average July high at 90.8°F and Pueblo's at 93.4°F. Schedule shade, water and rest breaks, and ask whether the unit's fabric gets hot in direct sun.",
+          },
+        ],
+      },
+      {
+        id: "party-rentals",
+        heading: "Party Rentals That Usually Travel With a Bounce House",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Most kids' parties and backyard celebrations rent more than the inflatable. Use [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need) for seating around the bounce house, and the [event restroom rental guide](/resources/event-restroom-rental-guide) when park restrooms won't cover the crowd.",
+          },
+          {
+            type: "paragraph",
+            text: "If a canopy or tent is part of the order, check cooking and heating rules. Berthoud Fire and Windsor Severance Fire Rescue both prohibit cooking under tents, and Windsor keeps grease-producing cooking 20 feet away. Put the grill and food truck outside the tent footprint on the site plan.",
+          },
+        ],
+      },
+      {
+        id: "provider-questions",
+        heading: "Questions to Ask a Bounce House Provider",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Is the company registered with the Colorado Division of Oil and Public Safety for public events?",
+              "What is the unit's footprint, height and blower power need?",
+              "How is it anchored, and who calls Colorado 811 if stakes go in?",
+              "Does the company bring a generator, and where will it sit?",
+              "Can it issue a certificate of insurance naming the city or park district?",
+              "What wind speed triggers a shutdown, and who monitors weather?",
+              "What is the setup and teardown window, and what happens if the park closes early?",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "how-many-tables-and-chairs-do-i-need",
+      "event-restroom-rental-guide",
+      "colorado-outdoor-event-tent-planning",
+    ],
+    relatedCategorySlugs: [
+      "inflatable-rentals",
+      "party-rentals",
+      "tent-rentals",
+      "table-chair-rentals",
+      "restroom-trailer-rentals",
+    ],
+    cta: {
+      heading: "Ready to Book a Bounce House?",
+      description:
+        "Browse inflatable rental options and compare local providers for your park, backyard or public event.",
+      primaryLabel: "Find Inflatable Rentals",
+      primaryHref: "/categories/inflatable-rentals",
+      secondaryLabel: "Browse Locations",
+      secondaryHref: "/locations",
+    },
+  },
+  {
+    title:
+      "Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather",
+    slug: "colorado-stage-av-lighting-rental-guide",
+    excerpt:
+      "How Colorado cities and the fire code treat stages, sound and lighting: when a stage needs a permit, noise limits, generators, site plans and weather monitoring.",
+    category: "Staging & AV",
+    stateCode: "CO",
+    publishedAt: "2026-10-14",
+    metaTitle:
+      "Colorado Stage, Sound and Lighting Rental Guide | Event Rental Finder",
+    metaDescription:
+      "Plan stage, sound and lighting rentals in Colorado: stage permits and the 400-square-foot fire code threshold, noise rules, generators, site plans, weather monitoring and what to ask providers.",
+    h1: "Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather",
+    topicCategorySlug: "stage-rentals",
+    intro: [
+      "A stage, a PA and a string of lights can turn a picnic into a permitted event. Colorado cities treat stages, amplified sound and temporary structures as special event triggers, and the state's adopted fire code adds a size threshold many planners miss.",
+      "This guide covers when a stage needs a permit, how Colorado's noise statute and local rules interact, power and generator placement, site plans, weather monitoring and the questions that keep a rental company and a fire marshal on the same page. Inventory, delivery areas and pricing vary by provider, so confirm the specifics with the company you rent from.",
+    ],
+    sections: [
+      {
+        id: "what-you-need",
+        heading: "What Most Events Actually Need",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Not every event needs a full stage package. A backyard reception may need only a small riser, uplighting and a DJ's speakers. A public festival may need a roofed stage, delay speakers, house lighting and a generator farm. Start with the program: How many people need to see the speakers? How late does the music run? Is the site on public property, private land or a park with its own noise and structure rules?",
+          },
+          {
+            type: "list",
+            items: [
+              "Stage or riser sized for the performers and the sight lines",
+              "Sound system matched to the guest count and the neighbors",
+              "Lighting for safety paths, the stage and the dance floor",
+              "Power plan: house circuits, a generator or both",
+              "Cable covers, rain protection and a weather shutdown plan",
+            ],
+          },
+        ],
+      },
+      {
+        id: "stage-permits",
+        heading: "When a Stage Needs a Permit",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cities often list stages as a special event trigger even when the stage is small. [Windsor](/locations/windsor-co) includes stages on its Special Activities checklist. In [Littleton](/locations/littleton-co), a stage at a public event needs the City Event Permit, and the Building Division reviews stages and electrical. [Centennial](/locations/centennial-co)'s Centennial Center Park requires a City permit for stages. [Colorado Springs](/locations/colorado-springs-co) routes stages and other equipment setups in City parks to a Special Event Permit.",
+          },
+          {
+            type: "paragraph",
+            text: "Colorado's Division of Fire Prevention and Control publishes the 2021 International Fire Code with state amendments. Chapter 31 defines a temporary special event structure as any temporary ground-supported structure, platform, stage, stage scaffolding or rigging, canopy, or tower supporting audio or visual effects equipment not regulated under the International Building Code. Section 3105.2 requires approval and permits from the fire code official and the building official when that structure is larger than 400 square feet.",
+          },
+          {
+            type: "callout",
+            text: "A 20-by-20 stage is exactly 400 square feet. Anything larger crosses the IFC threshold in jurisdictions that enforce that section. Construction documents for temporary special event structures are prepared by a registered design professional and follow the International Building Code and ANSI E1.21.",
+          },
+          {
+            type: "paragraph",
+            text: "Ask the local fire district and building department which code edition they enforce and if your stage size needs a separate permit beyond the city's special event application.",
+          },
+        ],
+      },
+      {
+        id: "sound-rules",
+        heading: "Sound Rules: State Statute and Local Limits",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Colorado Revised Statutes 25-12-103 sets statewide maximum permissible noise levels measured 25 feet or more from the property line:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Residential (7 a.m.–7 p.m. / 7 p.m.–7 a.m.)",
+                value: "55 / 50 dB(A)",
+              },
+              {
+                label: "Commercial (day / night)",
+                value: "60 / 55 dB(A)",
+              },
+              {
+                label: "Light industrial (day / night)",
+                value: "70 / 65 dB(A)",
+              },
+              {
+                label: "Daytime excess allowed",
+                value: "Up to 10 dB(A) for 15 minutes per hour",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Subsection (11) exempts cultural and entertainment events held by the state, local governments or nonprofits and their permittees, while preserving local authority to regulate. In practice, cities add their own triggers:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Longmont](/locations/longmont-co): amplified sound audible more than 25 feet from the source, or over 80 decibels on the eProval form, needs a Use of Public Places permit; private property has no permit for excessive noise.",
+              "[Littleton](/locations/littleton-co): a Residential Amplified Sound Permit for any private party with a DJ or live band.",
+              "[Colorado Springs](/locations/colorado-springs-co): a Noise Hardship Permit for any amplified sound in a City park, requested about 30 days ahead.",
+              "[Westminster](/locations/westminster-co): pavilions don't allow amplified music.",
+              "[Erie](/locations/erie-co): amplified sound in parks needs the parks director's prior written consent.",
+              "Rocky Mountain National Park wedding sites: no amplified music, and music otherwise limited to 60 dB.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Point speakers into the crowd, not toward homes, and set an end time before you book the DJ. For [Estes Park](/locations/estes-park-co) receptions after a Rocky Mountain National Park ceremony, keep the sound plan at the reception venue, not at the park site.",
+          },
+        ],
+      },
+      {
+        id: "power",
+        heading: "Power, Generators and Outdoor Electrical",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Stages and lighting packages often outgrow a venue's house circuits. The 2021 IFC's special event provisions require electrical equipment listed for outdoor use, and generators at least 10 feet from combustibles with a guard at least 3 feet away. Local districts can be stricter: Windsor Severance Fire Rescue keeps generators 20 feet from tents.",
+          },
+          {
+            type: "paragraph",
+            text: "Ask the provider for a load list, how many circuits or how large a generator the package needs, who runs the cabling and who covers cable ramps so guests don't trip. Outdoor-rated distribution, GFCI protection and a dry place for the board matter as much as the speakers.",
+          },
+        ],
+      },
+      {
+        id: "placement",
+        heading: "Placement and the Site Plan",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Special event applications almost always ask for a site plan. Put the stage, speaker positions, cable runs, generator, tent and emergency lanes on it before you submit. Windsor's Special Activity Guidelines ask for the direction of each speaker and a 20-foot emergency access lane. [Estes Park](/locations/estes-park-co)'s Riverside Plaza policy wants tent permits, liquor, security and insurance documents 30 days before the event.",
+          },
+          {
+            type: "paragraph",
+            text: "Leave pathways clear for guests, catering and emergency vehicles. Keep the stage away from overhead lines, and keep the generator where exhaust won't blow into the tent or the seating area.",
+          },
+        ],
+      },
+      {
+        id: "weather",
+        heading: "Weather Monitoring and Lightning",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Temporary stages and outdoor sound systems don't mix with high wind or lightning. The 2021 IFC's special event weather section requires a weather monitoring person where the fire code official requires one, and the National Weather Service says there's no safe place outside when thunderstorms are in the area.",
+          },
+          {
+            type: "paragraph",
+            text: "Ask who watches the forecast on the day, what wind speed triggers a shutdown and where guests go when lightning is nearby. A building or hard-topped vehicles within a short walk beats a tent for thunderstorm shelter. Mountain evenings add another layer: NOAA's Estes Park normals put July lows around 48°F, so lighting plans often pair with heaters and sidewalls at the reception.",
+          },
+        ],
+      },
+      {
+        id: "provider-questions",
+        heading: "Questions to Ask a Stage and AV Provider",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "What stage size and height fit the site and the sight lines?",
+              "Does the package cross 400 square feet, and who handles fire and building permits?",
+              "What sound level will the system run at, and can it stay inside local limits?",
+              "What power does the package need, and who supplies the generator?",
+              "Who draws the site plan showing stage, speakers, generator and cable runs?",
+              "What wind and lightning thresholds trigger a shutdown?",
+              "What is the setup and teardown window, and who stays on site during the event?",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-outdoor-event-tent-planning",
+      "colorado-wedding-rental-checklist",
+      "how-many-tables-and-chairs-do-i-need",
+    ],
+    relatedCategorySlugs: [
+      "stage-rentals",
+      "av-lighting-rentals",
+      "dance-floor-rentals",
+      "tent-rentals",
+      "wedding-rentals",
+    ],
+    cta: {
+      heading: "Ready to Book a Stage or Sound System?",
+      description:
+        "Browse stage and AV lighting rental options and compare local providers for your venue, guest count and permit requirements.",
+      primaryLabel: "Find Stage Rentals",
+      primaryHref: "/categories/stage-rentals",
+      secondaryLabel: "Find AV & Lighting Rentals",
+      secondaryHref: "/categories/av-lighting-rentals",
     },
   },
 ];

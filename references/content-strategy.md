@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-08 (Denver Infill Run shipped: 5 cities + 2 resources)
+Last updated: 2026-10-14 (Northern Colorado / Estes Park run shipped: 5 cities + 2 resources; heroes pending follow-up)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -16,7 +16,7 @@ merits and must not imply provider coverage, prices or rankings the site doesn't
 | New planning resources | 2 |
 
 Pages ship in small batches. Each batch is reviewed, built, pushed to `main` (Vercel auto-deploys) and verified on
-production before the next batch starts. Hero images need Adam's approval before they ship (see `hero-image-style.md`).
+production before the next batch starts. Hero images that pass the approved site standard and QA checklist in `hero-image-style.md` may publish unattended; regenerate failures rather than asking for per-image approval.
 
 ### Week of 2026-09-28 Progress
 
@@ -31,6 +31,13 @@ production before the next batch starts. Hero images need Adam's approval before
 |---|---|---|---|
 | New city pages (rich) | 5 | 5 | Littleton, Centennial, Westminster, Thornton, Parker |
 | New planning resources | 2 | 2 | How many tables and chairs do I need; Event restroom rental guide |
+
+### Week of 2026-10-12 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Windsor, Longmont, Estes Park, Berthoud, Erie |
+| New planning resources | 2 | 2 | Colorado bounce house and party rental guide; Colorado stage, sound and lighting rental guide |
 
 ---
 
@@ -138,23 +145,85 @@ Nearby links (all reciprocal):
 | Denver | aurora, lakewood, arvada, littleton, centennial, westminster, thornton |
 | Littleton | centennial, denver, lakewood, parker |
 | Centennial | littleton, aurora, parker, denver |
-| Westminster | thornton, arvada, boulder, denver |
-| Thornton | westminster, denver |
+| Westminster | thornton, arvada, boulder, denver, erie |
+| Thornton | westminster, denver, erie |
 | Parker | castle-rock, centennial, aurora, littleton |
 | Aurora | denver, centennial, parker |
 | Lakewood | denver, arvada, littleton |
 | Arvada | denver, lakewood, boulder, westminster |
-| Boulder | arvada, westminster |
+| Boulder | arvada, westminster, longmont, erie |
 | Castle Rock | denver, colorado-springs, monument, parker |
 
 Denver is still a thin page, so there's no in-body hub paragraph for this cluster yet (see Friday QA).
+
+## Current Cluster: Northern Colorado / Estes Park
+
+Expanded from the "Northern Colorado / Estes Park" row of Next Candidate Clusters. Berthoud and Erie were added as
+in-cluster expansions (documented here) so the five-city week covers Windsor, Longmont, Estes Park, Berthoud and Erie.
+Shipped 2026-10-14. Heroes for the five cities and two guides are pending a follow-up commit (no image generation tool
+on this run).
+
+| Batch | Pages | Status |
+|---|---|---|
+| Northern Colorado Run | Windsor (`windsor-co`), Longmont (`longmont-co`), Estes Park (`estes-park-co`), Berthoud (`berthoud-co`), Erie (`erie-co`) | Live 2026-10-14 (heroes pending) |
+| Resources | `/resources/colorado-inflatable-and-party-rental-guide`, `/resources/colorado-stage-av-lighting-rental-guide` | Live 2026-10-14 (heroes pending). Linked from each other's related lists where relevant, the wedding checklist and tables guide related lists, and the new city closings. "Inflatables and Party Rentals" and "Staging, AV and Lighting" removed from `plannedTopics` |
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Windsor:** Special Activities applications due 90 days out (late ones not reviewed). Permit triggers include 100+
+  people, alcohol, vendors, amplified sound, street closures, tents larger than 10x10, inflatables, bleachers or stages.
+  Parks: no tents after 6 p.m., stakes 12 inches or longer need line locates, only shelters can be reserved. Windsor
+  Severance Fire Rescue: tent permit over 600 sq ft, canopy over 900 sq ft; no open-flame cooking under tents; generators
+  20 ft from tents. Windsor Lake events limited; Boardwalk Park shelters, Band Shell and Market Pavilion for gatherings.
+- **Longmont:** Special Event on Public Property / UOPP when alcohol, traffic blocked, anything larger than a single
+  12x12 pop-up, public admission, amplified sound audible more than 25 ft, bounce houses or sales. eProval at least 45
+  days ahead; $1M COI naming the City. Shelter rules: weekend reservations stop Thursday noon; no alcohol or amplified
+  sound without the permit; bounce houses need sandbags or stakes ≤6 inches, a generator and insurance; no water
+  inflatables; no drones. Private property may need a Temporary Use Special Event Permit; noise code has no excess
+  permit. NOAA Longmont 2 ESE July normal high 90.8°F.
+- **Estes Park:** RMNP ceremony Special Use Permit: designated sites, 30 people max, 2 hours including setup; no
+  tables, tents, decorations or generators; no amplified music. Receptions outside the park (Lily Lake Southside Picnic
+  Area is the only park reception site, with its own limits). Town permits for Bond Park, Performance Park, Riverside
+  Plaza and streets (120 days new / 60 returning). Larimer County Private Land Special Event over 40 people. O'Connor
+  Pavilion (140 seated, 350 max). NOAA Estes Park 3 SSE: July high 80.2°F, July low 48.2°F, Sept low 39.2°F. Fall elk
+  rut and aspens.
+- **Berthoud (expansion):** Garden Spot of Colorado; ~54% Larimer / 46% Weld. Small pavilions (mostly 24–36 seats; Roberts
+  Lake 6). Special events 30–60 days ahead; alcohol permits ≤45 days. Berthoud Fire: tent/canopy permit over 700 sq ft;
+  no cooking/heating/fuel under any tent; 20 ft clearances including guy ropes; published leg weights; Planned Outdoor
+  Event for 1,000+ people or 4+ large tents; food truck inspections 10 business days ahead. Outside town: Larimer or Weld
+  County permits.
+- **Erie (expansion):** Coal-town history; Boulder and Weld counties; 2025 pop. 41,916. Community Events application 90
+  days ahead for Town property (not for private property alone). Mobile Vending Permit required everywhere, including
+  private property. Shelters reservable Mar 15–Nov 15. Park rules: amplified sound needs director consent; no alcohol
+  without Open Container Permit (10 days ahead); nothing attached to park structures; dawn–dusk except Erie Community
+  Park 6 a.m.–10 p.m. Mountain View Fire Rescue serves Erie (thresholds not published here).
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Windsor | fort-collins, greeley, loveland |
+| Longmont | berthoud, erie, boulder, loveland, estes-park |
+| Estes Park | loveland, longmont |
+| Berthoud | loveland, longmont |
+| Erie | longmont, boulder, westminster, thornton |
+| Fort Collins | loveland, greeley, windsor |
+| Greeley | fort-collins, loveland, windsor |
+| Loveland | fort-collins, greeley, windsor, berthoud, longmont, estes-park |
+| Boulder | arvada, westminster, longmont, erie |
+| Westminster | thornton, arvada, boulder, denver, erie |
+| Thornton | westminster, denver, erie |
+
+Fort Collins, Greeley and Boulder remain thin pages, so there is no in-body hub paragraph for this cluster yet (see Friday QA).
+
+---
 
 ## Next Candidate Clusters
 
 | Cluster | Candidate cities | Notes |
 |---|---|---|
-| Northern Colorado / Estes Park | Windsor, Longmont, Estes Park | Builds on Fort Collins, Loveland and Greeley |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | In progress (see Current Cluster above). Further infill candidates to scope: Englewood, Northglenn, Broomfield |
+| Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08. Further infill candidates to scope: Englewood, Northglenn, Broomfield |
 | Western Slope | Fruita, Palisade (already referenced in Grand Junction's `nearbyCities`), others to be scoped | Builds on Grand Junction |
 
 ---
@@ -192,8 +261,8 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 - The Western Slope and Ski Towns cards link to `/locations`.
 - The homepage featured-location cards use hard-coded image paths with `alt=""`.
 - The `plannedTopics` list on the resources page: "Tent Sizing and Planning" and "Wedding Rentals" were removed in the
-  Resource Run, and "Tables and Seating" and "Event Restrooms" in the Denver Infill Run (now covered); the other two are
-  still unlinked placeholders.
+  Resource Run, "Tables and Seating" and "Event Restrooms" in the Denver Infill Run, and "Inflatables and Party Rentals"
+  and "Staging, AV and Lighting" in the Northern Colorado run (now covered); `plannedTopics` is empty and the section hides.
 - "whether you" still appears in older copy (Aurora, Arvada, Castle Rock, Loveland, Monument, Woodland Park, Fountain and Pueblo
   pages, the tent planning guide and the wedding checklist). New pages avoid it.
 

@@ -1,12 +1,57 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-08 (Denver Infill Run: Littleton, Centennial, Westminster, Thornton, Parker; tables and chairs guide; event restroom guide)
+Last audited: 2026-10-14 (Northern Colorado / Estes Park run: Windsor, Longmont, Estes Park, Berthoud, Erie; inflatable/party guide; stage/AV/lighting guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-14: ERF Northern Colorado / Estes Park Run
+
+- **Cluster:** Northern Colorado / Estes Park, expanded with Berthoud and Erie (documented in `content-strategy.md`).
+- **New rich city pages** (content in `content/locations.ts`), approximate rendered words in `<main>`:
+  - Windsor (`/locations/windsor-co`), about 1,520 words.
+  - Longmont (`/locations/longmont-co`), about 1,440 words.
+  - Estes Park (`/locations/estes-park-co`), about 1,475 words.
+  - Berthoud (`/locations/berthoud-co`), about 1,430 words.
+  - Erie (`/locations/erie-co`), about 1,385 words.
+- **New resource guides** (content in `content/resources.ts`, `publishedAt` 2026-10-14; no `heroImage` yet):
+  - Bounce House and Party Rentals in Colorado (`/resources/colorado-inflatable-and-party-rental-guide`), about 1,240 words.
+  - Stage, Sound and Lighting Rentals in Colorado (`/resources/colorado-stage-av-lighting-rental-guide`), about 1,220 words.
+- **Links:** nearby lists updated on Fort Collins, Greeley, Loveland, Boulder, Westminster and Thornton (all reciprocal).
+  New guides linked from new city closings; wedding checklist and tables guide related lists updated. "Inflatables and
+  Party Rentals" and "Staging, AV and Lighting" removed from `plannedTopics` (section now hides when empty).
+- **Heroes:** not generated this run (no image tool available to the executor). Pages ship without `locationImages` /
+  `heroImage` entries; follow-up commit expected for 1080×720 WebP heroes under 300 KB.
+- **Sources:**
+  - Windsor: Town Special Activities page; Special Activity Guidelines (effective 01.01.2026); Parks page; Special Event
+    Liquor Permit page; GIS page (Weld/Larimer parcels); Windsor Severance Fire Rescue tent requirements as published by
+    the Town.
+  - Longmont: City Clerk Special Events Permit / Use of Public Places page; Park Shelter Reservations page; Commercial
+    Use page; eProval; About Longmont; NOAA Longmont 2 ESE (USC00055116) 1991–2020 normals.
+  - Estes Park: NPS Rocky Mountain National Park Weddings page (updated 9/14/2026); Town event permits and venue pages
+    (Bond Park, Performance Park, Riverside Plaza, O'Connor Pavilion); Larimer County Special Event Permits; Estes Valley
+    Fire Protection District Construction and Remodels (2021 IFC); Visit Estes Park FAQ; NOAA Estes Park 3 SSE
+    (USC00052761); NWS lightning guidance.
+  - Berthoud: Town Special Events Permit page; Indoor & Outdoor Rentals and Pavilion Rental Request; 2025 Budget Book
+    (Garden Spot / county split); Berthoud Fire Protection District Fire Special Permits; Larimer County Private Land
+    Special Event rules.
+  - Erie: Town History page; 2025 Community Profile; Community Events Permit; Facility & Park Rentals; Parks & Open Space
+    Rules (Title 7 Ch. 6); Open Container / Private Event Permit; Facility Rental Guidelines; Mountain View Fire Rescue
+    Communities We Serve.
+  - Inflatable/party guide: CDLE Division of Oil & Public Safety amusement rides FAQ and 7 CCR 1101-12; Colorado 811
+    notice requirements; city rules cross-linked from existing ERF location pages (Longmont, Windsor, Thornton,
+    Centennial, Parker, Colorado Springs, Westminster, Berthoud, Littleton/South Suburban); NOAA normals; NWS lightning.
+  - Stage/AV/lighting guide: Colorado DFPC 2021 IFC Ch. 31 (temporary special event structures, 3105.2 over 400 sq ft,
+    3106 generator and weather provisions); C.R.S. 25-12-103; city and park noise/stage rules from existing ERF pages;
+    RMNP wedding sound limits; NWS lightning.
+- **Build / ship:** `npx tsc --noEmit`, `npm run lint`, `npm run build` passed. Commit and push to `origin/main` (hash
+  recorded at ship). Sitemap expected at 50 URLs (26 locations + 10 categories + 8 resources + static routes).
+- **Deferred:** seven heroes; Fort Collins / Greeley / Boulder thin hub copy; unverified fire-permit thresholds for
+  Mountain View Fire Rescue (Erie) and Estes Valley Fire Protection District; Windsor guideline late-fee vs. webpage
+  "won't be reviewed" inconsistency (page cites the webpage statement).
 
 ### 2026-10-08: ERF Denver Infill Run 
 
@@ -159,7 +204,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (21)
+## Location Pages (26)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -185,6 +230,12 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Thornton | Adams County | Rich | https://www.eventrentalfinder.com/locations/thornton-co | 2026-10-08 |
 | Parker | Douglas County | Rich | https://www.eventrentalfinder.com/locations/parker-co | 2026-10-08 |
 
+| Windsor | Weld and Larimer Counties | Rich | https://www.eventrentalfinder.com/locations/windsor-co | 2026-10-14 |
+| Longmont | Boulder and Weld Counties | Rich | https://www.eventrentalfinder.com/locations/longmont-co | 2026-10-14 |
+| Estes Park | Larimer County | Rich | https://www.eventrentalfinder.com/locations/estes-park-co | 2026-10-14 |
+| Berthoud | Larimer and Weld Counties | Rich | https://www.eventrentalfinder.com/locations/berthoud-co | 2026-10-14 |
+| Erie | Boulder and Weld Counties | Rich | https://www.eventrentalfinder.com/locations/erie-co | 2026-10-14 |
+
 ## Category Pages (10)
 
 | Category | URL |
@@ -200,7 +251,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (6)
+## Resource Pages (8)
 
 | Title | URL | Published |
 |---|---|---|
@@ -210,10 +261,12 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Colorado Wedding Rental Checklist: What to Book, When to Confirm, What to Ask | https://www.eventrentalfinder.com/resources/colorado-wedding-rental-checklist | 2026-10-02 |
 | How Many Tables and Chairs Do I Need? Event Seating, Layouts and Spacing | https://www.eventrentalfinder.com/resources/how-many-tables-and-chairs-do-i-need | 2026-10-08 |
 | Event Restroom Rentals: Trailers vs. Portable Units, How Many, and Colorado Site Rules | https://www.eventrentalfinder.com/resources/event-restroom-rental-guide | 2026-10-08 |
+| Bounce House and Party Rentals in Colorado: Permits, Anchoring, Power and Safety | https://www.eventrentalfinder.com/resources/colorado-inflatable-and-party-rental-guide | 2026-10-14 |
+| Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather | https://www.eventrentalfinder.com/resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
 
 ## Machine-Readable
 
 | File | URL |
 |---|---|
-| Sitemap (43 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (50 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

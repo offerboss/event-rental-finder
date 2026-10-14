@@ -47,8 +47,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
   - Stage/AV/lighting guide: Colorado DFPC 2021 IFC Ch. 31 (temporary special event structures, 3105.2 over 400 sq ft,
     3106 generator and weather provisions); C.R.S. 25-12-103; city and park noise/stage rules from existing ERF pages;
     RMNP wedding sound limits; NWS lightning.
-- **Build / ship:** `npx tsc --noEmit`, `npm run lint`, `npm run build` passed. Commit and push to `origin/main` (hash
-  recorded at ship). Sitemap expected at 50 URLs (26 locations + 10 categories + 8 resources + static routes).
+- **Build / ship:** `npx tsc --noEmit`, `npm run lint`, `npm run build` passed. Commit `9770b65` pushed to `origin/main`.
+  Production verified 2026-10-14 ~7:25 AM MT: seven new URLs return 200; sitemap has 50 URLs; resources hub no longer lists plannedTopics.
 - **Deferred:** seven heroes; Fort Collins / Greeley / Boulder thin hub copy; unverified fire-permit thresholds for
   Mountain View Fire Rescue (Erie) and Estes Valley Fire Protection District; Windsor guideline late-fee vs. webpage
   "won't be reviewed" inconsistency (page cites the webpage statement).

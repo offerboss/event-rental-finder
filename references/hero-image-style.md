@@ -85,24 +85,11 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 | colorado-wedding-rental-checklist | public/images/resources/colorado-wedding-rental-checklist.webp | 1080x720, 125 KB | Wedding tent with round tables, ivory linens and string lights beside a dance floor at golden hour in the Colorado foothills | Shipped 2026-10-02 (Adam-generated and approved) |
 | how-many-tables-and-chairs-do-i-need | public/images/resources/how-many-tables-and-chairs-do-i-need.webp | 1080x720, 99 KB | Round tables and white folding chairs set with clear aisles under a frame tent for a reception in Colorado | Shipped 2026-10-08 (Adam-generated and approved) |
 | event-restroom-rental-guide | public/images/resources/event-restroom-rental-guide.webp | 1080x720, 120 KB | Restroom trailer with a ramp and an accessible portable unit on level ground beside a wedding tent in Colorado | Shipped 2026-10-08 (Adam-generated and approved) |
+| colorado-inflatable-and-party-rental-guide | public/images/resources/colorado-inflatable-and-party-rental-guide.webp | 1080x720, 98 KB | Bounce house and rented picnic tables on a sunny Colorado park lawn | Shipped 2026-10-14 (QA passed, unattended) |
+| colorado-stage-av-lighting-rental-guide | public/images/resources/colorado-stage-av-lighting-rental-guide.webp | 1080x720, 109 KB | Small outdoor stage with speakers and warm uplighting at a Colorado evening event | Shipped 2026-10-14 (QA passed, unattended) |
 
 ## Reference Images
 
 `references/hero-image-references/` holds copies of two approved heroes (Monument and Woodland Park) to use as style
 references for new generations.
-
-## Pending Heroes (Northern Colorado / Estes Park, 2026-10-14)
-
-Pages shipped without images. Generate at 16:9 1280×720 from `references/hero-image-references/`, crop deliberately to
-1080×720 (3:2), save as WebP under 300 KB, then register in `content/locationImages.ts` or `heroImage` on the article.
-
-| Slug | Intended path | Terrain hint | Suggested alt (≤125 chars) |
-|---|---|---|---|
-| windsor-co | public/images/locations/windsor-co-event-rentals.webp | Plains / reservoir, Boardwalk-style park setting | Frame tent and rented tables beside a plains reservoir park in Windsor, Colorado |
-| longmont-co | public/images/locations/longmont-co-event-rentals.webp | Front Range plains | Park shelter party with tables, chairs and a bounce house on Front Range plains near Longmont, Colorado |
-| estes-park-co | public/images/locations/estes-park-co-event-rentals.webp | Mountain meadow, town-adjacent or private land — not tents inside RMNP | Mountain meadow wedding tent with tables and heaters outside Estes Park, Colorado |
-| berthoud-co | public/images/locations/berthoud-co-event-rentals.webp | Agricultural plains | Pavilion party with canopy, tables and a bounce house on farmland plains near Berthoud, Colorado |
-| erie-co | public/images/locations/erie-co-event-rentals.webp | Open-space plains with foothills view | Backyard tent reception with tables and string lights facing foothills near Erie, Colorado |
-| colorado-inflatable-and-party-rental-guide | public/images/resources/colorado-inflatable-and-party-rental-guide.webp | Bounce house + tables on a lawn | Bounce house and rented picnic tables on a sunny Colorado park lawn |
-| colorado-stage-av-lighting-rental-guide | public/images/resources/colorado-stage-av-lighting-rental-guide.webp | Small outdoor stage with lighting | Small outdoor stage with speakers and warm uplighting at a Colorado evening event |
 

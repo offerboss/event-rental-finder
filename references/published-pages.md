@@ -10,6 +10,9 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 ### 2026-10-14: ERF Northern Colorado / Estes Park Run
 
+
+- **Heroes shipped 2026-10-14** (follow-up): five Northern Colorado city heroes and both new resource heroes at 1080x720 WebP under 300 KB; registered in locationImages and resource heroImage; QA passed (Windsor regenerated once to remove tent lettering).
+
 - **Cluster:** Northern Colorado / Estes Park, expanded with Berthoud and Erie (documented in `content-strategy.md`).
 - **New rich city pages** (content in `content/locations.ts`), approximate rendered words in `<main>`:
   - Windsor (`/locations/windsor-co`), about 1,520 words.

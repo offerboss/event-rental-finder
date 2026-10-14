@@ -1570,6 +1570,10 @@ export const resources: ResourceArticle[] = [
     category: "Party Rentals",
     stateCode: "CO",
     publishedAt: "2026-10-14",
+    heroImage: {
+      src: "/images/resources/colorado-inflatable-and-party-rental-guide.webp",
+      alt: "Bounce house and rented picnic tables on a sunny Colorado park lawn",
+    },
     metaTitle:
       "Colorado Bounce House and Party Rental Guide | Event Rental Finder",
     metaDescription:
@@ -1752,6 +1756,10 @@ export const resources: ResourceArticle[] = [
     category: "Staging & AV",
     stateCode: "CO",
     publishedAt: "2026-10-14",
+    heroImage: {
+      src: "/images/resources/colorado-stage-av-lighting-rental-guide.webp",
+      alt: "Small outdoor stage with speakers and warm uplighting at a Colorado evening event",
+    },
     metaTitle:
       "Colorado Stage, Sound and Lighting Rental Guide | Event Rental Finder",
     metaDescription:

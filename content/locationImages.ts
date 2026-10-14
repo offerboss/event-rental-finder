@@ -61,4 +61,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/parker-co-event-rentals.webp",
     alt: "Frame tent on water-barrel weights with round tables and a restroom trailer on pavement in a park in Parker, Colorado",
   },
+  "windsor-co": {
+    src: "/images/locations/windsor-co-event-rentals.webp",
+    alt: "Frame tent with rented tables beside a plains reservoir park in Windsor, Colorado",
+  },
+  "longmont-co": {
+    src: "/images/locations/longmont-co-event-rentals.webp",
+    alt: "Park lawn party with tables, chairs and a bounce house on Front Range plains near Longmont, Colorado",
+  },
+  "estes-park-co": {
+    src: "/images/locations/estes-park-co-event-rentals.webp",
+    alt: "Mountain meadow wedding tent with tables and heaters outside Estes Park, Colorado",
+  },
+  "berthoud-co": {
+    src: "/images/locations/berthoud-co-event-rentals.webp",
+    alt: "Pavilion party with canopy, tables and a bounce house on farmland plains near Berthoud, Colorado",
+  },
+  "erie-co": {
+    src: "/images/locations/erie-co-event-rentals.webp",
+    alt: "Backyard tent reception with tables and string lights facing foothills near Erie, Colorado",
+  },
 };

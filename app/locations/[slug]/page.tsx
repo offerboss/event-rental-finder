@@ -49,6 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description:
       location.metaDescription ??
       `Find event rental companies in ${place} for tents, tables and chairs, weddings, parties, inflatables, photo booths, restroom trailers, staging, AV and more.`,
+    alternates: { canonical: `/locations/${location.slug}` },
   };
 }
 

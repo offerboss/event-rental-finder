@@ -303,3 +303,18 @@ These are known issues, deliberately left out of Batch 1. Fix them in separate, 
 - The Denver page is thin, and pages run long overall (report only).
 - The Parker hero framing is tight. A signage retouch on the tent hero and shortened tab titles are still deferred.
 - The `/contact` form isn't connected: submit shows a "not sent" notice. Wire it to GHL or remove it.
+
+## Friday QA — 2026-10-16
+
+**Fixed**
+
+- Canonicals added on every page: `metadataBase` (`https://www.eventrentalfinder.com`) in `app/layout.tsx` plus `alternates.canonical` on the home, hub, contact, for-rental-companies and providers pages and in the location, category and resource `generateMetadata`. Metadata-only change; no layout or template markup changed. Open Graph and JSON-LD are still not added.
+- Windsor late-application conflict: the page said late Special Activities applications "won't be reviewed", but the Town's Special Activity Guidelines (recreationliveshere.com DocumentCenter/View/324) list a per-day late fine for applications submitted after the 90-day window. Both mentions now follow the Guidelines.
+- Erie and Estes Park fire thresholds re-checked: neither page states a tent-size number. Erie points readers to Mountain View Fire Rescue; Estes Park's statement that the Estes Valley Fire Protection District enforces the 2021 IFC matches estesvalleyfire.org (Resolution 2023-10, in effect 2024). No change needed.
+- Crawl of the live sitemap (50 URLs): all 200, titles and descriptions present, no duplicate titles, no broken internal links. All 50 had no canonical before this fix. Three resource titles run 66–69 characters.
+
+**Open / not fixed**
+
+- Thin Fort Collins, Greeley and Boulder pages and the thin Denver hub: these need new researched sections from official city sources (park permits, special-event rules, fire district). Not written this week; schedule them as a content run.
+- Privacy and terms drafts are still uncommitted, waiting on Adam's input. The `/contact` form is still not connected.
+- Parker hero framing, the tent-hero signage retouch and shortened tab titles are still deferred.

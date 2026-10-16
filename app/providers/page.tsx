@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Event Rental Providers | Event Rental Finder",
   description:
     "Browse event rental providers and discover companies offering tents, tables and chairs, weddings, inflatables, photo booths, restroom trailers, staging, AV and more.",
+  alternates: { canonical: "/providers" },
 };
 
 const categoryNames = new Map(categories.map((c) => [c.slug, c.name]));

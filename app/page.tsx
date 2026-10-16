@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { categories } from "@/content/categories";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const iconProps = {
   width: 18,

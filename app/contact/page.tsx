@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Contact Event Rental Finder",
   description:
     "Contact Event Rental Finder with questions about event rental listings, directory coverage, provider information and local event rental resources.",
+  alternates: { canonical: "/contact" },
 };
 
 const iconProps = {

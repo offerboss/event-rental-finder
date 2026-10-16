@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.metaTitle ?? `${article.title} | Event Rental Finder`,
     description: article.metaDescription ?? article.excerpt,
+    alternates: { canonical: `/resources/${article.slug}` },
   };
 }
 

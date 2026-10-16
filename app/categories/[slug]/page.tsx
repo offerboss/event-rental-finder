@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: category.metaTitle ?? `${category.name} | Event Rental Finder`,
     description: category.metaDescription ?? category.shortDescription,
+    alternates: { canonical: `/categories/${category.slug}` },
   };
 }
 

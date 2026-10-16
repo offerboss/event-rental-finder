@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.eventrentalfinder.com"),
   title: "Event Rental Finder | Find Event Rentals in Colorado",
   description:
     "Find event rental companies in Colorado for tents, tables and chairs, wedding and party rentals, inflatables, restroom trailers, photo booths, dance floors, staging and AV.",

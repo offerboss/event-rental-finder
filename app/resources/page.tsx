@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Event Rental Resources | Event Rental Finder",
   description:
     "Explore event rental planning guides, tips and resources for tents, tables and chairs, weddings, party rentals, restrooms, staging, AV and more.",
+  alternates: { canonical: "/resources" },
 };
 
 // Topics ERF plans to cover. These are intentionally not links: the guides

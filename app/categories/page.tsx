@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Event Rental Categories | Event Rental Finder",
   description:
     "Browse event rental categories including tents, tables and chairs, wedding rentals, inflatables, photo booths, restroom trailers, staging, AV and more.",
+  alternates: { canonical: "/categories" },
 };
 
 export default function CategoriesPage() {

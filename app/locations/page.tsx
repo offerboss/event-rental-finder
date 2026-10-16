@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Event Rental Locations | Event Rental Finder",
   description:
     "Browse local event rental companies serving cities across Colorado. Explore rental categories, compare options, and connect with providers serving your area.",
+  alternates: { canonical: "/locations" },
 };
 
 export default function LocationsPage() {

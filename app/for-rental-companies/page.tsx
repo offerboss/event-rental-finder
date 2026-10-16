@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Apply to Be Featured on Event Rental Finder",
   description:
     "Put your event rental company in front of customers actively searching in the markets you serve. Apply for featured placement on Event Rental Finder.",
+  alternates: { canonical: "/for-rental-companies" },
 };
 
 const iconProps = {

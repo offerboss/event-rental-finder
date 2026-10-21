@@ -1958,6 +1958,10 @@ export const resources: ResourceArticle[] = [
     category: "Permits",
     stateCode: "CO",
     publishedAt: "2026-10-21",
+    heroImage: {
+      src: "/images/resources/colorado-special-event-liquor-permit-guide.webp",
+      alt: "Fenced beer garden with a white service tent, bar, high-top tables and string lights at dusk at a Colorado event",
+    },
     metaTitle: "Colorado Special Event Liquor Permit Guide | Event Rental Finder",
     metaDescription:
       "Plan alcohol at a Colorado event: who qualifies for a special event liquor permit, the 30-day local filing, the 10-day public notice, licensed-area diagrams, security, and city park alcohol rules.",
@@ -2123,6 +2127,10 @@ export const resources: ResourceArticle[] = [
     category: "Permits",
     stateCode: "CO",
     publishedAt: "2026-10-21",
+    heroImage: {
+      src: "/images/resources/colorado-event-food-vendor-guide.webp",
+      alt: "Two unbranded white food trucks with vendor canopies, picnic tables and a handwashing station at a Colorado event",
+    },
     metaTitle: "Colorado Event Food Vendor and Food Truck Guide | Event Rental Finder",
     metaDescription:
       "Plan food trucks and vendors at a Colorado event: county event coordinator plan reviews, temporary vendor licenses, local vending permits, propane and food-tent fire rules, power, water and site layout.",

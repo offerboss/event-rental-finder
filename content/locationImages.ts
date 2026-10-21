@@ -81,4 +81,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/erie-co-event-rentals.webp",
     alt: "Backyard tent reception with tables and string lights facing foothills near Erie, Colorado",
   },
+  "fruita-co": {
+    src: "/images/locations/fruita-co-event-rentals.webp",
+    alt: "White frame tent over rented white tables and chairs on a park lawn below red sandstone cliffs in Fruita, Colorado",
+  },
+  "palisade-co": {
+    src: "/images/locations/palisade-co-event-rentals.webp",
+    alt: "White frame tent with banquet tables beside a river and orchards below mesa cliffs at golden hour in Palisade, Colorado",
+  },
+  "montrose-co": {
+    src: "/images/locations/montrose-co-event-rentals.webp",
+    alt: "Park amphitheater with a rented stage, lighting truss and speakers below snowy mountains at dusk in Montrose, Colorado",
+  },
+  "rifle-co": {
+    src: "/images/locations/rifle-co-event-rentals.webp",
+    alt: "Two white canopies over tables and chairs with portable restrooms among sagebrush below gray bluffs in Rifle, Colorado",
+  },
+  "glenwood-springs-co": {
+    src: "/images/locations/glenwood-springs-co-event-rentals.webp",
+    alt: "White canopies and a reception tent on a lawn in a forested canyon valley in Glenwood Springs, Colorado",
+  },
 };

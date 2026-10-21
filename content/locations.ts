@@ -201,7 +201,7 @@ export const locations: Location[] = [
     slug: "grand-junction-co",
     county: "Mesa County",
     featured: true,
-    nearbyCities: ["fruita-co", "palisade-co"],
+    nearbyCities: ["fruita-co", "palisade-co", "montrose-co", "rifle-co"],
   },
   {
     city: "Aurora",
@@ -3024,6 +3024,682 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Erie?",
       description:
         "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, block parties and backyard events in Erie and the north metro.",
+    },
+  },
+  {
+    city: "Fruita",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "fruita-co",
+    county: "Mesa County",
+    nearbyCities: ["grand-junction-co", "palisade-co"],
+    metaDescription:
+      "Plan event rentals in Fruita, CO: tents, tables and chairs, party rentals, sound and lighting, plus the City's online special event permit, park shelter reservations, sound amplification rules and tent permit thresholds.",
+    heroSupportingCopy:
+      "Compare event rental options for Fruita and the Grand Valley's west end, from tents, tables and chairs to party rentals, sound, lighting and restrooms for shelter parties, block parties, bike events and backyard celebrations.",
+    heroTagline:
+      "Fruita handles special event permits entirely online, lets adults drink beer and wine in its parks unless posted otherwise, and uses a fire code that treats a party tent and an outdoor assembly tent very differently.",
+    categoriesIntro:
+      "Explore the rental categories Fruita hosts use most for park shelter parties, block parties, bike races, festivals and backyard weddings.",
+    localIntro: [
+      "Fruita sits at the west end of the Grand Valley in Mesa County, and the City's own special event page names the range of events it permits: bike races, festivals and neighborhood block parties. The process is fully online. Organizers fill out the City's Special Event Permit form and can contact the City's Special Projects Coordinator to confirm that a venue is available before they lock in a date, a tent order or a band.",
+      "Smaller gatherings often start at a park shelter. The City rents shelters at Reed Park, Little Salt Wash Park, Heritage Park and the Fruita Bike Park, reserved online by the hour, and Little Salt Wash Park also has rentable sports fields. A shelter gives a party shade and a base, but most groups still bring tables, chairs, a canopy or two and a serving table. The park code bars glass containers and prohibits pitching tents except in places provided for them, so talk to the City before you plan any tent in a park.",
+      "Alcohol rules are more relaxed than in many Colorado towns. Under Ordinance 2025-17, adults 21 and older may drink beer and wine in a public park unless a posted notice says otherwise; spirits are limited to the licensed premises of a special event permitted to sell alcohol under state law. Sound has its own rule: the municipal code requires a license to operate sound amplification devices, but events held under a City special event permit are excluded from that licensing requirement. A DJ at a private backyard party is a different question from a band at a permitted festival, so ask the City which applies.",
+      "Fire code is set jointly with the Lower Valley Fire Protection District, which adopted the 2024 International Fire Code; Fruita followed with Ordinance 2026-04. As amended locally, a tent needs a fire operational permit when it covers more than 2,400 square feet, but tents used for outdoor assembly uses such as a circus, carnival, theater or dance hall need one above 400 square feet, and mobile stages are exempt. Food at a public event runs through Mesa County Public Health, which asks event coordinators for a plan review 30 days ahead and licenses each food vendor.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Fruita",
+      intro: "Common Fruita setups, from shelter parties to permitted festivals.",
+      items: [
+        {
+          title: "Park Shelter Parties",
+          description:
+            "Reserve a shelter at Reed Park, Little Salt Wash Park, Heritage Park or the Fruita Bike Park, then add [tables and chairs](/categories/table-chair-rentals), a serving table and shade for overflow guests. Leave the glassware at home; glass containers aren't allowed in parks.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Block Parties",
+          description:
+            "The City's online special event permit covers neighborhood block parties. Folding tables, chairs, a canopy and a sound system are the usual order; confirm the street area and hours on the permit before the delivery is booked.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Bike Race and Festival Support",
+          description:
+            "Bike events and festivals need tents for registration and aid stations, barricades, restrooms and a PA. A permitted event is excluded from the City's sound amplification license, and a mobile stage is exempt from the tent permit rules.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Weddings and Receptions",
+          description:
+            "Private property keeps the paperwork light, but tent size still matters: a reception tent used like a dance hall can cross the 400-square-foot fire permit line much sooner than a simple shade tent. Ask the provider who files with Lower Valley Fire.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Sound and Lighting",
+          description:
+            "Fruita requires a license to operate sound amplification devices outside permitted events, parades and processions. Settle the sound plan before booking a DJ, and add string lights or [uplighting](/categories/av-lighting-rentals) for evening events.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms for Larger Gatherings",
+          description:
+            "Shelter parks have limited facilities, so festivals and big reunions often add portable restrooms and handwashing stations. Put them on the site plan with your tents and vendor spaces.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Fruita",
+      intro: "Fruita-specific details to settle before you book rentals.",
+      items: [
+        "The City's online Special Event Permit form, and a call to confirm the venue is available",
+        "Shelter reservations at Reed Park, Little Salt Wash Park, Heritage Park or the Fruita Bike Park",
+        "No glass containers in parks, and no pitched tents except where the City provides for them",
+        "Beer and wine allowed in parks for adults 21 and older unless posted otherwise; spirits only on a licensed special event premises",
+        "A sound amplification license, unless the event runs under a City special event permit",
+        "A fire operational permit for tents over 2,400 square feet, or over 400 square feet for outdoor assembly uses",
+        "Mobile stages exempt from the tent permit sections",
+        "A Mesa County Public Health coordinator plan review 30 days ahead when food is served",
+        "Licensed event vendors for every food booth or truck",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Fruita Special Event Permit Application and Park and Park Shelter Reservations pages, Ordinances 2014-05, 2015-10, 2025-17 and 2026-04, the Lower Valley Fire Protection District's 2024 IFC resolution and Mesa County Public Health food safety guidance. Confirm current requirements with the City, Lower Valley Fire and your rental provider.",
+      closing:
+        "Serving food or drinks at a public event? See the [event food vendor guide](/resources/colorado-event-food-vendor-guide) and the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide). For tents, see [Colorado outdoor event tent planning](/resources/colorado-outdoor-event-tent-planning).",
+    },
+    checklist: {
+      heading: "Fruita Event Rental Checklist",
+      intro: "Pull these details together before you contact Fruita rental companies:",
+      items: [
+        "Exact address and whether it's City property",
+        "Guest count and event hours",
+        "Shelter reservation or special event permit",
+        "Sound plan and amplification license question",
+        "Tent sizes and intended use",
+        "Fire permit, if a tent crosses the threshold",
+        "Alcohol plan: beer and wine, or a licensed premises",
+        "Food vendor list and county plan review",
+        "Restrooms and handwashing",
+        "Shade and a wind plan",
+      ],
+    },
+    faqs: {
+      heading: "Fruita Event Rental FAQ",
+      items: [
+        {
+          question: "How do I get a special event permit in Fruita?",
+          answer:
+            "The City's special event permitting is fully online. Fill out the Special Event Permit form, and contact the City's Special Projects Coordinator to ask about the review or to confirm that a venue is available.",
+        },
+        {
+          question: "Can I drink beer or wine at a Fruita park shelter party?",
+          answer:
+            "Under Ordinance 2025-17, adults 21 and older may drink beer and wine in a public park unless a posted notice prohibits it. Spirits are limited to the licensed premises of a special event permitted to sell alcohol, and glass containers aren't allowed in parks.",
+        },
+        {
+          question: "When does a tent need a fire permit in Fruita?",
+          answer:
+            "Under the 2024 International Fire Code as amended by Fruita and the Lower Valley Fire Protection District, a tent needs an operational permit above 2,400 square feet. Tents used for outdoor assembly uses such as a theater or dance hall need one above 400 square feet. Mobile stages are exempt.",
+        },
+        {
+          question: "Do I need a permit for amplified music in Fruita?",
+          answer:
+            "The municipal code requires a license to operate sound amplification devices, with exclusions that include parades, processions and special events held under a City permit. Ask the City which rule fits your event before you book a DJ or band.",
+        },
+        {
+          question: "What's needed to serve food at a public event in Fruita?",
+          answer:
+            "Mesa County Public Health asks event coordinators to submit a plan review 30 days before the event and a vendor list at least two weeks before. Every food vendor needs an approved Mesa County event vendor license.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Fruita?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, bike events, festivals and backyard celebrations in Fruita and the Grand Valley.",
+    },
+  },
+  {
+    city: "Palisade",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "palisade-co",
+    county: "Mesa County",
+    nearbyCities: ["grand-junction-co", "fruita-co", "rifle-co"],
+    metaDescription:
+      "Plan event rentals in Palisade, CO: tents, tables and chairs, party rentals, restrooms and lighting, plus the Town's Park and Facility Use Permit, Riverbend Park hookups, stake limits, alcohol rules and large-event permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Palisade and the east end of the Grand Valley, from tents, tables and chairs to party rentals, restrooms and lighting for park gatherings, reunions, vineyard-country weddings and community festivals.",
+    heroTagline:
+      "Palisade's Park and Facility Use Permit asks you to list every tent, bounce house or staked structure in advance, caps stakes at 12 inches and bans water slides in every park.",
+    categoriesIntro:
+      "Explore the rental categories Palisade hosts use most for park gatherings, reunions, weddings and community festivals.",
+    localIntro: [
+      "Palisade is a small Mesa County town on the Colorado River at the east end of the Grand Valley, and its best-known event site is Riverbend Park, which wraps around a bend in the river with gazebos, a playground and a paved path the Town lists at 1.75 miles. The Town's fee schedule names Peach Fest, Wine Fest and Bluegrass Fest as approved events at Riverbend, but most rental orders here are smaller: shelter parties, reunions and gatherings at Peach Bowl Park, Veterans Memorial Park and the Town Center Plaza.",
+      "Gatherings of 100 attendees or fewer at a Town park or facility use the Park and Facility Use Permit. The form asks for attendance, traffic and access, sound and light impacts and sanitary arrangements, and it asks you to list any tents, play structures such as bounce houses or anything else that will be delivered or staked into the ground so the Town can make arrangements. Water slides aren't allowed in any park, driving on the grass is prohibited without prior notice, parking on the grass is prohibited, and the Town may require parking attendants for larger events. Events of more than 300 attendees need a special event permit and may carry an impact fee negotiated case by case.",
+      "The permit's terms shape the rental order. No stakes longer than 12 inches are allowed, so ask a tent provider about short stakes, weights or ballast. Decorations must be non-flammable and approved by the Palisade Fire Department, and glitter, confetti and colored powder aren't allowed in Town facilities. Grounds are rented as is: water and electric hookups are available at Riverbend Park only, and the Town specifies a minimum of 12-gauge wire for a 50-foot extension cord and 10-gauge for a 60-foot cord. The renter supplies trash liners, removes all trash and is responsible for placing and rolling any fencing.",
+      "Alcohol is the biggest planning difference. The Town's permit terms say alcohol is prohibited in all Town parks, while it may be served indoors in Town facilities after an alcohol deposit. A reception that needs a bar usually moves indoors, to a winery or to private property. Food vendors at Palisade-coordinated events go through Mesa County Public Health, which licenses event vendors and asks event coordinators for a plan review 30 days ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Palisade",
+      intro: "Common Palisade setups, from river-park gatherings to vineyard weddings.",
+      items: [
+        {
+          title: "Riverbend Park Gatherings",
+          description:
+            "Riverbend is the only Town park with water and electric hookups, so it suits catered gatherings and anything with lights or a sound system. List your tents and structures on the permit, and size extension cords to the Town's gauge rules.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Shelter Parties and Reunions",
+          description:
+            "Peach Bowl Park and Veterans Memorial Park shelters host family parties and reunions. Add [tables and chairs](/categories/table-chair-rentals) for overflow guests, and keep the drinks non-alcoholic; alcohol isn't allowed in Town parks.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Vineyard-Country Weddings",
+          description:
+            "Receptions held at wineries or on private property usually make a tent, seating, a [dance floor](/categories/dance-floor-rentals) and lighting the core order. Confirm the venue's own rules on tents, stakes and power before you book.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents With Short Stakes",
+          description:
+            "Town parks allow no stakes longer than 12 inches. Ask the provider how the tent will be anchored with short stakes or weights, especially on a windy day.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses Without Water",
+          description:
+            "Play structures such as bounce houses go on the permit form, but water slides aren't allowed in any park. Dry [inflatables](/categories/inflatable-rentals) with proper anchoring are the safe choice.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Restrooms for Larger Events",
+          description:
+            "The permit form asks for sanitary arrangements, and events over 300 attendees move to a special event permit. Plan portable restrooms and handwashing stations with the site layout.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Palisade",
+      intro: "Palisade-specific details to settle before you book rentals.",
+      items: [
+        "A Park and Facility Use Permit for gatherings of 100 attendees or fewer at Town parks and facilities",
+        "A special event permit, and a possible negotiated impact fee, for events of more than 300 attendees",
+        "Every tent, play structure or staked item listed on the permit in advance",
+        "No stakes longer than 12 inches, and no water slides in any park",
+        "No driving or parking on the grass without prior notice",
+        "Decorations that are non-flammable and approved by the Palisade Fire Department",
+        "No alcohol in Town parks; indoor service in Town facilities only after an alcohol deposit",
+        "Water and electric hookups at Riverbend Park only, with the Town's extension cord gauge rules",
+        "Trash liners, trash removal and fencing handled by the renter",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the Town of Palisade Parks page, Forms and Applications page, Park and Facility Use Permit and Terms of Agreement, and Town fee schedule, plus Mesa County Public Health food safety guidance. Confirm current requirements with the Town, the Palisade Fire Department and your rental provider.",
+      closing:
+        "Planning a bar or food service? See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide) and the [event food vendor guide](/resources/colorado-event-food-vendor-guide). For anchoring and wind, see [Colorado outdoor event tent planning](/resources/colorado-outdoor-event-tent-planning).",
+    },
+    checklist: {
+      heading: "Palisade Event Rental Checklist",
+      intro: "Pull these details together before you contact Palisade rental companies:",
+      items: [
+        "Park or facility and the exact date",
+        "Guest count and event hours",
+        "Park and Facility Use Permit",
+        "List of tents and structures for the form",
+        "Stakes 12 inches or shorter, or weights",
+        "Power and water needs (Riverbend only)",
+        "Extension cords of the right gauge",
+        "Alcohol plan that keeps drinks out of parks",
+        "Restrooms and trash plan",
+        "Fire Department approval for decorations",
+      ],
+    },
+    faqs: {
+      heading: "Palisade Event Rental FAQ",
+      items: [
+        {
+          question: "What permit do I need for a party in a Palisade park?",
+          answer:
+            "The Town asks hosts of gatherings of 100 attendees or fewer at its parks or facilities to fill out the Park and Facility Use Permit. Events of more than 300 attendees need a special event permit and may be subject to a negotiated impact fee.",
+        },
+        {
+          question: "Can I put up a tent or bounce house in a Palisade park?",
+          answer:
+            "List every tent, play structure or delivered or staked item on the permit form so the Town can make arrangements. Stakes longer than 12 inches aren't allowed, and water slides are banned in all parks.",
+        },
+        {
+          question: "Can I serve alcohol at a Palisade park?",
+          answer:
+            "No. The Town's permit terms say alcohol is prohibited in all Town parks. Alcohol may be served indoors in Town facilities after paying an alcohol deposit.",
+        },
+        {
+          question: "Is there power at Palisade parks?",
+          answer:
+            "Water and electric hookups are offered at Riverbend Park only, and grounds are rented as is. The Town requires at least 12-gauge wire for a 50-foot extension cord and 10-gauge for a 60-foot cord.",
+        },
+        {
+          question: "What decorations are allowed at Town facilities?",
+          answer:
+            "Decorations must be non-flammable and approved by the Palisade Fire Department. Nothing can be nailed or tacked to walls or ceilings, and glitter, confetti and colored powder aren't allowed.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Palisade?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging park gatherings, reunions, weddings and festivals in Palisade and the Grand Valley.",
+    },
+  },
+  {
+    city: "Montrose",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "montrose-co",
+    county: "Montrose County",
+    nearbyCities: ["grand-junction-co"],
+    metaDescription:
+      "Plan event rentals in Montrose, CO: tents, tables and chairs, party rentals, staging, sound and restrooms, plus City park shelter reservations, Events Use Permits, alcohol rules, the Montrose Rotary Amphitheater and the Montrose Pavilion.",
+    heroSupportingCopy:
+      "Compare event rental options for Montrose and the Uncompahgre Valley, from tents, tables and chairs to staging, sound, lighting and restrooms for shelter parties, reunions, weddings, concerts and community events.",
+    heroTagline:
+      "Montrose offers both ends of the rental spectrum: an amphitheater that supplies power but not sound, lights or toilets, and a Pavilion event center that includes tables and chairs but handles every drink itself.",
+    categoriesIntro:
+      "Explore the rental categories Montrose hosts use most for park shelter parties, amphitheater concerts, Pavilion banquets, weddings and community events.",
+    localIntro: [
+      "Montrose sits in the Uncompahgre Valley, and the City's Parks Division maintains 38 developed parks, 36 miles of concrete trails and more than 1,000 acres of riparian space and wildlands, according to the City. Shelters at parks including Buckley Park, Cerise Park, Chipeta Lake Park, La Raza Park, Lions Park, Riverbottom Park, Rotary Park, Sunset Mesa Park and Taviwach Park can be reserved for exclusive use through the City Clerk's Office with a short request form. A shelter reservation covers the shelter only; the rest of the park stays open to the public during your event.",
+      "Larger or public events need more. The City requires an Events Use Permit Application to reserve park areas for events on City property that are advertised to the public or that reach the City's attendance threshold, so call the City Clerk early with your guest count. Park rules shape the rental order: parks are open 5 a.m. to 11 p.m., glass containers aren't allowed in any City park, and alcohol isn't allowed in a City park unless a State of Colorado special events liquor permit is obtained. Beer and wine are allowed by special permit only in the picnic shelters at Riverbottom, La Raza and Rotary parks. Special event liquor applications go to the City Clerk at least 30 days before the event.",
+      "The Montrose Rotary Amphitheater in Cerise Park, near the Uncompahgre River, seats up to 5,700 people on its slope. Reservations are made with an application at least 60 days and no more than 18 months ahead, with insurance, a city sales tax license and a vendor list on file two weeks before. The City provides electricity, trash and recycling containers, access and temporary fencing on request, but not sound and light equipment, the specific lift needed to reach the stage's load points, security, path lighting or portable toilets. The City decides how many portable toilets an event needs and schedules the delivery, and the organizer pays for them.",
+      "Indoor events often go to the Montrose Pavilion Event Center. Its published packet says room rentals include tables and chairs, which staff set to your approved layout, while décor is up to the renter: nothing attached to bare walls, candles enclosed, and décor approved by staff. Outside vendors bring their own equipment and must load in and out within the rented eight-hour block, events end by midnight, food must come from a licensed caterer, and the Pavilion provides all bartenders and alcohol. That leaves linens, specialty décor, photo booths and lighting as the usual outside orders.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Montrose",
+      intro: "Common Montrose setups, from shelter parties to amphitheater shows.",
+      items: [
+        {
+          title: "Park Shelter Parties",
+          description:
+            "Reserve a shelter through the City Clerk, then add [tables and chairs](/categories/table-chair-rentals) and shade for overflow guests. The rest of the park stays public, so keep your layout tight around the shelter.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Amphitheater Concerts and Shows",
+          description:
+            "The Rotary Amphitheater supplies electricity and fencing on request, but not sound, lighting, the stage lift or path lighting. Book [AV and lighting](/categories/av-lighting-rentals) with a crew that knows the load points.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Portable Restrooms for Public Events",
+          description:
+            "At the amphitheater the City sets the number of portable toilets and the organizer pays for them. Add handwashing stations and confirm delivery access with the City.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Pavilion Banquets and Weddings",
+          description:
+            "Pavilion rentals include tables and chairs, so outside orders focus on linens, décor, a [photo booth](/categories/photo-booth-rentals) and lighting. All vendors load in and out within the eight-hour block.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Shelter Reunions With Beer and Wine",
+          description:
+            "Beer and wine are allowed by special permit only at the Riverbottom, La Raza and Rotary park shelters. Pair the permit with tables, canopies and a serving area outside the shelter.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Celebrations",
+          description:
+            "Private property skips the park permit, but tents, sound and power still need planning. Ask providers about anchoring, delivery access and how late the music can run under City noise rules.",
+          categorySlug: "dance-floor-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Montrose",
+      intro: "Montrose-specific details to settle before you book rentals.",
+      items: [
+        "Shelter reservations through the City Clerk's Office; the park stays open to the public",
+        "An Events Use Permit for events on City property advertised to the public or above the City's attendance threshold",
+        "Park hours of 5 a.m. to 11 p.m., and no glass containers",
+        "No alcohol in City parks without a state special events liquor permit, filed with the City Clerk at least 30 days ahead",
+        "Beer and wine by special permit only at the Riverbottom, La Raza and Rotary park shelters",
+        "Amphitheater applications 60 days to 18 months ahead, with insurance, sales tax license and vendor list two weeks out",
+        "No sound, lighting, stage lift, security, path lighting or toilets supplied at the amphitheater",
+        "Pavilion rentals with tables and chairs included and an eight-hour load-in and load-out block",
+        "Fire code questions for tents and generators directed to the Montrose Fire Protection District",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Montrose Parks, Trails and Sports Facilities page and FAQs, the City's Special Events Permit liquor application, the Montrose Rotary Amphitheater page and the Montrose Pavilion Event Center meeting and expo packet. Confirm current requirements with the City Clerk, the Montrose Fire Protection District and your rental provider.",
+      closing:
+        "Planning a bar at a shelter or event? See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide). For stage and sound at the amphitheater, see the [stage, sound and lighting rental guide](/resources/colorado-stage-av-lighting-rental-guide), and for restrooms, the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Montrose Event Rental Checklist",
+      intro: "Pull these details together before you contact Montrose rental companies:",
+      items: [
+        "Venue: park, amphitheater, Pavilion or private",
+        "Guest count and whether it's advertised",
+        "Shelter reservation or Events Use Permit",
+        "Liquor permit 30 days out, if serving",
+        "Insurance certificate naming the City",
+        "Sound, lighting and lift for the amphitheater",
+        "Portable toilet count from the City",
+        "Linens and décor for Pavilion events",
+        "Load-in and load-out times",
+        "Tent anchoring and a storm plan",
+      ],
+    },
+    faqs: {
+      heading: "Montrose Event Rental FAQ",
+      items: [
+        {
+          question: "How do I reserve a park shelter in Montrose?",
+          answer:
+            "Submit the City Park and Shelter Reservation Request form to the City Clerk's Office. Reservations are first come, first served and cover the shelter only; the park stays open to the public.",
+        },
+        {
+          question: "Can I serve beer or wine at a Montrose park?",
+          answer:
+            "Alcohol isn't allowed in City parks without a State of Colorado special events liquor permit. Beer and wine are allowed by special permit only in the picnic shelters at Riverbottom, La Raza and Rotary parks. Special event liquor applications are due to the City Clerk at least 30 days before the event.",
+        },
+        {
+          question: "What does the City provide at the Montrose Rotary Amphitheater?",
+          answer:
+            "Electricity, trash and recycling containers, access to the reserved area and temporary fencing on request. Sound and light equipment, the stage lift, security, path lighting and portable toilets aren't provided; the City sets the toilet count and the organizer pays.",
+        },
+        {
+          question: "Do I need to rent tables and chairs for the Montrose Pavilion?",
+          answer:
+            "No. The Pavilion's packet says room rentals include tables and chairs, set by staff to your approved layout. Décor is the renter's responsibility, and linens and extra equipment are added rentals through the Pavilion.",
+        },
+        {
+          question: "How far ahead should I book the amphitheater?",
+          answer:
+            "The application is due at least 60 days and no more than 18 months before the event. Insurance, a city sales tax license and the vendor list must be on file two weeks before the event date.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Montrose?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, concerts, banquets and weddings in Montrose and the Uncompahgre Valley.",
+    },
+  },
+  {
+    city: "Rifle",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "rifle-co",
+    county: "Garfield County",
+    nearbyCities: ["glenwood-springs-co", "palisade-co", "grand-junction-co"],
+    metaDescription:
+      "Plan event rentals in Rifle, CO: tents, tables and chairs, party rentals, sound and restrooms, plus the City's Events Use Permit, Centennial Park shelter permits, Third Street closures, anchoring rules and Garfield County food plan review.",
+    heroSupportingCopy:
+      "Compare event rental options for Rifle and the Colorado River valley in western Garfield County, from tents, tables and chairs to party rentals, sound, restrooms and lighting for shelter parties, street events, reunions and backyard celebrations.",
+    heroTagline:
+      "Rifle runs public events through a 60-day Events Use Permit, gives Third Street closures a 90-day lead time, and doesn't allow temporary structures to be anchored to sidewalks or pavement.",
+    categoriesIntro:
+      "Explore the rental categories Rifle hosts use most for shelter parties, street events, community festivals, reunions and backyard weddings.",
+    localIntro: [
+      "Rifle's Parks and Recreation Office is the City's point of contact for events, and it describes its role plainly: not to plan each event, but to facilitate the process, flag potential problems and act as a liaison with City staff. Any event on City property, including streets, that is advertised to the public or involves more than 75 people needs an Events Use Permit, and completed applications are due at least 60 days ahead. Closing Third Street takes a 90-day application, events on the closure must end by 11 p.m., thoroughfares stay open for emergency vehicles, and organizers notify every property within one block 30 days before the event.",
+      "Small gatherings often use Centennial Park, where Picnic Shelter 1 and Picnic Shelter 2 can be reserved with a Centennial Park Permit submitted to the Recreation Office no later than 25 days before the event. The permit form is strict: no alcohol on the premises, a separate City Sound Amplification Permit if sound will be projected, no fees charged to guests, and the renter collects and removes all trash. If the existing portable toilets aren't adequate for the group, the renter supplies more. The Community Green and the amphitheater at Centennial Park require a special event permit, and only the two picnic shelters are reserved for exclusive use.",
+      "The Events Use Permit's rules affect tent and stage orders directly. Temporary structures can't be anchored to sidewalks or pavement, nothing can be marked or painted on public surfaces, and permittees can't build improvements on public property. Park hours run 5 a.m. to 10 p.m. Events expecting more than 200 people describe a parking and traffic plan, an emergency plan and a sanitation plan listing restrooms, trash cans and handwashing stations. Trash is the organizer's job, including vendor waste, stage construction debris and extra portable toilet service, and every trash receptacle needs a lid. Fireworks and any fire at an event need a separate Fire Department permit.",
+      "Alcohol sales at a public event require a special event permit through the City and the State of Colorado, a plan for securing the sale area, and possibly security officers during service, with the City deciding how many. Only nonprofit organizations may apply for a special event liquor permit, so ask the City Clerk's office early. Food at a public event runs through Garfield County Public Health, which asks for an Event Coordinator Plan Review at least 30 days before the event, and vendors who sell anything need a City sales tax license.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Rifle",
+      intro: "Common Rifle setups, from shelter parties to street events.",
+      items: [
+        {
+          title: "Centennial Park Shelter Parties",
+          description:
+            "Reserve Picnic Shelter 1 or 2 at least 25 days ahead, then add [tables and chairs](/categories/table-chair-rentals) and a serving table. Leave the cooler of beer at home; alcohol isn't allowed on the premises.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Third Street Events",
+          description:
+            "A Third Street closure takes a 90-day application and a site plan showing temporary structures, restrooms and trash cans. Tents and canopies on pavement need weights, not anchors into the street.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Restrooms and Handwashing",
+          description:
+            "Events over 200 people describe a sanitation plan with restroom, trash can and handwashing counts, and shelter renters add portable toilets when the park's aren't enough.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Sound for Park Events",
+          description:
+            "Projected sound at Centennial Park needs a separate City Sound Amplification Permit. Book the [stage](/categories/stage-rentals) and speakers after the permit is in hand.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Reunions and Family Celebrations",
+          description:
+            "A shelter or backyard reunion typically needs shade canopies, seating, a [bounce house](/categories/inflatable-rentals) for the kids and lighting for evening. Confirm the park's 10 p.m. closing time.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Backyard Weddings",
+          description:
+            "Private property avoids the Events Use Permit, so the plan centers on the tent, seating, a dance floor and power. Ask providers about anchoring, delivery access and weather plans.",
+          categorySlug: "wedding-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Rifle",
+      intro: "Rifle-specific details to settle before you book rentals.",
+      items: [
+        "An Events Use Permit at least 60 days ahead for City property events that are advertised or involve more than 75 people",
+        "A 90-day application for Third Street closures, an 11 p.m. end time and notices to properties within one block",
+        "A Centennial Park Permit no later than 25 days before a shelter reservation",
+        "No alcohol at Centennial Park, and a City Sound Amplification Permit for projected sound",
+        "No temporary structures anchored to sidewalks or pavement",
+        "Park hours of 5 a.m. to 10 p.m.",
+        "Parking, emergency and sanitation plans for events expecting more than 200 people",
+        "Trash removal with lidded receptacles, including vendor and stage waste",
+        "A Garfield County Event Coordinator Plan Review 30 days ahead when food is served",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Rifle Host a Special Event page, Events Use Permit Application packet, Park Facility Reservations page and Centennial Park Permit, and Garfield County Public Health temporary event guidance. Confirm current requirements with the City, the Fire Department and your rental provider.",
+      closing:
+        "Planning a beer garden or food booths? See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide) and the [event food vendor guide](/resources/colorado-event-food-vendor-guide). For restroom counts, see the [event restroom rental guide](/resources/event-restroom-rental-guide).",
+    },
+    checklist: {
+      heading: "Rifle Event Rental Checklist",
+      intro: "Pull these details together before you contact Rifle rental companies:",
+      items: [
+        "Venue and whether it's City property or a street",
+        "Guest count and whether it's advertised",
+        "Events Use Permit or Centennial Park Permit",
+        "Third Street closure and neighbor notices",
+        "Sound Amplification Permit",
+        "Insurance certificate naming the City",
+        "Tent weights for pavement",
+        "Restrooms, handwashing and lidded trash cans",
+        "Food plan review and vendor sales tax licenses",
+        "Fire Department permit for fireworks or fire",
+      ],
+    },
+    faqs: {
+      heading: "Rifle Event Rental FAQ",
+      items: [
+        {
+          question: "When do I need an Events Use Permit in Rifle?",
+          answer:
+            "Any event on City property, including streets, that is advertised to the public or involves more than 75 people needs one. Applications are due at least 60 days before the event, or 90 days for a Third Street closure.",
+        },
+        {
+          question: "How do I reserve a picnic shelter at Centennial Park?",
+          answer:
+            "Submit the Centennial Park Permit to the Rifle Recreation Office no later than 25 days before the event. Late applications are denied, and only one date can be requested per application.",
+        },
+        {
+          question: "Can I serve alcohol at a Rifle park party?",
+          answer:
+            "Not at Centennial Park; the permit says no alcohol is permitted on the premises. Selling and serving alcohol at a public event requires a special event permit through the City and State, available only to nonprofit organizations.",
+        },
+        {
+          question: "Can tents be staked or bolted on Rifle streets?",
+          answer:
+            "No. The City's permit rules say temporary structures can't be anchored to sidewalks or pavement, so canopies on a street closure need weights. Ask your provider how they ballast tents on pavement.",
+        },
+        {
+          question: "Who handles trash at a Rifle event?",
+          answer:
+            "The organizer does, including vendor waste, stage construction and teardown debris and extra portable toilet service. All trash receptacles need lids, and one is required at each vendor location.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Rifle?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, street events, reunions and weddings in Rifle and western Garfield County.",
+    },
+  },
+  {
+    city: "Glenwood Springs",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "glenwood-springs-co",
+    county: "Garfield County",
+    nearbyCities: ["rifle-co"],
+    metaDescription:
+      "Plan event rentals in Glenwood Springs, CO: tents, tables and chairs, party rentals, sound and restrooms, plus the Parks and Recreation Facility Use Permit, tent weight rules, fire permits, liquor and security requirements and neighbor notices.",
+    heroSupportingCopy:
+      "Compare event rental options for Glenwood Springs and eastern Garfield County, from tents, tables and chairs to party rentals, sound, lighting and restrooms for shelter parties, weddings, festivals and street events.",
+    heroTagline:
+      "Glenwood Springs ties park events to one Facility Use Permit: tents, structures or amplified sound trigger it, most venues don't allow stakes, and a 10-by-10 canopy needs at least 40 pounds on each corner.",
+    categoriesIntro:
+      "Explore the rental categories Glenwood Springs hosts use most for shelter parties, weddings, Bethel Plaza and 7th Street events, festivals and backyard celebrations.",
+    localIntro: [
+      "In Glenwood Springs, park events run through one document: the Parks and Recreation Facility Use Permit. The City requires it for activities on its parks, trails, open space, Bethel Plaza and 7th Street that involve exclusive use, a group above the policy's attendance threshold, tents, structures or sound amplification, food or alcohol for the public, or any commercial activity. Small personal gatherings that don't meet those criteria can book a park shelter online in four-hour increments up to 12 months ahead.",
+      "Applications are due at least 30 days before the activity, or 60 days when the event also needs a liquor permit or a right-of-way permit, and activities can't be advertised until the permit is approved. Most permits require a site plan showing the activity area, parking, traffic control, emergency access, tent and canopy placement, dumpsters, vendor parking, fencing, portable restrooms, liquor service and inflatables. Events with fireworks, inflatables, hot food service or alcohol provide insurance naming the City as additional insured, and the inflatable or food vendor typically supplies its own certificate.",
+      "The tent rules are specific. The City's policy notes that most venues don't allow stakes, so tents are anchored with weights: at least 40 pounds on each corner of a 10-by-10 tent, with larger tents weighted by the rental company. Larger tents and membrane structures need a Glenwood Springs Fire Department temporary structure permit before they go up, with flame resistance certificates, a site plan and a floor plan; inspections are scheduled at least 24 hours ahead on Fire Department workdays. Food tents carry flame resistance tags, propane cylinders need overflow protection valves and an inspection at setup, and each food tent needs a fire extinguisher.",
+      "Alcohol, sound and neighbors come as a package. A special event liquor permit is limited to qualifying nonprofit and similar organizations, alcohol service requires professional security, and the City's park rules limit alcohol to beer and wine and prohibit glass. Events with street closures, alcohol service or amplified sound that may exceed the noise code must notify nearby homes and businesses with the date, hours, load-in and load-out times, sound hours and a site plan, and confirm that notice to the City at least three business days ahead. Parks are open 6 a.m. to 10 p.m. Food at a public event also needs an Event Coordinator Plan Review filed with Garfield County at least 30 days ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Glenwood Springs",
+      intro: "Common Glenwood Springs setups, from shelter parties to plaza events.",
+      items: [
+        {
+          title: "Shelter Parties",
+          description:
+            "Personal shelter bookings can be made online in four-hour blocks up to a year ahead. Add [tables and chairs](/categories/table-chair-rentals) and a serving table; a tent or a speaker turns the booking into a Facility Use Permit.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Weighted Tents and Canopies",
+          description:
+            "Plan on weights, not stakes: at least 40 pounds per corner on a 10-by-10, and the rental company's engineering for anything larger. Larger tents also need a Fire Department permit and inspection.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Weddings and Receptions",
+          description:
+            "Park and plaza receptions combine a tent, seating, a [dance floor](/categories/dance-floor-rentals) and lighting with a liquor plan. Alcohol service requires a qualifying permit holder and professional security.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Bethel Plaza and 7th Street Events",
+          description:
+            "Both fall under the Facility Use Permit. The City supplies a pre-approved traffic control plan and barricades for 7th Street, and the organizer posts the closure notices and sets up the signs.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Inflatables for Family Events",
+          description:
+            "[Bounce houses](/categories/inflatable-rentals) need a certificate of insurance from the provider naming the City, and they go on the site plan with your tents and restrooms.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Sound With a Neighbor Plan",
+          description:
+            "Amplified sound needs the Facility Use Permit, and sound that may exceed the noise code needs advance notice to nearby homes and businesses. Share the [AV](/categories/av-lighting-rentals) schedule in that notice.",
+          categorySlug: "av-lighting-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Glenwood Springs",
+      intro: "Glenwood Springs-specific details to settle before you book rentals.",
+      items: [
+        "A Parks and Recreation Facility Use Permit for exclusive use, larger groups, tents, structures, amplified sound, public food or alcohol, or commercial activity",
+        "Applications 30 days ahead, or 60 days with a liquor or right-of-way permit, and no advertising until approval",
+        "A site plan showing tents, restrooms, inflatables, dumpsters, fencing and emergency access",
+        "Weights instead of stakes at most venues, with at least 40 pounds per corner on a 10-by-10 tent",
+        "A Fire Department temporary structure permit and inspection for larger tents",
+        "Flame resistance tags, inspected propane and fire extinguishers in food tents",
+        "Insurance naming the City for fireworks, inflatables, hot food or alcohol",
+        "Professional security for alcohol service, and beer and wine only in parks",
+        "Neighbor notice for closures, alcohol or loud sound, confirmed three business days ahead",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Glenwood Springs Event Permits page, Park Shelter Rentals page, Parks and Recreation Facility Use Permit Policy (revised September 2024) and application, Resolution 2022-10 park rules, the Fire Department's temporary membrane structure permit application and Garfield County Public Health temporary event guidance. Confirm current requirements with the City, the Glenwood Springs Fire Department and your rental provider.",
+      closing:
+        "Planning a bar or food vendors? See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide) and the [event food vendor guide](/resources/colorado-event-food-vendor-guide). For tent anchoring, see [Colorado outdoor event tent planning](/resources/colorado-outdoor-event-tent-planning).",
+    },
+    checklist: {
+      heading: "Glenwood Springs Event Rental Checklist",
+      intro:
+        "Pull these details together before you contact Glenwood Springs rental companies:",
+      items: [
+        "Venue: park, Bethel Plaza, 7th Street or private",
+        "Guest count and event hours",
+        "Shelter booking or Facility Use Permit",
+        "Site plan with tents and restrooms",
+        "Tent weights and Fire Department permit",
+        "Insurance certificates from vendors",
+        "Liquor permit holder and security",
+        "Neighbor notification",
+        "Food plan review with Garfield County",
+        "Right-of-way permit for closures",
+      ],
+    },
+    faqs: {
+      heading: "Glenwood Springs Event Rental FAQ",
+      items: [
+        {
+          question: "When do I need a Facility Use Permit in Glenwood Springs?",
+          answer:
+            "For activities on City parks, trails, open space, Bethel Plaza or 7th Street that involve exclusive use, larger groups, tents, structures or sound amplification, food or alcohol for the public, or commercial activity. Small personal gatherings can book a shelter online instead.",
+        },
+        {
+          question: "How far ahead do I apply?",
+          answer:
+            "At least 30 days before the activity, or at least 60 days when you also need a liquor permit or a right-of-way permit. Activities can't be advertised until the permit is approved.",
+        },
+        {
+          question: "Can I stake a tent in a Glenwood Springs park?",
+          answer:
+            "The City's policy notes that most venues don't allow stakes, so tents are anchored with weights. A 10-by-10 tent needs at least 40 pounds on each corner, and larger tents set by a rental company are weighted based on the company's expertise.",
+        },
+        {
+          question: "Does alcohol at my event need security?",
+          answer:
+            "Yes. All rentals with alcohol service are required to confirm professional security contracted for the activity, and the liquor permit itself is limited to qualifying nonprofit and similar organizations.",
+        },
+        {
+          question: "Do I have to tell the neighbors about my event?",
+          answer:
+            "If the activity involves street closures, alcohol service or amplified sound that may exceed the noise code, yes. Notify nearby homes and businesses with the event details and site plan, and confirm the notice to the City at least three business days before the activity.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Glenwood Springs?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, weddings, plaza events and festivals in Glenwood Springs and Garfield County.",
     },
   },
 ];

@@ -1,12 +1,40 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-14 (Northern Colorado / Estes Park run: Windsor, Longmont, Estes Park, Berthoud, Erie; inflatable/party guide; stage/AV/lighting guide)
+Last audited: 2026-10-21 (Western Slope run: Fruita, Palisade, Montrose, Rifle, Glenwood Springs; liquor permit guide; food vendor guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-21: ERF Western Slope Run
+
+- **New rich city pages** (`content/locations.ts`), rendered words in `<main>`: Fruita (`/locations/fruita-co`) ~1,470;
+  Palisade (`/locations/palisade-co`) ~1,380; Montrose (`/locations/montrose-co`) ~1,470; Rifle (`/locations/rifle-co`)
+  ~1,390; Glenwood Springs (`/locations/glenwood-springs-co`) ~1,430.
+- **New resource guides** (`content/resources.ts`, publishedAt 2026-10-21, no heroImage yet): Special Event Liquor
+  Permits in Colorado (`/resources/colorado-special-event-liquor-permit-guide`) ~1,150; Food Trucks and Food Vendors at
+  Colorado Events (`/resources/colorado-event-food-vendor-guide`) ~1,000.
+- **Links:** Grand Junction nearby list now fruita, palisade, montrose, rifle (reciprocal). Liquor guide added to wedding
+  checklist related list.
+- **Heroes:** not generated; pages render without `locationImages` / `heroImage` entries.
+- **Source conflicts (facts omitted):** Montrose Events Use Permit threshold (Parks page: more than 75 people; City FAQ:
+  over 100). Glenwood Springs permit attendance threshold (Facility Use Permit Policy: 50+; Resolution 2022-10 park rules:
+  76+). Glenwood Springs tent permit size (Fire Dept form, 2015 IFC: tents over 200 sq ft / canopies over 400; Parks policy
+  Sept 2024: 400 sq ft). Rifle event insurance (packet/terms: $2M aggregate, $5,000 medical; web FAQ: $1M combined
+  single, terms $500 medical). Rifle liquor-event application lead time (packet: 90 days; Host a Special Event page: 60
+  days, 90 only for Third Street). Garfield County temporary food vendor lead time (County page: 10 working days;
+  Glenwood policy: 10 days).
+- **Sources:** Fruita Special Event Permit Application and Park Shelter Reservations pages; Ordinances 2014-05, 2015-10,
+  2025-17, 2026-04; Lower Valley FPD Resolution 9/18/2025-1. Palisade Parks page, Forms and Applications, Park & Facility
+  Use Permit, fee schedule (June 2025). Montrose Parks, Trails & Sports Facilities page, City FAQs, Special Events Permit
+  application (DR 8439 packet), Rotary Amphitheater page, Montrose Pavilion meeting & expo packet (2025). Rifle Host a
+  Special Event page, Events Use Permit packet, Park Facility Reservations, Centennial Park Permit. Glenwood Springs Event
+  Permits, Park Shelter Rentals, Facility Use Permit Policy (Sept 2024) and application, Resolution 2022-10, Fire Dept
+  temporary membrane structure application. CDPHE retail food licensing; Mesa County Public Health food safety page;
+  Garfield County Consumer Protection page; Colorado DOR SBG Special Events Permit page.
+- **Sitemap URLs:** 50, now 57. **Location pages:** 26, now 31. **Resource pages:** 8, now 10.
 
 ### 2026-10-14: ERF Northern Colorado / Estes Park Run
 
@@ -207,7 +235,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (26)
+## Location Pages (31)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -238,6 +266,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Estes Park | Larimer County | Rich | https://www.eventrentalfinder.com/locations/estes-park-co | 2026-10-14 |
 | Berthoud | Larimer and Weld Counties | Rich | https://www.eventrentalfinder.com/locations/berthoud-co | 2026-10-14 |
 | Erie | Boulder and Weld Counties | Rich | https://www.eventrentalfinder.com/locations/erie-co | 2026-10-14 |
+| Fruita | Mesa County | Rich | https://www.eventrentalfinder.com/locations/fruita-co | 2026-10-21 |
+| Palisade | Mesa County | Rich | https://www.eventrentalfinder.com/locations/palisade-co | 2026-10-21 |
+| Montrose | Montrose County | Rich | https://www.eventrentalfinder.com/locations/montrose-co | 2026-10-21 |
+| Rifle | Garfield County | Rich | https://www.eventrentalfinder.com/locations/rifle-co | 2026-10-21 |
+| Glenwood Springs | Garfield County | Rich | https://www.eventrentalfinder.com/locations/glenwood-springs-co | 2026-10-21 |
 
 ## Category Pages (10)
 
@@ -254,7 +287,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (8)
+## Resource Pages (10)
 
 | Title | URL | Published |
 |---|---|---|
@@ -266,10 +299,12 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Event Restroom Rentals: Trailers vs. Portable Units, How Many, and Colorado Site Rules | https://www.eventrentalfinder.com/resources/event-restroom-rental-guide | 2026-10-08 |
 | Bounce House and Party Rentals in Colorado: Permits, Anchoring, Power and Safety | https://www.eventrentalfinder.com/resources/colorado-inflatable-and-party-rental-guide | 2026-10-14 |
 | Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather | https://www.eventrentalfinder.com/resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
+| Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules | https://www.eventrentalfinder.com/resources/colorado-special-event-liquor-permit-guide | 2026-10-21 |
+| Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning | https://www.eventrentalfinder.com/resources/colorado-event-food-vendor-guide | 2026-10-21 |
 
 ## Machine-Readable
 
 | File | URL |
 |---|---|
-| Sitemap (50 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (57 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

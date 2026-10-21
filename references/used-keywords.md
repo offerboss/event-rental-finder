@@ -53,6 +53,11 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Estes Park | event rentals Estes Park CO | /locations/estes-park-co | wedding, tent, av-lighting, restroom-trailer, table-chair, stage | 2026-10-14 |
 | Berthoud | event rentals Berthoud CO | /locations/berthoud-co | party, inflatable, wedding, tent, restroom-trailer, stage | 2026-10-14 |
 | Erie | event rentals Erie CO | /locations/erie-co | party, table-chair, tent, wedding, av-lighting, photo-booth | 2026-10-14 |
+| Fruita | event rentals Fruita CO | /locations/fruita-co | party, table-chair, tent, wedding, av-lighting, restroom | 2026-10-21 |
+| Palisade | event rentals Palisade CO | /locations/palisade-co | party, table-chair, wedding, tent, inflatable, restroom | 2026-10-21 |
+| Montrose | event rentals Montrose CO | /locations/montrose-co | party, stage, restroom, wedding, tent, dance-floor | 2026-10-21 |
+| Rifle | event rentals Rifle CO | /locations/rifle-co | party, tent, restroom, av-lighting, inflatable, wedding | 2026-10-21 |
+| Glenwood Springs | event rentals Glenwood Springs CO | /locations/glenwood-springs-co | party, tent, wedding, stage, inflatable, av-lighting | 2026-10-21 |
 
 
 Secondary angles in use (don't build a second page around these without differentiating it):
@@ -106,6 +111,8 @@ Secondary angles in use (don't build a second page around these without differen
 | event restroom rental | /resources/event-restroom-rental-guide | 2026-10-08 |
 | Colorado bounce house and party rentals | /resources/colorado-inflatable-and-party-rental-guide | 2026-10-14 |
 | Colorado stage sound lighting rentals | /resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
+| Colorado special event liquor permit | /resources/colorado-special-event-liquor-permit-guide | 2026-10-21 |
+| Colorado event food vendors / food trucks | /resources/colorado-event-food-vendor-guide | 2026-10-21 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 

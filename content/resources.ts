@@ -1051,6 +1051,7 @@ export const resources: ResourceArticle[] = [
     ],
     relatedHeading: "Related Event Planning Guides",
     relatedResourceSlugs: [
+      "colorado-special-event-liquor-permit-guide",
       "colorado-outdoor-event-tent-planning",
       "how-many-tables-and-chairs-do-i-need",
       "event-restroom-rental-guide",
@@ -1946,6 +1947,336 @@ export const resources: ResourceArticle[] = [
       primaryHref: "/categories/stage-rentals",
       secondaryLabel: "Find AV & Lighting Rentals",
       secondaryHref: "/categories/av-lighting-rentals",
+    },
+  },
+  {
+    title:
+      "Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules",
+    slug: "colorado-special-event-liquor-permit-guide",
+    excerpt:
+      "How Colorado special event liquor permits work, who can hold one, the 30-day local filing and 10-day posting, and how city park alcohol rules change your rental plan.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-10-21",
+    metaTitle: "Colorado Special Event Liquor Permit Guide | Event Rental Finder",
+    metaDescription:
+      "Plan alcohol at a Colorado event: who qualifies for a special event liquor permit, the 30-day local filing, the 10-day public notice, licensed-area diagrams, security, and city park alcohol rules.",
+    h1: "Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules",
+    topicCategorySlug: "party-rentals",
+    intro: [
+      "A beer garden, a wine pour at a fundraiser or a bar at a park reception can change the whole event plan. Colorado routes alcohol sales at many public events through a special event permit, and cities layer their own park rules, deadlines and security requirements on top.",
+      "This guide covers who can hold a special event permit, the state filing steps, how cities treat alcohol in parks, and what the permit means for your tents, fencing and layout. It's a planning overview, not legal advice; confirm the details with your local licensing authority and the Colorado Department of Revenue.",
+    ],
+    sections: [
+      {
+        id: "who-qualifies",
+        heading: "Who Can Hold a Special Event Permit",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The Colorado Department of Revenue's Specialized Business Group says a special event permit may be issued to organizations incorporated in Colorado for social, fraternal, patriotic, political or athletic purposes and not for pecuniary gain, to regularly chartered branches, lodges or chapters of national nonprofit organizations, to regularly established religious or philanthropic institutions, to political candidates who have filed the required reports, and to municipalities that own arts facilities.",
+          },
+          {
+            type: "callout",
+            text: "A special event permit isn't something a family or a for-profit business applies for to sell drinks at its own party. Cities say the same thing in their own packets: Rifle and Glenwood Springs both note that only nonprofit or similar qualifying organizations may apply.",
+          },
+        ],
+      },
+      {
+        id: "state-steps",
+        heading: "The State Filing Steps",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The state's application checklist lays out the core steps:",
+          },
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Submit the Special Events Permit application to the local licensing authority (city or county) at least 30 days before the event.",
+              "Pay the application fee.",
+              "Attach a diagram of the licensed area, no larger than 8.5 by 11 inches, showing bars, walls, partitions, entrances, exits and dimensions. For an outdoor event, show how the area will be controlled with fencing, ropes or barriers.",
+              "Attach a copy of the deed, lease or written permission from the owner to use the premises.",
+              "Attach proof of nonprofit standing, such as a certificate of good standing from the Secretary of State, or the candidate's filed reports.",
+              "Post public notice of the event and the protest procedure at the location for at least 10 days before the local authority approves the permit.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The local licensing authority then notifies the state of an approved application within 10 days. Because the posting period runs before local approval, filing on day 30 leaves little margin; start earlier when your city also needs a park or event permit.",
+          },
+        ],
+      },
+      {
+        id: "city-rules",
+        heading: "How Cities Treat Alcohol in Parks",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Park alcohol rules vary widely, even between neighboring towns. A few examples from Event Rental Finder's city pages:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Fruita](/locations/fruita-co): adults 21 and older may drink beer and wine in a public park unless posted otherwise; spirits only on the licensed premises of a permitted special event.",
+              "[Palisade](/locations/palisade-co): alcohol is prohibited in all Town parks; it may be served indoors in Town facilities after an alcohol deposit.",
+              "[Montrose](/locations/montrose-co): no alcohol in City parks without a state special events liquor permit; beer and wine by special permit only at the Riverbottom, La Raza and Rotary park shelters; applications to the City Clerk at least 30 days ahead.",
+              "[Rifle](/locations/rifle-co): no alcohol at Centennial Park; event alcohol sales need a special event permit through the City and State, a plan to secure the area and possibly security officers.",
+              "[Glenwood Springs](/locations/glenwood-springs-co): beer and wine only in parks; event applications needing a liquor permit are due 60 days ahead, and alcohol service requires professional security.",
+              "[Erie](/locations/erie-co): an Open Container Permit, filed 10 days ahead, allows beer and wine at a reserved shelter or approved block party.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Read your city's rule before you choose a venue. If alcohol isn't allowed in the park you want, the easier path is often a private property, an indoor facility or a licensed venue.",
+          },
+        ],
+      },
+      {
+        id: "rentals",
+        heading: "What the Permit Means for Your Rentals",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The licensed-area diagram becomes part of your rental plan. An outdoor bar usually needs fencing or barriers to define the area, a tent or canopy over the service point, tables for the bar and ID check, and lighting if service runs past dusk.",
+          },
+          {
+            type: "list",
+            items: [
+              "Fencing or barricades that match the licensed boundary on the diagram",
+              "A service tent or canopy, weighted or staked to local rules",
+              "Bar tables, back-bar tables and trash and recycling at the exit points",
+              "Lighting for evening service and clear paths in and out",
+              "Restrooms sized for a longer stay; alcohol often extends an event",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Ask the rental company if it can deliver fencing and tents early enough for any inspection the city requires, and keep the final layout identical to the diagram you filed.",
+          },
+        ],
+      },
+      {
+        id: "security",
+        heading: "Security, Insurance and Neighbors",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cities often add requirements once alcohol is involved. Glenwood Springs requires confirmation of professional security for any rental with alcohol service and insurance naming the City. Rifle may require at least two security officers while alcohol is served. Glenwood Springs also requires advance notice to nearby homes and businesses for events with alcohol service, confirmed to the City at least three business days ahead.",
+          },
+          {
+            type: "paragraph",
+            text: "Budget time for these steps. They're easier to arrange when the permit application, rental order and site plan are prepared together.",
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Questions to Ask Before You Book",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Does the venue allow alcohol at all, and which kinds?",
+              "Which organization will hold the special event permit?",
+              "What is the city's deadline, and does it run longer than the state's 30 days?",
+              "Where will the 10-day public notice be posted?",
+              "What fencing, tents and lighting does the licensed area need?",
+              "Does the city require security, insurance or neighbor notice?",
+              "Who removes the bar setup, trash and fencing afterward?",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-event-food-vendor-guide",
+      "colorado-wedding-rental-checklist",
+      "event-restroom-rental-guide",
+    ],
+    relatedCategorySlugs: [
+      "party-rentals",
+      "tent-rentals",
+      "table-chair-rentals",
+      "av-lighting-rentals",
+      "restroom-trailer-rentals",
+    ],
+    cta: {
+      heading: "Ready to Plan the Bar Area?",
+      description:
+        "Browse party and tent rental options and compare local providers for fencing, service tents, bar tables and lighting.",
+      primaryLabel: "Find Party Rentals",
+      primaryHref: "/categories/party-rentals",
+      secondaryLabel: "Find Tent Rentals",
+      secondaryHref: "/categories/tent-rentals",
+    },
+  },
+  {
+    title:
+      "Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning",
+    slug: "colorado-event-food-vendor-guide",
+    excerpt:
+      "What Colorado event organizers need when food trucks, booths or caterers serve the public: county coordinator plan reviews, vendor licenses, propane and tent fire rules, and site planning.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-10-21",
+    metaTitle: "Colorado Event Food Vendor and Food Truck Guide | Event Rental Finder",
+    metaDescription:
+      "Plan food trucks and vendors at a Colorado event: county event coordinator plan reviews, temporary vendor licenses, local vending permits, propane and food-tent fire rules, power, water and site layout.",
+    h1: "Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning",
+    topicCategorySlug: "party-rentals",
+    intro: [
+      "Food trucks, booths and caterers make an event, and they bring their own paperwork. When food is served or sold to the public, Colorado counties ask the event organizer to file a plan, each vendor to hold an approved license, and the fire department to check tents and propane.",
+      "This guide walks through the health side, the city side and the fire side, then what it all means for your tents, power, water and layout. Requirements differ by county and city, so confirm the details with your local public health agency and the city hosting the event.",
+    ],
+    sections: [
+      {
+        id: "who-licenses",
+        heading: "Who Licenses Food at Events",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The Colorado Department of Public Health and Environment directly licenses retail food establishments, including mobile food units, only in Clear Creek, Dolores, Gilpin, Moffat, Ouray, Park, Pitkin (except the City of Aspen), Rio Blanco and San Juan counties. Everywhere else, the local public health agency handles licensing. That agency is the one to call about event food.",
+          },
+          {
+            type: "paragraph",
+            text: "A food truck's retail food license covers the truck. Many counties also want the event itself reviewed and each vendor approved for temporary events.",
+          },
+        ],
+      },
+      {
+        id: "coordinator",
+        heading: "The Event Coordinator's Plan Review",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Two Western Slope counties show the pattern:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Mesa County Public Health",
+                value: "Coordinator Plan Review 30 days before the event; vendor list at least two weeks before; entry and parking passes for inspectors the week of the event",
+              },
+              {
+                label: "Garfield County Public Health",
+                value: "Event Coordinator Plan Review at least 30 days before the event; incomplete plans aren't accepted and late plans may not be approved",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "In Mesa County, which includes [Fruita](/locations/fruita-co) and [Palisade](/locations/palisade-co), every food vendor at an event must be approved by Mesa County Public Health and carry an Event Vendor License to show each coordinator; the county asks vendors to allow two weeks for processing. Garfield County, which includes [Rifle](/locations/rifle-co) and [Glenwood Springs](/locations/glenwood-springs-co), has its own Temporary Vendor Application that vendors file before their first event of the calendar year.",
+          },
+          {
+            type: "callout",
+            text: "Ask every vendor for its current county event license before you finalize the vendor list. A missing license can hold up the whole plan review.",
+          },
+        ],
+      },
+      {
+        id: "city-rules",
+        heading: "City Permits for Vendors",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cities add their own layer. [Erie](/locations/erie-co) requires a Mobile Vending Permit for mobile vending anywhere in town, private property included. [Rifle](/locations/rifle-co) requires a City sales tax license for vendors who sell, and asks for the vendor list two weeks ahead. [Glenwood Springs](/locations/glenwood-springs-co) requires proof of a City business license or temporary vendor license, insurance from food vendors naming the City and a signed waiver, and a Fire Department safety inspection of food vendors at setup.",
+          },
+        ],
+      },
+      {
+        id: "fire",
+        heading: "Food Tents, Propane and Fire Checks",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cooking under a tent is where fire rules bite. Glenwood Springs' Facility Use Permit Policy lists requirements for food preparation tents that make a useful checklist anywhere:",
+          },
+          {
+            type: "list",
+            items: [
+              "Flame resistance documentation tags on the tent",
+              "Propane systems inspected by the Fire Department at each event setup",
+              "Cylinders in working condition with overflow protection valves, secured against tipping, including spares",
+              "Leak-free supply lines routed so they aren't a trip hazard",
+              "A class A-B-C fire extinguisher in each food tent, and a Class K extinguisher where cooking produces grease-laden vapors",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Other districts go further. Berthoud Fire doesn't allow cooking under any tent, and Windsor Severance Fire Rescue doesn't allow open-flame cooking under tents, as summarized on the [Berthoud](/locations/berthoud-co) and [Windsor](/locations/windsor-co) pages. Ask the local fire district before you plan a cooking line under canvas.",
+          },
+        ],
+      },
+      {
+        id: "site",
+        heading: "Power, Water and the Site Plan",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Food vendors need space, power and a way to deal with water. Many city permits ask for a site plan that shows vendor locations, vendor parking, restrooms and trash. Plan these with the rental order:",
+          },
+          {
+            type: "list",
+            items: [
+              "Vendor footprints, including the truck length and the service window side",
+              "Tables and canopies for booths, weighted or staked to local rules",
+              "Power: generators placed away from tents and seating, or extension cords sized to the venue's rules",
+              "Water access and a plan for wastewater, confirmed with the vendor and the venue",
+              "Handwashing stations near eating areas and restrooms",
+              "Lidded trash and recycling at each vendor location",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Palisade, for example, offers water and electric hookups only at Riverbend Park and specifies extension cord gauges, and Rifle requires lidded trash receptacles at every vendor location.",
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Questions to Ask Food Vendors",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Do you hold a current event license from this county?",
+              "What city vending, business or sales tax license do you need here?",
+              "Can you send a certificate of insurance naming the city, if required?",
+              "Do you cook with propane, and are your cylinders and lines ready for inspection?",
+              "Do you need power, water or a generator, and how long is your setup?",
+              "How much space do you need, including the service line?",
+              "How do you handle wastewater and trash?",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-special-event-liquor-permit-guide",
+      "event-restroom-rental-guide",
+      "colorado-outdoor-event-tent-planning",
+    ],
+    relatedCategorySlugs: [
+      "party-rentals",
+      "tent-rentals",
+      "table-chair-rentals",
+      "restroom-trailer-rentals",
+    ],
+    cta: {
+      heading: "Ready to Lay Out the Food Area?",
+      description:
+        "Browse tent, table and restroom rental options and compare local providers for vendor rows, dining areas and handwashing stations.",
+      primaryLabel: "Find Tent Rentals",
+      primaryHref: "/categories/tent-rentals",
+      secondaryLabel: "Find Table & Chair Rentals",
+      secondaryHref: "/categories/table-chair-rentals",
     },
   },
 ];

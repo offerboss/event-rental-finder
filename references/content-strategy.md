@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-14 (Northern Colorado / Estes Park run shipped: 5 cities + 2 resources; heroes pending follow-up)
+Last updated: 2026-10-21 (Western Slope run shipped: 5 cities + 2 resources; heroes pending follow-up)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -38,6 +38,13 @@ production before the next batch starts. Hero images that pass the approved site
 |---|---|---|---|
 | New city pages (rich) | 5 | 5 | Windsor, Longmont, Estes Park, Berthoud, Erie |
 | New planning resources | 2 | 2 | Colorado bounce house and party rental guide; Colorado stage, sound and lighting rental guide |
+
+### Week of 2026-10-19 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Fruita, Palisade, Montrose, Rifle, Glenwood Springs |
+| New planning resources | 2 | 2 | Colorado special event liquor permit guide; Colorado event food vendor guide |
 
 ---
 
@@ -216,6 +223,29 @@ Nearby links (all reciprocal):
 
 Fort Collins, Greeley and Boulder remain thin pages, so there is no in-body hub paragraph for this cluster yet (see Friday QA).
 
+## Current Cluster: Western Slope / I-70 Corridor
+
+Started from the "Western Slope" row of Next Candidate Clusters (Fruita, Palisade), expanded with Montrose, Rifle and
+Glenwood Springs. Shipped 2026-10-21. Heroes pending a follow-up commit (no image generation on this run). Delta was
+scoped and dropped: official City of Delta event/shelter sources weren't verifiable online.
+
+| Batch | Pages | Status |
+|---|---|---|
+| Western Slope Run | Fruita (`fruita-co`), Palisade (`palisade-co`), Montrose (`montrose-co`), Rifle (`rifle-co`), Glenwood Springs (`glenwood-springs-co`) | Live 2026-10-21 (heroes pending) |
+| Resources | `/resources/colorado-special-event-liquor-permit-guide`, `/resources/colorado-event-food-vendor-guide` | Live 2026-10-21 (heroes pending). Linked from each other, the new city closings, and the wedding checklist related list (liquor guide) |
+
+Cluster local angles:
+
+- **Fruita:** all-online special event permit; shelters at Reed, Little Salt Wash, Heritage and Bike Park; beer and wine in parks (Ord. 2025-17); sound amplification license except permitted events (Ord. 2015-10); IFC 2024 tent permit over 2,400 sq ft / 400 sq ft for outdoor assembly; mobile stages exempt (Ord. 2026-04).
+- **Palisade:** Park and Facility Use Permit (100 or fewer); special event permit over 300; list tents/structures; stakes 12 in max; no water slides; no alcohol in parks; Riverbend-only hookups and cord gauges.
+- **Montrose:** shelter reservations via City Clerk; Events Use Permit (attendance threshold omitted, sources conflict); beer/wine only at Riverbottom, La Raza, Rotary shelters by permit; Rotary Amphitheater (no sound/lights/lift/toilets supplied); Pavilion includes tables and chairs and supplies all alcohol.
+- **Rifle:** Events Use Permit 60 days (>75 people or advertised); Third Street 90 days; Centennial Park Permit 25 days, no alcohol; no anchoring to pavement; plans for 200+.
+- **Glenwood Springs:** Facility Use Permit triggers; 30/60-day deadlines; weights not stakes (40 lb per corner on 10x10); food-tent propane rules; security with alcohol; neighbor notice 3 business days.
+
+Nearby links (all reciprocal): Grand Junction: fruita, palisade, montrose, rifle. Fruita: grand-junction, palisade.
+Palisade: grand-junction, fruita, rifle. Montrose: grand-junction. Rifle: glenwood-springs, palisade, grand-junction.
+Glenwood Springs: rifle. Grand Junction remains thin (no in-body hub paragraph yet).
+
 ---
 
 ## Next Candidate Clusters
@@ -224,7 +254,7 @@ Fort Collins, Greeley and Boulder remain thin pages, so there is no in-body hub 
 |---|---|---|
 | Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
 | Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08. Further infill candidates to scope: Englewood, Northglenn, Broomfield |
-| Western Slope | Fruita, Palisade (already referenced in Grand Junction's `nearbyCities`), others to be scoped | Builds on Grand Junction |
+| Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Further candidates: Delta (needs verifiable official sources), Carbondale, New Castle, Grand Junction hub upgrade |
 
 ---
 

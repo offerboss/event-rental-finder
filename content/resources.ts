@@ -254,7 +254,7 @@ export const resources: ResourceArticle[] = [
       "Guest count is only the starting point. Here's how seating style, dance floors, buffets, staging and weather protection affect the tent size you actually need.",
     category: "Tents",
     publishedAt: "2026-09-24",
-    metaTitle: "What Size Tent Do I Need? Event Tent Size Guide | Event Rental Finder",
+    metaTitle: "What Size Tent Do I Need? | Event Rental Finder",
     metaDescription:
       "Use this event tent size guide to estimate how much space you may need based on guest count, seating style, dance floors, buffets, stages and other event features.",
     h1: "What Size Tent Do I Need for My Event?",
@@ -535,7 +535,7 @@ export const resources: ResourceArticle[] = [
     category: "Tents",
     stateCode: "CO",
     publishedAt: "2026-10-02",
-    metaTitle: "Colorado Outdoor Event Tent Planning Guide | Event Rental Finder",
+    metaTitle: "Colorado Outdoor Event Tent Planning | Event Rental Finder",
     metaDescription:
       "Plan a Colorado event tent around lightning, hail, wind and altitude, and learn how tent permit thresholds differ in Colorado Springs, Monument, Manitou Springs and Pueblo.",
     h1: "Colorado Outdoor Event Tent Planning: Wind, Hail, Lightning, Altitude and Permits",
@@ -1576,7 +1576,7 @@ export const resources: ResourceArticle[] = [
       alt: "Bounce house and rented picnic tables on a sunny Colorado park lawn",
     },
     metaTitle:
-      "Colorado Bounce House and Party Rental Guide | Event Rental Finder",
+      "Colorado Bounce House Rental Guide | Event Rental Finder",
     metaDescription:
       "Plan bounce house and party rentals in Colorado: state amusement ride registration, city park rules, anchoring and Colorado 811, generators, insurance, weather and what to ask providers.",
     h1: "Bounce House and Party Rentals in Colorado: Permits, Anchoring, Power and Safety",
@@ -1762,7 +1762,7 @@ export const resources: ResourceArticle[] = [
       alt: "Small outdoor stage with speakers and warm uplighting at a Colorado evening event",
     },
     metaTitle:
-      "Colorado Stage, Sound and Lighting Rental Guide | Event Rental Finder",
+      "Colorado Stage and AV Rental Guide | Event Rental Finder",
     metaDescription:
       "Plan stage, sound and lighting rentals in Colorado: stage permits and the 400-square-foot fire code threshold, noise rules, generators, site plans, weather monitoring and what to ask providers.",
     h1: "Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather",
@@ -1962,7 +1962,7 @@ export const resources: ResourceArticle[] = [
       src: "/images/resources/colorado-special-event-liquor-permit-guide.webp",
       alt: "Fenced beer garden with a white service tent, bar, high-top tables and string lights at dusk at a Colorado event",
     },
-    metaTitle: "Colorado Special Event Liquor Permit Guide | Event Rental Finder",
+    metaTitle: "Colorado Special Event Liquor Permit | Event Rental Finder",
     metaDescription:
       "Plan alcohol at a Colorado event: who qualifies for a special event liquor permit, the 30-day local filing, the 10-day public notice, licensed-area diagrams, security, and city park alcohol rules.",
     h1: "Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules",
@@ -2131,7 +2131,7 @@ export const resources: ResourceArticle[] = [
       src: "/images/resources/colorado-event-food-vendor-guide.webp",
       alt: "Two unbranded white food trucks with vendor canopies, picnic tables and a handwashing station at a Colorado event",
     },
-    metaTitle: "Colorado Event Food Vendor and Food Truck Guide | Event Rental Finder",
+    metaTitle: "Colorado Event Food Truck Vendor Guide | Event Rental Finder",
     metaDescription:
       "Plan food trucks and vendors at a Colorado event: county event coordinator plan reviews, temporary vendor licenses, local vending permits, propane and food-tent fire rules, power, water and site layout.",
     h1: "Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning",

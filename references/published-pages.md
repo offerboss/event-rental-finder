@@ -302,6 +302,14 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules | https://www.eventrentalfinder.com/resources/colorado-special-event-liquor-permit-guide | 2026-10-21 |
 | Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning | https://www.eventrentalfinder.com/resources/colorado-event-food-vendor-guide | 2026-10-21 |
 
+### 2026-10-23: ERF QA expansion of thin hub pages
+- **Expanded (official sources only):** Denver, Fort Collins, Boulder, Greeley (about 1,600 words each, up from about 290).
+- **Sources:** Denver (Picnic Permits, Special Occasion/Public Event Permits, Office of Special Events planning guide and checklist, DFD event guidelines); Fort Collins (Special Event Permits, FAQs, Field Reservations and Shelter Rentals, Parks Rules); Boulder (Special Events pages and handbook, Park Shelter Reservations, Temporary Event Application, park special event guidelines); Greeley (Island Grove Rules Handbook rev. 3.11.26, Special Event Permit checklist, Liquor Licensing, Public Space Permitting, Fire Prevention permits).
+- **Source conflicts left out of copy (flagged on page disclaimers):** Fort Collins park-event attendance thresholds (100 / 200 / 250 across City pages), reservable shelter count, and which parks allow alcohol permits; Boulder Special Event approval lead time (handbook 364-120 days vs shelter page "up to 90 days"); Greeley insurance-certificate deadline (30 days vs two weeks) and no verifiable tent size threshold.
+- **Rejected source:** a Fire Prevention tent bulletin found under a Greeley search belongs to Greenville, SC; not used.
+- **Titles shortened:** six resource guides (under 60 characters rendered).
+- **Heroes:** Greeley has no hero image (needs 3:2 1080x720 WebP under 300KB); Denver, Fort Collins and Boulder still use older PNG heroes.
+
 ## Machine-Readable
 
 | File | URL |

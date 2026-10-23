@@ -8,15 +8,142 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: [
-      "aurora-co",
-      "lakewood-co",
-      "arvada-co",
-      "littleton-co",
-      "centennial-co",
-      "westminster-co",
-      "thornton-co",
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co"],
+    metaDescription:
+      "Plan Denver, CO event rentals: tents, tables and chairs, staging and restrooms, plus park permit, Office of Special Events and fire permit rules.",
+    heroSupportingCopy:
+      "Find event rental companies serving Denver. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
+    heroTagline:
+      "Where an event happens decides most of the paperwork in Denver. A private party at home is simple; a public event in a park or on a street runs through Denver Parks and Recreation, the Office of Special Events and the Fire Department.",
+    categoriesIntro:
+      "Explore the rental categories most used for Denver weddings, park picnics, community festivals, corporate events and backyard parties.",
+    localIntro: [
+      "Denver anchors the metro area, and event rental companies based in neighboring cities may also serve Denver addresses. Event Rental Finder helps you compare rental categories and plan the details of your event; service areas, delivery terms and availability are set by each company, so confirm them directly before you book.",
+      "In a Denver park, the permit depends on who is invited. Denver Parks and Recreation issues picnic permits for private, invitation-only gatherings and says public events such as festivals, fundraisers and concerts are not allowed on a picnic permit. Under a picnic permit the City allows up to two 10-by-10 pop-up tents and prohibits inflatables, bounce houses, food trucks and event infrastructure, so a full tent, staging or bounce house order needs a different permit type. The City describes Special Occasion permits as the option for private, invitation-only events in parks, including at the Cheesman Park Pavilion.",
+      "Public events on City property go through the Office of Special Events. According to the City's checklist, an Office of Special Events Permit is required when an event is open to the public, held on public property such as a park, street, sidewalk or alley, and meets two or more listed triggers. Those include a location in a park, tents larger than 200 square feet, generators over 5 kW, stages or structures, and the sale of tickets, food or alcohol. The application is due at least 60 days before setup begins. The City's planning guide says weddings, picnics, reunions, block parties and events on private property do not need one, and that submitting the application does not reserve park space; a separate Parks and Recreation permit is required, and the City says to get the preliminary park permit first.",
+      "The Denver Fire Department adds its own layer. Its event guidelines require permits for tents of 200 square feet or larger and canopies of 400 square feet or larger, with a flame-resistance certification, a site plan showing distances to buildings, streets and parking, a floor plan of seating and exits, and at least one serviced 2A:10BC fire extinguisher. No heating or cooking is allowed in tents or canopies, and no propane or flammable liquids may be stored in them. Generators over 5 kW also need a fire permit. Ask your rental provider how they handle flame certificates and who files the paperwork before you settle on a tent size.",
     ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Denver",
+      intro:
+        "Common Denver setups and the City rules that come with them.",
+      items: [
+        {
+          title: "Picnic-Permit Parties in Parks",
+          description:
+            "A picnic permit covers private, invitation-only gatherings and allows up to two 10-by-10 pop-up tents. Inflatables, bounce houses, food trucks and event infrastructure are not allowed, so a [bounce house](/categories/inflatable-rentals) or a large tent calls for a different permit. Check the picnic site's capacity before you count chairs.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Weddings & Private Park Events",
+          description:
+            "Private, invitation-only events in parks fall under the City's Special Occasion permits. Because the rules differ by park and permit type, confirm what the park allows before you order a tent, arch or seating, then look at [wedding rentals](/categories/wedding-rentals) that fit the site.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents Over 200 Square Feet",
+          description:
+            "The Fire Department requires a permit for tents of 200 square feet or larger, along with flame-resistance certification and a site plan. Ask your provider for the tent's certificate early, since the City needs it with the application.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Public Festivals & Community Events",
+          description:
+            "Open-to-the-public events on City property can need an Office of Special Events Permit, applied for at least 60 days before setup, plus a separate park permit. Staging, sound and lighting orders should wait until the permit path is clear.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Food Trucks & Vendor Rows",
+          description:
+            "Under the Fire Department's guidelines, food trucks need an annual fire permit, are limited to 80 pounds of propane and must be spaced 10 feet apart bumper to bumper. Cooking is not allowed under tents, canopies or in booths, so plan vendor space and [table and chair](/categories/table-chair-rentals) layouts around that.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Restrooms in Parks",
+          description:
+            "Denver says restroom availability in its parks is not guaranteed; plumbed restroom buildings close for the winter, and portable toilets are removed from parks in winter months. For a larger gathering, ask about [restroom trailers](/categories/restroom-trailer-rentals) and accessible units early.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Denver",
+      intro:
+        "City rules and local conditions that most often change a Denver rental plan.",
+      items: [
+        "Who is invited: picnic and Special Occasion permits are for private, invitation-only events, and public events follow a different path",
+        "Picnic-permit limits: up to two 10-by-10 pop-up tents, with no inflatables, bounce houses, food trucks or event infrastructure",
+        "Office of Special Events Permits for public events on public property that meet two or more of the City's checklist items, applied for at least 60 days before setup",
+        "A separate Parks and Recreation permit for any park event, since the Office of Special Events application does not reserve park space",
+        "Fire permits for tents of 200 square feet or larger and canopies of 400 square feet or larger, with flame certification and a site plan",
+        "No heating or cooking in tents or canopies, and no propane or flammable liquids stored inside",
+        "Fire permits for generators over 5 kW, and no refueling generators or propane cylinders while the event is open to the public",
+        "Food trucks, which need an annual fire permit and are limited to 80 pounds of propane",
+        "Restroom access in parks, which the City does not guarantee, especially in winter months",
+        "Each provider's delivery area, setup windows, pricing and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City and County of Denver's Picnic Permits, Special Occasion and Public Event Permits pages, the Office of Special Events planning guide and permit checklist, and the Denver Fire Department's event guidelines. Rules change by park, permit type and season, so confirm current requirements with Denver Parks and Recreation, the Office of Special Events, the Fire Department and your rental provider.",
+      closing:
+        "Sizing a tent against the 200-square-foot line? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). For food trucks at your event, see our [Colorado event food vendor guide](/resources/colorado-event-food-vendor-guide), and for alcohol service, the [Colorado special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide).",
+    },
+    checklist: {
+      heading: "Denver Event Rental Checklist",
+      intro:
+        "Have these details ready before you request quotes from Denver providers:",
+      items: [
+        "Venue: private property, picnic site, park or street",
+        "Private invitation-only or open to the public",
+        "Peak guest count and the site's capacity",
+        "Park permit type and any Office of Special Events permit",
+        "Tent size and flame-resistance certificate (200 square feet or larger needs a fire permit)",
+        "Generator size, propane and cooking plans",
+        "Seating, linens and serving tables",
+        "Lighting, sound and power",
+        "Restrooms and accessible units",
+        "Delivery, setup and pickup windows",
+      ],
+    },
+    faqs: {
+      heading: "Denver Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Do I need a permit for a party in a Denver park?",
+          answer:
+            "If you want exclusive use of a picnic site for a private, invitation-only gathering, Denver requires a picnic permit. Public events, such as festivals or fundraisers, are not allowed on a picnic permit and go through a different park permit and, in many cases, the Office of Special Events.",
+        },
+        {
+          question:
+            "Can I rent a bounce house for a Denver park picnic?",
+          answer:
+            "Not under a picnic permit. The City lists inflatables and bounce houses as strictly prohibited at picnic sites, and picnic permits allow up to two 10-by-10 pop-up tents. Ask Denver Parks and Recreation which permit type fits a larger setup before you order.",
+        },
+        {
+          question:
+            "Do I need a permit for a tent in Denver?",
+          answer:
+            "The Denver Fire Department's event guidelines require a permit for tents of 200 square feet or larger and canopies of 400 square feet or larger, with a flame-resistance certification and a site plan. Ask your rental provider who files the application.",
+        },
+        {
+          question:
+            "When do I apply for an Office of Special Events Permit?",
+          answer:
+            "The City says to submit the application at least 60 days before the first day of event setup. For park events, get the preliminary Parks and Recreation permit first, because the Office of Special Events application does not reserve park space.",
+        },
+        {
+          question:
+            "Do food trucks at my Denver event need permits?",
+          answer:
+            "The Fire Department says food trucks at events need a current fire permit and are limited to 80 pounds of propane. Event coordinators are responsible for confirming each vendor has the permits they need.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Denver?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Denver and the metro area.",
+    },
   },
   {
     city: "Colorado Springs",
@@ -175,6 +302,141 @@ export const locations: Location[] = [
     county: "Larimer County",
     featured: true,
     nearbyCities: ["loveland-co", "greeley-co", "windsor-co"],
+    metaDescription:
+      "Plan Fort Collins, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event and Poudre Fire Authority tent rules.",
+    heroSupportingCopy:
+      "Find event rental companies serving Fort Collins and Northern Colorado. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
+    heroTagline:
+      "Most Fort Collins events fall into one of three buckets: a drop-in shelter picnic, a reserved shelter or park event, or a larger public event that runs through the City's Special Event Permit and Poudre Fire Authority tent rules.",
+    categoriesIntro:
+      "Explore the rental categories most used for Fort Collins weddings, park shelter parties, community events, corporate gatherings and backyard celebrations.",
+    localIntro: [
+      "Fort Collins is one of several close-together Northern Colorado markets, and providers based in nearby [Loveland](/locations/loveland-co), [Windsor](/locations/windsor-co) or [Greeley](/locations/greeley-co) may also serve Fort Collins addresses. Event Rental Finder helps you compare rental categories and plan the details; service areas, delivery terms and availability are set by each company, so confirm them directly.",
+      "The City of Fort Collins requires a Special Event Permit for events on City streets, sidewalks, parks or natural areas, and says private events on private property that do not close streets or affect traffic do not need one. Applications call for a site plan, insurance for most large events, races, alcohol events and events with rides or attractions (including bounce houses), and a signed reimbursement and indemnification agreement. The City says not to advertise an event until its permit is approved. For events inside a park, the City's parks pages describe a separate Park Event Permit, and the City's own pages give different attendance thresholds for when each applies, so call the Parks Division at 970-221-6660 before you set a guest count against a permit.",
+      "Park shelters are the usual starting point for a private party. Most shelters are drop-in only, capped at 50 or fewer people, and do not allow bounce houses or food trucks. Some shelters can be reserved from mid-March through the end of October, one group per day, by phone; the Parks Division begins taking reservation requests in January, and the City lists capacities from 50 to 200 people. Alcohol, glass and smoking are not allowed at park shelters. Parking or driving on turf is prohibited, so ask the Parks Office for loading instructions before a tent or table delivery.",
+      "For tents, the City points to Poudre Fire Authority: a PFA tent permit is required for tents or air-supported structures over 400 square feet (20 by 20 feet) and for any canopy over 700 square feet. For smaller setups near a park shelter, the City's shelter guidelines allow personal lawn chairs and small pop-up tents that are not staked; staking deeper than 6 inches requires utility line locates arranged two weeks before the event. A Park Event Permit, obtained at least 10 days ahead, is required for amplified sound, inflatables or other apparatuses (with a $1 million certificate of liability insurance), and food trucks.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Fort Collins",
+      intro:
+        "Common Fort Collins setups and the City rules that come with them.",
+      items: [
+        {
+          title: "Shelter Parties & Reunions",
+          description:
+            "Drop-in shelters are first come, first served and capped at 50, while reservable shelters hold between 50 and 200 people. Match [table and chair](/categories/table-chair-rentals) counts to the shelter you booked, and ask the Parks Office how to handle delivery since vehicles cannot drive onto turf.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Backyard Weddings & Receptions",
+          description:
+            "A private wedding on private property that does not close streets or affect traffic does not need a City Special Event Permit, according to the City. A tent over 400 square feet still needs a Poudre Fire Authority permit, so settle the footprint early with your [wedding rental](/categories/wedding-rentals) provider.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents & Canopies",
+          description:
+            "Poudre Fire Authority requires a permit for tents or air-supported structures over 400 square feet and for any canopy over 700 square feet. Ask your provider for the tent's flame-resistance documentation before you commit to a size.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses & Inflatables in Parks",
+          description:
+            "The City's shelter pages do not allow bounce houses at drop-in shelters, and elsewhere in parks inflatables need a Park Event Permit and a $1 million certificate of liability insurance. Ask your [inflatable](/categories/inflatable-rentals) provider early which insurance paperwork they can supply.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Festivals & Community Events",
+          description:
+            "Events with street closures, alcohol or larger crowds fall under the City's Special Event Permit, which requires a site plan, insurance for most large events and a signed reimbursement agreement. Staging, sound and lighting orders should wait until the permit path is confirmed.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Food Vendors & Food Trucks",
+          description:
+            "The City requires each event vendor to hold a Fort Collins sales tax license and a Larimer County Health and Environment temporary event vendor application, and event organizers submit a temporary event coordinator application to the county. Food trucks need an annual Poudre Fire Authority permit, and the City removes non-compliant trucks from events.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Fort Collins",
+      intro:
+        "City rules and local conditions that most often change a Fort Collins rental plan.",
+      items: [
+        "Special Event Permits for events on City streets, sidewalks, parks or natural areas, and which route your event falls under",
+        "Park Event Permits, which the City says must be obtained at least 10 days ahead for amplified sound, inflatables and food trucks",
+        "Conflicting attendance thresholds on the City's own park pages, so confirm your guest count with the Parks Division",
+        "Shelter limits: drop-in shelters cap at 50, and reservable shelters hold 50 to 200 people",
+        "Poudre Fire Authority tent permits for tents over 400 square feet and canopies over 700 square feet",
+        "No driving or parking on park turf, and unstaked pop-up tents only unless the City approves otherwise",
+        "Utility locates for staking deeper than 6 inches, arranged two weeks ahead",
+        "Alcohol, glass and smoking rules at parks and shelters",
+        "Food vendor requirements: a Fort Collins sales tax license, a Larimer County temporary event application, and an annual PFA permit for food trucks",
+        "Each provider's delivery area, setup windows, pricing and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Fort Collins' Special Event Permits, Special Event Permit FAQs, Field Reservations and Shelter Rentals, and Parks Rules and Regulations pages. The City's pages give different attendance thresholds for Park Event and Special Event Permits, different counts of reservable shelters, and different lists of parks where alcohol permits are allowed, so confirm current rules with the Fort Collins Parks Division, Special Events office and Poudre Fire Authority.",
+      closing:
+        "Sizing a tent around the 400-square-foot line? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). For wind, weather and altitude, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for bounce houses, the [Colorado bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide).",
+    },
+    checklist: {
+      heading: "Fort Collins Event Rental Checklist",
+      intro:
+        "Have these details ready before you request quotes from Fort Collins providers:",
+      items: [
+        "Venue: private property, drop-in shelter, reserved shelter or other public property",
+        "Peak guest count against the shelter's listed capacity",
+        "Special Event Permit or Park Event Permit, if needed",
+        "Tent size (over 400 square feet needs a Poudre Fire Authority permit)",
+        "Surface and staking plan (no staking deeper than 6 inches without locates)",
+        "Inflatable insurance paperwork",
+        "Seating, linens and serving tables",
+        "Power, lighting and sound",
+        "Restrooms and accessible units",
+        "Delivery, setup and pickup windows",
+      ],
+    },
+    faqs: {
+      heading: "Fort Collins Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Do I need a permit for a tent in Fort Collins?",
+          answer:
+            "Poudre Fire Authority requires a tent permit for tents or air-supported structures over 400 square feet (20 by 20 feet) and for any canopy over 700 square feet. Ask your rental provider who files the application.",
+        },
+        {
+          question:
+            "Do I need a permit for a party in a Fort Collins park?",
+          answer:
+            "Reserving a shelter covers a private party within the shelter's capacity, but the City says a Park Event Permit is required for amplified sound, inflatables and food trucks, obtained at least 10 days ahead. The City's pages give different attendance thresholds, so call the Parks Division at 970-221-6660.",
+        },
+        {
+          question:
+            "Can I put a bounce house at a Fort Collins park shelter?",
+          answer:
+            "Not at drop-in shelters, where the City says bounce houses and food trucks are not allowed. Elsewhere in parks, inflatables need a Park Event Permit and a $1 million certificate of liability insurance.",
+        },
+        {
+          question:
+            "Can I serve alcohol at a Fort Collins park?",
+          answer:
+            "The City says alcohol is not allowed at park shelters or in parks except under a special event liquor permit from the Liquor Licensing Authority, and only 501(c)(3) nonprofits can get one. Check the City's current list of permitted parks before you plan.",
+        },
+        {
+          question:
+            "Do I need a Special Event Permit for a private party on private property?",
+          answer:
+            "The City says private events on private property that do not close streets or affect traffic flow do not need a Special Event Permit. Tent permits and vendor requirements can still apply.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Fort Collins?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Fort Collins and Northern Colorado.",
+    },
   },
   {
     city: "Boulder",
@@ -184,6 +446,142 @@ export const locations: Location[] = [
     county: "Boulder County",
     featured: true,
     nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co"],
+    metaDescription:
+      "Plan Boulder, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event permit and tent permit rules.",
+    heroSupportingCopy:
+      "Find event rental companies serving Boulder and the surrounding Boulder County communities. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
+    heroTagline:
+      "Boulder's rules turn on size and location: how many people, whether a tent has walls, and whether the event is on a private lot, in a reserved park shelter or open to the public on City property.",
+    categoriesIntro:
+      "Explore the rental categories most used for Boulder weddings, park shelter parties, community events, corporate gatherings and backyard celebrations.",
+    localIntro: [
+      "Boulder sits in Boulder County, and events here often cross city lines. Longmont, Erie, Westminster and Arvada each run their own permit offices, so confirm which city the event is actually in before you plan around Boulder's rules. Event Rental Finder helps you compare rental categories and plan the details; delivery areas, pricing and availability are set by each rental company.",
+      "For events on public property, the City of Boulder requires a Special Event Permit for planned and promoted public activities that meet any of these criteria: 50 or more expected participants and spectators, tents, structures or sound amplification, food or alcohol provided to the public, or use of public rights-of-way. The City's handbook says private park reservations, advocacy activities, film permits and events on private property do not need one. The handbook sets a timeline: initial application and event concept 364 to 120 days ahead, alcohol applications 40 days ahead, tent and generator applications 30 days ahead, and final insurance certificates and production schedules 14 days ahead.",
+      "City park shelters are the simple route for a private party. Shelters can be reserved from the first weekend in May through Labor Day, online reservations open each January 15, and reservations run from 11 a.m. to 8 p.m. The City limits shelter reservations to private, invitation-only events and does not approve activities involving financial gain, including ticketed events, fundraisers or commercial use. Listed capacities include 50 per shelter at Foothills Community Park, 100 at Martin Park, and 250 each at Harlow Platts Park and North Boulder Park. Third-party structures that need stakes or a generator, such as a bounce castle or climbing wall, are not allowed at neighborhood or community parks unless the event has a Special Event Permit.",
+      "Tents have their own thresholds. The City's temporary event guide exempts tents with walls up to 400 square feet and tents open on all sides up to 700 square feet, counting multiple open tents placed side by side together. Anything larger needs a permit, and flame certification is required for tents. On private property the City uses a Temporary Event Conditional Use application; on public property an approved Special Event Permit is part of the final approval.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Boulder",
+      intro:
+        "Common Boulder setups and the City rules that come with them.",
+      items: [
+        {
+          title: "Park Shelter Parties",
+          description:
+            "A reserved shelter works for private, invitation-only birthdays, reunions and showers within the shelter's listed capacity. [Table and chair](/categories/table-chair-rentals) counts should stay under that limit, and the City says electricity is not guaranteed with a shelter reservation.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Weddings & Receptions",
+          description:
+            "Boulder weddings mix park ceremonies, private venues and backyard receptions, and each carries different rules. At Chautauqua Park, groups of 51 to 100 on the manicured lawn need a large group permit and wedding or memorial events must wrap up by 5:00 p.m., so many couples plan the reception at a separate site with a full [wedding rental](/categories/wedding-rentals) setup.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents With and Without Walls",
+          description:
+            "The City exempts tents with walls up to 400 square feet and open-sided tents up to 700 square feet from a permit. A sidewalled tent crosses the line far sooner than an open canopy, so tell your provider if you want walls before settling on a size.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Tents on Park Turf",
+          description:
+            "On park turf the City requires weights for vendor booths and tents unless it approves stakes in writing, and it recommends at least 40 pounds on each corner of a 10-by-10 tent and double that for a 10-by-20. Ask your provider how they ballast a tent on grass.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Community Events & Festivals",
+          description:
+            "Open-to-the-public events on City property, including food or alcohol service, usually need a Special Event Permit, and the handbook's timeline starts as early as a year out. Staging, sound and lighting orders should wait until the permit path is confirmed.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Kids' Parties & Bounce Houses",
+          description:
+            "At neighborhood and community parks, the City does not allow third-party structures that need stakes or a generator, such as a bounce castle, unless the event has a Special Event Permit. On private property the park rules do not apply, though tents and generators can still need temporary event approval under the thresholds above. Ask your [inflatable](/categories/inflatable-rentals) provider how they anchor and power a unit.",
+          categorySlug: "inflatable-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Boulder",
+      intro:
+        "City rules and local conditions that most often change a Boulder rental plan.",
+      items: [
+        "Special Event Permits for public events on City property with 50 or more people, tents, structures, amplified sound, food or alcohol",
+        "The City's application timeline, which starts 364 to 120 days ahead for the initial application and 30 days ahead for tents",
+        "Tent permit thresholds: tents with walls over 400 square feet and open-sided tents over 700 square feet, including side-by-side tents",
+        "Flame certification for tents, and a generator specification sheet for generators",
+        "Park shelter rules: private, invitation-only events from the first weekend in May through Labor Day, 11 a.m. to 8 p.m.",
+        "Shelter capacities, such as 50 per shelter at Foothills, 100 at Martin Park and 250 at Harlow Platts and North Boulder Park",
+        "Weights instead of stakes on park turf unless the City approves stakes in writing",
+        "Park hours: Boulder city parks are closed from 11 p.m. to 5 a.m., and special event equipment left overnight needs a security plan",
+        "Glass and smoking, which are prohibited in Boulder parks, and alcohol, which needs a permit on public land",
+        "Each provider's delivery area, setup windows, pricing and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Boulder's Special Events pages and handbook, Park Shelter Reservations page, Temporary Event Application guide and park special event guidelines. The City's pages give different lead times for large event approvals, so confirm timing with the Office of Special Events, Boulder Parks and Recreation and your rental provider.",
+      closing:
+        "Choosing between a walled and an open tent? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). For weather, wind and altitude, see our [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning), and for weddings, the [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist).",
+    },
+    checklist: {
+      heading: "Boulder Event Rental Checklist",
+      intro:
+        "Have these details ready before you request quotes from Boulder providers:",
+      items: [
+        "Venue: private property, reserved park shelter or public property",
+        "Private invitation-only or open to the public",
+        "Peak guest count against the shelter's listed capacity",
+        "Special Event Permit, if the event is public",
+        "Tent size, and whether it will have walls",
+        "Flame certification for the tent",
+        "Ballast plan for tents on turf",
+        "Seating, linens and serving tables",
+        "Power, lighting and sound",
+        "Restrooms and accessible units",
+        "Delivery, setup and pickup windows",
+      ],
+    },
+    faqs: {
+      heading: "Boulder Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Do I need a permit for a tent in Boulder?",
+          answer:
+            "The City's temporary event guide exempts tents with walls up to 400 square feet and tents open on all sides up to 700 square feet, with multiple open tents counted together. Larger tents need a permit, and flame certification is required for tents. Ask your provider who files the application.",
+        },
+        {
+          question:
+            "Do I need a Special Event Permit for a party in a Boulder park?",
+          answer:
+            "A private, invitation-only party in a reserved shelter does not need one, according to the City's handbook. A public activity on public property needs one if it has 50 or more participants and spectators, tents or sound amplification, food or alcohol for the public, or affects public rights-of-way.",
+        },
+        {
+          question:
+            "When can I reserve a Boulder park shelter?",
+          answer:
+            "The City says shelters are reservable from the first weekend in May through Labor Day, with online reservations opening each January 15. Reservations run from 11 a.m. to 8 p.m. and are limited to private, invitation-only events.",
+        },
+        {
+          question:
+            "Can I put a bounce house in a Boulder park?",
+          answer:
+            "At neighborhood and community parks, the City says third-party structures that need stakes or a generator, such as a bounce castle or climbing wall, are not allowed unless the event is under a Special Event Permit.",
+        },
+        {
+          question:
+            "Can I stake a tent into park turf?",
+          answer:
+            "The City requires weights for tents on turf unless Boulder Parks and Recreation approves stakes in writing. If stakes are approved, the applicant coordinates utility locates, and stakes longer than 36 inches are prohibited.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Boulder?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Boulder and Boulder County.",
+    },
   },
   {
     city: "Greeley",
@@ -193,6 +591,141 @@ export const locations: Location[] = [
     county: "Weld County",
     featured: true,
     nearbyCities: ["fort-collins-co", "loveland-co", "windsor-co"],
+    metaDescription:
+      "Plan Greeley, CO event rentals: tents, tables and chairs, staging and restrooms, plus Island Grove, park, public space and alcohol permit rules.",
+    heroSupportingCopy:
+      "Find event rental companies serving Greeley and Weld County. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
+    heroTagline:
+      "Greeley events tend to run through one of a few City offices: Culture, Parks and Recreation for parks and Island Grove Regional Park, Public Works for streets and plazas, and the City Clerk when alcohol is served at a public event.",
+    categoriesIntro:
+      "Explore the rental categories most used for Greeley weddings, Island Grove events, community gatherings, corporate events and backyard celebrations.",
+    localIntro: [
+      "Greeley is in Weld County and sits close to Fort Collins, Loveland and Windsor, so providers based in neighboring cities may also serve Greeley addresses. Event Rental Finder helps you compare rental categories and plan the details; service areas, delivery terms and availability are set by each company, so confirm them directly.",
+      "The City of Greeley routes event permits by location and activity. Events in City parks are arranged through Culture, Parks and Recreation. Events on streets, plazas or other City rights-of-way go through Public Works, which now takes Public Space Event permit applications through its eTrakit portal; the City's old Revocable Event Permit form is marked no longer valid. If alcohol will be served at a public event, a Special Event Permit must be filed through the City Clerk's Office. The City's checklist says the complete packet must be filed at least 30 days before the event, lists a $100-per-day fee, and requires a notice posted at the event location for 10 consecutive days. The City's application describes qualifying applicants as nonprofits of listed types.",
+      "Island Grove Regional Park, a City of Greeley and Weld County facility, hosts many of the area's larger events, and the City's Island Grove Rules Handbook (revised March 11, 2026) sets clear rules for rental equipment. Canopies are allowed in the park areas but must be weighed down, and stakes are not permitted. Bounce houses are allowed indoors and outdoors but must come from a licensed rental company, which must contact the Scheduling Office at least two weeks before the reservation date, and they must be weighed down rather than staked. Piñatas, mechanical bulls and water balloons are not permitted in the park areas, glass containers are not allowed, and electrical hookups must be made by a licensed electrical contractor.",
+      "Food, alcohol and fire rules also apply at Island Grove. Food vendors at public events must contact the Scheduling Office at least two weeks ahead and be approved, and alcohol may only be served or sold by the park's licensed liquor concessionaire or through a special event permit. Professional security is required for events serving alcohol, and outside alcohol is prohibited. The handbook says a Fire Department permit and plan review are required for events held at the park, and open flames, fireworks and outdoor liquid petroleum gas need Fire Department permits. For tents elsewhere in Greeley, the City's Fire Prevention Bureau handles permits through eTRAKiT, but its permit page does not list tent size thresholds, so ask the Bureau at 970-350-9510 if your tent needs one.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Greeley",
+      intro:
+        "Common Greeley setups and the City rules that come with them.",
+      items: [
+        {
+          title: "Island Grove Events",
+          description:
+            "Island Grove rentals come with their own rules: canopies must be weighed down, stakes are not permitted, and the Fire Department requires a permit and plan review for events at the park. Ask your provider how they anchor [tents](/categories/tent-rentals) without stakes.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses & Party Rentals",
+          description:
+            "Island Grove allows bounce houses indoors and outdoors if they come from a licensed rental company, which must contact the Scheduling Office at least two weeks ahead. Units must be weighed down; stakes are prohibited.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Weddings & Receptions",
+          description:
+            "Greeley weddings can happen at private property, at Island Grove or at a rented hall. Decorations at Island Grove facilities exclude nails, tacks, confetti and glitter, so plan [wedding rentals](/categories/wedding-rentals) and decor around the venue's handbook.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Fairs, Festivals & Public Events",
+          description:
+            "Public events at Island Grove require approved food vendors, a Fire Department permit and, when alcohol is served, the licensed concessionaire or a special event permit. Staging, sound and lighting orders should wait until those pieces are confirmed.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Events with Alcohol",
+          description:
+            "The City Clerk's Office handles Special Event Permits for alcohol at public events, and the City's checklist asks for the packet at least 30 days ahead. Place [table and chair](/categories/table-chair-rentals) layouts around the licensed area shown on your floor diagram.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Large Gatherings & Restrooms",
+          description:
+            "For a large Island Grove event, ask early about [restroom trailers](/categories/restroom-trailer-rentals) and accessible units and what the venue already provides. Rental periods end when all occupants have exited and doors are locked, so schedule pickup around the facility's closing time.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Greeley",
+      intro:
+        "City rules and local conditions that most often change a Greeley rental plan.",
+      items: [
+        "Which office handles the event: Culture, Parks and Recreation for parks, Public Works for streets and plazas, the City Clerk for alcohol",
+        "Special Event Permits for alcohol at public events, filed at least 30 days ahead with the City Clerk",
+        "Public Space Event permits through Public Works eTrakit for streets, plazas and other City rights-of-way",
+        "Island Grove rules: weighted canopies, no stakes, licensed bounce house companies and two weeks' notice to the Scheduling Office",
+        "Fire Department permits and plan review for events at Island Grove Regional Park",
+        "Professional security and licensed concessionaire requirements for alcohol at Island Grove",
+        "Food vendor approval, requested at least two weeks ahead at Island Grove",
+        "Tent permit questions, which should go to the Fire Prevention Bureau at 970-350-9510",
+        "Facility hours and vacate times at Island Grove, since the rental period begins when the facility opens for the lessee",
+        "Each provider's delivery area, setup windows, pricing and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Greeley's Island Grove Rules Handbook (revised March 11, 2026), Special Event Permit checklist, Liquor Licensing page, Public Space Permitting page and Fire Prevention Bureau permits page. The City's pages did not list tent size thresholds, and the handbook gives two different insurance-certificate deadlines (30 days and two weeks), so confirm current requirements with the City and your rental provider.",
+      closing:
+        "Planning a tent for Island Grove? See [what size tent you need](/resources/what-size-tent-do-i-need) and [how tent rental pricing works](/resources/tent-rental-cost). For alcohol service, see our [Colorado special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide), and for food vendors, the [Colorado event food vendor guide](/resources/colorado-event-food-vendor-guide).",
+    },
+    checklist: {
+      heading: "Greeley Event Rental Checklist",
+      intro:
+        "Have these details ready before you request quotes from Greeley providers:",
+      items: [
+        "Venue: private property, Island Grove, City park or street",
+        "Which City office handles the event",
+        "Peak guest count",
+        "Special Event Permit, if alcohol will be served",
+        "Tent size and anchoring plan (no stakes at Island Grove)",
+        "Inflatable provider and Scheduling Office notice",
+        "Seating, linens and serving tables",
+        "Power, lighting and sound",
+        "Restrooms and accessible units",
+        "Delivery, setup and pickup windows",
+      ],
+    },
+    faqs: {
+      heading: "Greeley Event Rental FAQ",
+      items: [
+        {
+          question:
+            "Can I use stakes for a tent at Island Grove Regional Park?",
+          answer:
+            "No. The park's rules handbook says canopies may be used in the park areas but must be weighed down, and stakes are not permitted. Ask your provider how they ballast a tent without stakes.",
+        },
+        {
+          question:
+            "Can I rent a bounce house for an Island Grove event?",
+          answer:
+            "Yes, with conditions. The handbook says bounce houses are allowed indoors and outdoors but must be rented through a licensed company, which must contact the Scheduling Office at least two weeks before the reservation date. Stakes are prohibited.",
+        },
+        {
+          question:
+            "Do I need a permit to serve alcohol at a Greeley event?",
+          answer:
+            "For a public event, the City says a Special Event Permit must be filed through the City Clerk's Office, and its checklist asks for the packet at least 30 days ahead. At Island Grove, alcohol is served only by the licensed concessionaire or through a special event permit.",
+        },
+        {
+          question:
+            "Who handles permits for an event on a Greeley street or plaza?",
+          answer:
+            "The City says Public Works handles Public Space Event permits through eTrakit, and that the old Revocable Event Permit form is no longer valid.",
+        },
+        {
+          question:
+            "Do I need a fire permit for a tent in Greeley?",
+          answer:
+            "The Fire Prevention Bureau handles permits through eTRAKiT, but the City's permit page does not list a tent size threshold. Call the Bureau at 970-350-9510. Events at Island Grove Regional Park require a Fire Department permit and plan review.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Greeley?",
+      description:
+        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Greeley and Weld County.",
+    },
   },
   {
     city: "Grand Junction",

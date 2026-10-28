@@ -1,12 +1,33 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-21 (Western Slope run: Fruita, Palisade, Montrose, Rifle, Glenwood Springs; liquor permit guide; food vendor guide)
+Last audited: 2026-10-28 (Denver Metro Infill II: Englewood, Northglenn, Broomfield, Commerce City, Brighton; generator/power guide; park pavilion reservation guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-10-28: ERF Denver Metro Infill II Run
+
+- **Cluster choice:** Denver infill row (Englewood, Northglenn, Broomfield named candidates) plus Commerce City and
+  Brighton as in-cluster expansions; all official permit/park/fire sources verified. Rationale in content-strategy.md.
+- **New rich city pages:** Englewood (`/locations/englewood-co`), Northglenn (`/locations/northglenn-co`), Broomfield
+  (`/locations/broomfield-co`), Commerce City (`/locations/commerce-city-co`), Brighton (`/locations/brighton-co`).
+  Written to search intent and sourced facts, not padded to a word count.
+- **New resource guides** (publishedAt 2026-10-28, heroes shipped): Generators and Power for Colorado Events
+  (`/resources/colorado-event-generator-power-guide`); Reserving a Colorado Park Pavilion for a Party
+  (`/resources/colorado-park-pavilion-reservation-guide`). Cross-linked to each other and the new city pages.
+- **Heroes:** five city heroes + two resource heroes, 1080x720 WebP, 86–179 KB, QA passed unattended.
+- **Links:** nearby lists updated reciprocally on Denver, Littleton, Centennial, Thornton, Westminster, Erie, Boulder.
+- **Source conflicts (facts omitted from copy):** Brighton shelter season (Facility Rentals: May–Oct 31; FAQ: mid-May
+  to mid-September; Benedict page: May–Labor Day for some shelters) and shelter fees ($85/$105 vs FAQ $65/$75) — season
+  and fees omitted. Brighton Fire tent permit threshold (Tent Permit Application: tents over 400 sq ft, exception for
+  open-sided up to 700; event requirements form: canopies over 400 / tents over 700) — threshold omitted, readers told
+  to confirm. Northglenn pavilion hours not used (only on search snippet). Broomfield Street Closure/Special Events
+  permit lead time not used (document fetch timed out; unverified).
+- **Sources:** see used-keywords.md "Sources logged 2026-10-28".
+- **Sitemap URLs:** 57, now 64. **Location pages:** 31, now 36. **Resource pages:** 10, now 12.
 
 ### 2026-10-21: ERF Western Slope Run
 
@@ -235,7 +256,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (31)
+## Location Pages (36)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -271,6 +292,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Montrose | Montrose County | Rich | https://www.eventrentalfinder.com/locations/montrose-co | 2026-10-21 |
 | Rifle | Garfield County | Rich | https://www.eventrentalfinder.com/locations/rifle-co | 2026-10-21 |
 | Glenwood Springs | Garfield County | Rich | https://www.eventrentalfinder.com/locations/glenwood-springs-co | 2026-10-21 |
+| Englewood | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/englewood-co | 2026-10-28 |
+| Northglenn | Adams County | Rich | https://www.eventrentalfinder.com/locations/northglenn-co | 2026-10-28 |
+| Broomfield | City and County of Broomfield | Rich | https://www.eventrentalfinder.com/locations/broomfield-co | 2026-10-28 |
+| Commerce City | Adams County | Rich | https://www.eventrentalfinder.com/locations/commerce-city-co | 2026-10-28 |
+| Brighton | Adams County | Rich | https://www.eventrentalfinder.com/locations/brighton-co | 2026-10-28 |
 
 ## Category Pages (10)
 
@@ -287,7 +313,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (10)
+## Resource Pages (12)
 
 | Title | URL | Published |
 |---|---|---|
@@ -301,6 +327,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage, Sound and Lighting Rentals in Colorado: Permits, Power, Noise and Weather | https://www.eventrentalfinder.com/resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
 | Special Event Liquor Permits in Colorado: Who Qualifies, Timelines and Park Alcohol Rules | https://www.eventrentalfinder.com/resources/colorado-special-event-liquor-permit-guide | 2026-10-21 |
 | Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning | https://www.eventrentalfinder.com/resources/colorado-event-food-vendor-guide | 2026-10-21 |
+| Generators and Power for Colorado Events: Placement, Permits and Park Outlets | https://www.eventrentalfinder.com/resources/colorado-event-generator-power-guide | 2026-10-28 |
+| Reserving a Colorado Park Pavilion for a Party: Permits, Rules and What to Rent | https://www.eventrentalfinder.com/resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
 
 ### 2026-10-23: ERF QA expansion of thin hub pages
 - **Expanded (official sources only):** Denver, Fort Collins, Boulder, Greeley (about 1,600 words each, up from about 290).
@@ -314,5 +342,5 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 | File | URL |
 |---|---|
-| Sitemap (57 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (64 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-10-08 (Denver Infill Run)
+Last updated: 2026-10-28 (Denver Metro Infill II: Englewood, Northglenn, Broomfield, Commerce City, Brighton)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -58,6 +58,11 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Montrose | event rentals Montrose CO | /locations/montrose-co | party, stage, restroom, wedding, tent, dance-floor | 2026-10-21 |
 | Rifle | event rentals Rifle CO | /locations/rifle-co | party, tent, restroom, av-lighting, inflatable, wedding | 2026-10-21 |
 | Glenwood Springs | event rentals Glenwood Springs CO | /locations/glenwood-springs-co | party, tent, wedding, stage, inflatable, av-lighting | 2026-10-21 |
+| Englewood | event rentals Englewood CO | /locations/englewood-co | table-chair, tent, party, stage, wedding, restroom-trailer | 2026-10-28 |
+| Northglenn | event rentals Northglenn CO | /locations/northglenn-co | table-chair, av-lighting, tent, inflatable, wedding, party | 2026-10-28 |
+| Broomfield | event rentals Broomfield CO | /locations/broomfield-co | table-chair, inflatable, stage, wedding, tent, restroom-trailer | 2026-10-28 |
+| Commerce City | event rentals Commerce City CO | /locations/commerce-city-co | table-chair, av-lighting, party, tent, stage, restroom-trailer | 2026-10-28 |
+| Brighton | event rentals Brighton CO | /locations/brighton-co | table-chair, wedding, tent, av-lighting, inflatable, restroom-trailer | 2026-10-28 |
 
 
 Secondary angles in use (don't build a second page around these without differentiating it):
@@ -113,6 +118,8 @@ Secondary angles in use (don't build a second page around these without differen
 | Colorado stage sound lighting rentals | /resources/colorado-stage-av-lighting-rental-guide | 2026-10-14 |
 | Colorado special event liquor permit | /resources/colorado-special-event-liquor-permit-guide | 2026-10-21 |
 | Colorado event food vendors / food trucks | /resources/colorado-event-food-vendor-guide | 2026-10-21 |
+| Colorado event generator / power for events | /resources/colorado-event-generator-power-guide | 2026-10-28 |
+| Colorado park pavilion / shelter reservation | /resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 
@@ -129,6 +136,27 @@ Secondary angles in use for resources (don't build a second page around these wi
   bounce house permit patterns; generators and COI for park events.
 - Stage/AV/lighting guide: IFC 3105 temporary special event structure over 400 sq ft; C.R.S. 25-12-103 noise limits;
   stage and amplified-sound permit triggers across Front Range cities.
+- Generator/power guide: park outlets not guaranteed; IFC/Brighton Fire generator distances (20 ft from tents, 25 ft
+  from public/combustibles, fenced, no refueling while open); generator-triggered permits (Commerce City TEU trailer
+  generator, Northglenn NOI, Littleton); cord routing.
+- Pavilion guide: shelter booking windows (Broomfield, Englewood, Brighton, Commerce City); group permit headcounts
+  (Englewood 15+, Commerce City 25+, Brighton 25+); park bans on bounce houses, canopies, sound, alcohol, glass, staking.
+
+### Sources logged 2026-10-28 (official only)
+
+- Englewood: englewoodco.gov Park Rules & Regulations; Parks, Field and Pavilion Rentals; Host Your Community Event in
+  Englewood (Community Event License criteria); Block Party Trailer reservation page (englewoodrec WebTrac).
+- Northglenn: secure.northglenn.org/seplanner (Special Event Planner); Special Events Packet PDF (Notice of Intent,
+  Amplified Sound Permit, Park Vending Permit, park rules, insurance); northglenn.org Pavilion Rentals; Parks & Open
+  Space (Organized Community Event); CB-2041 (2026) Section 17-4-2.
+- Broomfield: broomfield.org Parks and Park Shelters (593); Park Shelter Reservation Info (DocumentCenter 31512);
+  How-To B-REx Facility Reservations 2025 (47509); Special Event Alcohol Permit Application Checklist (49181).
+- North Metro Fire Rescue District: Commercial Tents & Canopies (205); District Information (148).
+- Commerce City: c3gov.com Park Property Ordinances, Rules and Regulations; Rent/Reserve a Space; Park Shelter & Trail
+  Rentals; Pioneer Park; Organized Event (TEU). South Adams County Fire Department Operational Permit page (sacfd.org).
+- Brighton: brightonco.gov Facility Rentals (392); Benedict Park and Brighton Park facility pages; Park shelter FAQ
+  (topic 33); Special Event Permit Procedures and Application (35089). Brighton Fire Rescue District Tent Permit
+  Application and Event Fire Code Requirements Form – City of Brighton (2023).
 
 ## Reserved (planned, not live)
 

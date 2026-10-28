@@ -246,6 +246,57 @@ Nearby links (all reciprocal): Grand Junction: fruita, palisade, montrose, rifle
 Palisade: grand-junction, fruita, rifle. Montrose: grand-junction. Rifle: glenwood-springs, palisade, grand-junction.
 Glenwood Springs: rifle. Grand Junction remains thin (no in-body hub paragraph yet).
 
+### Week of 2026-10-26 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Englewood, Northglenn, Broomfield, Commerce City, Brighton |
+| New planning resources | 2 | 2 | Colorado event generator and power guide; Colorado park pavilion reservation guide |
+
+---
+
+## Current Cluster: Denver Metro Infill II (Englewood + North/Northeast Metro)
+
+Chosen from the "Denver infill" row (Englewood, Northglenn, Broomfield were the named candidates). Commerce City and
+Brighton were added as in-cluster expansions because every required permit/park/fire source was verifiable on official
+City and fire district sites, and together they complete a contiguous north/northeast metro arc (Northglenn, Broomfield,
+Commerce City, Brighton) adjoining the shipped Thornton/Westminster pages, with Englewood filling the south-inner gap
+beside Denver/Littleton. Denver infill was preferred over the Johnstown/Severance cluster because sources were solid.
+Shipped 2026-10-28.
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Englewood:** strictest parks in the metro: no alcohol (no permits issued), no amplifiers, no bounce houses/dunk
+  tanks; canopies capped at two 10x10 or one 10x20 with stakes ≤8"; pavilion required over 2 hours; Park Use Permit
+  for 15+; five pavilion bookings/yr; Community Event License triggers (50+, closures, City property, 2+ vendors or
+  Fire Marshal structure); Block Party Application + trailer.
+- **Northglenn:** Special Event Planner (30 days, 7 business days processing); NOI checklist (tent over 400, stage,
+  generator); amplified sound by wattage (5 W / 100 W Parks Board), 9–9, 85/65 dBA; no inflatables/piñatas; Organized
+  Community Event Permit (CB-2041); $1M COI with alcohol; North Metro Fire tents.
+- **Broomfield:** consolidated City and County; B-REx from Jan 2; permits for bands, inflatables, water, alcohol; no
+  staking (sandbags, water jugs, concrete); inflatables need a generator; 10 business days; liquor checklist requires
+  NMFR tent doc and Building stage permit.
+- **Commerce City:** Park Usage Permit 25+, two weeks; list every canopy; no bounce houses; electricity not guaranteed;
+  Share the Park reservations; TEU 30 days for 50+ organized events and for shelter/home events adding amplified
+  music, stage, tent over 400, trailer generator, food trucks or hours outside 8–8; SACFD tent and food truck permits.
+- **Brighton:** shelters by phone, 10 days; free group permit 25+; Benedict limits; liquor SEP 30/45 days with posted
+  notice; Brighton Fire: no water-barrel anchors unless manufacturer-approved, generators 20 ft and fenced, one
+  extinguisher per 500 sq ft.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Englewood | denver, littleton, centennial |
+| Northglenn | thornton, westminster, broomfield, commerce-city |
+| Broomfield | westminster, northglenn, erie, boulder |
+| Commerce City | denver, thornton, brighton, northglenn |
+| Brighton | commerce-city, thornton |
+| Denver / Littleton / Centennial | + englewood (Denver also + commerce-city) |
+| Thornton | + northglenn, commerce-city, brighton |
+| Westminster | + northglenn, broomfield |
+| Erie / Boulder | + broomfield |
+
 ---
 
 ## Next Candidate Clusters
@@ -253,7 +304,7 @@ Glenwood Springs: rifle. Grand Junction remains thin (no in-body hub paragraph y
 | Cluster | Candidate cities | Notes |
 |---|---|---|
 | Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08. Further infill candidates to scope: Englewood, Northglenn, Broomfield |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28. Further candidates: Wheat Ridge, Golden, Federal Heights, Lone Tree |
 | Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Further candidates: Delta (needs verifiable official sources), Carbondale, New Castle, Grand Junction hub upgrade |
 
 ---

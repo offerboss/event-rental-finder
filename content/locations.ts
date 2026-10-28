@@ -8,7 +8,7 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co"],
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co"],
     metaDescription:
       "Plan Denver, CO event rentals: tents, tables and chairs, staging and restrooms, plus park permit, Office of Special Events and fire permit rules.",
     heroSupportingCopy:
@@ -445,7 +445,7 @@ export const locations: Location[] = [
     slug: "boulder-co",
     county: "Boulder County",
     featured: true,
-    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co"],
+    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co", "broomfield-co"],
     metaDescription:
       "Plan Boulder, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event permit and tent permit rules.",
     heroSupportingCopy:
@@ -2166,7 +2166,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "littleton-co",
     county: "Arapahoe County",
-    nearbyCities: ["centennial-co", "denver-co", "lakewood-co", "parker-co"],
+    nearbyCities: ["centennial-co", "denver-co", "lakewood-co", "parker-co", "englewood-co"],
     metaDescription:
       "Plan event rentals in Littleton, CO: tents, tables and chairs, wedding and party rentals, staging and restrooms, plus the City's event permit triggers, South Suburban park rules and street closures.",
     heroSupportingCopy:
@@ -2303,7 +2303,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "centennial-co",
     county: "Arapahoe County",
-    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co"],
+    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co", "englewood-co"],
     metaDescription:
       "Plan event rentals in Centennial, CO: tables and chairs, tents, party and wedding rentals, inflatables and restrooms, plus Centennial Center Park rules, park district permits and block party closures.",
     heroSupportingCopy:
@@ -2440,13 +2440,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "westminster-co",
     county: "Adams and Jefferson Counties",
-    nearbyCities: [
-      "thornton-co",
-      "arvada-co",
-      "boulder-co",
-      "denver-co",
-      "erie-co",
-    ],
+    nearbyCities: ["thornton-co", "arvada-co", "boulder-co", "denver-co", "erie-co", "northglenn-co", "broomfield-co"],
     metaDescription:
       "Plan event rentals in Westminster, CO: tables and chairs, tents, wedding rentals, restrooms and staging, plus the City's strict pavilion rules, Standley Lake permits and the 45-day special event permit.",
     heroSupportingCopy:
@@ -2583,7 +2577,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "thornton-co",
     county: "Adams County",
-    nearbyCities: ["westminster-co", "denver-co", "erie-co"],
+    nearbyCities: ["westminster-co", "denver-co", "erie-co", "northglenn-co", "commerce-city-co", "brighton-co"],
     metaDescription:
       "Plan event rentals in Thornton, CO: tables and chairs, tents, inflatables, stages and party rentals, plus Carpenter Park pavilion rules, the 10-by-10 canopy limit, temporary use permits and noise permits.",
     heroSupportingCopy:
@@ -3423,12 +3417,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "erie-co",
     county: "Boulder and Weld Counties",
-    nearbyCities: [
-      "longmont-co",
-      "boulder-co",
-      "westminster-co",
-      "thornton-co",
-    ],
+    nearbyCities: ["longmont-co", "boulder-co", "westminster-co", "thornton-co", "broomfield-co"],
     metaDescription:
       "Plan event rentals in Erie, CO: party rentals, tables and chairs, tents, wedding rentals, lighting and photo booths, plus Town park shelter rules, Community Events permits, mobile vending and open container permits.",
     heroSupportingCopy:
@@ -4233,6 +4222,681 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Glenwood Springs?",
       description:
         "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, weddings, plaza events and festivals in Glenwood Springs and Garfield County.",
+    },
+  },
+  {
+    city: "Englewood",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "englewood-co",
+    county: "Arapahoe County",
+    nearbyCities: ["denver-co", "littleton-co", "centennial-co"],
+    metaDescription:
+      "Plan event rentals in Englewood, CO: pavilion reservations, the Park Use Permit for groups over 15, strict park limits on canopies, sound, alcohol and bounce houses, and when a Community Event License applies.",
+    heroSupportingCopy:
+      "Compare event rental options for Englewood, from canopies, tables and chairs to tents, sound, lighting and restrooms for pavilion parties, block parties, backyard celebrations and community events.",
+    heroTagline:
+      "Englewood's parks are some of the strictest in the metro for party gear: no alcohol, no amplifiers and no bounce houses, and canopies are capped at 200 square feet. Backyards and permitted community events are where bigger rental setups go.",
+    categoriesIntro:
+      "Explore the rental categories Englewood hosts use most for pavilion parties, block parties, backyard weddings and community events.",
+    localIntro: [
+      "Englewood is a compact, older inner-ring suburb on Denver's southern edge in Arapahoe County, and most of its parties happen at one of 14 pavilions in eight City parks or in a backyard. Pavilions are reserved online through Englewood Recreation for a mid-April to mid-October season; for 2026 the window runs from Saturday, April 18 through Sunday, October 11. Each reservation includes the shelter with picnic tables and BBQ grills, and the City now requires a pavilion reservation for any use over two hours in a 24-hour period. There's a limit of five pavilion reservations per calendar year.",
+      "Groups that want the park without a pavilion need a Park Use Permit once they pass 15 people, and the City issues no more than four of those per calendar year. Rental plans have to fit the park rules, which are tighter than in most neighboring cities. Alcohol, including 3.2 beer, is prohibited in all Englewood parks, and the City says no permits will be issued for it. Amplifiers aren't allowed, which rules out karaoke machines, microphones and large speakers; small music devices are fine if they don't disturb other park users. Bounce houses, dunk tanks, carnival games, pony rides and booths are also prohibited.",
+      "Shade has a hard cap. Park visitors may bring no more than two 10x10 pop-up canopies or one 10x20, staked with stakes no longer than eight inches, for a combined footprint of 200 square feet. Vehicles can't drive into parks, so plan on carrying tables and coolers from the lot. Food trucks need a City of Englewood license and written permission from Parks, Recreation, Library and Golf.",
+      "Public events follow a separate track. A Community Event License, filed through the City's iMS portal, is required for temporary activities open to the public with an expected attendance of more than 50 that substantially deviate from the current land use, events that close or affect streets or sidewalks, events held on or affecting City property, and events with two or more vendors or an exterior temporary structure subject to Englewood Fire Marshal regulations. For an event in a park, reserve and pay for the location first, then upload the confirmation with the application. Resident block parties run through the Neighborhood Resources Program's shorter Block Party Application instead, and residents can reserve the City's Block Party Trailer at least 10 days ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Englewood",
+      intro: "Common Englewood setups, shaped by the City's park rules.",
+      items: [
+        {
+          title: "Pavilion Birthday Parties and Reunions",
+          description:
+            "A reserved pavilion comes with picnic tables and grills, so most orders are extra [tables and chairs](/categories/table-chair-rentals), a serving table and up to 200 square feet of pop-up shade. Leave the bounce house and the speakers for a backyard party.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Backyard Celebrations",
+          description:
+            "Private yards are where Englewood hosts put the frame tent, the inflatable, the DJ and the bar. Measure the yard, check overhead lines and gates, and confirm the tent size with the provider before booking.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Neighborhood Block Parties",
+          description:
+            "Residents use the Block Party Application rather than the Community Event License. Add folding tables, chairs and a canopy or two to the City's Block Party Trailer, which must be reserved at least 10 days ahead.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Community Events and Festivals",
+          description:
+            "Public events with more than 50 expected guests, two or more vendors or a temporary structure need a Community Event License. Tents, staging, barricades and restrooms all go on the plan the City reviews.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Backyard Weddings",
+          description:
+            "A small backyard wedding can use a [dance floor](/categories/dance-floor-rentals), string lights and a tent, none of which work in an Englewood park. Ask the provider about delivery access on narrow older lots.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Restrooms for Larger Gatherings",
+          description:
+            "Community events and big backyard parties often add a portable restroom or restroom trailer and a handwashing station. Show them on any plan you submit to the City.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Englewood",
+      intro: "Englewood-specific details to settle before you book rentals.",
+      items: [
+        "Pavilion reservations online through Englewood Recreation, mid-April to mid-October, required for use over two hours",
+        "A limit of five pavilion reservations per calendar year",
+        "A Park Use Permit for groups of more than 15 without a pavilion, limited to four per year",
+        "No alcohol in parks, with no permits issued",
+        "No amplifiers, karaoke machines, microphones or large speakers in parks",
+        "No bounce houses, dunk tanks, carnival games or booths in parks",
+        "Canopies capped at two 10x10s or one 10x20, with stakes no longer than eight inches",
+        "No vehicles in parks, so plan to carry equipment from the parking lot",
+        "A Community Event License for public events over 50, closures, City property, multiple vendors or temporary structures",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Englewood Park Rules and Regulations, Parks, Field and Pavilion Rentals, and Host Your Community Event pages, plus the City's Block Party Trailer reservation page. Confirm current requirements with the City of Englewood and your rental provider.",
+      closing:
+        "Booking a park shelter anywhere in the metro? See the [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide). For tables and seating, see [how many tables and chairs you need](/resources/how-many-tables-and-chairs-do-i-need).",
+    },
+    checklist: {
+      heading: "Englewood Event Rental Checklist",
+      intro: "Pull these details together before you contact Englewood rental companies:",
+      items: [
+        "Park, pavilion or private address",
+        "Guest count and event hours",
+        "Pavilion reservation or Park Use Permit",
+        "Canopy count and stake length",
+        "Sound plan that fits the park rules",
+        "Alcohol plan (private property only)",
+        "Community Event License or Block Party Application, if needed",
+        "Food truck license and permission",
+        "Restrooms and handwashing",
+        "Carry distance from parking to the site",
+      ],
+    },
+    faqs: {
+      heading: "Englewood Event Rental FAQ",
+      items: [
+        {
+          question: "Can I bring a bounce house to an Englewood park?",
+          answer:
+            "No. Bounce houses and jump castles are prohibited in Englewood parks and open spaces, as are dunk tanks. Plan inflatables for a private yard instead.",
+        },
+        {
+          question: "How many canopies can I set up at an Englewood pavilion?",
+          answer:
+            "Park visitors may bring no more than two 10x10 pop-up canopies or one 10x20 pop-up canopy, staked with stakes no longer than eight inches. Total canopy area can't exceed 10 by 20 feet.",
+        },
+        {
+          question: "Can I have a DJ or alcohol at an Englewood park party?",
+          answer:
+            "No. Amplifiers, including karaoke machines, microphones and large speakers, aren't allowed in Englewood parks, and alcohol is prohibited with no permits issued. Small music devices are allowed if they don't disturb others.",
+        },
+        {
+          question: "When do I need a Community Event License in Englewood?",
+          answer:
+            "When a temporary activity is open to the public with more than 50 expected attendees and departs from the current land use, closes or affects streets or sidewalks, uses or affects City property, or includes two or more vendors or a temporary structure under Fire Marshal rules. Resident block parties use a separate Block Party Application.",
+        },
+        {
+          question: "Do I need a permit for a big group at an Englewood park without a pavilion?",
+          answer:
+            "Yes. Groups of more than 15 need a Park Use Permit from Parks, Recreation, Library and Golf, and use over two hours in a 24-hour period now requires a pavilion reservation.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Englewood?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard celebrations and community events in Englewood.",
+    },
+  },
+  {
+    city: "Northglenn",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "northglenn-co",
+    county: "Adams County",
+    nearbyCities: ["thornton-co", "westminster-co", "broomfield-co", "commerce-city-co"],
+    metaDescription:
+      "Plan event rentals in Northglenn, CO: the Special Event Planner, pavilion reservations at E.B. Rains Jr. and Danahy parks, amplified sound permits by wattage, no inflatables in parks, and North Metro Fire tent permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Northglenn, from tents, tables and chairs to sound, lighting and restrooms for pavilion parties, community events, races and backyard celebrations.",
+    heroTagline:
+      "Northglenn runs special events through an online planner that sorts out which permits you need, and it regulates park sound by amplifier wattage and decibel limits rather than a simple yes or no.",
+    categoriesIntro:
+      "Explore the rental categories Northglenn hosts use most for pavilion parties, community events, races and backyard celebrations.",
+    localIntro: [
+      "Northglenn is an Adams County city just north of Denver, between Thornton and Westminster along I-25, and its event process starts in one place: the City's online Special Event Planner. Anyone planning a private event, a party in the park, or an event open to the public or held on City property completes an application there. The planner asks general questions and then presents the forms that apply. The City asks for applications at least 30 days ahead, allows up to seven business days for processing, and warns that insurance, liquor licenses, amplified sound permits and vending permits can take longer.",
+      "The Notice of Intent in the City's special events packet doubles as a rental checklist. It asks about pavilion rentals, park or trail use, races, street closures, alcohol served or sold, amplified sound, any tent or canopy over 400 square feet, structures such as a stage, and generators. Reservable pavilions are at E.B. Rains Jr. Memorial Park and Danahy Park; reservations are posted at each pavilion, and an unreserved pavilion, like those in Northglenn's other parks, is open first come, first served.",
+      "Sound gets unusually specific rules. Amplifiers of five watts or less don't need a permit. The Parks director can approve amplifiers over five watts up to 100 watts, and anything over 100 watts goes to the Parks and Recreation Advisory Board, which meets monthly, with applications due by the first Thursday. Permitted sound runs only between 9 a.m. and 9 p.m., stage shows can't exceed 85 dBA at 20 feet, pavilions and open areas can't exceed 85 dBA at the nearest listener, and sound can't exceed 65 dBA at private property boundaries. Applicants must use a decibel meter app, and sound permits aren't issued in residential areas.",
+      "Park rules prohibit inflatable play structures, piñatas, silly string, water balloons and glass. Alcohol, amplified music, group use and vending are generally prohibited but can be permitted; events with alcohol need a $1 million general liability certificate naming the City. Park vendors must be fully self-contained because electricity isn't available. In 2026 the City also reenacted its Organized Community Event Permit, required when a group uses a park facility and publicly invites people through notices, social media or other outreach. North Metro Fire Rescue District serves Northglenn and requires construction and operational permits for tents over 400 square feet that aren't open on all sides, or over 700 square feet when open on all sides.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Northglenn",
+      intro: "Common Northglenn setups, from pavilion parties to public events.",
+      items: [
+        {
+          title: "Pavilion Parties at E.B. Rains Jr. and Danahy",
+          description:
+            "Reserve a pavilion, then add [tables and chairs](/categories/table-chair-rentals), a serving table and shade. Skip the bounce house and piñata; both are prohibited in Northglenn parks.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Sound for Park Events",
+          description:
+            "A small speaker under five watts needs no permit. A DJ or band needs an amplified sound permit sized to the system, with decibel monitoring and a 9 a.m. to 9 p.m. window. Ask the [sound provider](/categories/av-lighting-rentals) for the amplifier wattage.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Community Events and Races",
+          description:
+            "Publicly advertised park events need an Organized Community Event Permit. Tents over 400 square feet, stages and generators are all flagged on the City's Notice of Intent.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Parties and Inflatables",
+          description:
+            "Inflatables are out in City parks, so bounce houses land in backyards. Confirm the anchoring method and power source with the provider.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Backyard and Venue Weddings",
+          description:
+            "Larger reception tents trigger North Metro Fire permits and inspections. Ask the tent company who files the plans and books the inspection before guests arrive.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Vendor and Food Areas",
+          description:
+            "Park vendors must be self-contained because there's no electricity. Plan generators, canopies and tables for each booth, and list the generator on the Notice of Intent.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Northglenn",
+      intro: "Northglenn-specific details to settle before you book rentals.",
+      items: [
+        "A Special Event Planner application at least 30 days ahead, with up to seven business days of processing",
+        "Reservable pavilions at E.B. Rains Jr. Memorial Park and Danahy Park; others first come, first served",
+        "An Organized Community Event Permit for publicly advertised group events in parks",
+        "Amplified sound permits over five watts, with Parks Board review over 100 watts",
+        "Permitted sound only from 9 a.m. to 9 p.m., with 85 dBA and 65 dBA limits",
+        "No inflatables, piñatas, water balloons or glass in parks",
+        "A $1 million liability certificate naming the City when alcohol is served or sold",
+        "No electricity for park vendors",
+        "North Metro Fire permits for tents over 400 square feet, or 700 square feet open on all sides",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Northglenn Special Event Planner, Special Events Packet (Notice of Intent, Amplified Sound Permit, Park Vending Permit and park rules), Pavilion Rentals page, Parks and Open Space page and Council Bill CB-2041 (2026), and North Metro Fire Rescue District's Commercial Tents and Canopies and District Information pages. Confirm current requirements with the City, North Metro Fire and your rental provider.",
+      closing:
+        "Planning sound or power? See the [stage, sound and lighting guide](/resources/colorado-stage-av-lighting-rental-guide) and the [event generator and power guide](/resources/colorado-event-generator-power-guide).",
+    },
+    checklist: {
+      heading: "Northglenn Event Rental Checklist",
+      intro: "Pull these details together before you contact Northglenn rental companies:",
+      items: [
+        "Park, pavilion or private address",
+        "Guest count and event hours",
+        "Special Event Planner application",
+        "Pavilion reservation",
+        "Amplifier wattage and decibel plan",
+        "Tent sizes and fire permit question",
+        "Stage or generator, if any",
+        "Alcohol plan and insurance certificate",
+        "Vendor list and power",
+        "Restrooms and handwashing",
+      ],
+    },
+    faqs: {
+      heading: "Northglenn Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for music at a Northglenn park?",
+          answer:
+            "Amplifiers of five watts or less don't need a permit. Over five watts and up to 100 watts needs the Parks director's approval, and over 100 watts needs Parks and Recreation Advisory Board approval. Permitted sound runs from 9 a.m. to 9 p.m. with decibel limits.",
+        },
+        {
+          question: "Can I rent a bounce house for a Northglenn park party?",
+          answer:
+            "No. Inflatable play structures are prohibited in Northglenn parks, along with piñatas, silly string and water balloons.",
+        },
+        {
+          question: "Which Northglenn pavilions can be reserved?",
+          answer:
+            "Pavilions at E.B. Rains Jr. Memorial Park and Danahy Park can be reserved through the Northglenn Recreation Center. Reservations are posted at the pavilion, and unreserved pavilions are first come, first served.",
+        },
+        {
+          question: "How far ahead should I apply for a Northglenn special event?",
+          answer:
+            "The City asks for applications at least 30 days ahead and allows up to seven business days for processing. Insurance, liquor, sound and vending permits can take longer, and Parks Board items must be submitted by the first Thursday of the month.",
+        },
+        {
+          question: "When does a tent need a fire permit in Northglenn?",
+          answer:
+            "North Metro Fire Rescue District generally requires plan review and construction and operational permits for tents over 400 square feet that aren't open on all sides, or over 700 square feet when open on all sides. The district inspects before the tent is occupied.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Northglenn?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, community events, races and backyard celebrations in Northglenn.",
+    },
+  },
+  {
+    city: "Broomfield",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "broomfield-co",
+    county: "City and County of Broomfield",
+    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co"],
+    metaDescription:
+      "Plan event rentals in Broomfield, CO: B-REx park shelter reservations, permits for bands, inflatables and alcohol, no-stake tent rules, generator needs for inflatables, and North Metro Fire tent permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Broomfield, from tents, tables and chairs to inflatables, sound, lighting and restrooms for shelter parties, weddings, community events and backyard celebrations.",
+    heroTagline:
+      "Broomfield is both a city and a county, so park shelters, liquor permits and building permits all run through one government. In its parks, tents and inflatables go up on weights, never stakes.",
+    categoriesIntro:
+      "Explore the rental categories Broomfield hosts use most for shelter parties, weddings, community events and backyard celebrations.",
+    localIntro: [
+      "Broomfield sits between Denver and Boulder along US 36 and is a consolidated City and County. That simplifies the paperwork: park shelters, alcohol permits, liquor licensing and building permits all come from the City and County of Broomfield. Park shelters are reserved through B-REx.com, with requests for the coming year opening at 8 a.m. on January 2. Requests are processed in the order received, and a reservation isn't final until Recreation Services confirms it. The Broomfield County Commons and Interlocken West Park shelters aren't available for online requests and have limited availability.",
+      "A reservation and paid permit gives sole use of a shelter for the booked time, and parks are open from 5 a.m. to 11 p.m. The City and County requires a permit for large organized events, live bands, inflatables, water use and alcohol, and it asks for prior approval before you bring tents, inflatables, slip 'n slides or a live band, so the permit reflects them. Park reservation permits and alcohol permits take 10 business days to process. Residency is verified in person for resident rates.",
+      "Anchoring is the rule rental companies need to hear first: staking isn't permitted for tents or inflatables in Broomfield parks. Use sandbags, water jugs or concrete weights. Inflatables also need a generator, because park outlets don't supply enough power for large items, and driving onto a park isn't allowed. Hosts are responsible for park damage.",
+      "Public events that sell alcohol need a Special Event liquor permit from the Clerk's Office, which is separate from the Recreation Services consumption permit. The application checklist asks for a premises diagram showing bars, storage, exits, restrooms, tents, vendors and fencing; a copy of the Broomfield Building Department permit for any temporary stage; and a North Metro Fire Rescue District tent permit or documentation that none is required. A park reservation has to be made first. North Metro Fire generally requires plan review and construction and operational permits for tents over 400 square feet that aren't open on all sides, or over 700 square feet open on all sides, with an inspection before anyone uses the tent. Open space and trail events may need a separate Open Space and Trails Special Use Permit.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Broomfield",
+      intro: "Common Broomfield setups, from shelter parties to licensed public events.",
+      items: [
+        {
+          title: "Park Shelter Parties",
+          description:
+            "Book through B-REx, then add [tables and chairs](/categories/table-chair-rentals) and shade. Any canopy needs prior approval and weights, not stakes.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Bounce Houses in Parks",
+          description:
+            "Inflatables need a park permit, prior approval, weights instead of stakes and a generator. Ask the inflatable company to bring sandbags and a generator sized for the blower.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Live Bands and DJs",
+          description:
+            "A live band in a park needs a permit and prior approval. Settle power, stage placement and timing with the [stage provider](/categories/stage-rentals) before the request goes in.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Backyard Weddings and Receptions",
+          description:
+            "Private property gives more room for frame tents, dance floors and lighting. Larger tents still need North Metro Fire permits and an inspection.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Licensed Public Events",
+          description:
+            "Beer gardens and festivals need a premises diagram with tents, fencing, restrooms and vendors, plus stage and fire paperwork. Fencing, tents and barricades are usually the core rental order.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Restrooms for Larger Gatherings",
+          description:
+            "Add portable restrooms or a restroom trailer for big events, and show them on the premises diagram for any licensed event.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Broomfield",
+      intro: "Broomfield-specific details to settle before you book rentals.",
+      items: [
+        "Shelter requests through B-REx.com, opening at 8 a.m. on January 2; County Commons and Interlocken West not online",
+        "Permits for large organized events, live bands, inflatables, water use and alcohol",
+        "Prior approval for tents, inflatables, slip 'n slides and live bands",
+        "No staking: sandbags, water jugs or concrete weights only",
+        "A generator for inflatables, since park outlets can't power them",
+        "No driving onto parks",
+        "Ten business days to process park reservation and alcohol permits",
+        "A separate Clerk's Office Special Event liquor permit for alcohol sales, with a premises diagram",
+        "North Metro Fire permits for tents over 400 square feet, or 700 square feet open on all sides",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City and County of Broomfield Parks and Park Shelters page, Park Shelter Reservation Info sheet, B-REx Facility Reservations guide and Special Event Alcohol Permit Application Checklist, and North Metro Fire Rescue District's Commercial Tents and Canopies and District Information pages. Confirm current requirements with Broomfield, North Metro Fire and your rental provider.",
+      closing:
+        "Bringing a bounce house? See the [inflatable and party rental guide](/resources/colorado-inflatable-and-party-rental-guide) and the [event generator and power guide](/resources/colorado-event-generator-power-guide). Selling drinks? See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide).",
+    },
+    checklist: {
+      heading: "Broomfield Event Rental Checklist",
+      intro: "Pull these details together before you contact Broomfield rental companies:",
+      items: [
+        "Park, shelter or private address",
+        "Guest count and event hours",
+        "B-REx reservation and residency status",
+        "Approved list of tents, inflatables and bands",
+        "Weights instead of stakes",
+        "Generator for inflatables",
+        "Alcohol consumption or Special Event liquor permit",
+        "Fire permit, if a tent crosses the threshold",
+        "Stage permit, if any",
+        "Restrooms and handwashing",
+      ],
+    },
+    faqs: {
+      heading: "Broomfield Event Rental FAQ",
+      items: [
+        {
+          question: "Can I stake a tent in a Broomfield park?",
+          answer:
+            "No. Staking isn't permitted for tents or inflatables in Broomfield parks. Use sandbags, water jugs or concrete weights, and ask for prior approval so the items appear on your park permit.",
+        },
+        {
+          question: "Can I have a bounce house at a Broomfield park shelter?",
+          answer:
+            "With a permit and prior approval. Inflatables must be weighted rather than staked and need a generator, because park outlets don't provide enough power for large items.",
+        },
+        {
+          question: "How do I reserve a Broomfield park shelter?",
+          answer:
+            "Submit a request through B-REx.com. Requests for the coming year open at 8 a.m. on January 2 and are processed in order. A reservation isn't final until Recreation Services confirms it, and County Commons and Interlocken West aren't available online.",
+        },
+        {
+          question: "Do I need a permit to serve alcohol at a Broomfield park?",
+          answer:
+            "Yes. Submit an alcohol consumption permit with the park reservation; both take 10 business days to process. Selling alcohol by the drink also requires a Special Event liquor permit from the Clerk's Office.",
+        },
+        {
+          question: "When does a tent need a fire permit in Broomfield?",
+          answer:
+            "North Metro Fire Rescue District generally requires plan review and construction and operational permits for tents over 400 square feet that aren't open on all sides, or over 700 square feet when open on all sides, with an inspection before use.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Broomfield?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, weddings, community events and backyard celebrations in Broomfield.",
+    },
+  },
+  {
+    city: "Commerce City",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "commerce-city-co",
+    county: "Adams County",
+    nearbyCities: ["denver-co", "thornton-co", "brighton-co", "northglenn-co"],
+    metaDescription:
+      "Plan event rentals in Commerce City, CO: Park Usage Permits for 25+ guests, shelter rules, no bounce houses in parks, when a Temporary Event and Use Permit applies, and South Adams County Fire tent and food truck permits.",
+    heroSupportingCopy:
+      "Compare event rental options for Commerce City, from canopies, tables and chairs to tents, sound, staging and restrooms for shelter parties, quinceañeras, block parties, car shows and community events.",
+    heroTagline:
+      "A rented Commerce City park shelter doesn't need an event permit on its own, but adding amplified music, a stage, a tent over 400 square feet, a trailer generator, food trucks or late hours changes that.",
+    categoriesIntro:
+      "Explore the rental categories Commerce City hosts use most for shelter parties, quinceañeras, block parties, car shows and community events.",
+    localIntro: [
+      "Commerce City sits northeast of Denver in Adams County, with recreation centers at Eagle Pointe and Bison Ridge. Park parties start with the Park Usage Permit: any planned, organized event or picnic gathering of 25 or more people on Commerce City park property needs one in advance. Applications are due at least two weeks before the rental date, online or at the Eagle Pointe or Bison Ridge recreation centers, with shelter fees and a security deposit. Larger deposits may be required when an event includes alcohol, canopies, bands or multiple shelters.",
+      "Shelter rules shape the rental order. Everything you bring into the park, canopies included, has to be listed on the application, or the deposit is forfeited. Bounce houses and other inflatable play structures aren't allowed in City parks. Rental hours run from 8 a.m. to 10 p.m. Electricity at shelters is complimentary and not guaranteed, so a band or a coffee urn may need its own power plan. Alcohol permits are required to drink beer in the parks, glass is banned everywhere, and in drought conditions the Parks Division can cancel reservations with a full refund. At Pioneer Park, shelters hold up to 75 people each, and the City's Share the Park program now requires a reservation to use shelters at Pioneer and Veterans Memorial parks, with free same-day reservations for up to four hours.",
+      "Bigger events follow the City's organized event rules. An organized event is a prearranged activity that may attract more than 50 people at one time, such as a public concert, parade, festival, block party, flea market or grand opening. It needs a Temporary Event and Use Permit (TEU), filed through eTRAKiT at least 30 days ahead. Events at a rented park shelter, weddings at reception halls and events in private residences are normally exempt, but a TEU is required for any of them that adds amplified music, an erected stage, a tent or air-supported membrane over 400 square feet, a trailer-mounted generator, food trucks, or activity before 8 a.m. or after 8 p.m.",
+      "The TEU site plan reads like a rental manifest: temporary structures, tents and canopies, fencing type and height, restrooms or portable toilets, the source of electricity and a generator's kilowatt rating, stages, sound and lighting, trash containers, booths, and manufacturer documentation for tents and stages. South Adams County Fire Department covers Commerce City and requires operational permits for most tents and membrane structures, filed through its permit portal. It also requires an operational permit for food trucks with equipment that produces smoke or grease-laden vapors.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Commerce City",
+      intro: "Common Commerce City setups, from shelter parties to permitted events.",
+      items: [
+        {
+          title: "Shelter Birthday Parties and Quinceañeras",
+          description:
+            "Reserve two weeks ahead and list every canopy and rental item on the application. Add [tables and chairs](/categories/table-chair-rentals), linens and decor, but leave out bounce houses, which aren't allowed in City parks.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Shelter Events With a DJ or Band",
+          description:
+            "Amplified music turns a shelter rental into a TEU event. Apply 30 days ahead and plan power, since shelter electricity isn't guaranteed.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Block Parties and Car Shows",
+          description:
+            "Block parties and car shows are organized events that need a TEU. Barricades, canopies, tables and portable toilets go on the site plan.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Backyard Celebrations",
+          description:
+            "Events in private residences don't need a TEU by default. A large tent, a stage or a trailer generator still triggers one, so check the order with the provider.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Festivals and Community Events",
+          description:
+            "Public events with stages, vendor rows and food trucks need a TEU and South Adams County Fire permits for tents and cooking trucks. Book [staging](/categories/stage-rentals) with manufacturer documentation for the site plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Restrooms for Larger Gatherings",
+          description:
+            "Park restrooms can be limited for large crowds. Portable toilets or a restroom trailer belong on the TEU site plan.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Commerce City",
+      intro: "Commerce City-specific details to settle before you book rentals.",
+      items: [
+        "A Park Usage Permit for organized events or picnics of 25 or more, at least two weeks ahead",
+        "Every canopy and rental item listed on the park application",
+        "No bounce houses or inflatable play structures in City parks",
+        "Shelter rental hours from 8 a.m. to 10 p.m., with electricity not guaranteed",
+        "Alcohol permits for beer in parks, and no glass",
+        "Reservations now required for shelters at Pioneer and Veterans Memorial parks",
+        "A TEU through eTRAKiT at least 30 days ahead for organized events of more than 50",
+        "A TEU even at a shelter or home for amplified music, a stage, tents over 400 square feet, trailer generators, food trucks or hours outside 8 a.m. to 8 p.m.",
+        "South Adams County Fire operational permits for most tents and for cooking food trucks",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Commerce City Park Property Ordinances, Rules and Regulations; Rent/Reserve a Space; Park Shelter and Trail Rentals; Pioneer Park; and Organized Event pages, and the South Adams County Fire Department Operational Permit page. Confirm current requirements with the City, South Adams County Fire and your rental provider.",
+      closing:
+        "Bringing a generator or food trucks? See the [event generator and power guide](/resources/colorado-event-generator-power-guide) and the [event food vendor guide](/resources/colorado-event-food-vendor-guide).",
+    },
+    checklist: {
+      heading: "Commerce City Event Rental Checklist",
+      intro: "Pull these details together before you contact Commerce City rental companies:",
+      items: [
+        "Park, shelter or private address",
+        "Guest count and event hours",
+        "Park Usage Permit and equipment list",
+        "Sound plan and TEU question",
+        "Tent sizes and fire permit",
+        "Power source and generator kilowatt rating",
+        "Alcohol permit, if any",
+        "Food truck list and fire permits",
+        "Restrooms and trash",
+        "Site plan for any TEU",
+      ],
+    },
+    faqs: {
+      heading: "Commerce City Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for a party at a Commerce City park?",
+          answer:
+            "Any organized event or picnic gathering of 25 or more people on City park property needs a Park Usage Permit in advance. Apply at least two weeks before the rental date.",
+        },
+        {
+          question: "Can I bring a bounce house to a Commerce City park?",
+          answer:
+            "No. Bounce houses and other inflatable play structures aren't allowed in Commerce City parks, and bringing one forfeits the deposit.",
+        },
+        {
+          question: "When does a shelter party need a Temporary Event and Use Permit?",
+          answer:
+            "A rented park shelter is normally exempt, but a TEU is required if the event adds amplified music, an erected stage, a tent or membrane over 400 square feet, a trailer-mounted generator, food trucks, or runs before 8 a.m. or after 8 p.m. Apply through eTRAKiT at least 30 days ahead.",
+        },
+        {
+          question: "Is electricity available at Commerce City park shelters?",
+          answer:
+            "Many shelters have lights and outlets, but the City says electricity is complimentary and not guaranteed. Plan backup power for anything essential, and note that a trailer-mounted generator triggers a TEU.",
+        },
+        {
+          question: "Who issues fire permits for tents in Commerce City?",
+          answer:
+            "South Adams County Fire Department requires operational permits for most tents and membrane structures, submitted through its permit portal. Food trucks that produce smoke or grease-laden vapors also need a fire operational permit.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Commerce City?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, quinceañeras, block parties and community events in Commerce City.",
+    },
+  },
+  {
+    city: "Brighton",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "brighton-co",
+    county: "Adams County",
+    nearbyCities: ["commerce-city-co", "thornton-co"],
+    metaDescription:
+      "Plan event rentals in Brighton, CO: park shelter reservations by phone, the free group permit for 25+ guests, bounce house and music limits, special event liquor permits, and Brighton Fire tent, generator and anchoring rules.",
+    heroSupportingCopy:
+      "Compare event rental options for Brighton, from tents, tables and chairs to sound, lighting and restrooms for shelter parties, farm-edge weddings, community events and backyard celebrations.",
+    heroTagline:
+      "Brighton Fire Rescue District doesn't accept water-filled barrels as tent anchors unless the tent manufacturer approves them, and it wants generators fenced off at least 20 feet from tents. Ask the tent company about anchoring early.",
+    categoriesIntro:
+      "Explore the rental categories Brighton hosts use most for shelter parties, weddings, community events and backyard celebrations.",
+    localIntro: [
+      "Brighton sits on the South Platte River in Adams County, where the northeast metro meets open farmland. Park shelters are booked through the Brighton Recreation Center rentals desk by phone or in person while the City updates its online system, and payment is due when you reserve. Reservations open on the first business day of the year and must be made at least 10 days ahead; a reservable shelter not booked by then is first come, first served. Reservable shelters include Benedict, Brighton, BJAA, Carmichael, Dewey Strong, Donelson, Farmers and Pheasant Ridge parks.",
+      "Large groups need paperwork even without a shelter. City ordinance requires a group permit for a gathering of more than 25 guests in a city park, arranged through the rentals desk at least 10 days ahead, with no fee. Shelter details vary by park. At Benedict Park, the reservable shelters seat 24 to 32 people, electricity is limited, no music permits are allowed, and bounce houses need a special permit. Parks close at 10 p.m., and there are no refunds for bad weather.",
+      "Selling alcohol at a public event requires a Special Event Permit from the City of Brighton Liquor Licensing Authority, available to nonprofits and other qualifying organizations. A complete application is due at the City Clerk's Office at least 30 days ahead, with 45 recommended, and includes a premises diagram, a written control plan with security, and liquor training verification. A public notice must be posted at the location at least 10 days before the authority considers the application.",
+      "Brighton Fire Rescue District enforces the 2021 International Fire Code with amendments and inspects event facilities before and during events. Its tent permit application asks for a dimensioned site plan, a layout showing tables, dance floors, platforms and cooking appliances with the expected headcount, exit details for tents with more than two sides, and the supplier's Certificate of Flame Resistance. The district's event requirements set clear spacing: generators at least 20 feet from tents and fenced off from the public, portable generators 25 feet from combustibles or public areas, no refueling while the event is open, and no outdoor cooking that produces sparks or grease within 20 feet of a tent. Tents need one 2A:10BC extinguisher per 500 square feet, and water-filled barrels aren't acceptable anchors unless the tent manufacturer approves them.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Brighton",
+      intro: "Common Brighton setups, from shelter parties to farm-edge receptions.",
+      items: [
+        {
+          title: "Shelter Parties and Reunions",
+          description:
+            "Call the rentals desk at least 10 days ahead, then add [tables and chairs](/categories/table-chair-rentals) to the shelter's seating. Groups over 25 without a shelter need the free group permit.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Farm-Edge and Backyard Weddings",
+          description:
+            "Open acreage invites a large frame tent and a [dance floor](/categories/dance-floor-rentals). Brighton Fire's tent application asks for the table and dance floor layout, so share the floor plan with the tent company early.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents and Anchoring",
+          description:
+            "Ask how the tent will be anchored. Water barrels aren't accepted by Brighton Fire unless the tent manufacturer approves them, and anchor type, size and weight go on the plan.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Generators and Lighting",
+          description:
+            "Rural sites and shelters with limited electricity often need a generator. Place it at least 20 feet from tents, fence it off from guests and refuel only when the event is closed.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Bounce Houses",
+          description:
+            "Bounce houses need a special permit at Benedict Park; ask the rentals desk about other parks. Backyard parties avoid the park permit but still need secure anchoring.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Restrooms for Larger Gatherings",
+          description:
+            "Weddings and community events away from park buildings usually need portable restrooms or a restroom trailer and handwashing stations.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Brighton",
+      intro: "Brighton-specific details to settle before you book rentals.",
+      items: [
+        "Shelter reservations by phone or in person at least 10 days ahead, paid at booking",
+        "A free group permit for more than 25 guests in a park, at least 10 days ahead",
+        "Limited electricity and no music permits at Benedict Park; a special permit for bounce houses there",
+        "Parks closed at 10 p.m., and no refunds for weather",
+        "A Special Event liquor permit at least 30 days ahead (45 recommended), with posted public notice",
+        "A Brighton Fire tent permit with site plan, layout and flame-resistance certificate for larger tents",
+        "Generators 20 feet from tents and fenced from the public; no refueling during the event",
+        "No water-barrel anchors unless the tent manufacturer approves them",
+        "One fire extinguisher per 500 square feet of tent",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer:
+        "Details here summarize the City of Brighton Facility Rentals page, Benedict Park and Brighton Park facility pages, park shelter FAQ and Special Event Permit procedures, and Brighton Fire Rescue District's Tent Permit Application and Special Event Temporary Facilities and Food Concessions requirements. City pages list different shelter seasons and fees, and the district's two forms word the tent and canopy permit thresholds differently, so confirm the current season and the tent permit threshold for your setup with the City, Brighton Fire and your rental provider.",
+      closing:
+        "Planning power for a rural site? See the [event generator and power guide](/resources/colorado-event-generator-power-guide). For tents, see [Colorado outdoor event tent planning](/resources/colorado-outdoor-event-tent-planning).",
+    },
+    checklist: {
+      heading: "Brighton Event Rental Checklist",
+      intro: "Pull these details together before you contact Brighton rental companies:",
+      items: [
+        "Park, shelter or private address",
+        "Guest count and event hours",
+        "Shelter reservation or group permit",
+        "Tent sizes, sides and anchoring method",
+        "Table, dance floor and cooking layout",
+        "Flame-resistance certificate from the tent supplier",
+        "Generator location and fencing",
+        "Liquor permit and public notice, if selling",
+        "Restrooms and handwashing",
+        "Wind plan for open ground",
+      ],
+    },
+    faqs: {
+      heading: "Brighton Event Rental FAQ",
+      items: [
+        {
+          question: "How do I reserve a park shelter in Brighton?",
+          answer:
+            "Call or visit the Brighton Recreation Center rentals desk; online reservations aren't available yet. Book at least 10 days ahead, and pay at the time of the reservation.",
+        },
+        {
+          question: "Do I need a permit for a big group at a Brighton park?",
+          answer:
+            "Yes. A gathering of more than 25 guests in a city park needs a group permit, arranged through the rentals desk at least 10 days ahead. There's no fee.",
+        },
+        {
+          question: "Can I use water barrels to anchor a tent in Brighton?",
+          answer:
+            "Brighton Fire Rescue District doesn't consider water-filled barrels acceptable anchorage unless the tent manufacturer specifically approves them. The tent must be anchored and stable enough to resist weather-related collapse.",
+        },
+        {
+          question: "Where can a generator go at a Brighton event?",
+          answer:
+            "Brighton Fire requires generators to be at least 20 feet from tents and isolated from the public by fencing or an enclosure. Portable generators must be 25 feet from combustibles or public areas, and refueling can't happen while the event is open.",
+        },
+        {
+          question: "How far ahead do I apply for a liquor permit in Brighton?",
+          answer:
+            "Submit a complete Special Event Permit application to the City Clerk's Office at least 30 days ahead; 45 days is recommended. A public notice must be posted at the site at least 10 days before the Liquor Licensing Authority considers it.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Brighton?",
+      description:
+        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, weddings, community events and backyard celebrations in Brighton.",
     },
   },
 ];

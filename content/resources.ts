@@ -2287,4 +2287,342 @@ export const resources: ResourceArticle[] = [
       secondaryHref: "/categories/table-chair-rentals",
     },
   },
+  {
+    title: "Generators and Power for Colorado Events: Placement, Permits and Park Outlets",
+    slug: "colorado-event-generator-power-guide",
+    excerpt:
+      "How to plan power for a Colorado event: when park outlets aren't enough, where fire codes put generators, which city permits a generator can trigger, and what to ask the rental company.",
+    category: "Power",
+    stateCode: "CO",
+    publishedAt: "2026-10-28",
+    heroImage: {
+      src: "/images/resources/colorado-event-generator-power-guide.webp",
+      alt: "Fenced towable generator with covered cable ramps set well back from a white event tent on a Colorado lawn",
+    },
+    metaTitle: "Colorado Event Generator and Power Guide | Event Rental Finder",
+    metaDescription:
+      "Plan generators and power for a Colorado event: unreliable park outlets, fire code distances from tents and the public, refueling rules, city permits generators can trigger, and cord safety.",
+    h1: "Generators and Power for Colorado Events: Placement, Permits and Park Outlets",
+    topicCategorySlug: "av-lighting-rentals",
+    intro: [
+      "Power is the rental line item people forget until the bounce house won't inflate or the DJ asks where to plug in. Many Colorado park shelters have outlets, but cities are clear that those outlets are limited, complimentary and not guaranteed. Once you add a generator, fire codes decide where it can sit, and some cities treat it as a reason to review the whole event.",
+      "This guide covers when to plan for a generator, where fire districts require it to go, the city permits it can trigger and the questions to ask before booking. Rules vary by city and fire district, so confirm the details for your site.",
+    ],
+    sections: [
+      {
+        id: "park-power",
+        heading: "Don't Count on Park Outlets",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "City park rules repeat the same warning. [Commerce City](/locations/commerce-city-co) says shelter electricity is complimentary and not guaranteed. [Parker](/locations/parker-co) also says electricity isn't guaranteed. [Brighton](/locations/brighton-co) lists limited electricity at some parks, and [Northglenn](/locations/northglenn-co) tells park vendors that no electricity is available, so they must be fully self-contained.",
+          },
+          {
+            type: "paragraph",
+            text: "Inflatables are the clearest case. [Broomfield](/locations/broomfield-co) requires a generator for inflatables in parks because park outlets don't supply enough electricity for large items. [Longmont](/locations/longmont-co) also lists a generator among its shelter requirements for bounce houses.",
+          },
+          {
+            type: "callout",
+            text: "List everything that needs power, from blowers and speakers to coffee urns and string lights, and ask the venue what outlets exist and what they can carry. If the answer is unclear, plan a generator.",
+          },
+        ],
+      },
+      {
+        id: "placement",
+        heading: "Where Fire Codes Put the Generator",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Colorado fire districts enforce the International Fire Code, whose chapter on tents and temporary special event structures keeps internal combustion engines away from tents. Brighton Fire Rescue District's event requirements, written for the 2021 code with local amendments, are a good working checklist:",
+          },
+          {
+            type: "list",
+            items: [
+              "Generators and other internal combustion engines at least 20 feet from tents and temporary structures",
+              "Generators isolated from the public by fencing, an enclosure or another approved means",
+              "Portable generators at least 25 feet from combustibles or public areas",
+              "No refueling while the event is open and operating",
+              "Generators kept in safe working condition according to the manufacturer",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Other districts use the same 20-foot tent clearance, as summarized on the [Westminster](/locations/westminster-co) and [Windsor](/locations/windsor-co) pages. Measure the distance when you plan the layout, not when the truck arrives, because it often decides where the generator, the cable run and the tent can go.",
+          },
+        ],
+      },
+      {
+        id: "permits",
+        heading: "Permits a Generator Can Trigger",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Some cities treat a generator as a sign of a bigger event:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Commerce City",
+                value: "A trailer-mounted generator requires a Temporary Event and Use Permit, even at a rented park shelter or private residence; the site plan must show the source of electricity and the generator's kilowatt rating",
+              },
+              {
+                label: "Northglenn",
+                value: "The City's special event Notice of Intent asks whether the event will use a generator",
+              },
+              {
+                label: "Littleton",
+                value: "Generators are among the items that can trigger a City Event Permit",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Fuel adds a fire question of its own. Brighton Fire requires flammable and combustible liquids to be stored outside at least 50 feet from tents, with refueling in an approved location at least 20 feet away. Ask the provider whether the generator arrives with enough fuel for the whole event so no one refuels mid-party.",
+          },
+        ],
+      },
+      {
+        id: "cords",
+        heading: "Cords, Cable Runs and Weather",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Distance from the tent means a longer cable run through guest areas. Brighton Fire's requirements say extension and flexible cords must be grounded, listed and properly rated, can't be run through walls, under doors or floor coverings, and must be protected from physical damage. In practice that means covered cable ramps where people walk and a route planned around aisles and exits.",
+          },
+          {
+            type: "list",
+            items: [
+              "Route cables away from exits and service paths",
+              "Use cable ramps or covers anywhere guests or carts cross",
+              "Keep connections off wet ground and out of irrigation zones",
+              "Plan for lightning: the National Weather Service advises getting indoors when thunder roars, and generator and sound crews should stop work in a storm",
+            ],
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Questions to Ask the Rental Company",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "What size generator do you recommend for this equipment list, and what is its kilowatt rating?",
+              "Is it portable or trailer-mounted?",
+              "Will it run quietly enough for the venue and the neighbors?",
+              "Does it arrive fueled for the full event, or will it need refueling?",
+              "Do you supply cords, distribution boxes and cable ramps?",
+              "Can you provide fencing or a barrier to keep guests away from it?",
+              "Who handles any permit or site plan the city or fire district asks for?",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-stage-av-lighting-rental-guide",
+      "colorado-inflatable-and-party-rental-guide",
+      "colorado-park-pavilion-reservation-guide",
+    ],
+    relatedCategorySlugs: [
+      "av-lighting-rentals",
+      "inflatable-rentals",
+      "stage-rentals",
+      "tent-rentals",
+    ],
+    cta: {
+      heading: "Ready to Power the Event?",
+      description:
+        "Browse lighting, stage and tent rental options and compare local providers who can bring generators, distribution and cable protection.",
+      primaryLabel: "Find AV & Lighting Rentals",
+      primaryHref: "/categories/av-lighting-rentals",
+      secondaryLabel: "Find Tent Rentals",
+      secondaryHref: "/categories/tent-rentals",
+    },
+  },
+  {
+    title: "Reserving a Colorado Park Pavilion for a Party: Permits, Rules and What to Rent",
+    slug: "colorado-park-pavilion-reservation-guide",
+    excerpt:
+      "How park shelter and pavilion reservations work in Colorado cities: booking windows, group permits, the rental gear parks restrict, and what to bring to fill the gaps.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-10-28",
+    heroImage: {
+      src: "/images/resources/colorado-park-pavilion-reservation-guide.webp",
+      alt: "Open park pavilion with picnic tables beside a weighted pop-up canopy over rented tables and chairs on a Colorado lawn",
+    },
+    metaTitle: "Colorado Park Pavilion Reservation Guide | Event Rental Finder",
+    metaDescription:
+      "How to reserve a Colorado park pavilion or shelter: booking windows, group permits, canopy, bounce house, sound and alcohol rules, staking limits, power, and what to rent to fill the gaps.",
+    h1: "Reserving a Colorado Park Pavilion for a Party: Permits, Rules and What to Rent",
+    topicCategorySlug: "party-rentals",
+    intro: [
+      "A park pavilion is the easiest venue in most Colorado cities: a roof, picnic tables and often a grill, for a modest reservation. The catch is that every city writes its own rules about who must reserve, how far ahead, and what you can bring. A bounce house that's routine in one city is banned in the next.",
+      "This guide walks through how reservations usually work, the group permits that apply even without a pavilion, the rental gear parks most often restrict, and what to rent to make a shelter work. Check the specific city's rules before you book anything.",
+    ],
+    sections: [
+      {
+        id: "booking",
+        heading: "When and How to Book",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Popular shelters go early, and most cities open the season's reservations at the start of the year:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Broomfield",
+                value: "Requests through B-REx.com open at 8 a.m. on January 2; processed in order and final only when Recreation Services confirms",
+              },
+              {
+                label: "Englewood",
+                value: "Online booking opens in early January for a mid-April to mid-October season; a reservation is required for use over two hours",
+              },
+              {
+                label: "Brighton",
+                value: "Phone or in person from the first business day of the year; book at least 10 days ahead",
+              },
+              {
+                label: "Commerce City",
+                value: "Applications at least two weeks ahead; same-day reservations at Pioneer and Veterans Memorial parks under Share the Park",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Read the cancellation terms before you pay. Several cities, including [Englewood](/locations/englewood-co) and [Brighton](/locations/brighton-co), don't refund for bad weather, so a canopy or a backup plan is part of the booking.",
+          },
+        ],
+      },
+      {
+        id: "group-permits",
+        heading: "Group Permits Without a Pavilion",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Skipping the pavilion doesn't always skip the paperwork. Many cities require a group or park use permit once a gathering passes a headcount:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Englewood](/locations/englewood-co): a Park Use Permit for groups of more than 15",
+              "[Commerce City](/locations/commerce-city-co): a Park Usage Permit for organized events or picnics of 25 or more",
+              "[Brighton](/locations/brighton-co): a free group permit for more than 25 guests, at least 10 days ahead",
+              "[Northglenn](/locations/northglenn-co): an Organized Community Event Permit when a group publicly invites people to a park event",
+            ],
+          },
+        ],
+      },
+      {
+        id: "restricted",
+        heading: "Rental Gear Parks Often Restrict",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These are the items to check before you book a rental for a park:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Bounce houses",
+                value: "Prohibited in Englewood, Northglenn and Commerce City parks; allowed with a permit, weights and a generator in Broomfield; a special permit at Brighton's Benedict Park",
+              },
+              {
+                label: "Canopies and tents",
+                value: "Englewood caps canopies at 200 square feet with stakes no longer than eight inches; Broomfield needs prior approval and weights; Commerce City requires every canopy on the application",
+              },
+              {
+                label: "Amplified sound",
+                value: "No amplifiers in Englewood parks; permits by wattage in Northglenn; a permit for live bands in Broomfield",
+              },
+              {
+                label: "Alcohol",
+                value: "Prohibited with no permits in Englewood parks; a consumption permit in Broomfield and Commerce City",
+              },
+              {
+                label: "Glass",
+                value: "Banned in parks in Englewood, Northglenn and Commerce City",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Staking is a common sticking point because irrigation lines run under park turf. Broomfield prohibits stakes for tents and inflatables, [Parker](/locations/parker-co) and [Centennial Center Park](/locations/centennial-co) don't allow staking, and [Thornton](/locations/thornton-co) allows only short stakes for small pop-ups. Ask the rental company to bring weights.",
+          },
+        ],
+      },
+      {
+        id: "fill-gaps",
+        heading: "What to Rent to Fill the Gaps",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A shelter covers a few picnic tables. Most parties add:",
+          },
+          {
+            type: "list",
+            items: [
+              "Folding tables for food, gifts and a dessert station",
+              "Chairs for guests who won't fit at picnic tables",
+              "Pop-up canopies for overflow shade, within the city's size limits",
+              "Weights for every canopy",
+              "A generator if the shelter's power is limited or the gear needs more than the outlets provide",
+              "Extra trash bags; several cities note that park bins fill fast",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Vehicles usually can't drive onto park turf, as in Englewood and Broomfield, so ask the provider how far they can carry equipment and whether a delivery fee covers the walk from the lot.",
+          },
+        ],
+      },
+      {
+        id: "checklist",
+        heading: "Before You Book",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Confirm the shelter's capacity, power and hours",
+              "Check the city's group permit threshold for your headcount",
+              "List every rental item, and check each against the park rules",
+              "Ask about alcohol and sound before inviting guests",
+              "Plan weights instead of stakes unless the city allows staking",
+              "Read the weather and cancellation policy",
+              "Share the shelter rules with your rental company",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "how-many-tables-and-chairs-do-i-need",
+      "colorado-inflatable-and-party-rental-guide",
+      "colorado-event-generator-power-guide",
+    ],
+    relatedCategorySlugs: [
+      "party-rentals",
+      "table-chair-rentals",
+      "tent-rentals",
+      "inflatable-rentals",
+    ],
+    cta: {
+      heading: "Ready to Plan the Shelter Party?",
+      description:
+        "Browse table, chair and party rental options and compare local providers who deliver to park shelters.",
+      primaryLabel: "Find Table & Chair Rentals",
+      primaryHref: "/categories/table-chair-rentals",
+      secondaryLabel: "Find Party Rentals",
+      secondaryHref: "/categories/party-rentals",
+    },
+  },
 ];

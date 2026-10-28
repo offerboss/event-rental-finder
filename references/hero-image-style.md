@@ -69,6 +69,11 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 | westminster-co | public/images/locations/westminster-co-event-rentals.webp | 1080x720, 122 KB | Backyard reception with a pole tent, dance floor and string lights facing the Front Range in Westminster, Colorado | 2026-10-08 |
 | thornton-co | public/images/locations/thornton-co-event-rentals.webp | 1080x720, 127 KB | Two 10-by-10 pop-up canopies over rented tables and chairs beside a picnic pavilion in a lakeside park in Thornton, Colorado | 2026-10-08 |
 | parker-co | public/images/locations/parker-co-event-rentals.webp | 1080x720, 180 KB | Frame tent on water-barrel weights with round tables and a restroom trailer on pavement in a park in Parker, Colorado | 2026-10-08 |
+| englewood-co | public/images/locations/englewood-co-event-rentals.webp | 1080x720 | see content/locationImages.ts | 2026-10-28 |
+| northglenn-co | public/images/locations/northglenn-co-event-rentals.webp | 1080x720 | see content/locationImages.ts | 2026-10-28 |
+| broomfield-co | public/images/locations/broomfield-co-event-rentals.webp | 1080x720 | see content/locationImages.ts | 2026-10-28 |
+| commerce-city-co | public/images/locations/commerce-city-co-event-rentals.webp | 1080x720 | see content/locationImages.ts | 2026-10-28 |
+| brighton-co | public/images/locations/brighton-co-event-rentals.webp | 1080x720 | see content/locationImages.ts | 2026-10-28 |
 
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.
@@ -87,6 +92,8 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 | event-restroom-rental-guide | public/images/resources/event-restroom-rental-guide.webp | 1080x720, 120 KB | Restroom trailer with a ramp and an accessible portable unit on level ground beside a wedding tent in Colorado | Shipped 2026-10-08 (Adam-generated and approved) |
 | colorado-inflatable-and-party-rental-guide | public/images/resources/colorado-inflatable-and-party-rental-guide.webp | 1080x720, 98 KB | Bounce house and rented picnic tables on a sunny Colorado park lawn | Shipped 2026-10-14 (QA passed, unattended) |
 | colorado-stage-av-lighting-rental-guide | public/images/resources/colorado-stage-av-lighting-rental-guide.webp | 1080x720, 109 KB | Small outdoor stage with speakers and warm uplighting at a Colorado evening event | Shipped 2026-10-14 (QA passed, unattended) |
+| colorado-event-generator-power-guide | public/images/resources/colorado-event-generator-power-guide.webp | 1080x720, 134 KB | Fenced towable generator with covered cable ramps set well back from a white event tent on a Colorado lawn | Shipped 2026-10-28 (QA passed, unattended) |
+| colorado-park-pavilion-reservation-guide | public/images/resources/colorado-park-pavilion-reservation-guide.webp | 1080x720, 163 KB | Open park pavilion with picnic tables beside a weighted pop-up canopy over rented tables and chairs on a Colorado lawn | Shipped 2026-10-28 (QA passed, unattended) |
 
 ## Reference Images
 

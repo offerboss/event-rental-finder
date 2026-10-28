@@ -101,4 +101,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/glenwood-springs-co-event-rentals.webp",
     alt: "White canopies and a reception tent on a lawn in a forested canyon valley in Glenwood Springs, Colorado",
   },
+  "englewood-co": {
+    src: "/images/locations/englewood-co-event-rentals.webp",
+    alt: "Pop-up canopies over round tables with ivory linens and teal and gold balloons beside a park pavilion in Englewood, Colorado",
+  },
+  "northglenn-co": {
+    src: "/images/locations/northglenn-co-event-rentals.webp",
+    alt: "Round tables with ivory linens and teal napkins under a park pavilion beside a lake in Northglenn, Colorado",
+  },
+  "broomfield-co": {
+    src: "/images/locations/broomfield-co-event-rentals.webp",
+    alt: "Sandbag-weighted frame tent over banquet tables beside a park shelter with the Front Range beyond in Broomfield, Colorado",
+  },
+  "commerce-city-co": {
+    src: "/images/locations/commerce-city-co-event-rentals.webp",
+    alt: "Banquet tables with teal and gold decor under a metal park shelter on the plains in Commerce City, Colorado",
+  },
+  "brighton-co": {
+    src: "/images/locations/brighton-co-event-rentals.webp",
+    alt: "Frame tent wedding reception with gold chairs, a dance floor and string lights at the edge of farmland in Brighton, Colorado",
+  },
 };

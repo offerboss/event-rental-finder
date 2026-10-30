@@ -140,10 +140,10 @@ export function ProviderCtaPanel({
   );
 }
 
-const primaryActionClass =
+export const primaryActionClass =
   "inline-flex h-12 items-center justify-center rounded-lg bg-[#2C7A78] px-7 text-base font-semibold text-white transition hover:bg-[#256866] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]";
 
-const secondaryActionClass =
+export const secondaryActionClass =
   "inline-flex h-12 items-center justify-center rounded-lg border border-[#E8E1D5] bg-white px-7 text-base font-semibold text-[#1F2937] transition hover:border-[#2C7A78] hover:text-[#2C7A78] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]";
 
 // Centered panel used when a content collection has no entries yet.

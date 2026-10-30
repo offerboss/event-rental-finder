@@ -114,8 +114,35 @@ export type Location = {
   };
 };
 
+export type ProviderSpecialty = {
+  slug: string;
+  label: string;
+  /**
+   * specializes_in = a dedicated event-type page, named packages, or
+   * specialist wording on the provider's own site (Atlas/Radar verified).
+   * serves = a documented marketing mention (2+ places) that the provider
+   * covers this event type — NOT proof of specialist capability. The two
+   * tiers must never be displayed or treated as equivalent.
+   */
+  tier: "specializes_in" | "serves";
+};
+
+export type ProviderRadarProvenance = {
+  outcome: string;
+  verificationStatus?: string;
+  confidence?: string;
+  classificationConfidence?: string;
+  checkedOn?: string;
+  batch?: string;
+};
+
 export type Provider = {
+  /** Stable identity from the Atlas export; never regenerated on re-import. */
+  businessId: string;
+  /** business_id of the parent/HQ record, for a branch location. */
+  parentId?: string;
   name: string;
+  /** URL slug — stable once assigned, even if the display name changes. */
   slug: string;
   website?: string;
   phone?: string;
@@ -124,9 +151,26 @@ export type Provider = {
   city?: string;
   state?: string;
   stateCode?: string;
+  zip?: string;
   description?: string;
+  /** ERF category slugs (from content/categories.ts) this provider offers. */
   categories: string[];
+  /** The single category Atlas identified as this provider's primary offering. */
+  primaryCategory?: string;
+  /** Existing ERF location slugs where documented service coverage supports listing this provider. */
   serviceAreas: string[];
+  /** Atlas region slug this provider is primarily based in (see content/regions.ts). */
+  primaryRegion?: string;
+  /** Additional Atlas region slugs with documented service coverage. */
+  serviceRegions?: string[];
+  /** Free-form "City, ST" markets as documented by Atlas (for display only). */
+  documentedMarkets?: string[];
+  /** Kebab-case product tags, e.g. "chiavari-chairs". */
+  productTags?: string[];
+  /** specializes_in and serves event-type classifications, kept distinct. */
+  specialties?: ProviderSpecialty[];
+  /** Radar/Atlas approval provenance, preserved for transparency — not shown as marketing copy. */
+  radarApproval?: ProviderRadarProvenance;
   featured?: boolean;
   verified?: boolean;
   rgsPartner?: boolean;

@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw Atlas/Radar research exports — staging only, never committed or served
+/data/atlas-import/

@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ProviderCard from "@/components/ProviderCard";
 import { categories } from "@/content/categories";
 import { categoryImages } from "@/content/categoryImages";
 import { locations } from "@/content/locations";
 import { locationImages } from "@/content/locationImages";
+import { providers } from "@/content/providers";
 import {
   Breadcrumb,
   ProviderCtaPanel,
@@ -76,6 +78,12 @@ export default async function LocationPage({ params }: Props) {
     .map((nearbySlug) => locations.find((l) => l.slug === nearbySlug))
     .filter((l): l is NonNullable<typeof l> => Boolean(l));
 
+  // Only providers with documented service coverage of this city, per the
+  // import's matching against serviceAreas — never inferred from region alone.
+  const cityProviders = providers
+    .filter((p) => p.serviceAreas.includes(location.slug))
+    .slice(0, 6);
+
   // Sections alternate ivory/sand backgrounds in the order they actually
   // render. A city with none of the optional rich-content sections resolves
   // to the same categories(ivory) -> nearby(sand) -> planning(ivory) sequence
@@ -88,6 +96,7 @@ export default async function LocationPage({ params }: Props) {
     { key: "planning", show: true },
     { key: "checklist", show: Boolean(location.checklist) },
     { key: "faqs", show: Boolean(location.faqs?.items.length) },
+    { key: "providers", show: cityProviders.length > 0 },
   ] as const;
   const tones: Partial<Record<(typeof sectionOrder)[number]["key"], "ivory" | "sand">> = {};
   let sand = false;
@@ -412,6 +421,32 @@ export default async function LocationPage({ params }: Props) {
                   </p>
                 </details>
               ))}
+            </div>
+          </Section>
+        )}
+
+        {/* Providers serving this city */}
+        {cityProviders.length > 0 && (
+          <Section id="providers" tone={tones.providers}>
+            <SectionHeading
+              id="providers"
+              title={`Providers Serving ${city}`}
+              intro="A sample of providers in our directory with documented coverage of this city. See all of them, plus filter by category and event type, on the full provider directory."
+            />
+            <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3">
+              {cityProviders.map((provider) => (
+                <li key={provider.businessId}>
+                  <ProviderCard provider={provider} />
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 text-center">
+              <Link
+                href={`/providers?location=${location.slug}`}
+                className="text-[15px] font-semibold text-[#2C7A78] transition hover:text-[#256866]"
+              >
+                Browse all providers →
+              </Link>
             </div>
           </Section>
         )}

@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ProviderCard from "@/components/ProviderCard";
 import { categories } from "@/content/categories";
 import { categoryImages } from "@/content/categoryImages";
 import { locations } from "@/content/locations";
+import { providers } from "@/content/providers";
 import { resources } from "@/content/resources";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -120,6 +122,12 @@ export default async function CategoryPage({ params }: Props) {
         r.relatedCategorySlugs?.includes(category.slug),
     ),
   ].slice(0, 3);
+
+  // Capped so this stays a lightweight cross-link, not a second directory
+  // page; see the full category filter on /providers for the rest.
+  const categoryProviders = providers
+    .filter((p) => p.categories.includes(category.slug))
+    .slice(0, 6);
 
   const providerCta = category.providerCta ?? {
     heading: "Are You an Event Rental Provider?",
@@ -431,6 +439,32 @@ export default async function CategoryPage({ params }: Props) {
                 );
               })}
             </ul>
+          </Section>
+        )}
+
+        {/* Providers offering this category */}
+        {categoryProviders.length > 0 && (
+          <Section label="category-providers">
+            <SectionHeading
+              id="category-providers"
+              title={`${category.name} Providers`}
+              intro="A sample of providers in our directory offering this category. See all of them, plus filter by location and event type, on the full provider directory."
+            />
+            <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3">
+              {categoryProviders.map((provider) => (
+                <li key={provider.businessId}>
+                  <ProviderCard provider={provider} />
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 text-center">
+              <Link
+                href={`/providers?category=${category.slug}`}
+                className="text-[15px] font-semibold text-[#2C7A78] transition hover:text-[#256866]"
+              >
+                Browse all providers →
+              </Link>
+            </div>
           </Section>
         )}
 

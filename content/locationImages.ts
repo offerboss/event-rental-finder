@@ -1,25 +1,32 @@
 // Location hero images live in /public/images. Keyed by location slug; each
 // entry carries a descriptive alt text for the hero and the locations hub
-// card. Locations without an entry (e.g. Greeley, Grand Junction) render
-// without a photo.
+// card. Locations without an entry render without a photo.
 export type LocationImage = { src: string; alt: string };
 
 export const locationImages: Record<string, LocationImage> = {
   "denver-co": {
-    src: "/images/Denver.png",
+    src: "/images/locations/denver-co-event-rentals.webp",
     alt: "Downtown Denver skyline and snowcapped Front Range peaks at golden hour above a park lake and historic pavilion",
   },
   "colorado-springs-co": {
-    src: "/images/Colorado Springs.png",
+    src: "/images/locations/colorado-springs-co-event-rentals.webp",
     alt: "Red sandstone rock formations and pine-covered hills below snowcapped Pikes Peak and the Colorado Springs skyline",
   },
   "fort-collins-co": {
-    src: "/images/Fort Collins.png",
+    src: "/images/locations/fort-collins-co-event-rentals.webp",
     alt: "People walking across the brick plaza of Old Town Square in Fort Collins, with shops, string lights and a fountain",
   },
   "boulder-co": {
-    src: "/images/boulder.png",
+    src: "/images/locations/boulder-co-event-rentals.webp",
     alt: "Shoppers on Boulder's brick Pearl Street Mall with the Flatirons rising behind historic storefronts",
+  },
+  "greeley-co": {
+    src: "/images/locations/greeley-co-event-rentals.webp",
+    alt: "Frame tent with round tables and white chairs on a park lawn among cottonwoods on the plains near Greeley, Colorado",
+  },
+  "grand-junction-co": {
+    src: "/images/locations/grand-junction-co-event-rentals.webp",
+    alt: "White frame tent with banquet tables on a park lawn below red sandstone cliffs and mesas near Grand Junction, Colorado",
   },
   "monument-co": {
     src: "/images/locations/monument-co-event-rentals.webp",

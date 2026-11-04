@@ -8,7 +8,7 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co"],
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co", "wheat-ridge-co"],
     metaDescription:
       "Plan Denver, CO event rentals: tents, tables and chairs, staging and restrooms, plus park permit, Office of Special Events and fire permit rules.",
     heroSupportingCopy:
@@ -445,7 +445,7 @@ export const locations: Location[] = [
     slug: "boulder-co",
     county: "Boulder County",
     featured: true,
-    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co", "broomfield-co"],
+    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co", "broomfield-co", "louisville-co", "lafayette-co"],
     metaDescription:
       "Plan Boulder, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event permit and tent permit rules.",
     heroSupportingCopy:
@@ -881,7 +881,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "lakewood-co",
     county: "Jefferson County",
-    nearbyCities: ["denver-co", "arvada-co", "littleton-co"],
+    nearbyCities: ["denver-co", "arvada-co", "littleton-co", "wheat-ridge-co", "golden-co"],
     heroSupportingCopy:
       "Find event rental companies serving Lakewood and the western Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1023,7 +1023,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "arvada-co",
     county: "Jefferson County",
-    nearbyCities: ["denver-co", "lakewood-co", "boulder-co", "westminster-co"],
+    nearbyCities: ["denver-co", "lakewood-co", "boulder-co", "westminster-co", "wheat-ridge-co", "golden-co"],
     heroSupportingCopy:
       "Find event rental companies serving Arvada and the northwest Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1167,7 +1167,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "castle-rock-co",
     county: "Douglas County",
-    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co", "parker-co"],
+    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co", "parker-co", "lone-tree-co"],
     heroSupportingCopy:
       "Find event rental companies serving Castle Rock and the south Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -2166,7 +2166,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "littleton-co",
     county: "Arapahoe County",
-    nearbyCities: ["centennial-co", "denver-co", "lakewood-co", "parker-co", "englewood-co"],
+    nearbyCities: ["centennial-co", "denver-co", "lakewood-co", "parker-co", "englewood-co", "lone-tree-co"],
     metaDescription:
       "Plan event rentals in Littleton, CO: tents, tables and chairs, wedding and party rentals, staging and restrooms, plus the City's event permit triggers, South Suburban park rules and street closures.",
     heroSupportingCopy:
@@ -2303,7 +2303,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "centennial-co",
     county: "Arapahoe County",
-    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co", "englewood-co"],
+    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co", "englewood-co", "lone-tree-co"],
     metaDescription:
       "Plan event rentals in Centennial, CO: tables and chairs, tents, party and wedding rentals, inflatables and restrooms, plus Centennial Center Park rules, park district permits and block party closures.",
     heroSupportingCopy:
@@ -2715,12 +2715,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "parker-co",
     county: "Douglas County",
-    nearbyCities: [
-      "castle-rock-co",
-      "centennial-co",
-      "aurora-co",
-      "littleton-co",
-    ],
+    nearbyCities: ["castle-rock-co", "centennial-co", "aurora-co", "littleton-co", "lone-tree-co"],
     metaDescription:
       "Plan event rentals in Parker, CO: tents, tables and chairs, inflatables, stages and restrooms, plus the Town's 10-by-10 tent trigger, community event permits, O'Brien Park limits and no-stake setups.",
     heroSupportingCopy:
@@ -3417,7 +3412,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "erie-co",
     county: "Boulder and Weld Counties",
-    nearbyCities: ["longmont-co", "boulder-co", "westminster-co", "thornton-co", "broomfield-co"],
+    nearbyCities: ["longmont-co", "boulder-co", "westminster-co", "thornton-co", "broomfield-co", "louisville-co", "lafayette-co"],
     metaDescription:
       "Plan event rentals in Erie, CO: party rentals, tables and chairs, tents, wedding rentals, lighting and photo booths, plus Town park shelter rules, Community Events permits, mobile vending and open container permits.",
     heroSupportingCopy:
@@ -4500,7 +4495,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "broomfield-co",
     county: "City and County of Broomfield",
-    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co"],
+    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co", "louisville-co", "lafayette-co"],
     metaDescription:
       "Plan event rentals in Broomfield, CO: B-REx park shelter reservations, permits for bands, inflatables and alcohol, no-stake tent rules, generator needs for inflatables, and North Metro Fire tent permits.",
     heroSupportingCopy:
@@ -4897,6 +4892,591 @@ export const locations: Location[] = [
       heading: "Do You Provide Event Rentals in Brighton?",
       description:
         "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, weddings, community events and backyard celebrations in Brighton.",
+    },
+  },
+  {
+    city: "Wheat Ridge",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "wheat-ridge-co",
+    county: "Jefferson County",
+    nearbyCities: ["lakewood-co", "arvada-co", "golden-co", "denver-co"],
+    metaDescription: "Plan event rentals in Wheat Ridge, CO: pavilion reservations, the park permit for groups over 25, no-stake and inflatable rules, Special Event Permit triggers, fire approval for large tents and liquor permits.",
+    heroSupportingCopy: "Compare event rental options for Wheat Ridge, from tables, chairs and pop-up canopies to sound, lighting and restrooms for pavilion parties, backyard celebrations and community events.",
+    heroTagline: "Wheat Ridge park rules don't allow stakes to be driven into the ground, so any permitted tent or canopy in a city park has to be held down with weights. Ask the rental company to bring them.",
+    categoriesIntro: "Explore the rental categories Wheat Ridge hosts use most for pavilion parties, backyard celebrations and community events.",
+    localIntro: [
+      "Wheat Ridge sits between Denver and the foothills in Jefferson County, with Clear Creek and its greenbelt running across the north side of the city. Park pavilions are reserved by calling the Recreation Center at 303-231-1300; Wheat Ridge residents can book starting January 2 and non-residents starting February 1. Neighborhood pavilions at parks such as Fruitdale, Panorama and Paramount seat about 30 (Randall Park's is for residents only), and the large pavilions are at Anderson, Discovery and Prospect parks, with Prospect listed for up to 150 people.",
+      "Group size brings its own permit. The City Code requires a permit for any group of more than 25 people in a park, and the Parks and Trail Special Use Permit form says a park permit is needed unless the group has rented a pavilion or athletic space with room for everyone. Parks are open 5 a.m. to 10 p.m., while greenbelt areas, Johnson Park and Wheat Ridge Historical Park close at sunset. Public address systems and other amplification, and organized dances, need a permit from the Parks and Recreation director. The code allows beer to be consumed in parks when it's bought and consumed lawfully, but other alcohol needs a special event permit, and glass bottles aren't allowed.",
+      "The equipment rules are strict. Tents, canopies and inflatable devices can go up in a park only with the director's permit, and stakes may not be driven into the ground. The City's general park rules page goes further and says inflatable devices are prohibited in all Wheat Ridge parks, so plan a bounce house for a backyard rather than a pavilion. The City's Special Event Guide prefers pop-up tents, requires approval from the local fire district for any tent or canopy over 400 square feet, and requires a fire-retardant certificate for any tent used for cooking.",
+      "Bigger events use the Special Event Permit Application. The guide lists its triggers: a large impact on the City, an event four hours or longer, closing a street, park or trail, an exemption from the noise ordinance, significantly reducing public enjoyment of a public space, or serving or selling alcohol. New and returning events start with a review meeting and apply at least 90 days ahead. Bleachers, stages and other structures need a Community Development inspection and permit, and the event coordinator contracts portable toilets directly. Qualifying nonprofits selling alcohol apply to the City Clerk at least 30 days ahead, and a public notice is posted at the site for at least 10 days.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Wheat Ridge",
+      intro: "Common Wheat Ridge setups, from pavilion parties to backyard receptions.",
+      items: [
+        {
+          title: "Pavilion Birthdays and Reunions",
+          description: "Neighborhood pavilions seat about 30, so larger groups book Anderson, Discovery or Prospect, or add [tables and chairs](/categories/table-chair-rentals) on the lawn. Groups over 25 without a pavilion need a park permit.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Weighted Canopies",
+          description: "Pop-up canopies need the director's permit in a park, and stakes aren't allowed. Order weights for every leg, and get fire district approval before anything over 400 square feet goes up.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Bounce Houses",
+          description: "The City's park rules page prohibits inflatables in parks, so bounce houses belong at home. Ask the provider how it anchors on your lawn and how much clear space the unit needs.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Backyard Receptions",
+          description: "Private yards avoid the park rules on tents and stakes. A frame tent with a [dance floor](/categories/dance-floor-rentals) suits graduations and small weddings; ask the tent company how it will anchor.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Sound for Park Events",
+          description: "Amplification and organized dances in a park need the director's permit. Settle that before you book a DJ or speakers.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms for Community Events",
+          description: "Special event organizers contract portable toilets themselves, and the City's guide includes a planning chart based on attendance and event length.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Wheat Ridge",
+      intro: "Wheat Ridge-specific details to settle before you book rentals.",
+      items: [
+        "Pavilion reservations by phone, from January 2 for residents and February 1 for non-residents",
+        "A park permit for groups over 25 that a pavilion or field rental doesn't cover",
+        "No stakes in park ground; tents, canopies and inflatables need the director's permit",
+        "Inflatables listed as prohibited on the City's park rules page",
+        "Fire district approval for tents or canopies over 400 square feet",
+        "A fire-retardant certificate for any tent used for cooking",
+        "Special Event Permit applications at least 90 days ahead",
+        "Beer allowed in parks; other alcohol only under a special event permit; no glass bottles",
+        "Parks closed 10 p.m. to 5 a.m.; greenbelts closed at sunset",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Wheat Ridge Parks and Recreation pages on park pavilion rentals, park rules (City Code Chapter 17), the Parks and Trail Special Use Permit request and the Special Event Guide, plus the City Clerk's special event liquor permit application. The City Code allows tents, canopies and inflatables by permit while the general park rules page says inflatables are prohibited in all parks, and the code and the permit form word the group threshold differently (more than 25 versus 25 or more), so confirm with Parks and Recreation before you book.",
+      closing: "Booking a pavilion? See the [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide). Closing your street for a party? See the [Colorado block party permit guide](/resources/colorado-block-party-permit-guide).",
+    },
+    checklist: {
+      heading: "Wheat Ridge Event Rental Checklist",
+      intro: "Pull these details together before you contact Wheat Ridge rental companies:",
+      items: [
+        "Park, pavilion or private address",
+        "Guest count and event hours",
+        "Pavilion reservation or group park permit",
+        "Canopy sizes and leg weights",
+        "Fire district approval for tents over 400 sq ft",
+        "Cooking plan and fire-retardant tent certificate",
+        "Sound or dance permit, if needed",
+        "Alcohol plan",
+        "Restrooms and handwashing",
+        "Backyard space for any inflatable",
+      ],
+    },
+    faqs: {
+      heading: "Wheat Ridge Event Rental FAQ",
+      items: [
+        {
+          question: "Can I stake a tent in a Wheat Ridge park?",
+          answer: "No. The City Code says stakes may not be driven into the ground, and tents and canopies in parks need a permit from the Parks and Recreation director. Plan on weighted legs instead.",
+        },
+        {
+          question: "Are bounce houses allowed in Wheat Ridge parks?",
+          answer: "The City's park rules page says inflatable devices are prohibited in all Wheat Ridge parks, though the City Code allows them by the director's permit. Ask Parks and Recreation before you book, or plan the bounce house for a backyard.",
+        },
+        {
+          question: "When can I reserve a Wheat Ridge park pavilion?",
+          answer: "Call the Recreation Center at 303-231-1300. Residents can reserve starting January 2, and non-residents starting February 1.",
+        },
+        {
+          question: "Do I need a permit for a large group in a Wheat Ridge park?",
+          answer: "Yes, for more than 25 people, unless your pavilion or athletic space reservation has capacity for the group. Submit the Parks and Trail Special Use Permit request to Parks and Recreation.",
+        },
+        {
+          question: "Can we drink beer at a Wheat Ridge park party?",
+          answer: "The City Code allows beer to be consumed in parks when it's bought and consumed lawfully, but other alcohol needs a special event permit, and glass bottles aren't allowed. Selling any alcohol requires a special event permit.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Wheat Ridge?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, backyard celebrations and community events in Wheat Ridge.",
+    },
+  },
+  {
+    city: "Golden",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "golden-co",
+    county: "Jefferson County",
+    nearbyCities: ["wheat-ridge-co", "lakewood-co", "arvada-co"],
+    metaDescription: "Plan event rentals in Golden, CO: online pavilion reservations, Special Event Permit triggers, 40-pound tent leg weights, the 700 sq ft Golden Fire tent permit, generator rules, block parties and park alcohol rules.",
+    heroSupportingCopy: "Compare event rental options for Golden, from tents, tables and chairs to sound, lighting, generators and restrooms for pavilion parties, backyard weddings, block parties and downtown events.",
+    heroTagline: "Golden's event guide requires at least 40 pounds of weight on every tent leg at permitted events, and it doesn't accept water jugs or concrete blocks as weights. Confirm the weights with your tent provider before setup day.",
+    categoriesIntro: "Explore the rental categories Golden hosts use most for pavilion parties, backyard weddings, block parties and community events.",
+    localIntro: [
+      "Golden sits where Clear Creek leaves the foothills, between the mesas and the mountains, and its park pavilions book through a short summer season. Reservations are made online at least seven days ahead, every rental covers a six-hour window, and the 2026 season ran from mid-May through September, with dates outside it first come, first served. The Lions Park East and West pavilions allow up to 40 people per rental, and the Golden Heights Pavilion up to 60. Parking at Lions Park falls under the City's managed parking system, so check it before you plan deliveries.",
+      "Golden's parks are dry by default. Alcohol is prohibited in any park without the City Manager's written approval through a Special Event or Open Container Permit, and only certain rental pavilions allow an Open Container Permit application with the rental. Glass containers are banned at all times. The City says you'll most likely need a Special Event Permit if attendance is 50 or more, alcohol is served or sold, amplified sound goes beyond announcements or a simple boom box, vendors sell goods or services, or the event uses tents, bleachers, a stage or inflatables, closes a street or affects public use of a park.",
+      "The City's event guide is unusually specific about rentals. Every tent at a permitted event needs at least 40 pounds per leg from concrete-filled PVC, tent sandbags or secured weight plates; water jugs, concrete blocks, coolers and single bricks don't count, and bungees can't be used to tie weights down. Tent groupings can't exceed 700 square feet, with 12 feet between groupings, and a tent or grouping of 700 square feet or more is a large tent that needs a Golden Fire Department operational permit, submitted by the tent supplier. Inflatables may need a separate fire inspection, and generators must sit 10 feet from combustibles and 20 feet from tents, behind a guard with 3 feet of clearance.",
+      "Public events need long lead times. A new event submits a New Event Application at least 180 days ahead for committee review, and a returning event submits the full application at least 90 days ahead; the host's certificate of insurance naming the City is due 14 days before the event. Neighborhood parties are simpler. A block party permit can close a residential street, add an open container permit and allow amplified music, which must end by 9:30 p.m. on weekdays or 10:30 p.m. on weekends. The application needs signed neighbor petitions and a site plan showing barricades, tents and tables, and it's due at least 21 days ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Golden",
+      intro: "Common Golden setups, from pavilion parties to block parties.",
+      items: [
+        {
+          title: "Pavilion Parties",
+          description: "Lions Park pavilions cap rentals at 40 people and Golden Heights at 60, and each rental runs six hours. Fit setup and cleanup inside the window, and add [tables and chairs](/categories/table-chair-rentals) as needed.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Backyard and Foothill Weddings",
+          description: "Private property avoids the park alcohol rules. A frame tent with a [dance floor](/categories/dance-floor-rentals) works well; on breezy foothill lots, ask how the tent will be anchored.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents and Weights",
+          description: "At permitted events, every tent leg needs 40 pounds of approved weight, and a tent or grouping of 700 square feet or more needs a Golden Fire permit from the supplier.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "A block party permit can close the street and cover music and an open container permit. Show every tent and table on the site plan and apply at least 21 days ahead.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Generators and Sound",
+          description: "Generators go 20 feet from tents behind a guard, with a 2A:20BC extinguisher nearby. Amplified sound beyond a boom box usually means a Special Event Permit.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms for Public Events",
+          description: "The City says park restrooms don't count toward event needs, at least 10 percent of event restrooms must be accessible, and units can't arrive more than a day early.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Golden",
+      intro: "Golden-specific details to settle before you book rentals.",
+      items: [
+        "Online pavilion reservations at least seven days ahead, in six-hour windows",
+        "Pavilion caps of 40 people at Lions Park and 60 at Golden Heights",
+        "No alcohol in parks without a Special Event or Open Container Permit, and no glass ever",
+        "Special Event Permit triggers: 50+ attendees, alcohol, amplified sound, vendors, tents, stages, inflatables or street closures",
+        "At least 40 pounds per tent leg at permitted events; water jugs and concrete blocks don't qualify",
+        "A Golden Fire operational permit for tents or tent groupings of 700 square feet or more",
+        "Generators 20 feet from tents and guarded, with an extinguisher nearby",
+        "New events 180 days ahead, returning events 90 days, and the insurance certificate 14 days before",
+        "Block party applications 21 days ahead; amplified music ends 9:30 p.m. weekdays and 10:30 p.m. weekends",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Golden's Park Rules and pavilion reservation pages, its Special Events page and Event Guide, and its Block Party page. The City's pages list the pavilion season dates and weekend rates slightly differently, so confirm current terms with the City when you book.",
+      closing: "Planning a street party? See the [Colorado block party permit guide](/resources/colorado-block-party-permit-guide). For generators, see the [event generator and power guide](/resources/colorado-event-generator-power-guide).",
+    },
+    checklist: {
+      heading: "Golden Event Rental Checklist",
+      intro: "Pull these details together before you contact Golden rental companies:",
+      items: [
+        "Pavilion, park, street or private address",
+        "Guest count and event hours",
+        "Pavilion reservation or Special Event Permit",
+        "Tent sizes, groupings and leg weights",
+        "Golden Fire permit for large tents",
+        "Generator location and guard",
+        "Alcohol permit, if any",
+        "Block party petitions and site plan",
+        "Accessible restrooms and handwashing",
+        "Insurance certificate naming the City, for permitted events",
+      ],
+    },
+    faqs: {
+      heading: "Golden Event Rental FAQ",
+      items: [
+        {
+          question: "How do I reserve a park pavilion in Golden?",
+          answer: "Reserve online at least seven days ahead. Each rental has a six-hour window, and dates outside the reservation season are first come, first served.",
+        },
+        {
+          question: "Can I have alcohol at a Golden park pavilion?",
+          answer: "Only with the City Manager's written approval through a Special Event or Open Container Permit, and only certain rental pavilions allow an Open Container Permit with the rental. Glass containers are prohibited at all times.",
+        },
+        {
+          question: "How much weight does a tent need at a Golden event?",
+          answer: "The City's event guide requires at least 40 pounds per tent leg, using concrete-filled PVC, tent sandbags or secured weight plates. Water jugs, concrete blocks and coolers aren't acceptable.",
+        },
+        {
+          question: "When does a tent need a Golden Fire Department permit?",
+          answer: "When a single tent or a grouping of tents is 700 square feet or larger. The tent supplier submits the operational permit.",
+        },
+        {
+          question: "How far ahead do I apply for a block party in Golden?",
+          answer: "At least 21 days before the party; later applications won't be considered. Include signed street closure petitions, a map and a site plan showing barricades, tents and tables.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Golden?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, backyard weddings, block parties and community events in Golden.",
+    },
+  },
+  {
+    city: "Lone Tree",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "lone-tree-co",
+    county: "Douglas County",
+    nearbyCities: ["centennial-co", "parker-co", "littleton-co", "castle-rock-co"],
+    metaDescription: "Plan event rentals in Lone Tree, CO: South Suburban shelter reservations, inflatable insurance and stake locates, when the City's Special Event Permit applies, its 90-day deadline, and South Metro Fire tent permits.",
+    heroSupportingCopy: "Compare event rental options for Lone Tree, from tents, tables and chairs to inflatables, sound and restrooms for park shelter parties, neighborhood events and backyard celebrations.",
+    heroTagline: "Lone Tree's community parks are run through South Suburban Parks and Recreation, which needs a $1 million certificate of insurance naming the District before a bounce house or climbing wall is used. Ask the rental company for it early.",
+    categoriesIntro: "Explore the rental categories Lone Tree hosts use most for shelter parties, neighborhood events and backyard celebrations.",
+    localIntro: [
+      "Lone Tree is a Douglas County city on the south edge of the metro, with trails linking Prairie Sky Park, the Willow Creek Trail, Bluffs Regional Park and the East/West Regional Trail. The City points residents to South Suburban Parks and Recreation for park permits and reservations at its community parks, including Prairie Sky Park and Sweetwater Park. South Suburban takes shelter and field requests online only, asks for about a week of processing time, and requires the rental block to include setup and cleanup.",
+      "South Suburban's rules shape the rental order. Inflatables and climbing walls are allowed once the District has a $1 million certificate of insurance from the rental company naming South Suburban as additional insured. If tents or inflatables will be staked, call the permit office a week before the event so buried lines can be located, and inflatables that need water carry an extra fee. Glass is prohibited, alcohol isn't allowed in South Suburban parks unless the event is a nonprofit fundraiser with municipal permits, and amplified sound has to be listed on the shelter reservation. Large rentals that need fields next to shelters, trail use or shelters outside the online system are special events that need written approval 90 days ahead.",
+      "The City's own Special Event Permit applies to events that close all or part of a street or sidewalk, organized activities that affect City property, facilities or routine services, and gatherings of 50 or more that interfere with normal pedestrian or vehicle traffic. Concerts, fairs, festivals and block parties are listed as examples, while small gatherings such as a park shelter rental for a birthday party don't need one. The City Clerk must receive the application no later than 90 days and no earlier than six months before the event. It asks for a traffic plan, the number and location of portable toilets and trash containers, a cleanup plan, and proof of insurance naming the City or a waiver request.",
+      "South Metro Fire Rescue serves Lone Tree and requires permits for tents and temporary special event structures over 400 square feet, which covers many tents rented for graduations, company picnics and backyard receptions. Ask the tent company who files the permit and how much lead time it needs. Temporary uses that require a Temporary Use Permit under the City's development code go through that process rather than the special event permit.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Lone Tree",
+      intro: "Common Lone Tree setups, from shelter parties to neighborhood events.",
+      items: [
+        {
+          title: "Shelter Birthday Parties",
+          description: "Small shelter parties don't need a City Special Event Permit. Book the shelter online with setup time included, then add [tables and chairs](/categories/table-chair-rentals) for guests beyond the shelter's seating.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Bounce Houses at Park Shelters",
+          description: "South Suburban needs the rental company's $1 million insurance certificate naming the District before the party, plus a locate call a week ahead if the unit will be staked.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Neighborhood and HOA Events",
+          description: "An event that closes a street becomes a City special event, with the application due at least 90 days ahead. Plan barricades and the traffic plan before you finalize rentals.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Tents",
+          description: "Tents over 400 square feet need South Metro Fire Rescue permits. In South Suburban parks, staked tents also need a utility locate a week ahead.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Sound for Shelter Parties",
+          description: "List amplified sound on your South Suburban shelter reservation. Many parks border homes, and the District can remove sound systems that aren't used with discretion.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms for Larger Events",
+          description: "The City's special event application asks for the number and location of portable toilets and trash containers, so size the restrooms before you apply.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Lone Tree",
+      intro: "Lone Tree-specific details to settle before you book rentals.",
+      items: [
+        "Online-only South Suburban shelter reservations, with setup and cleanup inside the rental block",
+        "A $1 million certificate of insurance naming South Suburban for inflatables and climbing walls",
+        "A utility locate call a week ahead for staked tents or inflatables",
+        "No alcohol in South Suburban parks except nonprofit fundraisers with municipal permits, and no glass",
+        "Amplified sound listed on the shelter reservation",
+        "South Suburban special event requests in writing 90 days ahead",
+        "A City Special Event Permit for street closures, activities that affect City property or services, and traffic-blocking crowds of 50 or more",
+        "City applications no later than 90 days and no earlier than six months before the event",
+        "South Metro Fire Rescue permits for tents over 400 square feet",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Lone Tree's Special Event Permits page and special event ordinance, its Parks, Trails and Open Space page, South Suburban Parks and Recreation's rentals page and shelter rental FAQ, and South Metro Fire Rescue permit information. Confirm current requirements with the City, South Suburban and your rental provider.",
+      closing: "Bringing a bounce house? See the [event insurance guide](/resources/colorado-event-insurance-guide) and the [inflatable and party rental guide](/resources/colorado-inflatable-and-party-rental-guide).",
+    },
+    checklist: {
+      heading: "Lone Tree Event Rental Checklist",
+      intro: "Pull these details together before you contact Lone Tree rental companies:",
+      items: [
+        "Park shelter or private address",
+        "Guest count and event hours",
+        "Shelter reservation with setup and cleanup time",
+        "Inflatable insurance certificate naming South Suburban",
+        "Locate request for any stakes",
+        "Sound noted on the reservation",
+        "City Special Event Permit, if closing a street",
+        "Tent sizes and South Metro permit for large tents",
+        "Restrooms and trash containers",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Lone Tree Event Rental FAQ",
+      items: [
+        {
+          question: "Who handles park shelter reservations in Lone Tree?",
+          answer: "South Suburban Parks and Recreation. Requests are submitted online; the District doesn't accept phone reservations.",
+        },
+        {
+          question: "Do I need a City permit for a birthday party at a Lone Tree park?",
+          answer: "No. The City says small gatherings such as park shelter rentals for birthday parties don't need a Special Event Permit. South Suburban's shelter rules still apply.",
+        },
+        {
+          question: "Can I have a bounce house at a South Suburban park?",
+          answer: "Yes, with conditions. The District needs a $1 million certificate of insurance from the rental company naming South Suburban as additional insured, and a call to the permit office a week ahead if the unit will be staked.",
+        },
+        {
+          question: "How far ahead do I apply for a Lone Tree special event?",
+          answer: "The City Clerk must receive the application no later than 90 days and no earlier than six months before the event.",
+        },
+        {
+          question: "Can I serve alcohol at a Lone Tree park?",
+          answer: "South Suburban says alcohol isn't allowed in its parks unless the event is a nonprofit fundraiser, which needs additional permits from the city.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Lone Tree?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, neighborhood events and backyard celebrations in Lone Tree.",
+    },
+  },
+  {
+    city: "Louisville",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "louisville-co",
+    county: "Boulder County",
+    nearbyCities: ["lafayette-co", "broomfield-co", "boulder-co", "erie-co"],
+    metaDescription: "Plan event rentals in Louisville, CO: the shelter season and seven-day booking, tents and inflatables on 6-inch stakes, live music permits, food trucks, the 250-person special event rule and fire district tent permits.",
+    heroSupportingCopy: "Compare event rental options for Louisville, from tents, tables and chairs to inflatables, sound and restrooms for shelter parties, backyard weddings and neighborhood celebrations.",
+    heroTagline: "In Louisville, tents and bounce houses are allowed in a city park only with a shelter rental, and they have to be held down with stakes no longer than 6 inches or with sand or water weights.",
+    categoriesIntro: "Explore the rental categories Louisville hosts use most for shelter parties, backyard weddings and neighborhood celebrations.",
+    localIntro: [
+      "Louisville is a Boulder County city between Boulder and Broomfield, with 32 city parks and a park shelter season that runs May 1 to October 31. Reservations for the 2026 season opened February 2 and are made online through a Recreation & Senior Center account, at least seven days before the rental date. Each rental runs a minimum of four hours including setup and cleanup, and the City keeps an hour between rentals for park staff. Louisville doesn't cancel for weather, and cancellations need seven days' notice for a partial refund.",
+      "Louisville's shelter rules work in favor of rentals. Tents and inflatables are allowed with a shelter rental, anchored with stakes no longer than 6 inches or with sand or water weights, though inflatables are prohibited at Memory Square Park and water slides aren't allowed anywhere. Responsible drinking is allowed with a shelter reservation, which counts as the written permit, but glass is banned and any sale of alcohol, including collecting donations, needs a liquor license from the City Clerk. Food trucks can serve the group named on the rental permit, but not the public. Parks don't have grills, though renters can bring their own, and vehicles can't drive onto the grass.",
+      "Sound depends on where the shelter is. Amplified sound is allowed if it's noted on the shelter reservation, but live music at shelters in residentially zoned areas needs the Parks and Recreation director's approval and a Live Music Permit from the City Clerk. Live music at the Community Park shelter or band shell may require a City Special Events Permit and a Parks Usage Permit, and the band shell can't be used before 9 a.m. Using part of a park for a private activity without renting a shelter, such as playing live music, takes a Parks Usage Permit.",
+      "Bigger events need the City's Permitted Special Event Application, required for 250 or more attendees in a City park and for groups of more than 25 using a street, right-of-way or trail. Applications are accepted up to six months ahead and no less than 60 days before the event. For tents, the Louisville Fire Protection District's Tent & Canopy Permit Application asks for a site plan and a floor plan of every tent or canopy, with heating, electrical, egress and exit lighting details, and inspections must be scheduled at least 24 hours ahead for weekday hours between 8 a.m. and 3 p.m.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Louisville",
+      intro: "Common Louisville setups, from shelter parties to backyard receptions.",
+      items: [
+        {
+          title: "Shelter Parties with Tents",
+          description: "A shelter rental is what allows tents in a city park. Ask the provider for sand or water weights, or stakes no longer than 6 inches.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses",
+          description: "Inflatables are allowed with a shelter rental everywhere except Memory Square Park. Water slides aren't permitted, so book a dry unit.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Tables and Chairs",
+          description: "Setup and cleanup count toward the four-hour minimum, so reserve enough time for the crew to place [tables and chairs](/categories/table-chair-rentals) and pick them up.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Live Music and DJs",
+          description: "Note amplified sound on the reservation. Live music at a shelter in a residential area also needs the director's approval and a Live Music Permit.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Food Trucks for Private Parties",
+          description: "A food truck can cater the group on your shelter permit from the shelter or a legal parking space next to the event, but it can't sell to the public.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Backyard Weddings",
+          description: "Private yards avoid shelter limits. Larger tents may still need a Louisville Fire Protection District permit and an inspection scheduled at least 24 hours ahead.",
+          categorySlug: "wedding-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Louisville",
+      intro: "Louisville-specific details to settle before you book rentals.",
+      items: [
+        "A shelter season of May 1 to October 31, booked online at least seven days ahead",
+        "A four-hour minimum that includes setup and cleanup",
+        "No cancellations or refunds for weather",
+        "Tents and inflatables only with a shelter rental, on stakes of 6 inches or less or sand or water weights",
+        "No inflatables at Memory Square Park, and no water slides",
+        "Alcohol allowed with a shelter reservation; no glass; sales need a liquor license",
+        "A Live Music Permit for shelters in residential areas",
+        "A Permitted Special Event Application for 250+ in a park or 25+ on a street or trail, 60 days ahead",
+        "Louisville Fire Protection District tent plans and inspections scheduled 24 hours ahead",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Louisville's park shelter rental pages, Parks and Open Space Permits page, City Clerk special event permits page and Municipal Code Title 14, and the Louisville Fire Protection District's Tent & Canopy Permit Application. The City and district pages reviewed here don't state the tent size that triggers a fire district permit, so confirm it with the district and your tent provider.",
+      closing: "Booking a shelter? See the [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide). For bounce houses, see the [inflatable and party rental guide](/resources/colorado-inflatable-and-party-rental-guide).",
+    },
+    checklist: {
+      heading: "Louisville Event Rental Checklist",
+      intro: "Pull these details together before you contact Louisville rental companies:",
+      items: [
+        "Park shelter or private address",
+        "Guest count and event hours",
+        "Shelter reservation with setup time",
+        "Tent and inflatable anchoring (short stakes or weights)",
+        "Sound noted on the reservation",
+        "Live Music Permit, if needed",
+        "Food truck details",
+        "Alcohol plan (no sales without a license)",
+        "Fire district tent plans for larger tents",
+        "Restrooms for backyard events",
+      ],
+    },
+    faqs: {
+      heading: "Louisville Event Rental FAQ",
+      items: [
+        {
+          question: "When can I reserve a park shelter in Louisville?",
+          answer: "Shelters are rented from May 1 to October 31. Reservations are made online at least seven days ahead; for the 2026 season they opened February 2.",
+        },
+        {
+          question: "Can I put up a tent or bounce house at a Louisville park?",
+          answer: "Yes, if you've rented a shelter. Use stakes no longer than 6 inches or sand or water weights. Inflatables aren't allowed at Memory Square Park, and water slides aren't permitted.",
+        },
+        {
+          question: "Can we have alcohol at a Louisville park shelter?",
+          answer: "Responsible drinking is allowed, and the shelter reservation counts as the written permit. Glass is prohibited, and selling alcohol or collecting donations for it needs a liquor license from the City Clerk.",
+        },
+        {
+          question: "Do I need a permit for live music at a Louisville shelter?",
+          answer: "Amplified sound must be noted on the reservation. Live music at shelters in residentially zoned areas also needs the director's approval and a Live Music Permit from the City Clerk's Office.",
+        },
+        {
+          question: "When does a Louisville event need a special event permit?",
+          answer: "When 250 or more people attend in a City park, or more than 25 people use a street, right-of-way or trail. Apply between six months and 60 days before the event.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Louisville?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, backyard weddings and neighborhood celebrations in Louisville.",
+    },
+  },
+  {
+    city: "Lafayette",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "lafayette-co",
+    county: "Boulder County",
+    nearbyCities: ["louisville-co", "erie-co", "broomfield-co", "boulder-co"],
+    metaDescription: "Plan event rentals in Lafayette, CO: park shelter booking and capacities, written approval for tents, bounce houses and food trucks, the parking-lot bounce house rule, block party petitions and Community Event Permits.",
+    heroSupportingCopy: "Compare event rental options for Lafayette, from tents, tables and chairs to inflatables, sound and restrooms for shelter parties, block parties, backyard weddings and community events.",
+    heroTagline: "Lafayette parks don't allow large tents, and a bounce house at a park shelter has to stay in the parking lot, measure no more than 15 by 15 feet and come with the rental company's insurance certificate. Bigger setups belong in a backyard.",
+    categoriesIntro: "Explore the rental categories Lafayette hosts use most for shelter parties, block parties, backyard weddings and community events.",
+    localIntro: [
+      "Lafayette, a former coal-mining town in eastern Boulder County, sits between Louisville, Erie and Broomfield. Its reservable park shelters are at Waneka Lake, Waneka Park, Whitetail Park and LaMont Does Park, with listed capacities from 25 at Whitetail Park North to 150 at LaMont Does Park or both Waneka Park shelters together. For 2027, the City is moving bookings to a new platform no later than February 1, with a reservation season of March 1 to October 1, one 10 a.m. to 6 p.m. time slot, booking at least two days ahead and payment at the time of the request.",
+      "Lafayette is strict about what comes with a shelter rental. Bounce houses, food trucks, dunk tanks, catering, tents, awnings and port-a-lets all need written approval from Recreation Guest Services in advance, or the damage deposit is assessed. Large tents aren't allowed, because a reservation covers only the shelter itself, not the rest of the park. Bounce houses must sit in the parking lot, measure no more than 15 by 15 feet, and come with a certificate of insurance from the rental company listing the City as additional insured for at least $1 million in combined liability. Stakes for nets, games or tents can't go deeper than 6 inches or sit next to a sprinkler head.",
+      "Other shelter rules shape the rental order. Food has to be carried in from the parking lot, not wheeled or dragged, and vehicles can't drive up to the shelter to unload. A large barbecue stays in a single parking space, and grills or burners for keeping food hot stay on the shelter's concrete pad. A food truck can use one parking space, serve only your party and must display its City sales tax license. Shelters have GFI outlets during the March through October season. Alcohol needs a permit that's available only with a shelter rental, glass is banned, parks are open 6 a.m. to 10 p.m., and the City doesn't refund for actual or forecast bad weather.",
+      "Neighborhood and public events have their own permits. A private block party that closes a residential street needs a Block Party Permit from Public Works, applied for online at least 10 business days ahead with an aerial map labeled by address and a petition showing at least 75 percent approval from affected addresses; insurance naming the City may be required. A Community Event Permit covers City-owned buildings, temporary street or sidewalk closures and Festival Plaza, and the City asks for a complete application at least 60 days ahead. Tents at those events go through the Lafayette Fire Department's Special Event Fire Code Plan Review, which asks for a tent diagram, a staking or ballast plan, flame-resistance certification and a $1 million certificate of insurance naming the City.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Lafayette",
+      intro: "Common Lafayette setups, from shelter parties to backyard receptions.",
+      items: [
+        {
+          title: "Shelter Parties",
+          description: "Shelters run in a single 10 a.m. to 6 p.m. slot. Bring [tables and chairs](/categories/table-chair-rentals) if the shelter's seating falls short, and get written approval for tents, awnings or port-a-lets first.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Parking-Lot Bounce Houses",
+          description: "Units must be 15 by 15 feet or smaller, set up in the parking lot and covered by a $1 million certificate naming the City. Ask Guest Services for written approval first.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Backyard Weddings",
+          description: "Large tents aren't allowed in parks, so receptions with a pole or frame tent and a [dance floor](/categories/dance-floor-rentals) happen on private property.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "Collect a petition with 75 percent approval and an address-labeled map, then apply online at least 10 business days ahead. Ask Public Works if your activities require insurance naming the City.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Tents and Canopies",
+          description: "In parks, any tent or awning needs written approval, large tents aren't allowed, and stakes can't go deeper than 6 inches. Save larger tents for backyard events.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Restrooms",
+          description: "Port-a-lets at a park shelter need written approval. For backyard receptions, ask the provider about access and placement on your lot.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Lafayette",
+      intro: "Lafayette-specific details to settle before you book rentals.",
+      items: [
+        "A new shelter booking platform for 2027, with a March 1 to October 1 season and one 10 a.m. to 6 p.m. slot",
+        "Written approval in advance for bounce houses, tents, awnings, food trucks, catering and port-a-lets",
+        "No large tents in parks; a reservation covers only the shelter",
+        "Bounce houses in the parking lot, 15 by 15 feet or smaller, with a $1 million certificate naming the City",
+        "Stakes no deeper than 6 inches, away from sprinkler heads",
+        "Food carried in from the parking lot; no driving up to unload",
+        "Alcohol permits only with a shelter rental, and no glass",
+        "No refunds for actual or forecast bad weather",
+        "Block Party Permits 10 business days ahead with a 75 percent petition",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Lafayette's Park Shelters page (including its 2027 rental terms and shelter rules), Block Parties page, Community Event Permits page and community event forms, including the Special Event Fire Code Plan Review application. Shelter terms are changing with the City's new booking platform for 2027, so confirm current rules with Guest Services at the Bob L. Burger Recreation Center.",
+      closing: "Planning a street party? See the [Colorado block party permit guide](/resources/colorado-block-party-permit-guide). For bounce house paperwork, see the [event insurance guide](/resources/colorado-event-insurance-guide).",
+    },
+    checklist: {
+      heading: "Lafayette Event Rental Checklist",
+      intro: "Pull these details together before you contact Lafayette rental companies:",
+      items: [
+        "Park shelter, street or private address",
+        "Guest count and the shelter's capacity",
+        "Shelter reservation in the 10 a.m. to 6 p.m. slot",
+        "Written approval for tents, inflatables, food trucks or port-a-lets",
+        "Bounce house size and insurance certificate",
+        "Stake depth and sprinkler locations",
+        "Carry-in plan for food",
+        "Alcohol permit, if needed",
+        "Block party petition and map",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Lafayette Event Rental FAQ",
+      items: [
+        {
+          question: "Can I set up a tent at a Lafayette park shelter?",
+          answer: "Only with written approval from Recreation Guest Services, and large tents aren't allowed because a reservation covers only the shelter space. Stakes can't go deeper than 6 inches.",
+        },
+        {
+          question: "Are bounce houses allowed at Lafayette park shelters?",
+          answer: "With prior written approval. The bounce house must be in the parking lot, no larger than 15 by 15 feet, and covered by the rental company's certificate of insurance listing the City as additional insured with at least $1 million in combined liability coverage.",
+        },
+        {
+          question: "How do I get a block party permit in Lafayette?",
+          answer: "Apply online to Public Works at least 10 business days ahead with an aerial map of the closure labeled by address and a petition showing at least 75 percent approval from affected addresses.",
+        },
+        {
+          question: "Can I serve alcohol at a Lafayette park?",
+          answer: "Only with an alcohol permit, which is available only with a park shelter rental. Glass containers aren't allowed in any park.",
+        },
+        {
+          question: "Does Lafayette refund shelter rentals for bad weather?",
+          answer: "No. Shelters stay open in all weather, and the City doesn't refund for actual or forecast bad weather.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Lafayette?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, block parties, backyard weddings and community events in Lafayette.",
     },
   },
 ];

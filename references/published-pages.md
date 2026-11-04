@@ -1,12 +1,38 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-10-28 (Denver Metro Infill II: Englewood, Northglenn, Broomfield, Commerce City, Brighton; generator/power guide; park pavilion reservation guide)
+Last audited: 2026-11-04 (West Metro, Lone Tree and East Boulder County: Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette; block party permit guide; event insurance guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-11-04: ERF West Metro, Lone Tree and East Boulder County Run
+
+- **Cluster choice:** Denver infill row named candidates Wheat Ridge, Golden and Lone Tree; Federal Heights was scoped and
+  dropped (official park and event pages too thin; only a fee schedule and a third-party code mirror found). Louisville
+  and Lafayette added as in-cluster expansions next to the shipped Broomfield, Erie and Boulder pages because every
+  required park/permit/fire source was verifiable on official City and fire district sites. Rationale in content-strategy.md.
+- **New rich city pages** (rendered words in `<main>`): Wheat Ridge (`/locations/wheat-ridge-co`) ~1,410; Golden
+  (`/locations/golden-co`) ~1,380; Lone Tree (`/locations/lone-tree-co`) ~1,340; Louisville (`/locations/louisville-co`)
+  ~1,350; Lafayette (`/locations/lafayette-co`) ~1,410. Written to search intent and sourced facts, not padded.
+- **New resource guides** (publishedAt 2026-11-04, heroes shipped): Colorado Block Party Permits
+  (`/resources/colorado-block-party-permit-guide`); Event Insurance for Colorado Rentals
+  (`/resources/colorado-event-insurance-guide`). Cross-linked to each other, the new city pages, the pavilion guide
+  (block party guide added to its related list) and the inflatable guide (insurance guide added to its related list).
+- **Heroes:** five city heroes + two resource heroes, 1080x720 WebP, 101–150 KB, QA passed unattended.
+- **Links:** nearby lists updated reciprocally on Lakewood, Arvada, Denver (Wheat Ridge/Golden); Centennial, Parker,
+  Littleton, Castle Rock (Lone Tree); Broomfield, Boulder, Erie (Louisville/Lafayette).
+- **Source conflicts (flagged on page disclaimers, not resolved in copy):** Wheat Ridge inflatables (City Code Sec. 17-49
+  allows tents, canopies and inflatables by director permit; the general park rules page says inflatables are prohibited
+  in all parks) and group threshold (Code Sec. 17-24 "more than 25"; permit form "25 or more"). Golden pavilion season
+  and weekend rates differ between the Park Rules page (May 18–Sept 20; $250 weekend) and the WebTrac listing (mid-May–
+  September; Lions Park $220 Fri–Sun). Fees omitted. Louisville fire district tent-permit size threshold not stated on
+  the pages reviewed (a search snippet said 10x10; unverified, omitted).
+- **Not used:** fees and rental rates (all cities), Federal Heights, Lone Tree Golf Club pavilion rates.
+- **Sources:** see used-keywords.md "Sources logged 2026-11-04".
+- **Sitemap URLs:** 162 (live, includes provider pages from a4467da), now 169. **Location pages:** 36, now 41. **Resource pages:** 12, now 14.
 
 ### 2026-10-28: ERF Denver Metro Infill II Run
 
@@ -256,7 +282,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (36)
+## Location Pages (41)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -297,6 +323,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Broomfield | City and County of Broomfield | Rich | https://www.eventrentalfinder.com/locations/broomfield-co | 2026-10-28 |
 | Commerce City | Adams County | Rich | https://www.eventrentalfinder.com/locations/commerce-city-co | 2026-10-28 |
 | Brighton | Adams County | Rich | https://www.eventrentalfinder.com/locations/brighton-co | 2026-10-28 |
+| Wheat Ridge | Jefferson County | Rich | https://www.eventrentalfinder.com/locations/wheat-ridge-co | 2026-11-04 |
+| Golden | Jefferson County | Rich | https://www.eventrentalfinder.com/locations/golden-co | 2026-11-04 |
+| Lone Tree | Douglas County | Rich | https://www.eventrentalfinder.com/locations/lone-tree-co | 2026-11-04 |
+| Louisville | Boulder County | Rich | https://www.eventrentalfinder.com/locations/louisville-co | 2026-11-04 |
+| Lafayette | Boulder County | Rich | https://www.eventrentalfinder.com/locations/lafayette-co | 2026-11-04 |
 
 ## Category Pages (10)
 
@@ -313,7 +344,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (12)
+## Resource Pages (14)
 
 | Title | URL | Published |
 |---|---|---|
@@ -329,6 +360,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Food Trucks and Food Vendors at Colorado Events: Health Permits, Fire Checks and Site Planning | https://www.eventrentalfinder.com/resources/colorado-event-food-vendor-guide | 2026-10-21 |
 | Generators and Power for Colorado Events: Placement, Permits and Park Outlets | https://www.eventrentalfinder.com/resources/colorado-event-generator-power-guide | 2026-10-28 |
 | Reserving a Colorado Park Pavilion for a Party: Permits, Rules and What to Rent | https://www.eventrentalfinder.com/resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
+| Colorado Block Party Permits: Street Closures, Barricades, Music and Rentals | https://www.eventrentalfinder.com/resources/colorado-block-party-permit-guide | 2026-11-04 |
+| Event Insurance for Colorado Rentals: Certificates, Additional Insured and Deadlines | https://www.eventrentalfinder.com/resources/colorado-event-insurance-guide | 2026-11-04 |
 
 ### 2026-10-23: ERF QA expansion of thin hub pages
 - **Expanded (official sources only):** Denver, Fort Collins, Boulder, Greeley (about 1,600 words each, up from about 290).
@@ -342,5 +375,5 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 | File | URL |
 |---|---|
-| Sitemap (64 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (169 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

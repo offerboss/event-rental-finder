@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-10-21 (Western Slope run shipped: 5 cities + 2 resources; heroes pending follow-up)
+Last updated: 2026-11-04 (West Metro, Lone Tree and East Boulder County run shipped: 5 cities + 2 resources, with heroes)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -299,12 +299,63 @@ Nearby links (all reciprocal):
 
 ---
 
+### Week of 2026-11-02 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette |
+| New planning resources | 2 | 2 | Colorado block party permit guide; Colorado event insurance guide |
+
+---
+
+## Current Cluster: West Metro, Lone Tree and East Boulder County
+
+Chosen from the "Denver infill" row's named candidates (Wheat Ridge, Golden, Lone Tree). Federal Heights was scoped and
+dropped because official park and event sources were too thin to verify. Louisville and Lafayette were added as in-cluster
+expansions: both adjoin the shipped Broomfield, Erie and Boulder pages, and every park, permit and fire source was
+verifiable on official City and fire district sites. Shipped 2026-11-04 with heroes.
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Wheat Ridge:** no stakes in park ground (Code 17-49); tents, canopies and inflatables by director permit, but the
+  park rules page says inflatables are prohibited (conflict flagged); group permit over 25; beer allowed in parks, other
+  alcohol only under a special event permit, no glass; fire district approval over 400 sq ft; Special Event Permit 90
+  days; pavilion booking by phone (residents Jan 2, non-residents Feb 1).
+- **Golden:** dry parks (Special Event or Open Container Permit); pavilion caps 40/60, online, 7 days, six-hour window;
+  40 lb per tent leg, unacceptable weights listed; 700 sq ft groupings and Golden Fire large-tent permit by supplier;
+  generator guard rules; new events 180 days / returning 90 days; COI 14 days; block party 21 days with music cutoffs.
+- **Lone Tree:** parks through South Suburban (online only, $1M COI for inflatables, locate a week ahead, no alcohol
+  except nonprofit fundraisers); City Special Event Permit for street closures and traffic-impacting crowds of 50+,
+  90 days to six months; shelter birthday parties exempt; South Metro Fire tents over 400 sq ft.
+- **Louisville:** shelter season May 1–Oct 31, 7 days, four-hour minimum; tents and inflatables only with a shelter
+  rental, stakes 6 in max or weights; no inflatables at Memory Square, no water slides; alcohol with reservation; Live
+  Music Permit in residential areas; special event at 250+ in a park, 60 days; LFPD tent plans and 24-hour inspections.
+- **Lafayette:** written approval for bounce houses, tents, food trucks, catering, port-a-lets; no large tents; bounce
+  houses in the parking lot, 15x15 max, $1M COI naming the City; carry-in food; 2027 platform with one 10–6 slot; Block
+  Party Permit 10 business days with 75 percent petition; Community Event Permit 60 days with fire plan review.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Wheat Ridge | lakewood, arvada, golden, denver |
+| Golden | wheat-ridge, lakewood, arvada |
+| Lone Tree | centennial, parker, littleton, castle-rock |
+| Louisville | lafayette, broomfield, boulder, erie |
+| Lafayette | louisville, erie, broomfield, boulder |
+| Lakewood / Arvada | + wheat-ridge, golden |
+| Denver | + wheat-ridge |
+| Centennial / Parker / Littleton / Castle Rock | + lone-tree |
+| Broomfield / Boulder / Erie | + louisville, lafayette |
+
+---
+
 ## Next Candidate Clusters
 
 | Cluster | Candidate cities | Notes |
 |---|---|---|
 | Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28. Further candidates: Wheat Ridge, Golden, Federal Heights, Lone Tree |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28; West Metro / Lone Tree / East Boulder County (Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette) shipped 2026-11-04. Further candidates: Castle Pines, Superior, Edgewater, Sheridan; Federal Heights needs verifiable official sources |
 | Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Further candidates: Delta (needs verifiable official sources), Carbondale, New Castle, Grand Junction hub upgrade |
 
 ---

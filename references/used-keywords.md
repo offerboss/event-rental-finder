@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-10-28 (Denver Metro Infill II: Englewood, Northglenn, Broomfield, Commerce City, Brighton)
+Last updated: 2026-11-04 (West Metro, Lone Tree and East Boulder County: Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -63,6 +63,11 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Broomfield | event rentals Broomfield CO | /locations/broomfield-co | table-chair, inflatable, stage, wedding, tent, restroom-trailer | 2026-10-28 |
 | Commerce City | event rentals Commerce City CO | /locations/commerce-city-co | table-chair, av-lighting, party, tent, stage, restroom-trailer | 2026-10-28 |
 | Brighton | event rentals Brighton CO | /locations/brighton-co | table-chair, wedding, tent, av-lighting, inflatable, restroom-trailer | 2026-10-28 |
+| Wheat Ridge | event rentals Wheat Ridge CO | /locations/wheat-ridge-co | table-chair, tent, inflatable, wedding, av-lighting, restroom-trailer | 2026-11-04 |
+| Golden | event rentals Golden CO | /locations/golden-co | table-chair, wedding, tent, party, av-lighting, restroom-trailer | 2026-11-04 |
+| Lone Tree | event rentals Lone Tree CO | /locations/lone-tree-co | table-chair, inflatable, party, tent, av-lighting, restroom-trailer | 2026-11-04 |
+| Louisville | event rentals Louisville CO | /locations/louisville-co | tent, inflatable, table-chair, av-lighting, party, wedding | 2026-11-04 |
+| Lafayette | event rentals Lafayette CO | /locations/lafayette-co | table-chair, inflatable, wedding, party, tent, restroom-trailer | 2026-11-04 |
 
 
 Secondary angles in use (don't build a second page around these without differentiating it):
@@ -120,6 +125,8 @@ Secondary angles in use (don't build a second page around these without differen
 | Colorado event food vendors / food trucks | /resources/colorado-event-food-vendor-guide | 2026-10-21 |
 | Colorado event generator / power for events | /resources/colorado-event-generator-power-guide | 2026-10-28 |
 | Colorado park pavilion / shelter reservation | /resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
+| Colorado block party permit / street closure | /resources/colorado-block-party-permit-guide | 2026-11-04 |
+| Colorado event insurance / certificate of insurance (COI) | /resources/colorado-event-insurance-guide | 2026-11-04 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 
@@ -141,6 +148,32 @@ Secondary angles in use for resources (don't build a second page around these wi
   generator, Northglenn NOI, Littleton); cord routing.
 - Pavilion guide: shelter booking windows (Broomfield, Englewood, Brighton, Commerce City); group permit headcounts
   (Englewood 15+, Commerce City 25+, Brighton 25+); park bans on bounce houses, canopies, sound, alcohol, glass, staking.
+- Block party guide: lead times (Lafayette 10 business days, Golden 21 days, Centennial three weeks, Lone Tree 90 days
+  as a special event); neighbor petitions (Lafayette 75 percent); MUTCD barricades and emergency access (Centennial);
+  Golden music cutoffs and open container permit; Lafayette insurance 3 business days ahead.
+- Insurance guide: host COI vs rental company COI; $1M additional-insured requirements (Golden, Lafayette, Lone Tree
+  CGIA limits, South Suburban, Fort Collins, Longmont); deadlines (Golden/Boulder/Manitou 14 days, Lafayette 3 business
+  days, Greeley conflict); Colorado Amusement Rides and Devices Program.
+
+### Sources logged 2026-11-04 (official only)
+
+- Wheat Ridge: rootedinfun.com Park Pavilion Rentals (261), Park Rules (412, City Code Ch. 17 Secs. 17-24, 17-25, 17-27,
+  17-28, 17-37, 17-42, 17-49), Parks and Trail Special Use Permit Request form, Special Event Guide (386);
+  ci.wheatridge.co.us Special Event (liquor) Permit Application form.
+- Golden: cityofgolden.gov Park Rules (pavilion rentals, alcohol, glass); 2026 Park Pavilion Reservations (WebTrac);
+  Special Events page (permit questions, deadlines, alcohol); Event Guide (tiers, deadlines, tents, weights, large tents,
+  generators, restrooms, insurance); Block Parties page.
+- Lone Tree: cityoflonetree.com Special Event Permits page and special event ordinance (Ch. 11 Art. I, 11-1-40, 11-1-50,
+  11-1-70 insurance); Parks, Trails, Open Space page. South Suburban Parks and Recreation Rentals page and Shelter Rentals
+  & Special Events FAQ PDF. South Metro Fire Rescue permit information (tents over 400 sq ft).
+- Louisville: louisvilleco.gov Park shelter rentals (rules and guidelines), Park Amenities and Shelter Rentals, Parks &
+  Open Space Permits, City Clerk Special event permits; Municipal Code Title 14. Louisville Fire Protection District Tent
+  & Canopy Permit Application.
+- Lafayette: lafayetteco.gov Park Shelters (1555; 2027 rental terms, rules), Block Parties (226), Community Event Permits
+  (3832), Form 5 Special Event Fire Code Plan Review Application (DocumentCenter 35286).
+- Resource guides also reuse previously logged official sources: Centennial street closure request; Englewood Block
+  Party Application and trailer; Littleton private party guidance; Fort Collins, Longmont, Boulder, Manitou Springs and
+  Greeley insurance requirements (see earlier source logs).
 
 ### Sources logged 2026-10-28 (official only)
 

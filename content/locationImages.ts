@@ -128,4 +128,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/brighton-co-event-rentals.webp",
     alt: "Frame tent wedding reception with gold chairs, a dance floor and string lights at the edge of farmland in Brighton, Colorado",
   },
+  "wheat-ridge-co": {
+    src: "/images/locations/wheat-ridge-co-event-rentals.webp",
+    alt: "Sandbag-weighted pop-up canopies over rented tables beside a park pavilion under cottonwoods in Wheat Ridge, Colorado",
+  },
+  "golden-co": {
+    src: "/images/locations/golden-co-event-rentals.webp",
+    alt: "Sandbag-weighted frame tent with round tables and string lights below a rocky mesa in Golden, Colorado",
+  },
+  "lone-tree-co": {
+    src: "/images/locations/lone-tree-co-event-rentals.webp",
+    alt: "Frame tent with round tables beside a park picnic shelter, with grassy bluffs and a trail beyond, in Lone Tree, Colorado",
+  },
+  "louisville-co": {
+    src: "/images/locations/louisville-co-event-rentals.webp",
+    alt: "Weighted frame tent with banquet tables beside a park shelter, a small bounce house and a lake in Louisville, Colorado",
+  },
+  "lafayette-co": {
+    src: "/images/locations/lafayette-co-event-rentals.webp",
+    alt: "Backyard pole tent with a dance floor, round tables and string lights at golden hour in Lafayette, Colorado",
+  },
 };

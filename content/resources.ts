@@ -1730,6 +1730,7 @@ export const resources: ResourceArticle[] = [
       "how-many-tables-and-chairs-do-i-need",
       "event-restroom-rental-guide",
       "colorado-outdoor-event-tent-planning",
+      "colorado-event-insurance-guide",
     ],
     relatedCategorySlugs: [
       "inflatable-rentals",
@@ -2608,6 +2609,7 @@ export const resources: ResourceArticle[] = [
       "how-many-tables-and-chairs-do-i-need",
       "colorado-inflatable-and-party-rental-guide",
       "colorado-event-generator-power-guide",
+      "colorado-block-party-permit-guide",
     ],
     relatedCategorySlugs: [
       "party-rentals",
@@ -2623,6 +2625,350 @@ export const resources: ResourceArticle[] = [
       primaryHref: "/categories/table-chair-rentals",
       secondaryLabel: "Find Party Rentals",
       secondaryHref: "/categories/party-rentals",
+    },
+  },
+  {
+    title: "Colorado Block Party Permits: Street Closures, Barricades, Music and Rentals",
+    slug: "colorado-block-party-permit-guide",
+    excerpt: "How block party permits work in Colorado cities: neighbor petitions, lead times, barricade rules, music cutoffs, insurance and the rentals that fit on a closed street.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-11-04",
+    heroImage: {
+      src: "/images/resources/colorado-block-party-permit-guide.webp",
+      alt: "Striped barricades closing a residential street with a white tent, tables and chairs set for a Colorado block party",
+    },
+    metaTitle: "Colorado Block Party Permit Guide | Event Rental Finder",
+    metaDescription: "How to get a block party permit in Colorado: neighbor petitions, application deadlines, MUTCD barricades, music cutoffs, insurance, and what to rent for a party on a closed street.",
+    h1: "Colorado Block Party Permits: Street Closures, Barricades, Music and Rentals",
+    topicCategorySlug: "party-rentals",
+    intro: [
+      "Closing your street for a block party usually takes a permit from the city, and each city sets its own lead time, neighbor sign-off and barricade rules. The paperwork isn't hard, but missing a deadline by a few days can mean no closure at all.",
+      "This guide compares how several Colorado cities handle block parties and what to rent for a party on pavement. Check your own city's current rules before you book anything.",
+    ],
+    sections: [
+      {
+        id: "lead-times",
+        heading: "How Far Ahead to Apply",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Lead times run from about two weeks to three months:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Lafayette",
+                value: "A Block Party Permit from Public Works, applied for online at least 10 business days ahead",
+              },
+              {
+                label: "Golden",
+                value: "A block party application at least 21 days ahead; later applications won't be considered",
+              },
+              {
+                label: "Centennial",
+                value: "A block party or street closure request at least three weeks ahead",
+              },
+              {
+                label: "Lone Tree",
+                value: "Block parties are special events; the City Clerk must receive the application 90 days to six months ahead",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Not every city treats a block party as its own permit. [Lone Tree](/locations/lone-tree-co) folds street closures into its Special Event Permit, and [Littleton](/locations/littleton-co) says invitation-only parties at home don't need a formal City permit, though closing a street means notifying the Public Works Traffic Division first.",
+          },
+        ],
+      },
+      {
+        id: "petitions",
+        heading: "Neighbor Sign-Off and Maps",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cities want proof that the block agrees and a clear picture of the closure:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Lafayette](/locations/lafayette-co): a petition with at least 75 percent approval from affected addresses, plus an aerial map with homes labeled by address",
+              "[Golden](/locations/golden-co): signed street closure petitions, a location map, and a site plan sketch showing barricades, tents, tables and other party items",
+              "[Centennial](/locations/centennial-co): the closure location and endpoints, a map or sketch, and confirmation that affected neighbors were notified",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Draw the rental layout before you submit. When the city asks for tents and tables on the site plan, your rental order and your permit need to match.",
+          },
+        ],
+      },
+      {
+        id: "barricades",
+        heading: "Barricades and Emergency Access",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Barricades are the rental people forget. [Centennial](/locations/centennial-co) requires barricades that meet federal MUTCD standards and says vehicles, cones, sawhorses and trash cans can't be used to block the street, and emergency vehicles must still be able to get through between the ends of the closure. [Englewood](/locations/englewood-co) pairs its Block Party Application with a block party trailer that residents can reserve.",
+          },
+          {
+            type: "callout",
+            text: "Keep a clear lane through the closure for fire trucks and ambulances, and set tents, tables and games outside it.",
+          },
+        ],
+      },
+      {
+        id: "music-alcohol",
+        heading: "Music, Food Trucks and Alcohol",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Golden's block party permit covers more than the closure. It can add an open container permit, amplified music and a food truck, and the music must end by 9:30 p.m. on weekdays and 10:30 p.m. on weekends. In other cities, sound and alcohol follow the local noise code and liquor rules, so ask when you apply.",
+          },
+          {
+            type: "paragraph",
+            text: "Selling alcohol at any Colorado event takes a special event permit held by a qualifying organization. See the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide).",
+          },
+        ],
+      },
+      {
+        id: "insurance",
+        heading: "Insurance",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Some cities ask for insurance depending on what the party includes. [Lafayette](/locations/lafayette-co) may require liability insurance naming the City as additional insured based on the party's activities, with the certificate due at least three business days before the event. If you're renting a bounce house or a large tent, ask the rental company whether it can provide a certificate naming the city. See the [event insurance guide](/resources/colorado-event-insurance-guide).",
+          },
+        ],
+      },
+      {
+        id: "rentals",
+        heading: "What to Rent for a Street Party",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "Barricades that meet your city's standard",
+              "Pop-up canopies with weights, since stakes don't work on asphalt",
+              "Folding tables and chairs, set back from the emergency lane",
+              "Portable restrooms and handwashing for longer or larger parties",
+              "Extra trash and recycling containers",
+              "Power from a driveway or a generator, with cords covered where people walk",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Ask the rental company whether its crew can deliver after the barricades go up, and when it will pick up so the street can reopen on time.",
+          },
+        ],
+      },
+      {
+        id: "checklist",
+        heading: "Before You Apply",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Check your city's lead time and count back from the party date",
+              "Collect neighbor signatures or notices",
+              "Sketch the closure, barricades and rental layout",
+              "Line up barricades",
+              "Ask about music hours and alcohol",
+              "Ask whether insurance is required",
+              "Book rentals that match the site plan",
+            ],
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-event-insurance-guide",
+      "colorado-park-pavilion-reservation-guide",
+      "how-many-tables-and-chairs-do-i-need",
+    ],
+    relatedCategorySlugs: ["party-rentals", "table-chair-rentals", "tent-rentals", "restroom-trailer-rentals"],
+    cta: {
+      heading: "Ready to Plan the Block Party?",
+      description: "Browse party, table and chair rental options and compare local providers who deliver to neighborhood events.",
+      primaryLabel: "Find Party Rentals",
+      primaryHref: "/categories/party-rentals",
+      secondaryLabel: "Find Table & Chair Rentals",
+      secondaryHref: "/categories/table-chair-rentals",
+    },
+  },
+  {
+    title: "Event Insurance for Colorado Rentals: Certificates, Additional Insured and Deadlines",
+    slug: "colorado-event-insurance-guide",
+    excerpt: "When Colorado cities and park districts ask for a certificate of insurance, who provides it, what additional insured means, and when it's due.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-11-04",
+    heroImage: {
+      src: "/images/resources/colorado-event-insurance-guide.webp",
+      alt: "Rental crew setup with a weighted frame tent, stacked chairs and a sandbagged bounce house beside a Colorado park pavilion",
+    },
+    metaTitle: "Colorado Event Insurance and COI Guide | Event Rental Finder",
+    metaDescription: "When Colorado cities and park districts require a certificate of insurance for events and rentals: $1 million limits, naming the city as additional insured, who provides it and when it's due.",
+    h1: "Event Insurance for Colorado Rentals: Certificates, Additional Insured and Deadlines",
+    topicCategorySlug: "inflatable-rentals",
+    intro: [
+      "Many Colorado event permits and park rules ask for a certificate of insurance, often called a COI. Sometimes the event host provides it, and sometimes the rental company does. Knowing which one, and when it's due, keeps a bounce house or tent from being turned away on the day.",
+      "This guide explains the common requirements in plain terms. It isn't insurance or legal advice, so take coverage questions to a licensed insurance agent and permit questions to the city.",
+    ],
+    sections: [
+      {
+        id: "what-is-coi",
+        heading: "What a Certificate of Insurance Shows",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A certificate of insurance is a document from an insurance agent or carrier that shows a liability policy is in place, with its limits and dates. When a city asks to be named as additional insured, it wants the policy to cover the city for claims tied to your event, and the certificate should show that.",
+          },
+          {
+            type: "paragraph",
+            text: "[Lone Tree](/locations/lone-tree-co)'s special event code spells out what the City expects to see: its insured status, the limits of each policy, the policy number, the insurer's name, and the effective and expiration dates, signed by an agent of a carrier authorized in Colorado.",
+          },
+        ],
+      },
+      {
+        id: "who-provides",
+        heading: "Host Insurance vs. Rental Company Insurance",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Cities make two different requests, and some events need both:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Event host",
+                value: "Golden requires the host organization of a permitted special event to carry at least $1 million in liability coverage naming the City of Golden and its employees as additional insured, covering setup through teardown",
+              },
+              {
+                label: "Rental company",
+                value: "South Suburban Parks and Recreation and Lafayette ask the inflatable rental company for a $1 million certificate naming the District or the City before a bounce house can be used",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "In these examples, park shelter rules ask for the rental company's certificate, while special event permits ask the host to carry its own policy.",
+          },
+        ],
+      },
+      {
+        id: "examples",
+        heading: "Requirements in Colorado Cities",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "[Golden](/locations/golden-co): a $1 million host policy naming the City and its employees, with the certificate due no later than 14 days before the event; events without one can't open to the public",
+              "[Lafayette](/locations/lafayette-co): bounce houses at park shelters need the rental company's certificate naming the City with at least $1 million in combined liability, and the fire code plan review for community events with tents asks for a $1 million certificate naming the City",
+              "[Lone Tree](/locations/lone-tree-co): special event permittees carry liability insurance naming the City at Colorado Governmental Immunity Act limits; the City may require higher limits for larger events, and applicants can ask the City Clerk for a waiver",
+              "South Suburban parks, including those in [Lone Tree](/locations/lone-tree-co) and [Littleton](/locations/littleton-co): inflatables and climbing walls need a $1 million certificate naming the District, and vendors selling goods or services provide one too",
+              "[Fort Collins](/locations/fort-collins-co): inflatables and other apparatuses in parks need a Park Event Permit and a $1 million certificate of liability insurance",
+              "[Longmont](/locations/longmont-co): special events on public property need a $1 million certificate naming the City",
+            ],
+          },
+        ],
+      },
+      {
+        id: "deadlines",
+        heading: "When It's Due",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Insurance is often one of the last documents due, but the deadline is firm:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Golden",
+                value: "No later than 14 days before the event",
+              },
+              {
+                label: "Boulder",
+                value: "Final insurance certificates 14 days ahead, per the City's special event handbook",
+              },
+              {
+                label: "Manitou Springs",
+                value: "Insurance and the final delivery schedule 14 days out",
+              },
+              {
+                label: "Lafayette block parties",
+                value: "At least three business days before the event, when required",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "City documents don't always agree with each other. [Greeley](/locations/greeley-co)'s Island Grove handbook gives two different insurance certificate deadlines, 30 days and two weeks, so confirm the date with the city before you rely on either.",
+          },
+        ],
+      },
+      {
+        id: "rental-company",
+        heading: "What to Ask Your Rental Company",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "Can you send a certificate naming the city or park district as additional insured?",
+              "What are your liability limits, and do they meet the $1 million several cities ask for?",
+              "How long does your agent need to issue a new certificate?",
+              "For inflatables and rides, are your units registered with Colorado's Amusement Rides and Devices Program?",
+              "Who files any fire permit the tent needs?",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Golden's event guide notes that the state's Amusement Rides and Devices Program requires annual registration, third-party inspections and insurance for rides and devices, and that the tent supplier files the Golden Fire permit for large tents. For more on inflatables, see the [inflatable and party rental guide](/resources/colorado-inflatable-and-party-rental-guide).",
+          },
+        ],
+      },
+      {
+        id: "checklist",
+        heading: "Before Your Event",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Read the permit or park rules for any insurance requirement",
+              "Note who has to provide it: you, the rental company or both",
+              "Get the exact name the city wants listed as additional insured",
+              "Ask for the certificate early",
+              "Make sure the dates cover setup through teardown",
+              "Keep a copy on site",
+            ],
+          },
+          {
+            type: "callout",
+            text: "This guide summarizes city and park district requirements. It isn't insurance advice; a licensed agent can tell you what your own policy covers.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-inflatable-and-party-rental-guide",
+      "colorado-block-party-permit-guide",
+      "colorado-park-pavilion-reservation-guide",
+    ],
+    relatedCategorySlugs: ["inflatable-rentals", "tent-rentals", "party-rentals"],
+    cta: {
+      heading: "Ready to Book Rentals?",
+      description: "Browse inflatable and tent rental options and ask providers about the insurance paperwork your city requires.",
+      primaryLabel: "Find Inflatable Rentals",
+      primaryHref: "/categories/inflatable-rentals",
+      secondaryLabel: "Find Tent Rentals",
+      secondaryHref: "/categories/tent-rentals",
     },
   },
 ];

@@ -8,7 +8,7 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co", "wheat-ridge-co"],
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co", "wheat-ridge-co", "edgewater-co", "greenwood-village-co", "cherry-hills-village-co"],
     metaDescription:
       "Plan Denver, CO event rentals: tents, tables and chairs, staging and restrooms, plus park permit, Office of Special Events and fire permit rules.",
     heroSupportingCopy:
@@ -445,7 +445,7 @@ export const locations: Location[] = [
     slug: "boulder-co",
     county: "Boulder County",
     featured: true,
-    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co", "broomfield-co", "louisville-co", "lafayette-co"],
+    nearbyCities: ["arvada-co", "westminster-co", "longmont-co", "erie-co", "broomfield-co", "louisville-co", "lafayette-co", "superior-co"],
     metaDescription:
       "Plan Boulder, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event permit and tent permit rules.",
     heroSupportingCopy:
@@ -881,7 +881,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "lakewood-co",
     county: "Jefferson County",
-    nearbyCities: ["denver-co", "arvada-co", "littleton-co", "wheat-ridge-co", "golden-co"],
+    nearbyCities: ["denver-co", "arvada-co", "littleton-co", "wheat-ridge-co", "golden-co", "edgewater-co"],
     heroSupportingCopy:
       "Find event rental companies serving Lakewood and the western Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1167,7 +1167,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "castle-rock-co",
     county: "Douglas County",
-    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co", "parker-co", "lone-tree-co"],
+    nearbyCities: ["denver-co", "colorado-springs-co", "monument-co", "parker-co", "lone-tree-co", "castle-pines-co"],
     heroSupportingCopy:
       "Find event rental companies serving Castle Rock and the south Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -2303,7 +2303,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "centennial-co",
     county: "Arapahoe County",
-    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co", "englewood-co", "lone-tree-co"],
+    nearbyCities: ["littleton-co", "aurora-co", "parker-co", "denver-co", "englewood-co", "lone-tree-co", "greenwood-village-co"],
     metaDescription:
       "Plan event rentals in Centennial, CO: tables and chairs, tents, party and wedding rentals, inflatables and restrooms, plus Centennial Center Park rules, park district permits and block party closures.",
     heroSupportingCopy:
@@ -2715,7 +2715,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "parker-co",
     county: "Douglas County",
-    nearbyCities: ["castle-rock-co", "centennial-co", "aurora-co", "littleton-co", "lone-tree-co"],
+    nearbyCities: ["castle-rock-co", "centennial-co", "aurora-co", "littleton-co", "lone-tree-co", "castle-pines-co"],
     metaDescription:
       "Plan event rentals in Parker, CO: tents, tables and chairs, inflatables, stages and restrooms, plus the Town's 10-by-10 tent trigger, community event permits, O'Brien Park limits and no-stake setups.",
     heroSupportingCopy:
@@ -4225,7 +4225,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "englewood-co",
     county: "Arapahoe County",
-    nearbyCities: ["denver-co", "littleton-co", "centennial-co"],
+    nearbyCities: ["denver-co", "littleton-co", "centennial-co", "greenwood-village-co", "cherry-hills-village-co"],
     metaDescription:
       "Plan event rentals in Englewood, CO: pavilion reservations, the Park Use Permit for groups over 15, strict park limits on canopies, sound, alcohol and bounce houses, and when a Community Event License applies.",
     heroSupportingCopy:
@@ -4495,7 +4495,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "broomfield-co",
     county: "City and County of Broomfield",
-    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co", "louisville-co", "lafayette-co"],
+    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co", "louisville-co", "lafayette-co", "superior-co"],
     metaDescription:
       "Plan event rentals in Broomfield, CO: B-REx park shelter reservations, permits for bands, inflatables and alcohol, no-stake tent rules, generator needs for inflatables, and North Metro Fire tent permits.",
     heroSupportingCopy:
@@ -4900,7 +4900,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "wheat-ridge-co",
     county: "Jefferson County",
-    nearbyCities: ["lakewood-co", "arvada-co", "golden-co", "denver-co"],
+    nearbyCities: ["lakewood-co", "arvada-co", "golden-co", "denver-co", "edgewater-co"],
     metaDescription: "Plan event rentals in Wheat Ridge, CO: pavilion reservations, the park permit for groups over 25, no-stake and inflatable rules, Special Event Permit triggers, fire approval for large tents and liquor permits.",
     heroSupportingCopy: "Compare event rental options for Wheat Ridge, from tables, chairs and pop-up canopies to sound, lighting and restrooms for pavilion parties, backyard celebrations and community events.",
     heroTagline: "Wheat Ridge park rules don't allow stakes to be driven into the ground, so any permitted tent or canopy in a city park has to be held down with weights. Ask the rental company to bring them.",
@@ -5134,7 +5134,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "lone-tree-co",
     county: "Douglas County",
-    nearbyCities: ["centennial-co", "parker-co", "littleton-co", "castle-rock-co"],
+    nearbyCities: ["centennial-co", "parker-co", "littleton-co", "castle-rock-co", "castle-pines-co", "greenwood-village-co"],
     metaDescription: "Plan event rentals in Lone Tree, CO: South Suburban shelter reservations, inflatable insurance and stake locates, when the City's Special Event Permit applies, its 90-day deadline, and South Metro Fire tent permits.",
     heroSupportingCopy: "Compare event rental options for Lone Tree, from tents, tables and chairs to inflatables, sound and restrooms for park shelter parties, neighborhood events and backyard celebrations.",
     heroTagline: "Lone Tree's community parks are run through South Suburban Parks and Recreation, which needs a $1 million certificate of insurance naming the District before a bounce house or climbing wall is used. Ask the rental company for it early.",
@@ -5251,7 +5251,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "louisville-co",
     county: "Boulder County",
-    nearbyCities: ["lafayette-co", "broomfield-co", "boulder-co", "erie-co"],
+    nearbyCities: ["lafayette-co", "broomfield-co", "boulder-co", "erie-co", "superior-co"],
     metaDescription: "Plan event rentals in Louisville, CO: the shelter season and seven-day booking, tents and inflatables on 6-inch stakes, live music permits, food trucks, the 250-person special event rule and fire district tent permits.",
     heroSupportingCopy: "Compare event rental options for Louisville, from tents, tables and chairs to inflatables, sound and restrooms for shelter parties, backyard weddings and neighborhood celebrations.",
     heroTagline: "In Louisville, tents and bounce houses are allowed in a city park only with a shelter rental, and they have to be held down with stakes no longer than 6 inches or with sand or water weights.",
@@ -5368,7 +5368,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "lafayette-co",
     county: "Boulder County",
-    nearbyCities: ["louisville-co", "erie-co", "broomfield-co", "boulder-co"],
+    nearbyCities: ["louisville-co", "erie-co", "broomfield-co", "boulder-co", "superior-co"],
     metaDescription: "Plan event rentals in Lafayette, CO: park shelter booking and capacities, written approval for tents, bounce houses and food trucks, the parking-lot bounce house rule, block party petitions and Community Event Permits.",
     heroSupportingCopy: "Compare event rental options for Lafayette, from tents, tables and chairs to inflatables, sound and restrooms for shelter parties, block parties, backyard weddings and community events.",
     heroTagline: "Lafayette parks don't allow large tents, and a bounce house at a park shelter has to stay in the parking lot, measure no more than 15 by 15 feet and come with the rental company's insurance certificate. Bigger setups belong in a backyard.",
@@ -5477,6 +5477,591 @@ export const locations: Location[] = [
     providerCta: {
       heading: "Do You Provide Event Rentals in Lafayette?",
       description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, block parties, backyard weddings and community events in Lafayette.",
+    },
+  },
+  {
+    city: "Castle Pines",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "castle-pines-co",
+    county: "Douglas County",
+    nearbyCities: ["lone-tree-co", "castle-rock-co", "parker-co"],
+    metaDescription: "Plan event rentals in Castle Pines, CO: Elk Ridge Park pavilion booking, the 30-person group permit, Special Event Permit site plans and insurance, portable toilet ratios and block party closure rules.",
+    heroSupportingCopy: "Compare event rental options for Castle Pines, from tents, tables and chairs to inflatables, staging and restrooms for pavilion parties, block parties, backyard celebrations and community events.",
+    heroTagline: "In Castle Pines, the City's own event paperwork asks for a portable toilet service agreement, a trash agreement and a site plan with the size of every tent, so restrooms and tents are part of the permit, not an afterthought.",
+    categoriesIntro: "Explore the rental categories Castle Pines hosts use most for pavilion parties, block parties, backyard celebrations and public events.",
+    localIntro: [
+      "Castle Pines is a Douglas County city along I-25 between Lone Tree and Castle Rock. Its City-run event space is Elk Ridge Park, where three pavilions can be reserved year-round: one large pavilion and two small ones. The pavilion between the playground and the splash pad isn't reservable. Bookings are first come, first served by the date the City receives a completed application, the rental window has to cover your setup and cleanup, and the City's special event application lists the large pavilion at 32 people and each small one at 16.",
+      "Group size matters here. The City's park ordinance requires a facility use agreement or permit for any group of 30 or more using a field, shelter or parking lot in a City park. Park rules ban glass containers, motor vehicles inside the park, open fires and chalk, and they don't allow structures unless the City authorizes them. Structures that need stakes can't go on the artificial turf field, and the special event application says parking or driving on sidewalks and park grass is strictly prohibited, so rental trucks unload from the lot. Amplified sound in a park needs City approval through a facility use agreement or permit.",
+      "A Special Event Permit is required when an event is on public property, including streets and sidewalks, is open to the public, closes any part of a street, doesn't comply with traffic controls, or interferes with normal traffic or activities. The City asks for the application at least 15 business days ahead and no more than a year out, with a site plan showing the size of all structures and tents, parking and traffic plans, access points, any alcohol area, vendors, and sanitation, security and emergency services. The City must be named as additional insured at $500,000 per person and $1 million per occurrence, and the reimbursement and indemnification agreement is signed in front of a notary.",
+      "For events of 100 or more, the application goes further. It asks for the dimensions of every tent, canopy, stage, fence, barricade and bounce house, your electricity needs and sound plans, with no sound allowed after 10 p.m. You'll need a copy of the portable toilet service agreement, with one toilet required per 150 people, and a trash removal agreement with delivery and pickup times. The submittal checklist routes the application to South Metro Fire Rescue, the Douglas County Sheriff for traffic control and the county health department for food vendors.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Castle Pines",
+      intro: "Common Castle Pines setups and the City rules that shape them.",
+      items: [
+        {
+          title: "Elk Ridge Park Pavilion Parties",
+          description: "The pavilions are small, so larger parties often add [tables and chairs](/categories/table-chair-rentals) on the lawn. Book enough hours to cover setup and cleanup, and plan for a group permit at 30 people.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents and Canopies",
+          description: "Structures in the park need City authorization, and staked structures can't go on the artificial turf. For permitted events, list each tent's dimensions on the site plan and ask the provider about weights.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses",
+          description: "The special event application asks for bounce house dimensions along with tents and stages. Confirm with the City before booking one for a park event, and check the provider's insurance.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Restrooms for Larger Events",
+          description: "Permitted events need a portable toilet service agreement, with one toilet per 150 people. Add an accessible unit and handwashing, and show them on the site plan.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Stages and Sound",
+          description: "Describe the PA, speakers and entertainment on the application, and plan for no sound after 10 p.m. A [stage](/categories/stage-rentals) goes on the site plan with its dimensions.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "Closures cover the whole street from intersection to intersection, with signatures from at least 80 percent of adjacent property owners and a request 15 days ahead.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Castle Pines",
+      intro: "Castle Pines details to settle before you book rentals.",
+      items: [
+        "Elk Ridge Park pavilions booked first come, first served, with setup and cleanup inside the rental window",
+        "A group use permit for 30 or more people using a field, shelter or parking lot",
+        "No structures without City approval, and no staked structures on the artificial turf",
+        "No vehicles on park grass, turf or sidewalks, so deliveries unload from the parking lot",
+        "Special Event Permit applications at least 15 business days ahead, with a site plan",
+        "Insurance naming the City at $500,000 per person and $1 million per occurrence",
+        "One portable toilet per 150 people, backed by a service agreement",
+        "No amplified sound after 10 p.m. at permitted events",
+        "Full-street block party closures with 80 percent neighbor signatures",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Castle Pines Special Event Permits page, its Special Event Permit Application, the Elk Ridge Park pavilion reservation policies and Ordinance 11-06 (park regulations). City documents differ on some points: the 2011 ordinance bans alcohol in parks except under a special events liquor license, while the City's 2022 pavilion policy allows adults 21 and over to have beer and wine at Elk Ridge Park during normal hours; park hours also differ between the two. Confirm current rules with the City Clerk before you plan.",
+      closing: "Sorting out tent sizes and restroom placement for the City's site plan? The [event restroom rental guide](/resources/event-restroom-rental-guide) covers counts and accessible units, and the [event insurance guide](/resources/colorado-event-insurance-guide) explains additional insured certificates.",
+    },
+    checklist: {
+      heading: "Castle Pines Event Rental Checklist",
+      intro: "Pull these details together before you contact Castle Pines rental companies:",
+      items: [
+        "Pavilion number, date and hours including setup",
+        "Guest count, and a group permit if 30 or more",
+        "Tent, canopy, stage and bounce house dimensions",
+        "Site plan with parking, access and sanitation",
+        "Certificate of insurance naming the City",
+        "Portable toilet and trash service agreements",
+        "Sound plan that ends by 10 p.m.",
+        "Notarized indemnification agreement",
+        "Block party signatures and route map",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Castle Pines Event Rental FAQ",
+      items: [
+        {
+          question: "How do I reserve a pavilion at Elk Ridge Park?",
+          answer: "Submit the City's application online or at the City offices. Pavilions are reserved year-round, first come, first served by the date the completed application arrives, and the rental window has to include setup and cleanup.",
+        },
+        {
+          question: "When do I need a Special Event Permit in Castle Pines?",
+          answer: "When the event is on public property, open to the public, closes part of a street, doesn't follow traffic controls, or interferes with normal traffic or activities. Apply at least 15 business days ahead with a site plan and insurance naming the City.",
+        },
+        {
+          question: "How many portable toilets does Castle Pines require?",
+          answer: "The City's special event application requires one portable toilet per 150 people and a copy of the service agreement with delivery and removal times.",
+        },
+        {
+          question: "Can I close my street for a block party in Castle Pines?",
+          answer: "Yes, with a request at least 15 days ahead. The closure has to cover the entire street from intersection to intersection, and you need signatures from at least 80 percent of adjacent property owners.",
+        },
+        {
+          question: "Can I have beer or wine at Elk Ridge Park?",
+          answer: "The City's 2022 pavilion policy allows adults 21 and over to have beer and wine during normal hours, but its 2011 park ordinance only allows alcohol under a special events liquor license. Selling alcohol always needs that license. Confirm with the City Clerk before your event.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Castle Pines?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard celebrations and community events in Castle Pines.",
+    },
+  },
+  {
+    city: "Superior",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "superior-co",
+    county: "Boulder County",
+    nearbyCities: ["louisville-co", "broomfield-co", "boulder-co", "lafayette-co"],
+    metaDescription: "Plan event rentals in Superior, CO: pavilion reservations, when tents or sound trigger a Town event permit, Alcohol in Public Places permits, the free Block Party Trailer and street obstruction permits.",
+    heroSupportingCopy: "Compare event rental options for Superior, from tents, tables and chairs to sound, staging and restrooms for pavilion parties, block parties, backyard weddings and community events.",
+    heroTagline: "In Superior, a single tent or a speaker at a park can put a small party into the Town's event permit process, while residents can borrow a trailer of tables, chairs and canopies for a neighborhood block party.",
+    categoriesIntro: "Explore the rental categories Superior hosts use most for pavilion parties, block parties, backyard weddings and community events.",
+    localIntro: [
+      "Superior is a Boulder County town along US 36 between Boulder, Louisville and Broomfield. Select Town parks and pavilions can be reserved online for May through October dates, with reservations opening April 1 each year at SuperiorRec.com; from November through April, pavilions are first come, first served. Town signature events include the 4th of July Celebration, Chili & Beer Fest, the Summer Concert Series and Superior Summer Markets.",
+      "The Town's event permit reaches smaller gatherings than many cities. A permit is required for planned and promoted activities on public property with 100 or more participants and spectators, with tents, structures or sound amplification, with alcohol or food provided, sold or distributed to the public, or using streets, multi-use paths and sidewalks. The application is due 45 days before the event. That means a pavilion party that adds a rented canopy or a PA system needs a conversation with the Events team well ahead of the date.",
+      "Alcohol on Town property outdoors needs an Alcohol in Public Places permit. Under Municipal Code Sec. 10-8-40, it can be issued for Asti Park, Community Park, Purple Park, Founders Park, Grasso Park, the Downtown Superior parks and plaza, and Wildflower Park, and only for weddings, corporate or club picnics and similar social occasions. Alcohol can't be sold or served to the public, the applicant must be 21 or older and carry insurance naming the Town, one applicant can hold no more than four permits in 12 months, and the application includes a diagram showing where alcohol will be served and how the area is separated from the public, such as with ropes or barriers.",
+      "Residents planning a neighborhood party can reserve the Town's Block Party Trailer, which holds eight tables, 30 chairs, folding picnic tables, four folding tents with weights, coolers, trash and recycling containers, and barricades and cones. It's available one weekend at a time from May 16 through October, is dropped off Friday and picked up Monday, and stays at the Superior address it was reserved for, or at a park or pavilion you've already reserved. Block parties using it have to be free, and amplified music isn't permitted. Closing a street takes a Street Obstruction Permit from Public Works at least 14 days ahead, with barricades out no earlier than 9 a.m. and removed before 9 p.m. Food trucks and other mobile vendors selling to the public on Town property need a Mobile Vending permit.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Superior",
+      intro: "Common Superior setups and the Town rules behind them.",
+      items: [
+        {
+          title: "Block Parties",
+          description: "The Town's trailer covers basic tables, chairs and canopies. Rent extra [tables and chairs](/categories/table-chair-rentals) or games if the street is big, and file the Street Obstruction Permit 14 days ahead.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Pavilion Parties",
+          description: "Reserve May to October dates online starting April 1. Bring enough seating for the group, and check with the Town before adding a tent or speakers, since either can trigger an event permit.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents and Canopies",
+          description: "On Town property, tents and structures are one of the event permit triggers, with applications due 45 days out. Ask your provider for the tent's size and weighting plan before you apply.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Backyard Weddings",
+          description: "Private property keeps the Town's park rules out of the picture, so receptions with a tent, [dance floor](/categories/dance-floor-rentals) and catering often happen at home. Check HOA rules and parking first.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Sound and Music",
+          description: "Sound amplification on public property is an event permit trigger, and amplified music isn't allowed at trailer block parties. Plan [sound](/categories/av-lighting-rentals) for private property or a permitted event.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Restrooms",
+          description: "For permitted events and long backyard parties, add portable units or a restroom trailer and plan where trucks can reach them.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Superior",
+      intro: "Superior details to settle before you book rentals.",
+      items: [
+        "Pavilion reservations open April 1 for May through October dates",
+        "An event permit for public property events with 100 or more people, tents, structures or amplified sound",
+        "Event applications due 45 days ahead",
+        "Alcohol in Public Places permits only for listed parks and private social occasions",
+        "A diagram showing where alcohol is served and how the area is separated",
+        "Insurance naming the Town for alcohol permits",
+        "The resident Block Party Trailer: free events only, no amplified music",
+        "Street Obstruction Permits 14 days ahead, barricades between 9 a.m. and 9 p.m.",
+        "Mobile Vending permits for food trucks selling to the public",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the Town of Superior's Events and Volunteers page, Block Party Trailer page, Fall-Winter 2026 Recreation Guide (park and pavilion reservations), Alcohol in Public Places permit application and Municipal Code Sec. 10-8-40, and 2025 fee schedule. Town documents conflict on two points: the events page sets a 100-person event permit trigger and a 45-day deadline, while the fee schedule says gatherings of 150 or more, or with food, alcohol or live or amplified music, need a Special Use Permit with 30 to 90 days; and the events and block party pages give 30 days for alcohol permits, while the application and Code say 45. Confirm with the Town Clerk and Events team.",
+      closing: "Planning a street party? See the [Colorado block party permit guide](/resources/colorado-block-party-permit-guide). For alcohol at a park, the [special event liquor permit guide](/resources/colorado-special-event-liquor-permit-guide) explains the state side.",
+    },
+    checklist: {
+      heading: "Superior Event Rental Checklist",
+      intro: "Pull these details together before you contact Superior rental companies:",
+      items: [
+        "Park, pavilion, street or private address",
+        "Guest count and any public attendance",
+        "Pavilion reservation date",
+        "Tents, structures or sound that trigger a permit",
+        "Event application 45 days out, if needed",
+        "Alcohol permit and service-area diagram",
+        "Block Party Trailer weekend and inventory",
+        "Street Obstruction Permit 14 days out",
+        "Mobile Vending permit for any food truck",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Superior Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit to put up a tent at a Superior park?",
+          answer: "In most cases, yes. The Town's event permit covers planned and promoted activities on public property that use tents, structures or sound amplification, even under 100 people, and the application is due 45 days ahead. Ask the Events team about your setup.",
+        },
+        {
+          question: "When can I reserve a pavilion in Superior?",
+          answer: "Select parks and pavilions can be reserved online for May through October dates starting April 1 each year. From November through April, pavilions are first come, first served.",
+        },
+        {
+          question: "What's in Superior's Block Party Trailer?",
+          answer: "Eight tables, 30 chairs, folding and kids' picnic tables, four folding tents with weights, coolers, trash and recycling containers, a first aid kit, games, and barricades and cones for permitted street closures. Residents 21 and older can reserve it for one weekend.",
+        },
+        {
+          question: "Can I serve alcohol at a Superior park?",
+          answer: "Only with an Alcohol in Public Places permit, which covers listed parks and private social occasions like weddings and picnics. Alcohol can't be sold, and the application needs a diagram of the service area and insurance naming the Town.",
+        },
+        {
+          question: "How far ahead do I need a street closure permit?",
+          answer: "Submit the Street Obstruction Permit Application to Public Works at least 14 days before the party. The Town supplies barricades and cones, which go out no earlier than 9 a.m. and come down before 9 p.m.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Superior?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard weddings and community events in Superior.",
+    },
+  },
+  {
+    city: "Edgewater",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "edgewater-co",
+    county: "Jefferson County",
+    nearbyCities: ["lakewood-co", "wheat-ridge-co", "denver-co"],
+    metaDescription: "Plan event rentals in Edgewater, CO: Citizens' Park pavilion and whole-park rentals, Civic Center rooms with tables included, the 60-business-day special event permit, alcohol-free parks and West Metro Fire tent permits.",
+    heroSupportingCopy: "Compare event rental options for Edgewater, from tents, tables and chairs to sound, lighting and restrooms for pavilion parties, block parties, backyard gatherings and community events.",
+    heroTagline: "Edgewater is small enough that one park pavilion and a handful of Civic Center rooms carry most private events, and any event that uses or affects City property runs on a long permit clock.",
+    categoriesIntro: "Explore the rental categories Edgewater hosts use most for pavilion parties, indoor gatherings, block parties and community events.",
+    localIntro: [
+      "Edgewater is a compact Jefferson County city on the west side of Sloan's Lake, bordered by Denver, Lakewood and Wheat Ridge. Sloan's Lake Park itself is a Denver park, so events on its shore follow Denver Parks and Recreation rules rather than Edgewater's. Edgewater's own park rentals run seasonally from April through November, are booked through PlayEdgewater.com, and every park rental space requires a refundable damage deposit.",
+      "Citizens' Park, a six-acre park between West 22nd and 24th Avenues, is the main rental site. It rents in full-day increments between 10 a.m. and 9 p.m., and the playground is never included. The pavilion has a listed capacity of 175 but comes with only six picnic tables and two charcoal grills, plus one 120-volt outlet, one 250-volt outlet and restroom access, so a big pavilion party usually adds rented tables and chairs. A whole-park rental adds the softball field, horseshoe pits, open space in front of the pavilion and the field restrooms. Memorial Park, a pocket park at 25th Avenue and Chase Street, rents its gazebo, two picnic tables and garden area for small gatherings, and Walker-Branch Park also has a picnic pavilion.",
+      "Indoors, the Edgewater Civic Center rents rooms with chairs and tables for setup included, along with an AV cart and projector. The Johnson Activity Room holds up to 50 depending on the activity, and the gymnasium can take a floor covering, at extra cost, for non-athletic events with tables, chairs and street shoes. That means an indoor event here may need decor, linens or lighting more than furniture.",
+      "Events that use or affect City property, including parks, streets and rights-of-way, need a special event permit from the City Clerk; gatherings held entirely on private property don't. Under Municipal Code Sec. 6-10-30, applications are due at least 60 business days and no more than a year before the event, block parties can ask for an exemption from that timeline, and events lasting more than one day must apply between January 1 and February 28 for the following 12 months. Once an application is approved, the Clerk sends an Event Permit Packet that has to come back complete in one submission. The City's parks page lists no glass, drugs or alcohol in parks. Tents over 400 square feet need an operational permit from West Metro Fire Rescue, requested at least 10 business days ahead.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Edgewater",
+      intro: "Common Edgewater setups and the City details that come with them.",
+      items: [
+        {
+          title: "Citizens' Park Pavilion Parties",
+          description: "The pavilion is listed for 175 people but has six picnic tables, so larger groups bring [tables and chairs](/categories/table-chair-rentals). Rentals run a full day, 10 a.m. to 9 p.m.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Music and Lighting",
+          description: "The pavilion has one 120-volt and one 250-volt outlet. Tell your [sound and lighting](/categories/av-lighting-rentals) provider what's there before they spec equipment, and ask if a generator is needed.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Tents Over 400 Square Feet",
+          description: "West Metro Fire Rescue requires an operational permit for tents over 400 square feet, requested 10 business days ahead. Anything on City property also needs the special event permit.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Indoor Civic Center Events",
+          description: "Civic Center rooms include tables, chairs and an AV cart, so rentals lean toward linens, decor and [photo booths](/categories/photo-booth-rentals).",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Whole-Park Rentals",
+          description: "Renting all of Citizens' Park adds the softball field and field restrooms. For long days or big groups, add portable units or a restroom trailer near the open space.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Small Gatherings at Memorial Park",
+          description: "The gazebo, two picnic tables and garden suit a small group, such as an intimate ceremony. Bring folding chairs and a small table, and plan it alcohol-free, since City parks don't allow alcohol.",
+          categorySlug: "wedding-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Edgewater",
+      intro: "Edgewater details to settle before you book rentals.",
+      items: [
+        "Park rentals from April through November, in full-day 10 a.m. to 9 p.m. increments",
+        "A refundable damage deposit on every park and facility rental",
+        "Six picnic tables at a pavilion listed for 175 people",
+        "Two pavilion outlets: one 120-volt, one 250-volt",
+        "Civic Center rooms with tables, chairs and AV included",
+        "Special event permits at least 60 business days ahead for events on or affecting City property",
+        "January 1 to February 28 applications for events lasting more than one day",
+        "No glass, drugs or alcohol in City parks",
+        "West Metro Fire Rescue permits for tents over 400 square feet",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Edgewater's Facility Rentals page, Hosting a Special Event page, park pages, Municipal Code Sec. 6-10-30 as amended by Ordinance 2023-03, and West Metro Fire Rescue's operational permits page and district information. The City says a new 2027 special event application is coming soon, so confirm current timelines with the City Clerk.",
+      closing: "Booking the pavilion? The [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide) covers what to ask before you book, and the [generator and power guide](/resources/colorado-event-generator-power-guide) explains what limited outlets mean for sound and catering.",
+    },
+    checklist: {
+      heading: "Edgewater Event Rental Checklist",
+      intro: "Pull these details together before you contact Edgewater rental companies:",
+      items: [
+        "Park, Civic Center room or private address",
+        "Guest count and table count beyond what's provided",
+        "Power needs compared with the pavilion outlets",
+        "Full-day rental date between April and November",
+        "Special event permit timeline, if on City property",
+        "Tent size and any West Metro Fire permit",
+        "Restroom plan for whole-park rentals",
+        "Alcohol-free plan for park events",
+        "Block party exemption request, if needed",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Edgewater Event Rental FAQ",
+      items: [
+        {
+          question: "What comes with the Citizens' Park pavilion rental?",
+          answer: "Six picnic tables, two charcoal grills, one 120-volt outlet, one 250-volt outlet and restroom access. The listed capacity is 175, and rentals run in full days from 10 a.m. to 9 p.m.",
+        },
+        {
+          question: "Do I need a special event permit for a party in Edgewater?",
+          answer: "Not for a gathering held entirely on private property. Events that use or affect City property, including parks, streets and rights-of-way, need a permit, applied for at least 60 business days ahead under the Municipal Code.",
+        },
+        {
+          question: "Can I serve alcohol at an Edgewater park?",
+          answer: "The City's parks page lists no glass, drugs or alcohol in parks. Plan an alcohol-free event or choose a private venue.",
+        },
+        {
+          question: "Do Edgewater Civic Center rentals include tables and chairs?",
+          answer: "Yes. The City says chairs and tables for setup are included in Civic Center room rentals, along with an AV cart and projector.",
+        },
+        {
+          question: "Does a tent need a fire permit in Edgewater?",
+          answer: "West Metro Fire Rescue, which serves Edgewater, requires an operational permit for tents over 400 square feet, requested at least 10 business days before the event.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Edgewater?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, indoor gatherings, block parties and community events in Edgewater.",
+    },
+  },
+  {
+    city: "Greenwood Village",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "greenwood-village-co",
+    county: "Arapahoe County",
+    nearbyCities: ["centennial-co", "englewood-co", "cherry-hills-village-co", "denver-co", "lone-tree-co"],
+    metaDescription: "Plan event rentals in Greenwood Village, CO: pavilion permits for groups over 30, resident booking windows and time blocks, staff consent for tents and inflatables, resident-only special events and South Metro Fire approvals.",
+    heroSupportingCopy: "Compare event rental options for Greenwood Village, from tents, tables and chairs to inflatables, staging and restrooms for pavilion parties, resident special events, corporate gatherings and backyard celebrations.",
+    heroTagline: "Greenwood Village books its pavilions in fixed time blocks, gives residents a head start, and reserves special events with tents, vendors or amplified sound in its parks for residents only.",
+    categoriesIntro: "Explore the rental categories Greenwood Village hosts use most for pavilion parties, resident special events, corporate gatherings and backyard celebrations.",
+    localIntro: [
+      "Greenwood Village is an Arapahoe County city on the south side of Denver, home to much of the Denver Tech Center along I-25. Its park pavilions and fields can be reserved, and a permit is required for groups larger than 30; the City recommends one for smaller groups too, so the shelter is held for your date. Permitting opens at 8:30 a.m. on set dates: residents can book May 1 through August 14 dates starting in early February and August 15 through April 30 dates starting May 1, while non-residents start April 1 and July 1. Events of more than 150 people have to call the City for information.",
+      "Time blocks are fixed. Pavilions and fields rent in four-hour blocks from 10 a.m. to 2 p.m. or 4 p.m. to 8 p.m. (or dusk, if earlier), or for a full day from 10 a.m. to 8 p.m. or dusk. The 2 to 4 p.m. gap is held for cleaning, and setup and teardown have to fit inside your reserved slot, so tell your rental company exactly when the window opens and closes. Only single-date permits are issued on Sundays, with no consecutive Sunday permits except at Curtis Park.",
+      "The park rules shape what you can bring. Tents, booths, awnings, canopies and inflatable amusements aren't allowed without the consent of Greenwood Village staff. Glass is banned except under a special occasion permit, and spirituous liquor needs one as well; the rules exempt malt beverages and wine from that ban. Fires are allowed only in enclosed grills with staff consent, motor vehicles stay on roads and parking areas, and swimming, wading and boating in park waters aren't allowed.",
+      "Special events are a separate track. Only residents may reserve fields and shelters for special events that involve any mix of temporary structures, vendors, amplified sound, entertainment, street closures or trail use. Public and special event permit applications are due at least 60 days ahead, and the City aims to notify applicants at least 30 days before the event. Applications need a site plan showing stages, vendor booths, portable restrooms, emergency exits and first aid stations, plus sanitation plans, liability insurance naming the City, accessibility for people with disabilities and compliance with the noise ordinance; fireworks, open flames and pyrotechnics need City and South Metro Fire Rescue approval. On private property, the City's land development code requires a special event permit in a list of zone districts that includes its business and office districts, a tent permit for special events that use tents, and limits special events to three consecutive days, plus a day each to put up and take down a tent.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Greenwood Village",
+      intro: "Common Greenwood Village setups and the City rules behind them.",
+      items: [
+        {
+          title: "Pavilion Parties",
+          description: "Get a permit for more than 30 guests and pick a four-hour block or a full day. Have [tables and chairs](/categories/table-chair-rentals) delivered and cleared within your reserved time.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Tents and Canopies",
+          description: "Any tent, canopy or awning in a park needs staff consent. For special events, put every tent on the site plan, and on private property ask about the City's tent permit.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Inflatables",
+          description: "Bounce houses and other inflatable amusements need staff consent before they come to a park. Ask your provider about weights, power and insurance before you request it.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Resident Special Events",
+          description: "Residents can reserve parks for events with structures, vendors, amplified sound or entertainment. Apply 60 days out, and plan the [stage](/categories/stage-rentals), sound and vendor rows on the site plan.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Corporate and Office Events",
+          description: "In the zone districts the code lists, including business and office districts, special events need a special event permit, and tents need a tent permit. Budget time for both before booking a tented company party.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Restrooms",
+          description: "Special event site plans have to show portable restrooms and accessibility. Add an accessible unit and handwashing, and place them on a firm route.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Greenwood Village",
+      intro: "Greenwood Village details to settle before you book rentals.",
+      items: [
+        "A pavilion or field permit for groups larger than 30",
+        "Booking windows that open earlier for residents",
+        "Four-hour blocks or a full day, with setup and teardown inside the slot",
+        "Staff consent for tents, canopies, booths and inflatables in parks",
+        "Glass and spirituous liquor only under a special occasion permit",
+        "Resident-only park special events with structures, vendors or amplified sound",
+        "Special event applications at least 60 days ahead, with a site plan and insurance",
+        "South Metro Fire Rescue approval for open flames, fireworks and pyrotechnics",
+        "Tent permits and a three-day limit for special events on private property",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Greenwood Village's Reservations for Pavilions & Fields page, Park Rules and Regulations page, Public & Special Event Permits page and Municipal Code Ch. 16, Art. 24 (temporary uses and structures). The two park pages give different cancellation terms, so confirm the current refund policy with Parks, Trails and Recreation before you book.",
+      closing: "Drawing a site plan for a special event? The [Colorado event site plan guide](/resources/colorado-event-site-plan-guide) walks through what cities ask to see, and the [accessible event rental guide](/resources/accessible-event-rental-guide) covers routes, ramps and seating.",
+    },
+    checklist: {
+      heading: "Greenwood Village Event Rental Checklist",
+      intro: "Pull these details together before you contact Greenwood Village rental companies:",
+      items: [
+        "Park, office property or private address",
+        "Guest count, and a permit if more than 30",
+        "Resident or non-resident booking date",
+        "Four-hour block or full-day window",
+        "Staff consent for tents, canopies or inflatables",
+        "Special event application 60 days out, if needed",
+        "Site plan with stages, booths, restrooms and exits",
+        "Certificate of insurance naming the City",
+        "Tent permit for private-property special events",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Greenwood Village Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a permit for a party at a Greenwood Village pavilion?",
+          answer: "Yes, for groups larger than 30, and the City recommends one for smaller groups so the pavilion is held for your date. Rentals run in four-hour blocks or a full day starting at 10 a.m.",
+        },
+        {
+          question: "Can I set up a tent or bounce house in a Greenwood Village park?",
+          answer: "Only with the consent of Greenwood Village staff. Tents, booths, awnings, canopies and inflatable amusements aren't allowed without it.",
+        },
+        {
+          question: "Can non-residents hold special events in Greenwood Village parks?",
+          answer: "No. Only residents may reserve fields and shelters for special events involving temporary structures, vendors, amplified sound, entertainment, street closures or trail use.",
+        },
+        {
+          question: "How far ahead should I apply for a Greenwood Village special event permit?",
+          answer: "At least 60 days before the event. The City reviews the application with departments such as police, fire and zoning, and aims to notify you at least 30 days before the date.",
+        },
+        {
+          question: "Can I drink beer at a Greenwood Village park?",
+          answer: "The park rules ban glass and spirituous liquor unless you have a special occasion permit, and they exempt malt beverages and wine from that ban. Bring cans, and confirm the rules for your park when you book.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Greenwood Village?",
+      description: "List your business on Event Rental Finder and get discovered by families, businesses and organizers planning pavilion parties, special events, corporate gatherings and backyard celebrations in Greenwood Village.",
+    },
+  },
+  {
+    city: "Cherry Hills Village",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "cherry-hills-village-co",
+    county: "Arapahoe County",
+    nearbyCities: ["englewood-co", "greenwood-village-co", "denver-co"],
+    metaDescription: "Plan event rentals in Cherry Hills Village, CO: backyard tents and dance floors, John Meade Park Pavilion rules, no alcohol in City parks, insurance for bounce castles and groups over 50, and private-property event forms.",
+    heroSupportingCopy: "Compare event rental options for Cherry Hills Village, from tents, dance floors, tables and chairs to lighting and restrooms for backyard weddings, garden parties, pavilion picnics and neighborhood events.",
+    heroTagline: "Cherry Hills Village parks are alcohol-free and the John Meade Park Pavilion seats about 32, so tented receptions with dance floors belong on private property. On City property, a bounce castle or a group over 50 needs insurance.",
+    categoriesIntro: "Explore the rental categories Cherry Hills Village hosts use most for backyard weddings, garden parties, pavilion picnics and neighborhood events.",
+    localIntro: [
+      "Cherry Hills Village is a residential Arapahoe County city between Englewood, Greenwood Village and Denver. Its public spaces are small and park rules are strict, so tented receptions, garden parties and graduation parties usually happen on private lots. The City's property usage policy lists what can be reserved: City Hall's Three Pond Conference Room and Council Chambers; Woodie Hollow Park, Three Pond Park, Blackmer Common, John Meade Park and Alan Hutto Memorial Commons; areas of Quincy Farm under its own regulations; and public streets, trails and rights-of-way for block parties, parades, marches and walks or races.",
+      "Reservations are first come, first served. Applications go in at least 10 business days and no more than six months ahead, the City decides within 10 business days of a complete application, and you have to keep a printed copy of the approved permit at the event. Every event pays a non-refundable application fee. A certificate of liability insurance naming the City as additional insured, at $1 million per occurrence and $2 million aggregate, is required for events over 50 people, events with rented or additional play equipment such as bounce castles, fundraisers, and events in Council Chambers or at Quincy Farm. Street closures need a map, and the policy tells applicants to contact South Metro Fire Rescue directly about its rules.",
+      "Alcohol isn't permitted in City parks for non-City events under Municipal Code Sec. 11-3-120. The John Meade Park Pavilion, beside City Hall, seats about 32 people at four picnic tables, with six Adirondack chairs available seasonally. Park hours are 6 a.m. to 11 p.m., event hours are limited to 8 a.m. to 9 p.m., and you get a half hour before and after for setup and cleanup. A rental holds the pavilion seating but not the whole park, and the park and pavilion restrooms stay open to the public. Parking is shared with City Hall and no vehicles are allowed in the park, so rentals are carried in. Temporary lighting is allowed during event hours if it meets the City's exterior lighting standards, and amplified sound has to stay within the decibel limits in the Municipal Code.",
+      "Backyard events don't need a City reservation, but some still need paperwork. The City asks for its Events on Private Property form when a private event includes an authorized fireworks display, closes a private road or requests extra-duty police, and the Police Clerk handles that form. For tented receptions, South Metro Fire Rescue, which serves the city, requires a permit for tents over 400 square feet, so ask your tent company who files it.",
+    ],
+    useCases: {
+      heading: "Popular Event Rental Needs in Cherry Hills Village",
+      intro: "Common Cherry Hills Village setups, from estate receptions to pavilion picnics.",
+      items: [
+        {
+          title: "Backyard Weddings",
+          description: "With alcohol-free parks and a small pavilion, receptions happen at home. Plan the tent, catering area and [restrooms](/categories/restroom-trailer-rentals) around driveway access, and file the private-property form if there will be fireworks or extra-duty police.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents Over 400 Square Feet",
+          description: "South Metro Fire Rescue requires a permit for tents over 400 square feet. Ask the tent company to handle it and to confirm anchoring on irrigated lawns.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Dance Floors",
+          description: "A [dance floor](/categories/dance-floor-rentals) under a pole or frame tent turns a lawn into a reception space. Give the provider the tent size and table count so the layout fits.",
+          categorySlug: "dance-floor-rentals",
+        },
+        {
+          title: "Bounce Castles on City Property",
+          description: "Rented play equipment such as bounce castles requires a certificate of insurance naming the City at $1 million per occurrence and $2 million aggregate.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Pavilion Picnics",
+          description: "John Meade Park Pavilion seats about 32 at four picnic tables. Bring extra [tables and chairs](/categories/table-chair-rentals) by hand from the shared lot, and keep the event alcohol-free.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Evening Lighting",
+          description: "At the pavilion, temporary lighting is allowed during event hours only and must meet the City's exterior lighting standards. Backyard string lights and uplighting are a provider conversation.",
+          categorySlug: "av-lighting-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What to Plan for in Cherry Hills Village",
+      intro: "Cherry Hills Village details to settle before you book rentals.",
+      items: [
+        "Applications for City property at least 10 business days and no more than six months ahead",
+        "A printed copy of the approved permit kept at the event",
+        "Insurance naming the City for groups over 50, bounce castles and fundraisers",
+        "No alcohol in City parks for non-City events",
+        "John Meade Park Pavilion seating for about 32, with 8 a.m. to 9 p.m. event hours",
+        "No vehicles in the park; parking shared with City Hall",
+        "Temporary lighting during event hours only, within exterior lighting standards",
+        "An Events on Private Property form for fireworks, private road closures or extra-duty police",
+        "South Metro Fire Rescue permits for tents over 400 square feet",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Cherry Hills Village's City Property Usage Policy (May 2022), and John Meade Park Pavilion Rental Agreement, plus South Metro Fire Rescue's permit information. Confirm current rules with the City before you book, and check HOA covenants for backyard events.",
+      closing: "Planning a tented reception at home? The [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers timing and questions for providers, and the [event insurance guide](/resources/colorado-event-insurance-guide) explains the certificate the City asks for.",
+    },
+    checklist: {
+      heading: "Cherry Hills Village Event Rental Checklist",
+      intro: "Pull these details together before you contact Cherry Hills Village rental companies:",
+      items: [
+        "Private address or City property",
+        "Guest count, and insurance if over 50 on City property",
+        "Tent size and South Metro Fire permit",
+        "Driveway and lawn access for delivery trucks",
+        "Dance floor and table layout",
+        "Restroom plan for the guest count",
+        "Lighting plan and end time",
+        "Private-property form for fireworks or police",
+        "Alcohol-free plan for park events",
+        "Weather backup plan",
+      ],
+    },
+    faqs: {
+      heading: "Cherry Hills Village Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a City permit for a backyard party in Cherry Hills Village?",
+          answer: "Not for an ordinary private party. The City asks for its Events on Private Property form when an event includes an authorized fireworks display, closes a private road or requests extra-duty police. A large tent may also need a South Metro Fire Rescue permit.",
+        },
+        {
+          question: "How many people fit at the John Meade Park Pavilion?",
+          answer: "The rental agreement lists seating for about 32 people at four picnic tables, plus six Adirondack chairs seasonally. The rest of the park and the restrooms stay open to the public.",
+        },
+        {
+          question: "Can I serve alcohol at a Cherry Hills Village park?",
+          answer: "No. Alcohol isn't permitted in City parks for non-City events under Municipal Code Sec. 11-3-120.",
+        },
+        {
+          question: "When does Cherry Hills Village require event insurance?",
+          answer: "For events on City property with more than 50 people, rented or additional play equipment like bounce castles, fundraisers, and events in Council Chambers or at Quincy Farm. The City must be named as additional insured at $1 million per occurrence and $2 million aggregate.",
+        },
+        {
+          question: "How far ahead can I reserve City property?",
+          answer: "Apply at least 10 business days and no more than six months before the event. Council Chambers can be booked up to a year ahead.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Cherry Hills Village?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning backyard weddings, garden parties, pavilion picnics and neighborhood events in Cherry Hills Village.",
     },
   },
 ];

@@ -148,4 +148,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/lafayette-co-event-rentals.webp",
     alt: "Backyard pole tent with a dance floor, round tables and string lights at golden hour in Lafayette, Colorado",
   },
+  "castle-pines-co": {
+    src: "/images/locations/castle-pines-co-event-rentals.webp",
+    alt: "Sandbag-weighted frame tent with round tables beside a park pavilion below pine-dotted hills in Castle Pines, Colorado",
+  },
+  "superior-co": {
+    src: "/images/locations/superior-co-event-rentals.webp",
+    alt: "Pop-up canopy over rented tables and chairs on a residential street closed with barricades in Superior, Colorado",
+  },
+  "edgewater-co": {
+    src: "/images/locations/edgewater-co-event-rentals.webp",
+    alt: "Sandbag-weighted canopy over banquet tables beside a picnic pavilion under cottonwoods in Edgewater, Colorado",
+  },
+  "greenwood-village-co": {
+    src: "/images/locations/greenwood-village-co-event-rentals.webp",
+    alt: "Weighted frame tent with round tables and a small stage near a park pavilion and pond in Greenwood Village, Colorado",
+  },
+  "cherry-hills-village-co": {
+    src: "/images/locations/cherry-hills-village-co-event-rentals.webp",
+    alt: "Pole tent with string lights, round tables and a dance floor on a backyard lawn in Cherry Hills Village, Colorado",
+  },
 };

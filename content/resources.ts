@@ -2971,4 +2971,388 @@ export const resources: ResourceArticle[] = [
       secondaryHref: "/categories/tent-rentals",
     },
   },
+  {
+    title: "How to Make an Event Site Plan for a Colorado Permit",
+    slug: "colorado-event-site-plan-guide",
+    excerpt: "What Colorado cities and fire districts want to see on an event site plan, which rental items belong on it, and how to get the measurements from your rental company.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-11-11",
+    heroImage: {
+      src: "/images/resources/colorado-event-site-plan-guide.webp",
+      alt: "Event layout on a Colorado park lawn with a frame tent, portable restrooms, handwashing, bins and a fenced generator",
+    },
+    metaTitle: "Colorado Event Site Plan Guide | Event Rental Finder",
+    metaDescription: "How to draw an event site plan for a Colorado city or fire permit: tents, restrooms, generators, stages, exits and emergency lanes, with real examples from Front Range cities.",
+    h1: "Event Site Plans in Colorado: What to Show and How to Draw One",
+    topicCategorySlug: "tent-rentals",
+    intro: [
+      "Most Colorado event permits ask for a site plan: a drawing of where everything goes. Cities use it to check access, safety and neighbors, and fire districts use it to check tents, exits and anything that burns fuel. Your rental order is most of what goes on it.",
+      "This guide collects what Front Range cities and fire districts ask to see, so you can gather the right measurements from your rental companies before the deadline. Requirements differ by city, so always work from the application for your location.",
+    ],
+    sections: [
+      {
+        id: "what-it-is",
+        heading: "What a Site Plan Is For",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A site plan shows the event footprint from above: the property lines or park boundary, nearby buildings and streets, and every temporary item you're bringing in. A fire department may also ask for a floor plan of each tent showing the seating, tables and exits inside.",
+          },
+          {
+            type: "paragraph",
+            text: "Some cities ask for one at the application stage, and others set separate deadlines for each piece. [Manitou Springs](/locations/manitou-springs-co), for example, wants the final site plan with tent sizes 60 days out, tent details 30 days out, and insurance and the final delivery schedule 14 days out.",
+          },
+        ],
+      },
+      {
+        id: "what-to-show",
+        heading: "What Cities Ask You to Show",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These are real requirements from city and fire district applications:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Westminster](/locations/westminster-co): every tent and canopy regardless of size, restrooms and whether they're accessible, trash and recycling, and parking for at least a third of attendees, plus a written weather plan",
+              "[Windsor](/locations/windsor-co): every tent and canopy, portable restroom, generator and PA system, the direction of each speaker, and a 20-foot emergency access lane",
+              "[Littleton](/locations/littleton-co): canopies and tents, cooking areas, port-a-let locations, entries and exits, trash and vendors",
+              "[Woodland Park](/locations/woodland-park-co): structures with dimensions, parking including accessible stalls, portable and accessible toilets, handwashing stations and trash containers",
+              "[Castle Pines](/locations/castle-pines-co): the size of all structures and tents, parking, traffic and pedestrian plans, access points, the alcohol area, vendors, and sanitation, security and emergency services",
+              "[Greenwood Village](/locations/greenwood-village-co): stages, vendor booths, portable restrooms, emergency exits and first aid stations",
+              "[Thornton](/locations/thornton-co): a scaled plan showing tents, fencing, barricades, distances to property lines and streets, entrances and emergency access",
+            ],
+          },
+        ],
+      },
+      {
+        id: "fire-plans",
+        heading: "What Fire Departments Add",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Tent permits usually need more detail than the city's site plan:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Denver Fire",
+                value: "For tents of 200 square feet or larger: a site plan showing distances to buildings, streets and parking, a floor plan of seating and exits, and flame-resistance certification",
+              },
+              {
+                label: "Brighton Fire",
+                value: "A dimensioned site plan, a layout of tables, dance floors, platforms and cooking appliances with the expected headcount, and exit details for tents with more than two sides",
+              },
+              {
+                label: "Lafayette Fire",
+                value: "A tent diagram, a staking or ballast plan, and flame-resistance certification for community events",
+              },
+              {
+                label: "Louisville Fire",
+                value: "A site plan and a floor plan of every tent or canopy, with heating, electrical, egress and exit lighting details",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "In several districts the tent company files the fire permit, so ask who's responsible when you book. The [Colorado outdoor event tent planning guide](/resources/colorado-outdoor-event-tent-planning) covers permit thresholds and anchoring.",
+          },
+        ],
+      },
+      {
+        id: "from-providers",
+        heading: "Measurements to Get From Your Rental Companies",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "Tent and canopy dimensions, including guy lines and stake or ballast footprint",
+              "Stage and dance floor sizes, and any ramp or stair locations",
+              "Restroom trailer length and where its truck needs to park, or the size of each portable unit and handwashing station",
+              "Generator location, fencing and cable routes; see the [generator and power guide](/resources/colorado-event-generator-power-guide)",
+              "Speaker positions and which way they face, if the city asks",
+              "Inflatable footprint and the clear space around it",
+              "Delivery and pickup times, and where trucks will unload",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Ask for these in writing. A city reviewer will compare the drawing with what shows up on the day.",
+          },
+        ],
+      },
+      {
+        id: "how-to-draw",
+        heading: "How to Draw It",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Start with an aerial image or a park map from the city and mark north",
+              "Outline the area you've reserved or the property you're using",
+              "Draw tents and stages to scale from the provider's dimensions",
+              "Add restrooms, handwashing, trash and recycling, and generators",
+              "Mark entries, exits, emergency access lanes and any fire lane the city names",
+              "Show parking, accessible parking and the accessible route to restrooms and seating",
+              "Label alcohol service areas and fencing, if any",
+              "Note distances the application asks for, such as to buildings, streets or property lines",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Keep it legible on letter-size paper; Superior's alcohol permit, for instance, asks for its diagram on 8 1/2 by 11 inch paper. A clean hand drawing over a printed map is usually fine unless the application asks for a scaled plan.",
+          },
+        ],
+      },
+      {
+        id: "checklist",
+        heading: "Before You Submit",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Read the application for its exact list of items to show",
+              "Confirm tent sizes and anchoring with the rental company",
+              "Check that restroom counts and accessible units match the guest count",
+              "Leave the emergency lane clear of tents, trucks and cables",
+              "Match the site plan to any separate fire permit drawings",
+              "Keep a copy at the event",
+            ],
+          },
+          {
+            type: "callout",
+            text: "This guide summarizes published city and fire district requirements. Your local application is the final word on what the site plan must show.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-outdoor-event-tent-planning",
+      "event-restroom-rental-guide",
+      "accessible-event-rental-guide",
+    ],
+    relatedCategorySlugs: ["tent-rentals", "restroom-trailer-rentals", "stage-rentals"],
+    cta: {
+      heading: "Ready to Book Rentals?",
+      description: "Browse tent and restroom rental options and ask providers for the dimensions your site plan needs.",
+      primaryLabel: "Find Tent Rentals",
+      primaryHref: "/categories/tent-rentals",
+      secondaryLabel: "Find Restroom Rentals",
+      secondaryHref: "/categories/restroom-trailer-rentals",
+    },
+  },
+  {
+    title: "Accessible Event Rentals: Routes, Ramps, Flooring and Seating",
+    slug: "accessible-event-rental-guide",
+    excerpt: "How to plan rented tents, flooring, stages and seating so guests who use wheelchairs, walkers or canes can get in, around and up, using the 2010 ADA Standards as the yardstick.",
+    category: "Accessibility",
+    stateCode: "CO",
+    publishedAt: "2026-11-11",
+    heroImage: {
+      src: "/images/resources/accessible-event-rental-guide.webp",
+      alt: "Frame tent with a level floor and open table places, a smooth walkway across the lawn and a stage ramp with handrails",
+    },
+    metaTitle: "Accessible Event Rental Guide | Event Rental Finder",
+    metaDescription: "Plan accessible event rentals: firm walkways and tent flooring, ramp slopes and handrails, stage access, wheelchair seating counts and questions for rental companies, based on the 2010 ADA Standards.",
+    h1: "Accessible Event Rentals: Routes, Ramps, Flooring and Seating",
+    topicCategorySlug: "tent-rentals",
+    intro: [
+      "Grass, gravel and cables are where outdoor events usually get hard for guests who use wheelchairs, walkers or canes. Most of the fixes are rental choices: flooring, walkways, ramps and how you set the tables.",
+      "This guide uses the 2010 ADA Standards for Accessible Design as a practical yardstick. Which rules legally apply depends on who's hosting and where, so it isn't legal advice; for public events, ask the city what it expects.",
+    ],
+    sections: [
+      {
+        id: "why-it-matters",
+        heading: "When Cities Ask About Accessibility",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Accessibility shows up on Colorado event permits. [Greenwood Village](/locations/greenwood-village-co)'s special event permit requires organizers to make the event accessible to people with disabilities. [Woodland Park](/locations/woodland-park-co)'s site plan asks for accessible parking stalls and accessible toilets, and [Westminster](/locations/westminster-co)'s asks whether restrooms are accessible. For a private party the same standards are still a useful way to make sure everyone can get to the food, the seats and the restroom.",
+          },
+        ],
+      },
+      {
+        id: "routes",
+        heading: "Walkways and Ground Surfaces",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The 2010 ADA Standards describe an accessible route in measurable terms:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Surface",
+                value: "Stable, firm and slip resistant. Soft grass, loose gravel and mulch usually aren't",
+              },
+              {
+                label: "Width",
+                value: "At least 36 inches clear, with 60-by-60-inch passing spaces at least every 200 feet where the route is narrower than 60 inches",
+              },
+              {
+                label: "Slope",
+                value: "Running slope no steeper than 1:20 and cross slope no steeper than 1:48; anything steeper than 1:20 is treated as a ramp",
+              },
+              {
+                label: "Bumps and edges",
+                value: "Changes in level up to 1/4 inch can be vertical, 1/4 to 1/2 inch must be beveled, and anything over 1/2 inch needs a ramp",
+              },
+              {
+                label: "Gaps",
+                value: "Openings no wider than 1/2 inch",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "On a lawn, that points to rented ground mats or a walkway from parking and the entrance to the tent, the restrooms and the food. Watch the edges: a tent floor or a cable cover that rises more than 1/2 inch is a change in level, so ask the provider about beveled edges or a short ramp.",
+          },
+        ],
+      },
+      {
+        id: "tent-flooring",
+        heading: "Tent Floors and Layouts",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "Ask whether the tent floor sits level on your site, and how the provider handles the edge where it meets the walkway",
+              "Keep the main route through the tent at least 36 inches clear, measured past chair backs once guests are seated, and wider where people will pass each other",
+              "Under the Standards, at least 5 percent of seating and standing spaces at dining surfaces should be accessible; the [tables and chairs guide](/resources/how-many-tables-and-chairs-do-i-need) covers table heights and placement",
+              "Leave open places at tables by removing a chair, spread through the room instead of grouped at the edge",
+              "Keep buffet tables and bars reachable from the accessible route",
+            ],
+          },
+        ],
+      },
+      {
+        id: "ramps",
+        heading: "Ramps, Stages and Dance Floors",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "If a stage, dance floor or platform sits more than 1/2 inch above the ground, the Standards treat getting onto it as a ramp question:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Slope",
+                value: "No steeper than 1:12, which means 12 inches of ramp for every inch of rise",
+              },
+              {
+                label: "Rise",
+                value: "No more than 30 inches per ramp run",
+              },
+              {
+                label: "Landings",
+                value: "At the top and bottom of each run, at least 60 inches long",
+              },
+              {
+                label: "Handrails",
+                value: "On ramp runs that rise more than 6 inches, with at least 36 inches clear between them, plus edge protection",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "For a 24-inch stage, a 1:12 ramp runs about 24 feet before landings, so it takes real space on the site plan. Where a path connects the audience to a performance area, the Standards call for an accessible route between them, which matters for award presentations, toasts and speakers. Ask the [stage rental](/categories/stage-rentals) company whether its ramps meet these numbers and how much room they need.",
+          },
+        ],
+      },
+      {
+        id: "seating-counts",
+        heading: "Wheelchair Spaces in Audience Seating",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "For rows of chairs facing a stage, the Standards set a minimum number of wheelchair spaces by seat count:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "4 to 25 seats",
+                value: "1 wheelchair space",
+              },
+              {
+                label: "26 to 50 seats",
+                value: "2",
+              },
+              {
+                label: "51 to 150 seats",
+                value: "4",
+              },
+              {
+                label: "151 to 300 seats",
+                value: "5",
+              },
+              {
+                label: "301 to 500 seats",
+                value: "6",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "In practice, leave level open spaces in the rows with companion chairs beside them, not only at the back.",
+          },
+        ],
+      },
+      {
+        id: "restrooms",
+        heading: "Restrooms",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Where single-user portable toilets are clustered, the Standards call for at least 5 percent of the units, and no fewer than one, to be accessible. Put the accessible unit on the same firm route as everything else. The [event restroom rental guide](/resources/event-restroom-rental-guide) covers trailers with accessible stalls, handwashing and placement.",
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Questions for Your Rental Companies",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Do you rent ground mats or walkway panels, and how wide are they?",
+              "How high is the tent floor, and how is the edge finished?",
+              "Do your stage ramps meet a 1:12 slope, with handrails and edge protection?",
+              "How do you cover cables where people walk?",
+              "Do you have accessible portable units or trailers with an accessible stall?",
+              "Can you set aisles and open table places to our plan?",
+            ],
+          },
+          {
+            type: "callout",
+            text: "Figures here come from the 2010 ADA Standards for Accessible Design. This guide isn't legal advice; ask the city about requirements for public events.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "event-restroom-rental-guide",
+      "how-many-tables-and-chairs-do-i-need",
+      "colorado-event-site-plan-guide",
+    ],
+    relatedCategorySlugs: ["tent-rentals", "stage-rentals", "restroom-trailer-rentals"],
+    cta: {
+      heading: "Ready to Book Rentals?",
+      description: "Browse tent and stage rental options and ask providers about flooring, walkways and ramps.",
+      primaryLabel: "Find Tent Rentals",
+      primaryHref: "/categories/tent-rentals",
+      secondaryLabel: "Find Stage Rentals",
+      secondaryHref: "/categories/stage-rentals",
+    },
+  },
 ];

@@ -1,12 +1,40 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-11-04 (West Metro, Lone Tree and East Boulder County: Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette; block party permit guide; event insurance guide)
+Last audited: 2026-11-11 (Denver Infill III: Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village; Colorado event site plan guide; accessible event rental guide)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-11-11: ERF Denver Infill III (South Metro, Superior and Edgewater)
+
+- **Cluster choice:** Denver infill row named candidates Castle Pines, Superior and Edgewater. Sheridan was scoped and
+  dropped: its parks run through South Suburban (already covered on Littleton and Lone Tree), and the City's own event
+  sources online were too thin for a distinct page. Greenwood Village and Cherry Hills Village were added as in-cluster
+  expansions next to the shipped Englewood, Centennial and Lone Tree pages, because park, permit and insurance rules were
+  verifiable on official City documents. Rationale in content-strategy.md.
+- **New rich city pages:** Castle Pines (`/locations/castle-pines-co`); Superior (`/locations/superior-co`); Edgewater
+  (`/locations/edgewater-co`); Greenwood Village (`/locations/greenwood-village-co`); Cherry Hills Village
+  (`/locations/cherry-hills-village-co`). Written to search intent and sourced facts, not padded.
+- **New resource guides** (publishedAt 2026-11-11, heroes shipped): How to Make an Event Site Plan for a Colorado Permit
+  (`/resources/colorado-event-site-plan-guide`); Accessible Event Rentals: Routes, Ramps, Flooring and Seating
+  (`/resources/accessible-event-rental-guide`). Cross-linked to each other; Greenwood Village links both guides.
+- **Heroes:** five city heroes + two resource heroes, 1080x720 WebP, 105–198 KB, QA passed unattended.
+- **Links:** nearby lists updated reciprocally on Lone Tree, Castle Rock, Parker (Castle Pines); Louisville, Broomfield,
+  Boulder, Lafayette (Superior); Lakewood, Wheat Ridge, Denver (Edgewater); Centennial, Englewood, Denver, Lone Tree
+  (Greenwood Village); Englewood, Denver (Cherry Hills Village).
+- **Source conflicts (flagged on page disclaimers, not resolved in copy):** Castle Pines alcohol and park hours (2011
+  Ordinance 11-06 bans alcohol in parks except under a special events liquor license, while the 2022 pavilion policy
+  allows beer and wine at Elk Ridge Park for adults 21+ during normal hours; park hours also differ). Superior event
+  permit threshold and deadline (events page: 100 people / 45 days vs fee schedule: 150+ or food, alcohol or amplified
+  music / Special Use Permit 30–90 days) and alcohol-permit deadline (events and block party pages: 30 days vs
+  application and Code: 45 days). Greenwood Village cancellation terms differ between two City park pages. Edgewater's
+  2027 special event application is listed as coming soon.
+- **Not used:** fees and rental rates (all cities); Sheridan.
+- **Sources:** see used-keywords.md "Sources logged 2026-11-11".
+- **Sitemap URLs:** 169, now 176. **Location pages:** 41, now 46. **Resource pages:** 14, now 16.
 
 ### 2026-11-04: ERF West Metro, Lone Tree and East Boulder County Run
 
@@ -282,7 +310,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (41)
+## Location Pages (46)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -328,6 +356,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Lone Tree | Douglas County | Rich | https://www.eventrentalfinder.com/locations/lone-tree-co | 2026-11-04 |
 | Louisville | Boulder County | Rich | https://www.eventrentalfinder.com/locations/louisville-co | 2026-11-04 |
 | Lafayette | Boulder County | Rich | https://www.eventrentalfinder.com/locations/lafayette-co | 2026-11-04 |
+| Castle Pines | Douglas County | Rich | https://www.eventrentalfinder.com/locations/castle-pines-co | 2026-11-11 |
+| Superior | Boulder County | Rich | https://www.eventrentalfinder.com/locations/superior-co | 2026-11-11 |
+| Edgewater | Jefferson County | Rich | https://www.eventrentalfinder.com/locations/edgewater-co | 2026-11-11 |
+| Greenwood Village | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/greenwood-village-co | 2026-11-11 |
+| Cherry Hills Village | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/cherry-hills-village-co | 2026-11-11 |
 
 ## Category Pages (10)
 
@@ -344,7 +377,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (14)
+## Resource Pages (16)
 
 | Title | URL | Published |
 |---|---|---|
@@ -362,6 +395,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Reserving a Colorado Park Pavilion for a Party: Permits, Rules and What to Rent | https://www.eventrentalfinder.com/resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
 | Colorado Block Party Permits: Street Closures, Barricades, Music and Rentals | https://www.eventrentalfinder.com/resources/colorado-block-party-permit-guide | 2026-11-04 |
 | Event Insurance for Colorado Rentals: Certificates, Additional Insured and Deadlines | https://www.eventrentalfinder.com/resources/colorado-event-insurance-guide | 2026-11-04 |
+| How to Make an Event Site Plan for a Colorado Permit | https://www.eventrentalfinder.com/resources/colorado-event-site-plan-guide | 2026-11-11 |
+| Accessible Event Rentals: Routes, Ramps, Flooring and Seating | https://www.eventrentalfinder.com/resources/accessible-event-rental-guide | 2026-11-11 |
 
 ### 2026-10-23: ERF QA expansion of thin hub pages
 - **Expanded (official sources only):** Denver, Fort Collins, Boulder, Greeley (about 1,600 words each, up from about 290).
@@ -375,5 +410,5 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 | File | URL |
 |---|---|
-| Sitemap (169 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (176 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

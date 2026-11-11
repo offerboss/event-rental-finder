@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-11-04 (West Metro, Lone Tree and East Boulder County: Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette)
+Last updated: 2026-11-11 (Denver Infill III: Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village; site plan and accessibility guides)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -68,6 +68,11 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Lone Tree | event rentals Lone Tree CO | /locations/lone-tree-co | table-chair, inflatable, party, tent, av-lighting, restroom-trailer | 2026-11-04 |
 | Louisville | event rentals Louisville CO | /locations/louisville-co | tent, inflatable, table-chair, av-lighting, party, wedding | 2026-11-04 |
 | Lafayette | event rentals Lafayette CO | /locations/lafayette-co | table-chair, inflatable, wedding, party, tent, restroom-trailer | 2026-11-04 |
+| Castle Pines | event rentals Castle Pines CO | /locations/castle-pines-co | table-chair, tent, inflatable, restroom-trailer, av-lighting, party | 2026-11-11 |
+| Superior | event rentals Superior CO | /locations/superior-co | party, table-chair, tent, wedding, av-lighting, restroom-trailer | 2026-11-11 |
+| Edgewater | event rentals Edgewater CO | /locations/edgewater-co | table-chair, av-lighting, tent, party, restroom-trailer, wedding | 2026-11-11 |
+| Greenwood Village | event rentals Greenwood Village CO | /locations/greenwood-village-co | table-chair, tent, inflatable, stage, party, restroom-trailer | 2026-11-11 |
+| Cherry Hills Village | event rentals Cherry Hills Village CO | /locations/cherry-hills-village-co | wedding, tent, dance-floor, inflatable, table-chair, av-lighting | 2026-11-11 |
 
 
 Secondary angles in use (don't build a second page around these without differentiating it):
@@ -127,6 +132,8 @@ Secondary angles in use (don't build a second page around these without differen
 | Colorado park pavilion / shelter reservation | /resources/colorado-park-pavilion-reservation-guide | 2026-10-28 |
 | Colorado block party permit / street closure | /resources/colorado-block-party-permit-guide | 2026-11-04 |
 | Colorado event insurance / certificate of insurance (COI) | /resources/colorado-event-insurance-guide | 2026-11-04 |
+| Colorado event site plan / site plan for event permit | /resources/colorado-event-site-plan-guide | 2026-11-11 |
+| accessible event rentals / ADA event planning (routes, ramps, seating) | /resources/accessible-event-rental-guide | 2026-11-11 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 
@@ -154,6 +161,30 @@ Secondary angles in use for resources (don't build a second page around these wi
 - Insurance guide: host COI vs rental company COI; $1M additional-insured requirements (Golden, Lafayette, Lone Tree
   CGIA limits, South Suburban, Fort Collins, Longmont); deadlines (Golden/Boulder/Manitou 14 days, Lafayette 3 business
   days, Greeley conflict); Colorado Amusement Rides and Devices Program.
+
+- Site plan guide: what Front Range city site plans must show (Westminster, Windsor, Littleton, Woodland Park, Castle
+  Pines, Greenwood Village, Thornton); fire district tent drawings (Denver, Brighton, Lafayette, Louisville); measurements
+  to get from rental companies; Manitou Springs staged deadlines; Superior 8 1/2 x 11 alcohol diagram.
+- Accessibility guide: 2010 ADA Standards for routes (36 in, 1:20, 1:48, 1/4–1/2 in level changes, 1/2 in openings),
+  ramps (1:12, 30 in rise, 60 in landings, handrails over 6 in rise), performance-area routes (206.2.6), wheelchair spaces
+  table (221.2.1.1); restroom 5 percent and dining 5 percent point to existing guides.
+
+### Sources logged 2026-11-11 (official only)
+
+- Castle Pines: castlepinesco.gov Special Event Permits page; Special Event Permit Application (2020 PDF); Pavilions
+  Reservation Policies and Procedures (2022 PDF); Ordinance 11-06 (park regulations).
+- Superior: superiorcolorado.gov Events and Volunteers; Block Party Trailer page; Fall-Winter 2026 Recreation Guide
+  (park/pavilion reservations); Alcohol in Public Places permit application (2026) with Code Sec. 10-8-40; 2025 fee
+  schedule (Special Use Permit note).
+- Edgewater: edgewaterco.gov Facility Rentals; Hosting a Special Event; Parks page (no glass, drugs or alcohol); Ordinance
+  2023-03 (Sec. 6-10-30). West Metro Fire Rescue Operational Permits page and homepage (serves Edgewater).
+- Greenwood Village: greenwoodvillage.com Reservations for Pavilions & Fields (1326); Park Rules and Regulations (2765);
+  Public & Special Event Permits (2776); Municipal Code Ch. 16 Art. 24 (Secs. 16-24-10, 16-24-20).
+- Cherry Hills Village: City Property Usage Policy (May 2022, DocumentCenter 4443); John Meade Park Pavilion Rental
+  Agreement (4447).
+- Accessibility guide: 2010 ADA Standards for Accessible Design (ada.gov), Secs. 206.2.6, 221.2.1.1, 226.1, 302, 303,
+  403, 405.
+- Dropped: Sheridan (parks via South Suburban; City event sources thin).
 
 ### Sources logged 2026-11-04 (official only)
 

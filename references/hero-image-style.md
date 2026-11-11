@@ -1,6 +1,6 @@
 # ERF Hero Image Style
 
-Last updated: 2026-11-04 (standard unchanged; West Metro / Lone Tree / East Boulder County heroes shipped)
+Last updated: 2026-11-11 (standard unchanged; Denver Infill III heroes shipped)
 
 **Approval status:** Heroes that pass this standard and the QA checklist may publish unattended. Regenerate failures rather than asking for per-image approval. (Unattended publishing authorized 2026-10-05.)
 
@@ -79,6 +79,11 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 | lone-tree-co | public/images/locations/lone-tree-co-event-rentals.webp | 1080x720, 121 KB | Frame tent with round tables beside a park picnic shelter, with grassy bluffs and a trail beyond, in Lone Tree, Colorado | 2026-11-04 |
 | louisville-co | public/images/locations/louisville-co-event-rentals.webp | 1080x720, 136 KB | Weighted frame tent with banquet tables beside a park shelter, a small bounce house and a lake in Louisville, Colorado | 2026-11-04 |
 | lafayette-co | public/images/locations/lafayette-co-event-rentals.webp | 1080x720, 101 KB | Backyard pole tent with a dance floor, round tables and string lights at golden hour in Lafayette, Colorado | 2026-11-04 |
+| castle-pines-co | public/images/locations/castle-pines-co-event-rentals.webp | 1080x720, 146 KB | Sandbag-weighted frame tent with round tables beside a park pavilion below pine-dotted hills in Castle Pines, Colorado | 2026-11-11 |
+| superior-co | public/images/locations/superior-co-event-rentals.webp | 1080x720, 104 KB | Pop-up canopy over rented tables and chairs on a residential street closed with barricades in Superior, Colorado | 2026-11-11 |
+| edgewater-co | public/images/locations/edgewater-co-event-rentals.webp | 1080x720, 198 KB | Sandbag-weighted canopy over banquet tables beside a picnic pavilion under cottonwoods in Edgewater, Colorado | 2026-11-11 |
+| greenwood-village-co | public/images/locations/greenwood-village-co-event-rentals.webp | 1080x720, 112 KB | Weighted frame tent with round tables and a small stage near a park pavilion and pond in Greenwood Village, Colorado | 2026-11-11 |
+| cherry-hills-village-co | public/images/locations/cherry-hills-village-co-event-rentals.webp | 1080x720, 179 KB | Pole tent with string lights, round tables and a dance floor on a backyard lawn in Cherry Hills Village, Colorado | 2026-11-11 |
 
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.
@@ -101,6 +106,8 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 | colorado-park-pavilion-reservation-guide | public/images/resources/colorado-park-pavilion-reservation-guide.webp | 1080x720, 163 KB | Open park pavilion with picnic tables beside a weighted pop-up canopy over rented tables and chairs on a Colorado lawn | Shipped 2026-10-28 (QA passed, unattended) |
 | colorado-block-party-permit-guide | public/images/resources/colorado-block-party-permit-guide.webp | 1080x720, 103 KB | Striped barricades closing a residential street with a white tent, tables and chairs set for a Colorado block party | Shipped 2026-11-04 (QA passed, unattended) |
 | colorado-event-insurance-guide | public/images/resources/colorado-event-insurance-guide.webp | 1080x720, 104 KB | Rental crew setup with a weighted frame tent, stacked chairs and a sandbagged bounce house beside a Colorado park pavilion | Shipped 2026-11-04 (QA passed, unattended) |
+| colorado-event-site-plan-guide | public/images/resources/colorado-event-site-plan-guide.webp | 1080x720, 135 KB | Event layout on a Colorado park lawn with a frame tent, portable restrooms, handwashing, bins and a fenced generator | Shipped 2026-11-11 (QA passed, unattended) |
+| accessible-event-rental-guide | public/images/resources/accessible-event-rental-guide.webp | 1080x720, 180 KB | Frame tent with a level floor and open table places, a smooth walkway across the lawn and a stage ramp with handrails | Shipped 2026-11-11 (QA passed, unattended) |
 
 ## Reference Images
 

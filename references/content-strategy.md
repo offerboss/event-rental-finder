@@ -1,6 +1,6 @@
 # ERF Content Strategy
 
-Last updated: 2026-11-04 (West Metro, Lone Tree and East Boulder County run shipped: 5 cities + 2 resources, with heroes)
+Last updated: 2026-11-11 (South Metro, Superior and Edgewater infill run shipped: 5 cities + 2 resources, with heroes)
 
 Event Rental Finder (https://www.eventrentalfinder.com) is a Colorado event rental directory. The site has location
 pages, category pages and planning resources. Providers are not listed yet, so content has to help planners on its own
@@ -350,12 +350,70 @@ Nearby links (all reciprocal):
 
 ---
 
+### Week of 2026-11-09 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village |
+| New planning resources | 2 | 2 | Colorado event site plan guide; Accessible event rental guide |
+
+---
+
+## Current Cluster: Denver Infill III (South Metro, Superior and Edgewater)
+
+Chosen from the "Denver infill" row's named candidates (Castle Pines, Superior, Edgewater). Sheridan was scoped and
+dropped: its parks run through South Suburban (already covered on Littleton and Lone Tree), and the City's own event
+sources online were too thin for a distinct page. Greenwood Village and Cherry Hills Village were added as in-cluster
+expansions: both adjoin the shipped Englewood, Centennial and Lone Tree pages, and their park, permit and insurance
+rules were verifiable on official City documents. Shipped 2026-11-11 with heroes.
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Castle Pines:** Elk Ridge Park's three reservable pavilions (32 / 16 / 16 on the application); group permit at 30+
+  (Ord. 11-06); no structures without approval, no stakes on artificial turf, no driving on grass; Special Event Permit
+  15 business days, site plan with tent sizes, $500K/$1M insurance, notarized indemnity; 100+ events: one portable toilet
+  per 150 people, trash agreement, no sound after 10 p.m.; block parties close the whole street with 80% signatures.
+  Alcohol conflict flagged (2011 ordinance vs 2022 pavilion policy).
+- **Superior:** pavilions online from April 1 for May–Oct; event permit triggered by 100+, tents/structures or amplified
+  sound on public property (45 days; conflicts with fee schedule's 150+/Special Use Permit flagged); Alcohol in Public
+  Places (Sec. 10-8-40 park list, diagram, four per year; 30 vs 45 days flagged); free resident Block Party Trailer
+  (inventory, no amplified music); Street Obstruction Permit 14 days; Mobile Vending permit.
+- **Edgewater:** Citizens' Park pavilion (175 listed, six tables, 120 V + 250 V outlets), full-day 10–9 rentals April–Nov;
+  Civic Center rooms include tables/chairs/AV; special event permit 60 business days (Sec. 6-10-30), multi-day events
+  Jan 1–Feb 28, block party exemption; no alcohol in parks; Sloan's Lake Park is Denver's; West Metro Fire tents >400 sq ft.
+- **Greenwood Village:** permit for groups over 30; resident-first booking windows; fixed 4-hour blocks / full day with
+  setup inside the slot; staff consent for tents, canopies, inflatables; resident-only park special events (60 days,
+  site plan, insurance, accessibility); tent permit and three-day limit in listed zone districts. Cancellation terms
+  conflict between City pages (flagged).
+- **Cherry Hills Village:** City property 10 business days to six months; COI $1M/$2M for 50+, bounce castles,
+  fundraisers; no alcohol in parks (Sec. 11-3-120); John Meade Park Pavilion ~32 seats, 8–9 event hours, carry-in;
+  Events on Private Property form (fireworks, private road closures, extra-duty police); SMFR tents >400 sq ft.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Castle Pines | lone-tree, castle-rock, parker |
+| Superior | louisville, broomfield, boulder, lafayette |
+| Edgewater | lakewood, wheat-ridge, denver |
+| Greenwood Village | centennial, englewood, cherry-hills-village, denver, lone-tree |
+| Cherry Hills Village | englewood, greenwood-village, denver |
+| Lone Tree | + castle-pines, greenwood-village |
+| Castle Rock / Parker | + castle-pines |
+| Louisville / Broomfield / Boulder / Lafayette | + superior |
+| Lakewood / Wheat Ridge | + edgewater |
+| Denver | + edgewater, greenwood-village, cherry-hills-village |
+| Centennial | + greenwood-village |
+| Englewood | + greenwood-village, cherry-hills-village |
+
+---
+
 ## Next Candidate Clusters
 
 | Cluster | Candidate cities | Notes |
 |---|---|---|
 | Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28; West Metro / Lone Tree / East Boulder County (Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette) shipped 2026-11-04. Further candidates: Castle Pines, Superior, Edgewater, Sheridan; Federal Heights needs verifiable official sources |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28; West Metro / Lone Tree / East Boulder County (Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette) shipped 2026-11-04. Infill III (Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village) shipped 2026-11-11. Further candidates: Glendale; Sheridan and Federal Heights need verifiable official City sources (Sheridan parks are South Suburban) |
 | Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Further candidates: Delta (needs verifiable official sources), Carbondale, New Castle, Grand Junction hub upgrade |
 
 ---

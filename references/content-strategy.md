@@ -408,13 +408,67 @@ Nearby links (all reciprocal):
 
 ---
 
+### Week of 2026-11-16 Progress
+
+| Item | Target | Shipped | Pages |
+|---|---|---|---|
+| New city pages (rich) | 5 | 5 | Glendale, Johnstown, Severance, Carbondale, Frederick |
+| New planning resources | 2 | 2 | Colorado event tent heater guide; Colorado event rental booking timeline |
+
+---
+
+## Current Cluster: Colorado Growth Towns (Glendale, NoCo, Carbon Valley, Roaring Fork)
+
+Chosen from named candidates in the Next Candidate Clusters table: Glendale (Denver infill), Johnstown and Severance
+(Northern Colorado), Carbondale (Western Slope). New Castle was swapped out because its official site couldn't be
+fetched to verify rules; Frederick was added next to the shipped Erie and Longmont pages because its permit, block
+party and fire district sources were verifiable. Shipped 2026-11-18 with heroes.
+
+Cluster local angles (keep future pages distinct from these):
+
+- **Glendale:** park rental guidelines for groups of 10+, 10 business days ahead, applicant 21+ with one adult per 10
+  under-21 guests; permit holder supplies canopies, tables, toilets, hand sinks, trash and cleanup; no staking or tying
+  to trees/shelters; Glendale Park (formerly Mir Park), Creekside Park pavilions, Infinity Park turf field to 10 p.m.
+- **Johnstown:** eight parks with shelters (five at Lake Park, three at Sunrise); 5 a.m.–10 p.m. reservations, 18+;
+  alcohol only at Hays Park with a permit (malt beverages, no glass); no stakes or spikes, dance floors and sheeting off
+  the turf promptly, grills on hard surfaces; block party permit; Front Range Fire Rescue for tents and stages.
+- **Severance:** reservation optional up to 50 and required above 50; the form asks about tents, bounce houses,
+  amplification, sales and port-o-potty drop-offs; 811 sprinkler locates; Special Event Permit triggers (roads, public,
+  admission, amplified sound, alcohol); block party consent from every affected resident; WSFR tent permit and 48-hour
+  inspection notice. Lead-time, barricade and alcohol conflicts flagged.
+- **Carbondale:** Sopris, Triangle, Gianinetti and Miners parks for weddings and events; shelters for 1–100, four-hour
+  cap, 9:30 a.m. to 30 minutes after sunset; 48-hour / 30-day / 60-day lead times by add-on; written approval for tents;
+  hand-carry only; Sopris Park the only park for commercially rented bounce houses; Ben Reed Gazebo; Special Event Task
+  Force each December.
+- **Frederick:** Special Event Permit for public and large private events; scaled site plan with distances, heights and
+  perimeter; Trash & Sanitation Plan, Public Works sets receptacles and restrooms; Security Plan; late fee under 30 days;
+  Frederick-Firestone Fire tent permit for 400 sq ft or more; block party request.
+
+Nearby links (all reciprocal):
+
+| Page | nearbyCities |
+|---|---|
+| Glendale | denver, aurora, englewood, cherry-hills-village |
+| Johnstown | loveland, windsor, berthoud, greeley |
+| Severance | windsor, greeley, fort-collins |
+| Carbondale | glenwood-springs, rifle |
+| Frederick | erie, longmont, broomfield |
+| Denver / Aurora / Englewood / Cherry Hills Village | + glendale |
+| Windsor / Greeley | + johnstown, severance |
+| Loveland / Berthoud | + johnstown |
+| Fort Collins | + severance |
+| Glenwood Springs / Rifle | + carbondale |
+| Erie / Longmont / Broomfield | + frederick |
+
+---
+
 ## Next Candidate Clusters
 
 | Cluster | Candidate cities | Notes |
 |---|---|---|
-| Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Johnstown, Severance |
-| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28; West Metro / Lone Tree / East Boulder County (Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette) shipped 2026-11-04. Infill III (Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village) shipped 2026-11-11. Further candidates: Glendale; Sheridan and Federal Heights need verifiable official City sources (Sheridan parks are South Suburban) |
-| Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Further candidates: Delta (needs verifiable official sources), Carbondale, New Castle, Grand Junction hub upgrade |
+| Northern Colorado / Estes Park | Windsor, Longmont, Estes Park, Berthoud, Erie | Shipped 2026-10-14 (see Current Cluster above). Johnstown and Severance shipped 2026-11-18; Frederick (Carbon Valley) shipped 2026-11-18. Further candidates to scope: Loveland/Fort Collins/Greeley upgrades, Firestone, Dacono, Milliken, Timnath, Wellington |
+| Denver infill | Littleton, Centennial, Westminster, Thornton, Parker | Shipped 2026-10-08; Infill II (Englewood, Northglenn, Broomfield, Commerce City, Brighton) shipped 2026-10-28; West Metro / Lone Tree / East Boulder County (Wheat Ridge, Golden, Lone Tree, Louisville, Lafayette) shipped 2026-11-04. Infill III (Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village) shipped 2026-11-11. Glendale shipped 2026-11-18. Further candidates: Sheridan and Federal Heights need verifiable official City sources (Sheridan parks are South Suburban) |
+| Western Slope | Fruita, Palisade, Montrose, Rifle, Glenwood Springs | Shipped 2026-10-21. Carbondale shipped 2026-11-18. Further candidates: Delta (needs verifiable official sources), New Castle (official site blocked to fetches 2026-11-18; retry), Grand Junction hub upgrade |
 
 ---
 

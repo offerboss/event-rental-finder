@@ -8,7 +8,7 @@ export const locations: Location[] = [
     slug: "denver-co",
     county: "Denver County",
     featured: true,
-    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co", "wheat-ridge-co", "edgewater-co", "greenwood-village-co", "cherry-hills-village-co"],
+    nearbyCities: ["aurora-co", "lakewood-co", "arvada-co", "littleton-co", "centennial-co", "westminster-co", "thornton-co", "englewood-co", "commerce-city-co", "wheat-ridge-co", "edgewater-co", "greenwood-village-co", "cherry-hills-village-co", "glendale-co"],
     metaDescription:
       "Plan Denver, CO event rentals: tents, tables and chairs, staging and restrooms, plus park permit, Office of Special Events and fire permit rules.",
     heroSupportingCopy:
@@ -301,7 +301,7 @@ export const locations: Location[] = [
     slug: "fort-collins-co",
     county: "Larimer County",
     featured: true,
-    nearbyCities: ["loveland-co", "greeley-co", "windsor-co"],
+    nearbyCities: ["loveland-co", "greeley-co", "windsor-co", "severance-co"],
     metaDescription:
       "Plan Fort Collins, CO event rentals: tents, tables and chairs, staging and restrooms, plus park shelter, special event and Poudre Fire Authority tent rules.",
     heroSupportingCopy:
@@ -590,7 +590,7 @@ export const locations: Location[] = [
     slug: "greeley-co",
     county: "Weld County",
     featured: true,
-    nearbyCities: ["fort-collins-co", "loveland-co", "windsor-co"],
+    nearbyCities: ["fort-collins-co", "loveland-co", "windsor-co", "johnstown-co", "severance-co"],
     metaDescription:
       "Plan Greeley, CO event rentals: tents, tables and chairs, staging and restrooms, plus Island Grove, park, public space and alcohol permit rules.",
     heroSupportingCopy:
@@ -742,7 +742,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "aurora-co",
     county: "Arapahoe County",
-    nearbyCities: ["denver-co", "centennial-co", "parker-co"],
+    nearbyCities: ["denver-co", "centennial-co", "parker-co", "glendale-co"],
     heroSupportingCopy:
       "Find event rental companies serving Aurora and the eastern Denver metro. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -1316,14 +1316,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "loveland-co",
     county: "Larimer County",
-    nearbyCities: [
-      "fort-collins-co",
-      "greeley-co",
-      "windsor-co",
-      "berthoud-co",
-      "longmont-co",
-      "estes-park-co",
-    ],
+    nearbyCities: ["fort-collins-co", "greeley-co", "windsor-co", "berthoud-co", "longmont-co", "estes-park-co", "johnstown-co"],
     heroSupportingCopy:
       "Find event rental companies serving Loveland and Northern Colorado. Compare local options for tents, tables and chairs, wedding rentals, inflatables, restroom trailers, photo booths, staging, AV and more.",
     heroTagline:
@@ -2852,7 +2845,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "windsor-co",
     county: "Weld and Larimer Counties",
-    nearbyCities: ["fort-collins-co", "greeley-co", "loveland-co"],
+    nearbyCities: ["fort-collins-co", "greeley-co", "loveland-co", "johnstown-co", "severance-co"],
     metaDescription:
       "Plan event rentals in Windsor, CO: tents, tables and chairs, wedding and party rentals, inflatables and restrooms, plus the Town's 90-day Special Activities Permit, park tent rules and Windsor Lake limits.",
     heroSupportingCopy:
@@ -2990,13 +2983,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "longmont-co",
     county: "Boulder and Weld Counties",
-    nearbyCities: [
-      "berthoud-co",
-      "erie-co",
-      "boulder-co",
-      "loveland-co",
-      "estes-park-co",
-    ],
+    nearbyCities: ["berthoud-co", "erie-co", "boulder-co", "loveland-co", "estes-park-co", "frederick-co"],
     metaDescription:
       "Plan event rentals in Longmont, CO: tents, tables and chairs, party and wedding rentals, bounce houses, staging and sound, plus the 12-by-12 tent trigger, park shelter rules and the City's 45-day event permit.",
     heroSupportingCopy:
@@ -3274,7 +3261,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "berthoud-co",
     county: "Larimer and Weld Counties",
-    nearbyCities: ["loveland-co", "longmont-co"],
+    nearbyCities: ["loveland-co", "longmont-co", "johnstown-co"],
     metaDescription:
       "Plan event rentals in Berthoud, CO: tents, tables and chairs, party rentals, bounce houses and restrooms, plus Town pavilion rules, special event permits and Berthoud Fire tent requirements.",
     heroSupportingCopy:
@@ -3412,7 +3399,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "erie-co",
     county: "Boulder and Weld Counties",
-    nearbyCities: ["longmont-co", "boulder-co", "westminster-co", "thornton-co", "broomfield-co", "louisville-co", "lafayette-co"],
+    nearbyCities: ["longmont-co", "boulder-co", "westminster-co", "thornton-co", "broomfield-co", "louisville-co", "lafayette-co", "frederick-co"],
     metaDescription:
       "Plan event rentals in Erie, CO: party rentals, tables and chairs, tents, wedding rentals, lighting and photo booths, plus Town park shelter rules, Community Events permits, mobile vending and open container permits.",
     heroSupportingCopy:
@@ -3954,7 +3941,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "rifle-co",
     county: "Garfield County",
-    nearbyCities: ["glenwood-springs-co", "palisade-co", "grand-junction-co"],
+    nearbyCities: ["glenwood-springs-co", "palisade-co", "grand-junction-co", "carbondale-co"],
     metaDescription:
       "Plan event rentals in Rifle, CO: tents, tables and chairs, party rentals, sound and restrooms, plus the City's Events Use Permit, Centennial Park shelter permits, Third Street closures, anchoring rules and Garfield County food plan review.",
     heroSupportingCopy:
@@ -4089,7 +4076,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "glenwood-springs-co",
     county: "Garfield County",
-    nearbyCities: ["rifle-co"],
+    nearbyCities: ["rifle-co", "carbondale-co"],
     metaDescription:
       "Plan event rentals in Glenwood Springs, CO: tents, tables and chairs, party rentals, sound and restrooms, plus the Parks and Recreation Facility Use Permit, tent weight rules, fire permits, liquor and security requirements and neighbor notices.",
     heroSupportingCopy:
@@ -4225,7 +4212,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "englewood-co",
     county: "Arapahoe County",
-    nearbyCities: ["denver-co", "littleton-co", "centennial-co", "greenwood-village-co", "cherry-hills-village-co"],
+    nearbyCities: ["denver-co", "littleton-co", "centennial-co", "greenwood-village-co", "cherry-hills-village-co", "glendale-co"],
     metaDescription:
       "Plan event rentals in Englewood, CO: pavilion reservations, the Park Use Permit for groups over 15, strict park limits on canopies, sound, alcohol and bounce houses, and when a Community Event License applies.",
     heroSupportingCopy:
@@ -4495,7 +4482,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "broomfield-co",
     county: "City and County of Broomfield",
-    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co", "louisville-co", "lafayette-co", "superior-co"],
+    nearbyCities: ["westminster-co", "northglenn-co", "erie-co", "boulder-co", "louisville-co", "lafayette-co", "superior-co", "frederick-co"],
     metaDescription:
       "Plan event rentals in Broomfield, CO: B-REx park shelter reservations, permits for bands, inflatables and alcohol, no-stake tent rules, generator needs for inflatables, and North Metro Fire tent permits.",
     heroSupportingCopy:
@@ -5953,7 +5940,7 @@ export const locations: Location[] = [
     stateCode: "CO",
     slug: "cherry-hills-village-co",
     county: "Arapahoe County",
-    nearbyCities: ["englewood-co", "greenwood-village-co", "denver-co"],
+    nearbyCities: ["englewood-co", "greenwood-village-co", "denver-co", "glendale-co"],
     metaDescription: "Plan event rentals in Cherry Hills Village, CO: backyard tents and dance floors, John Meade Park Pavilion rules, no alcohol in City parks, insurance for bounce castles and groups over 50, and private-property event forms.",
     heroSupportingCopy: "Compare event rental options for Cherry Hills Village, from tents, dance floors, tables and chairs to lighting and restrooms for backyard weddings, garden parties, pavilion picnics and neighborhood events.",
     heroTagline: "Cherry Hills Village parks are alcohol-free and the John Meade Park Pavilion seats about 32, so tented receptions with dance floors belong on private property. On City property, a bounce castle or a group over 50 needs insurance.",
@@ -6062,6 +6049,580 @@ export const locations: Location[] = [
     providerCta: {
       heading: "Do You Provide Event Rentals in Cherry Hills Village?",
       description: "List your business on Event Rental Finder and get discovered by families and organizers planning backyard weddings, garden parties, pavilion picnics and neighborhood events in Cherry Hills Village.",
+    },
+  },
+  {
+    city: "Glendale",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "glendale-co",
+    county: "Arapahoe County",
+    nearbyCities: ["denver-co", "aurora-co", "englewood-co", "cherry-hills-village-co"],
+    metaDescription: "Plan event rentals in Glendale, CO: park permits for groups of 10 or more, weights instead of stakes, no bounce houses in City parks, bring-your-own restrooms and trash, and insurance for 100+ guests.",
+    heroSupportingCopy: "Compare event rental options for Glendale, from canopies, tables and chairs to portable restrooms, handwashing and sound for pavilion parties, park picnics, team gatherings and small receptions.",
+    heroTagline: "Glendale is a small city inside Denver near Cherry Creek, and its park rules put most of the load on the renter: a permit for any group of 10 or more, weights instead of stakes, no inflatables, and every tent, table, toilet and trash can brought in by you.",
+    categoriesIntro: "Explore the rental categories Glendale hosts use most for pavilion parties, park picnics, team events and small receptions.",
+    localIntro: [
+      "Glendale is a compact Arapahoe County city surrounded by Denver, a few minutes from the Cherry Creek Shopping District. Its Parks Department looks after about 17 acres of parks and streetscapes with three picnic shelters, and the City's best-known venue is Infinity Park, a municipally owned complex with a 4,000-seat rugby stadium, an event center and a synthetic turf field at its south end. For a private gathering, the reservable outdoor spaces are the pavilion and field at Glendale Park (formerly Mir Park, at Elm Street and Center Avenue), the Creekside Park pavilion and volleyball courts on South Cherry Street by the Cherry Creek Trail, the Cherry Street and Virginia Avenue fields, and the Infinity Park turf field. Playa Del Carmen Park doesn't take reservations.",
+      "The City's park rental guidelines apply to any group of 10 or more, and the permit has to be with the group while the site is in use. Applications should go in at least 10 business days ahead, with payment and any documents due at least five business days before the date. The applicant must be 21 or older, and the form asks for one adult 21 or older for every 10 attendees under 21. Pavilions and grass fields can be booked from 8 a.m. to 9 p.m. and the turf field until 10 p.m., and the rental time has to include your setup and cleanup.",
+      "The guidelines are specific about equipment. The permit holder supplies everything: canopies, tents, tables, chairs, portable toilets, hand sinks, water, trash receptacles, trash pickup, recycling and the cleanup crew. Park restrooms are used as-is and aren't part of the reservation. Tents and canopies are allowed, but staking is prohibited, so plan on water, lead or sand weights, and nothing can be tied to trees, shelters or light fixtures. Vehicles can't leave the marked roads and parking areas, even to unload, so rentals are carried in from the lot.",
+      "Several common party rentals aren't allowed. Air castles, moon walks and inflatable games are on the prohibited list along with dunk tanks, climbing walls and pony rides, and amplified sound needs an Assembly Permit or Special Event Contract. Glass is banned, beer is the only alcohol allowed without special licensing and must be in cans or poured from a keg into plastic cups, and alcohol sales aren't allowed. Groups of 100 or more need $1 million in general liability coverage naming the City, with the certificate in 21 days before the event; homeowner's insurance doesn't qualify. Denver Fire Department handles Glendale's fire services, so ask your tent company about any fire permit for a large tent. For a wedding, Four Mile Historic Park, which sits partly in Glendale, books its own events through the park.",
+    ],
+    useCases: {
+      heading: "What Glendale Hosts Usually Rent",
+      intro: "Common setups for Glendale's pavilions, fields and nearby venues.",
+      items: [
+        {
+          title: "Weighted Canopies",
+          description: "Tents and canopies are allowed in City parks, but stakes aren't. Ask for water barrels, lead or sandbags on every leg, and keep lines off trees and shelters.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Extra Tables and Chairs",
+          description: "The Glendale Park pavilion has four picnic tables. Groups may bring their own [tables and chairs](/categories/table-chair-rentals), carried in from the parking area since vehicles can't drive onto the grass.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Portable Restrooms and Hand Sinks",
+          description: "The guidelines list portable toilets, hand sinks and water among the things the permit holder provides, and park restrooms aren't reserved for you. Size the order to your guest count.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Pavilion Birthday Parties",
+          description: "Inflatables are prohibited in City parks, so party rentals lean on canopies, tables, games that don't need stakes and portable gas grills, which the guidelines allow at the Glendale Park and Creekside pavilions.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Small Weddings",
+          description: "Four Mile Historic Park is a popular wedding site that straddles Denver and Glendale and takes reservations directly. Confirm what it supplies before you order [wedding rentals](/categories/wedding-rentals).",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Sound With a Permit",
+          description: "P.A. systems and music need an Assembly Permit or Special Event Contract in City parks. Settle that before you book speakers or a microphone.",
+          categorySlug: "av-lighting-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "Glendale Park Rules That Shape the Order",
+      intro: "Details from the City's park rental guidelines to settle before you book.",
+      items: [
+        "A park permit for any group of 10 or more, kept on site",
+        "Applications at least 10 business days ahead, payment and documents at least five",
+        "An applicant 21 or older, plus one adult 21 or older per 10 attendees under 21",
+        "No stakes; weights only, with nothing tied to trees, shelters or light fixtures",
+        "No air castles, moon walks or inflatable games",
+        "Renter-supplied toilets, hand sinks, water, trash receptacles, recycling and cleanup",
+        "No vehicles beyond marked roads and parking, even for loading",
+        "Amplified sound only with an Assembly Permit or Special Event Contract",
+        "Insurance naming the City for 100 or more people, with the certificate due 21 days out",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Glendale's Park Rental Fees, Guidelines and Application (which still calls Glendale Park by its former name, Mir Park) and the City's Parks & Recreation, Parks & Facilities and Fire pages. Confirm current rules with Park Operations before you book.",
+      closing: "Carrying everything in from the lot? The [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide) covers what to rent around a shelter, the [event restroom rental guide](/resources/event-restroom-rental-guide) helps size toilets and hand sinks, and the [event insurance guide](/resources/colorado-event-insurance-guide) explains the certificate for groups of 100 or more.",
+    },
+    checklist: {
+      heading: "Before You Call a Glendale Rental Company",
+      intro: "Have these answers ready:",
+      items: [
+        "Which pavilion or field, and the permit dates and hours",
+        "Headcount, and the number of attendees under 21",
+        "Canopy sizes and the weights the provider will bring",
+        "Distance from the parking lot to the setup spot",
+        "Restroom, hand sink and water plan",
+        "Trash, recycling and cleanup plan",
+        "Whether sound needs an Assembly Permit",
+        "Insurance certificate if 100 or more will attend",
+      ],
+    },
+    faqs: {
+      heading: "Glendale Event Rental Questions",
+      items: [
+        {
+          question: "Do I need a permit for a picnic in a Glendale park?",
+          answer: "Yes, if your group has 10 or more people. The City's guidelines require a park permit for any group activity of that size, and the permit has to be with the group while it uses the site.",
+        },
+        {
+          question: "Can I rent a bounce house for a party in a Glendale park?",
+          answer: "Generally no. Air castles, moon walks and inflatable games are on the City's prohibited list, though the guidelines say some listed activities may be allowed with limited hours under an Assembly Permit or Special Event Contract. Ask Park Operations before you book one.",
+        },
+        {
+          question: "Can tents be staked in Glendale parks?",
+          answer: "No. Tents, canopies and your own tables and chairs are allowed, but staking is prohibited. Water, lead and sand weights are allowed.",
+        },
+        {
+          question: "Are park restrooms included with a pavilion rental?",
+          answer: "No. Restroom facilities are taken as-is and aren't part of any reserved space, and the guidelines list portable toilets and hand sinks among the things the permit holder provides.",
+        },
+        {
+          question: "When does Glendale require event insurance?",
+          answer: "For reservations of 100 or more people. You need at least $1 million in commercial general liability coverage naming the City of Glendale as additional insured, with the certificate received at least 21 days before the event.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Glendale?",
+      description: "List your business on Event Rental Finder and get discovered by people planning pavilion parties, park picnics, team gatherings and small receptions in Glendale.",
+    },
+  },
+  {
+    city: "Johnstown",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "johnstown-co",
+    county: "Weld and Larimer Counties",
+    nearbyCities: ["loveland-co", "windsor-co", "berthoud-co", "greeley-co"],
+    metaDescription: "Plan event rentals in Johnstown, CO: park shelter reservations in eight parks, beer only at Hays Park, sandbags instead of stakes, dance floor rules on grass, block party petitions and Front Range Fire Rescue tent permits.",
+    heroSupportingCopy: "Compare event rental options for Johnstown, from tents, tables and chairs to bounce houses, dance floors and restrooms for shelter parties, reunions, block parties and receptions.",
+    heroTagline: "Johnstown has picnic shelters in eight parks, but only Hays Park allows beer, nothing can be staked into the turf, and a dance floor laid on the grass has to come up before it kills the lawn.",
+    categoriesIntro: "Explore the rental categories Johnstown hosts use most for shelter parties, reunions, block parties and receptions.",
+    localIntro: [
+      "Johnstown sits on the Weld and Larimer county line between Loveland, Windsor, Berthoud and Greeley, and its parks are spread through newer neighborhoods. The Town rents picnic shelters at Clearview, Eddie Aragon, Hays, Lake, Parish, Rolling Hills Ranch, Pioneer Ridge and Sunrise parks, with five at Lake Park and three at Sunrise. Reserving a shelter makes it yours for the day, but the rest of the park stays open to the public. Pavilions, large grassy areas and ball fields can be reserved; playgrounds can't. Reservations run from 5 a.m. to 10 p.m., the person booking has to be 18 or older, and the permit has to be on site for Town staff and police to check.",
+      "Alcohol is the first thing to sort out. Hays Park is the only park where it's allowed, and only with an approved permit: fermented malt beverages only, no glass, no charge for drinks, no serving people who weren't invited, and service ends an hour before the event does. Every other park is alcohol-free, and Lake Park doesn't allow swimming. For an indoor reception, the Town's Community Center provides tables and chairs in a climate-controlled room, and its rates differ for events with and without alcohol.",
+      "The park rules shape the rental order. Stakes and spikes are prohibited, so tents, canopies and inflatables have to be held down with sandbags or weights. Plastic sheeting or a dance floor laid on the grass has to come up promptly so the turf survives, which matters for a long reception. No vehicles may drive or park on the grass, BBQ grills are allowed only on concrete or asphalt with the coals drowned and taken away, and you're billed for any damage or cleanup. The Town's reservation rules also warn that a temporary stage or tent may need a fire department inspection, and that arranging it is the applicant's job.",
+      "That inspection comes from Front Range Fire Rescue, which requires a permit before any tent larger than 700 square feet goes up and sends an inspector to look at it after setup and before anyone uses it. Groups over 100, or any event that closes a road or sidewalk, may need a Special Event Permit from the Town Clerk under Chapter 6, Article 12 of the Municipal Code. A neighborhood party can close one block of a residential street for 100 people or fewer with a Block Party Permit, filed at least 10 days ahead with a petition signed by at least half the residents in the closure area, a site plan, and Type III barricades that the Town doesn't supply.",
+    ],
+    useCases: {
+      heading: "Common Johnstown Rental Orders",
+      intro: "What Johnstown hosts tend to book for parks, streets and the Community Center.",
+      items: [
+        {
+          title: "Weighted Tents and Canopies",
+          description: "Stakes are banned in Town parks, so ask for sandbags or weights on every leg. Tents larger than 700 square feet need a Front Range Fire Rescue permit and inspection before use.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses Without Stakes",
+          description: "Inflatables follow the same no-stakes rule. Confirm the provider can ballast the unit with sandbags and set it up without driving onto the grass.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Dance Floors on Turf",
+          description: "A [dance floor](/categories/dance-floor-rentals) laid on park grass has to be removed promptly. Book a pickup time that follows the event closely.",
+          categorySlug: "dance-floor-rentals",
+        },
+        {
+          title: "Shelter Seating",
+          description: "Shelters come with seating and tables, and some have electricity. Add [tables and chairs](/categories/table-chair-rentals) on the reserved lawn for larger reunions.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "One residential block, 100 people or fewer, with Type III barricades you supply. Party rentals sit in the closed street, inside the site plan you file.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Restrooms for Big Groups",
+          description: "Shelter rentals don't reserve park restrooms. For a large reunion or a block party, a portable unit or [restroom trailer](/categories/restroom-trailer-rentals) keeps guests from crossing the park.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "Johnstown Rules to Check First",
+      intro: "Johnstown details to confirm before you book rentals.",
+      items: [
+        "Shelter reservations from 5 a.m. to 10 p.m., with the rest of the park open to the public",
+        "Alcohol only at Hays Park with a permit, fermented malt beverages only",
+        "No stakes or spikes; sandbags or weights for tents, canopies and inflatables",
+        "Dance floors and plastic on grass removed promptly",
+        "No vehicles on the grass; grills only on concrete or asphalt",
+        "A Front Range Fire Rescue permit and inspection for tents over 700 square feet",
+        "A possible Special Event Permit for groups over 100 or road and sidewalk closures",
+        "Block parties: one block, 100 or fewer, 10 days' notice, a 50 percent petition and your own barricades",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the Town of Johnstown's Park Reservation Information and Rules, its Reserve a Park Shelter, Reserve a Public Park / Space, Special Event Permit and Block Party Permit pages, the 2026 fee schedule, and Front Range Fire Rescue's Special Event Permits page. Confirm current rules with Town Hall before you book.",
+      closing: "Closing your street? The [block party permit guide](/resources/colorado-block-party-permit-guide) covers barricades and petitions, and the [tent planning guide](/resources/colorado-outdoor-event-tent-planning) explains ballast and fire permits.",
+    },
+    checklist: {
+      heading: "Johnstown Rental Checklist",
+      intro: "Gather these before you request quotes:",
+      items: [
+        "Park and shelter, or Community Center",
+        "Whether beer will be served (Hays Park only)",
+        "Tent size, ballast and Front Range Fire Rescue permit",
+        "Bounce house ballast and placement off the grass edge",
+        "Dance floor pickup time",
+        "Restroom plan for the group size",
+        "Block party petition, site plan and Type III barricades",
+        "Grill location on pavement",
+      ],
+    },
+    faqs: {
+      heading: "Johnstown Event Rental FAQ",
+      items: [
+        {
+          question: "Which Johnstown parks allow alcohol?",
+          answer: "Only Hays Park, and only with an approved permit. Fermented malt beverages are the only alcohol allowed, glass isn't permitted, you can't charge for drinks, and service stops an hour before the event ends. All other Town parks are alcohol-free.",
+        },
+        {
+          question: "Can I stake a tent or bounce house in a Johnstown park?",
+          answer: "No. The Town's park rules prohibit stakes and spikes and ask you to anchor all equipment, including inflatables, with sandbags or weights.",
+        },
+        {
+          question: "Does my tent need a fire permit in Johnstown?",
+          answer: "Front Range Fire Rescue requires a permit for tents larger than 700 square feet, and an inspector checks the tent after setup and before it's used. The Town's park rules say any temporary stage or tent may need a fire department inspection and that the applicant arranges it.",
+        },
+        {
+          question: "How do I get a block party permit in Johnstown?",
+          answer: "Apply at least 10 days before the party. The permit covers one block of a residential street for 100 people or fewer, and you need approval from at least half the residents in the closure area on the Neighborhood Petition, a site plan, and your own Type III barricades.",
+        },
+        {
+          question: "Can I use a dance floor on the grass at a Johnstown park?",
+          answer: "Yes, but the Town's rules say plastic or a dance floor laid on the grass has to be removed in a timely manner so the grass doesn't die. Plan the pickup for right after the event.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Johnstown?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, reunions, block parties and receptions in Johnstown.",
+    },
+  },
+  {
+    city: "Severance",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "severance-co",
+    county: "Weld County",
+    nearbyCities: ["windsor-co", "greeley-co", "fort-collins-co"],
+    metaDescription: "Plan event rentals in Severance, CO: park and pavilion reservations that list your tent, bounce house and portable toilets, no alcohol without a Special Event Permit and liquor license, and block party barricade rules.",
+    heroSupportingCopy: "Compare event rental options for Severance, from canopies, tables and chairs to bounce houses, portable toilets and sound for pavilion parties, neighborhood gatherings and block parties.",
+    heroTagline: "In Severance, the park reservation form asks up front about your tent and its size, any bounce house, amplified sound and portable toilets, so the rental order is part of the permit from the start.",
+    categoriesIntro: "Explore the rental categories Severance hosts use most for pavilion parties, birthdays, neighborhood gatherings and block parties.",
+    localIntro: [
+      "Severance is a growing Weld County town next to Windsor, with newer neighborhoods built around small parks and lakes. Karen Suman Park and Lakeview Park list picnic shelters, Blue Spruce Park has fishing and parking, Brownell Park has picnic tables, and Community Park is on Waterfowl Way. The Town's park reservation rules say a reservation may be needed for groups of up to 50 and is always needed above 50, and the application must come from someone 18 or older.",
+      "The reservation form doubles as a rental worksheet. It asks about a tent and its size, a bounce house and its size, sound amplification, any merchandise, food or drink sales, and port-o-potty drop-offs. You can upload a certificate of liability insurance and a vendor map with a vendor list. The Town needs up to 10 business days to review an application, and a reservation isn't approved until you get official confirmation, so book rentals as tentative until then. The Town's printable special event form adds a practical note: call 811 for sprinkler locates before staking down a tent or bounce house.",
+      "Some events need a Special Event Permit instead of a plain reservation: anything that barricades or blocks a roadway, slows pedestrian or vehicle traffic, invites the public or charges admission, uses amplified sound, or includes alcohol. Alcohol isn't allowed in any park unless a Special Event Permit has been approved and a liquor license issued. After the event, you have to remove decorations and clear and dispose of trash before leaving, or the Town can bill its cleaning cost, and you can't use the Town's logo on any invitations or promotions.",
+      "Block parties use a separate request. Before applying, contact every resident affected by the closure and make sure all of them agree, and check with your HOA or metro district if there is one. The request goes to the Town's departments and to Windsor Severance Fire Rescue, and all of them must approve it before a permit is issued. Barricades must meet MUTCD standards and stay movable for emergency vehicles; Public Works can supply them for a fee per closed intersection, and a closure that ends at a cul-de-sac counts as one. Requests are due at least 14 business days ahead, the event must end by curfew, and drinking in the public right-of-way isn't allowed without authorization. For larger tents and stages, Windsor Severance Fire Rescue's tent policy requires an inspection and signed permit before use, with at least 48 hours' notice to schedule it and a member of the installation crew on site.",
+    ],
+    useCases: {
+      heading: "Rentals Severance Hosts Book Most",
+      intro: "Typical setups for Severance parks and neighborhood streets.",
+      items: [
+        {
+          title: "Pavilion Birthday Parties",
+          description: "List the bounce house and its size on the reservation form, then call 811 for sprinkler locates if the provider will stake it. [Inflatable rentals](/categories/inflatable-rentals) that use sandbags avoid the question.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Canopies and Tents",
+          description: "The form asks for tent size, so get the dimensions from the provider before you apply. Larger tents also go through a Windsor Severance Fire Rescue inspection.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Portable Toilets",
+          description: "The reservation form asks whether port-o-potties will be dropped off. Tell the Town, and give the provider the drop-off spot and pickup time.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Tables and Chairs",
+          description: "Shelters at Karen Suman and Lakeview parks have picnic tables. Add [tables and chairs](/categories/table-chair-rentals) for groups over 50, which always need a reservation.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "Every affected neighbor has to agree, the fire district signs off, and barricades must meet MUTCD standards. Party rentals stay in the closed segment shown on your sketch.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Sound and Speakers",
+          description: "Amplified sound in a park triggers a Special Event Permit because of its effect on neighbors. Plan the permit before you book a DJ or [sound rental](/categories/av-lighting-rentals).",
+          categorySlug: "av-lighting-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "Planning Notes for Severance",
+      intro: "Severance details to settle before you book rentals.",
+      items: [
+        "A park reservation for groups over 50, and possibly smaller ones",
+        "Tent size, bounce house size, sound and portable toilets listed on the form",
+        "Up to 10 business days of Town review, and no approval until official confirmation",
+        "811 sprinkler locates before staking a tent or bounce house",
+        "A Special Event Permit for road blocking, public or ticketed events, amplified sound or alcohol",
+        "No alcohol in parks without a Special Event Permit and liquor license",
+        "Block parties: every affected neighbor in agreement, fire district approval and MUTCD barricades",
+        "Fire district inspection and signed permit for larger tents and stages, with 48 hours' notice",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the Town of Severance's Special Events page and online Park Reservation Form, its Block Party/Street Closure Permit Request, its printable Special Event, Block Party and Park Reservation Form, the Facilities directory, and Windsor Severance Fire Rescue's Tent/Temporary Membrane Structure Permits page and policy FP003. The Town's pages give different application lead times, so confirm the deadline for your event with Town Hall.",
+      closing: "Planning a street party? The [block party permit guide](/resources/colorado-block-party-permit-guide) covers petitions and barricades, and the [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide) covers anchoring and placement.",
+    },
+    checklist: {
+      heading: "Severance Event Rental Checklist",
+      intro: "Pull these details together before you contact rental companies:",
+      items: [
+        "Park and shelter, with the expected headcount",
+        "Tent and bounce house dimensions for the form",
+        "Staking or sandbags, and an 811 locate if staking",
+        "Portable toilet drop-off spot",
+        "Certificate of insurance and vendor map, if you have them",
+        "Whether sound or alcohol means a Special Event Permit",
+        "Neighbor signatures and closure sketch for a block party",
+        "Cleanup and trash plan",
+      ],
+    },
+    faqs: {
+      heading: "Severance Event Rental FAQ",
+      items: [
+        {
+          question: "Do I need a reservation for a party in a Severance park?",
+          answer: "Always if more than 50 people will attend, and possibly for smaller groups. The Town reviews applications in up to 10 business days, and a reservation isn't approved until you receive official confirmation.",
+        },
+        {
+          question: "Can I have a bounce house at a Severance park?",
+          answer: "The park reservation form asks about bounce houses and their size, so list it there. If it will be staked, the Town's printable form says to call 811 for sprinkler locates first.",
+        },
+        {
+          question: "Is alcohol allowed in Severance parks?",
+          answer: "Not unless a Special Event Permit has been approved and a liquor license issued. Drinking in the public right-of-way at a block party isn't allowed without authorization either.",
+        },
+        {
+          question: "Who supplies barricades for a Severance block party?",
+          answer: "The applicant is responsible for MUTCD-compliant barricades, and the Town's Public Works Department can provide them for a fee per closed intersection. A closure that ends at a cul-de-sac counts as one intersection; closing both ends counts as two.",
+        },
+        {
+          question: "Does a tent need a fire inspection in Severance?",
+          answer: "Larger tents and temporary stages do. Windsor Severance Fire Rescue won't let them be used until they pass inspection and get a signed permit, it needs at least 48 hours' notice to schedule, and a member of the installation team must be there. Ask your tent company if your tent is over the district's size limit.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Severance?",
+      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, birthdays, neighborhood gatherings and block parties in Severance.",
+    },
+  },
+  {
+    city: "Carbondale",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "carbondale-co",
+    county: "Garfield County",
+    nearbyCities: ["glenwood-springs-co", "rifle-co"],
+    metaDescription: "Plan event rentals in Carbondale, CO: park weddings at Sopris, Triangle, Gianinetti and Miners parks, written approval for tents, bounce houses only at Sopris Park, 30-day permits for music, and Carbondale fire tent permits.",
+    heroSupportingCopy: "Compare event rental options for Carbondale, from tents, tables and chairs to sound, staging and bounce houses for park weddings, shelter parties, ranch receptions and community events.",
+    heroTagline: "Carbondale markets its parks for weddings, but the rules are tight: tents need written approval, everything is hand-carried across the grass, commercially rented bounce houses go only in Sopris Park, and there's no weekend trash pickup.",
+    categoriesIntro: "Explore the rental categories Carbondale hosts use most for park weddings, shelter parties, ranch receptions and community events.",
+    localIntro: [
+      "Carbondale is a Garfield County town in the Roaring Fork Valley, a short drive from Glenwood Springs, with about 25 parks. The Town names Sopris Park, Triangle Park, Gianinetti Park and Miners Park as spaces for weddings, large group activities and special events. Shade shelters at Sopris, Triangle and Miners parks can be rented for groups of 1 to 100, and the Ben Reed Gazebo in Sopris Park may be available on special request. The 2024 shelter form caps each rental at four hours, including setup and takedown, and limits use to 9:30 a.m. until half an hour after sunset.",
+      "Lead times depend on what you add. A basic shelter rental needs full payment and a completed, signed and approved form 48 hours ahead, and paperwork is processed only Monday through Friday. Rentals that use the Sopris Park Gazebo, amplified music or a bounce house, or that are open to the public and need liability insurance, need 30 days, with separate request forms for additional structures, amplified music and bounce houses. Events over 100 people or with paid admission need the Special Event Form at least 60 days out through the Town Clerk, and events over 100 go to the Board of Trustees. The Special Event Task Force approves events on Town property each December for the following calendar year.",
+      "The rules of use shape the rental order. No tents, trailers or other added structures are allowed without written approval from Town Administration. Vehicles stay off the grass, so every rental is hand-carried in. Glass and animals aren't allowed, amplification and alcohol need approval, and the gazebo stage can't be built onto or altered with hooks, nails or tarps without written permission. Sopris Park is the only park where a commercially rented bounce house is allowed, in locations shown on the Town's bounce house map, and the rental company has to meet the Town's insurance requirements. The parks crew doesn't work weekends and the trash bins are locked, so bring your own bags and haul out all trash.",
+      "Carbondale & Rural Fire Protection District requires a permit to erect or operate any tent or canopy of 400 square feet or more, good for up to 30 days. For indoor events, the Carbondale Recreation and Community Center offers a special event rental for weddings, quinceañeras and larger parties; that agreement and payment are due 60 days ahead, and private security is required and coordinated by the Center. Events open to the public that serve alcohol outside the Center are treated as special events and coordinated through the Town Clerk.",
+    ],
+    useCases: {
+      heading: "Popular Rentals for Carbondale Events",
+      intro: "Common Carbondale setups, from park ceremonies to ranch receptions.",
+      items: [
+        {
+          title: "Park Weddings",
+          description: "Sopris, Triangle, Gianinetti and Miners parks host weddings. A shelter rental covers up to 100 guests, so a bigger guest list moves into the 60-day special event process.",
+          categorySlug: "wedding-rentals",
+        },
+        {
+          title: "Tents With Written Approval",
+          description: "Park rentals can't add tents without written approval from Town Administration, and tents of 400 square feet or more need a fire district permit. Ranch and backyard receptions avoid the park limits but still need that permit.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses at Sopris Park",
+          description: "Sopris Park is the only park that allows commercially rented bounce houses, in spots on the Town's map. Submit the Bounce House Permit Request 30 days out with the provider's insurance.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Hand-Carried Tables and Chairs",
+          description: "No vehicles on the grass means every [table and chair](/categories/table-chair-rentals) is carried in. Ask the provider about carts and extra crew time.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Gazebo Music",
+          description: "The Ben Reed Gazebo and amplified music each need 30 days' notice. The gazebo stage can't be built onto, so bring freestanding [staging](/categories/stage-rentals) and sound.",
+          categorySlug: "stage-rentals",
+        },
+        {
+          title: "Shelter Parties",
+          description: "Shelter rentals run four hours including setup and takedown, so pick [party rentals](/categories/party-rentals) that go up and come down quickly.",
+          categorySlug: "party-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What Carbondale Asks of Event Hosts",
+      intro: "Carbondale details to settle before you book rentals.",
+      items: [
+        "Shelter rentals for 1 to 100 people, four hours including setup and takedown",
+        "48 hours for a basic shelter rental, 30 days for the gazebo, amplified music, bounce houses or public events",
+        "Special Event Form at least 60 days out for 100+ people or paid admission",
+        "Written approval for tents, trailers and other added structures in parks",
+        "Commercially rented bounce houses only in Sopris Park, on the Town's map",
+        "Hand-carry everything; no vehicles on the grass",
+        "No weekend trash service and locked bins; haul out your trash",
+        "A Carbondale & Rural Fire Protection District permit for tents or canopies of 400 square feet or more",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the Town of Carbondale's Parks and Special Event Permit pages, the Carbondale Recreation and Community Center's rental forms page and 2024 Park Shelter Rental form, the Special Events paperwork page, and Carbondale & Rural Fire Protection District's Prevention Permit Fees. Confirm current rules with the Town before you book.",
+      closing: "Planning a park wedding? The [Colorado wedding rental checklist](/resources/colorado-wedding-rental-checklist) covers timing and provider questions, and the [bounce house and party rental guide](/resources/colorado-inflatable-and-party-rental-guide) covers insurance and placement for inflatables.",
+    },
+    checklist: {
+      heading: "Carbondale Event Rental Checklist",
+      intro: "Have these ready before you contact Carbondale rental companies:",
+      items: [
+        "Park and shelter, or a private ranch or backyard",
+        "Guest count, and whether it tops 100",
+        "Tent size, written approval and fire district permit",
+        "Bounce house location on the Sopris Park map",
+        "Carry distance from parking to the setup spot",
+        "Four-hour window including setup and takedown",
+        "Music, gazebo or alcohol permits 30 days out",
+        "Trash bags and haul-out plan",
+      ],
+    },
+    faqs: {
+      heading: "Carbondale Event Rental FAQ",
+      items: [
+        {
+          question: "Can I get married in a Carbondale park?",
+          answer: "Yes. The Town lists Sopris, Triangle, Gianinetti and Miners parks for weddings and large group events. Shelter rentals cover groups up to 100, and larger weddings or ticketed events need the Special Event Form at least 60 days ahead.",
+        },
+        {
+          question: "Can I put up a tent at a Carbondale park rental?",
+          answer: "Only with written approval from Town Administration, using the Additional Structure Permit Request. Tents or canopies of 400 square feet or more also need a permit from Carbondale & Rural Fire Protection District.",
+        },
+        {
+          question: "Where can I set up a bounce house in Carbondale?",
+          answer: "Sopris Park is the only park that allows commercially rented bounce houses, in the locations on the Town's bounce house map. Submit the Bounce House Permit Request at least 30 days ahead, and the rental company must meet the Town's insurance requirements.",
+        },
+        {
+          question: "How far ahead do I book a park shelter in Carbondale?",
+          answer: "At least 48 hours for a basic rental, processed Monday through Friday only. Plan on 30 days if you want the Sopris Park Gazebo, amplified music or a bounce house, or if the event is open to the public.",
+        },
+        {
+          question: "Do Carbondale parks have trash service on weekends?",
+          answer: "No. The parks crew doesn't work weekends and the trash bins are locked, so renters have to bring their own bags and remove all trash at the end of the rental.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Carbondale?",
+      description: "List your business on Event Rental Finder and get discovered by couples, families and organizers planning park weddings, shelter parties, ranch receptions and community events in Carbondale.",
+    },
+  },
+  {
+    city: "Frederick",
+    state: "Colorado",
+    stateCode: "CO",
+    slug: "frederick-co",
+    county: "Weld County",
+    nearbyCities: ["erie-co", "longmont-co", "broomfield-co"],
+    metaDescription: "Plan event rentals in Frederick, CO: Special Event Permits with scaled site plans, trash and sanitation plans on Town property, fire district permits for tents of 400 sq ft or more, and block parties that end by dusk.",
+    heroSupportingCopy: "Compare event rental options for Frederick, from tents, tables and chairs to portable restrooms, bounce houses and staging for park events, fundraisers, festivals and block parties.",
+    heroTagline: "Frederick's special event application reads like a site plan checklist: structures drawn to scale with heights and distances, a perimeter, a trash and sanitation plan on Town property, and a fire district permit for any tent of 400 square feet or more.",
+    categoriesIntro: "Explore the rental categories Frederick hosts use most for park events, fundraisers, festivals and block parties.",
+    localIntro: [
+      "Frederick is a Weld County town on the I-25 corridor next to Firestone and Erie, and its downtown Centennial Park on Eighth Street has an amphitheater, picnic shelters, restrooms, open fields and mountain views. The Town's special event application lists the Frederick Recreation Area picnic pavilions, Bulrush Wetland Park, Centennial Park and Crist Park as park sites that also need a park reservation, and the Town's fee schedule prices a one-day shelter rental for up to 99 people, with a separate liquor permit for shelter rentals. A Special Event Permit covers races, concerts, fundraisers, galas, parades, carnivals, sporting events, anything open to the public, and large private events. Ask the Town where your headcount falls.",
+      "The application is detailed, and most of it comes from the rental order. A site plan is often required, including for every event on Town property or open to the public. It should be drawn to scale on at least letter-size paper and show distances from roadways, distances between structures, the height of each structure, access points, parking, photos or renderings of the structures, signage, the names of contractors and vendors, and tracking pads if the site is unpaved. You also have to say how you'll set the event perimeter, such as fencing or rope. Applications submitted less than 30 days before the event pay a late fee.",
+      "Events on Town property need a Trash & Sanitation Plan: how many receptacles, how often they're emptied, and whether staff or a contracted company hauls the trash. Public Works can set the number of waste receptacles and restrooms, and the Town rents trash cans by the day. Public events also need a Security Plan, and the Frederick Police Department can set the number of security personnel and of TIPS-trained staff if alcohol is permitted. Alcohol service needs a Special Event Liquor Permit through the Town Clerk. Bounce houses on Town property need their size and exact location on the application and a signed release. Tents of 400 square feet or larger need a Temporary Structure Permit from the Frederick-Firestone Fire Protection District, whose application asks for a site plan, flame-resistance certification and liability insurance listing the event. Hosts of public or disruptive events must notify affected neighbors and businesses in writing at least 14 days ahead.",
+      "Block parties are for neighbors gathering on a block, not individual private parties. Requests are due at least four weeks ahead, every affected resident has to agree, the Town suggests getting HOA permission too, and the request goes to the Town's departments and the Frederick-Firestone Fire Department for approval. The Engineering Department requires at least one pair of barricades; Public Works will drop them near the corners for you to place, or you can rent MUTCD-compliant barricades from a rental company. Emergency access must stay open, the party must end by dusk unless the Town consents in writing, refunds need 14 days' notice, and a rained-out party can be moved to another approved date instead of refunded.",
+    ],
+    useCases: {
+      heading: "Frequently Booked Rentals in Frederick",
+      intro: "Common Frederick setups, from downtown park events to neighborhood streets.",
+      items: [
+        {
+          title: "Tents of 400 Square Feet or More",
+          description: "A 20-by-20 tent or anything larger needs a Frederick-Firestone Fire Protection District Temporary Structure Permit. Ask the tent company for the flame-resistance certificate and drawings the district wants.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Restrooms and Handwashing",
+          description: "On Town property, Public Works can set the number of restrooms. Size the [portable restroom](/categories/restroom-trailer-rentals) order after the Trash & Sanitation Plan is reviewed.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Tables, Chairs and Perimeter",
+          description: "Show every table cluster and the fence or rope line on the site plan. [Table and chair](/categories/table-chair-rentals) providers can usually give footprint dimensions for the drawing.",
+          categorySlug: "table-chair-rentals",
+        },
+        {
+          title: "Bounce Houses on Town Property",
+          description: "List the size and exact location of each inflatable and sign the Town's release. Place them where the site plan shows clear distances to other structures.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Block Parties",
+          description: "Neighbors-only gatherings that end by dusk, with Town barricades or MUTCD barricades from a rental company. [Party rentals](/categories/party-rentals) stay inside the closed segment.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Stages for Public Events",
+          description: "The site plan asks for the height of each proposed structure, so get stage and lighting tower heights from the [stage rental](/categories/stage-rentals) company early.",
+          categorySlug: "stage-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "Frederick Permit Details to Line Up",
+      intro: "Frederick requirements to settle before you book rentals.",
+      items: [
+        "A Special Event Permit for public events and large private events",
+        "A scaled site plan with structure heights, distances, access, parking and vendors",
+        "A late fee for applications less than 30 days before the event",
+        "A Trash & Sanitation Plan on Town property; Public Works may set restroom and receptacle counts",
+        "A Security Plan for public events",
+        "A fire district Temporary Structure Permit for tents of 400 square feet or more",
+        "Bounce house size, location and a signed release on Town property",
+        "Written notice to affected neighbors and businesses at least 14 days ahead",
+        "Block parties four weeks out, ending by dusk, with at least one pair of barricades",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the Town of Frederick's Special Event & Temporary Use Permits page, Special Event Application, Block Party Permit Request Form, 2026 Fee Schedule and Centennial Park listing, plus the Frederick-Firestone Fire Protection District's tent and membrane structure permit application. The permit page and the application describe the private-event headcount threshold slightly differently, so confirm with the Town.",
+      closing: "Drawing the site plan? The [event site plan guide](/resources/colorado-event-site-plan-guide) walks through measurements to collect from rental companies, and the [event restroom rental guide](/resources/event-restroom-rental-guide) helps size the sanitation order.",
+    },
+    checklist: {
+      heading: "Frederick Event Rental Checklist",
+      intro: "Collect these before you contact Frederick rental companies:",
+      items: [
+        "Venue, and whether it's Town property",
+        "Expected attendance range",
+        "Tent sizes and fire district permit",
+        "Structure heights and footprints for the site plan",
+        "Perimeter method: fencing or rope",
+        "Trash receptacle count and hauling plan",
+        "Restroom and handwashing count",
+        "Bounce house size and location",
+        "Neighbor notification letters",
+        "Block party barricades and dusk end time",
+      ],
+    },
+    faqs: {
+      heading: "Frederick Event Rental FAQ",
+      items: [
+        {
+          question: "When do I need a Special Event Permit in Frederick?",
+          answer: "For races, concerts, fundraisers, galas, parades, carnivals, sporting events and any event open to the public, plus large private events. Apply more than 30 days ahead to avoid the late fee.",
+        },
+        {
+          question: "Does a tent need a fire permit in Frederick?",
+          answer: "Tents of 400 square feet or larger need a Temporary Structure Permit from the Frederick-Firestone Fire Protection District. The district's application asks for a site plan, flame-resistance certification and liability insurance with the event listed.",
+        },
+        {
+          question: "What goes on a Frederick event site plan?",
+          answer: "The Town's checklist asks for a plan drawn to scale showing distances from roadways and between structures, structure heights, access points, parking, photos or renderings of structures, signage, the names of contractors and vendors, and tracking pads on unpaved sites.",
+        },
+        {
+          question: "Can I close my street for a birthday party in Frederick?",
+          answer: "No. Block Party Permits are for neighbors gathering on a block, not individual private parties. Requests are due at least four weeks ahead, every affected resident must agree, and the party has to end by dusk.",
+        },
+        {
+          question: "Who decides how many restrooms my Frederick event needs?",
+          answer: "For events on Town property, the Public Works Department can specify the number of waste receptacles and restrooms when it reviews your Trash & Sanitation Plan.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Do You Provide Event Rentals in Frederick?",
+      description: "List your business on Event Rental Finder and get discovered by organizers planning park events, fundraisers, festivals and block parties in Frederick.",
     },
   },
 ];

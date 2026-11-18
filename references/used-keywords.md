@@ -1,6 +1,6 @@
 # ERF Used Keywords Tracker
 
-Last updated: 2026-11-11 (Denver Infill III: Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village; site plan and accessibility guides)
+Last updated: 2026-11-18 (Colorado Growth Towns: Glendale, Johnstown, Severance, Carbondale, Frederick; tent heater and booking timeline guides)
 
 Track the primary keyword for each live page so new pages don't cannibalize existing ones. Before you target a new
 keyword, check this file. When a page goes live, log it here.
@@ -73,6 +73,11 @@ Rental Finder"). Secondary terms come from the six use-case categories emphasize
 | Edgewater | event rentals Edgewater CO | /locations/edgewater-co | table-chair, av-lighting, tent, party, restroom-trailer, wedding | 2026-11-11 |
 | Greenwood Village | event rentals Greenwood Village CO | /locations/greenwood-village-co | table-chair, tent, inflatable, stage, party, restroom-trailer | 2026-11-11 |
 | Cherry Hills Village | event rentals Cherry Hills Village CO | /locations/cherry-hills-village-co | wedding, tent, dance-floor, inflatable, table-chair, av-lighting | 2026-11-11 |
+| Glendale | event rentals Glendale CO | /locations/glendale-co | table-chair, tent, restroom-trailer, party, wedding, av-lighting | 2026-11-18 |
+| Johnstown | event rentals Johnstown CO | /locations/johnstown-co | tent, inflatable, dance-floor, table-chair, party, restroom-trailer | 2026-11-18 |
+| Severance | event rentals Severance CO | /locations/severance-co | inflatable, tent, restroom-trailer, table-chair, party, av-lighting | 2026-11-18 |
+| Carbondale | event rentals Carbondale CO | /locations/carbondale-co | wedding, tent, inflatable, table-chair, stage, party | 2026-11-18 |
+| Frederick | event rentals Frederick CO | /locations/frederick-co | tent, restroom-trailer, table-chair, inflatable, party, stage | 2026-11-18 |
 
 
 Secondary angles in use (don't build a second page around these without differentiating it):
@@ -96,6 +101,16 @@ Secondary angles in use (don't build a second page around these without differen
 - Estes Park: Rocky Mountain National Park wedding ceremony limits; Estes Park reception rentals; O'Connor Pavilion.
 - Berthoud: Berthoud pavilion rentals; Berthoud Fire tent weights and clearances; Berthoud farm wedding rentals.
 - Erie: Erie Community Events Permit; Erie Mobile Vending Permit; Erie Open Container Permit; Erie park shelter rentals.
+- Glendale: Glendale park rental guidelines (10+ groups, no staking); Infinity Park turf field rentals; Glendale Park and
+  Creekside Park pavilions.
+- Johnstown: Johnstown park shelter reservations; Hays Park alcohol permit; Johnstown block party permit; no-stake tents
+  and bounce houses.
+- Severance: Severance park reservation form (tent and bounce house questions); Severance block party/street closure;
+  Windsor Severance Fire Rescue tent permit.
+- Carbondale: Sopris Park weddings and gazebo; Carbondale park shelter rentals; Carbondale bounce house rules; Special
+  Event Task Force.
+- Frederick: Frederick Special Event Permit site plan; Trash & Sanitation Plan; Frederick block party permit;
+  Frederick-Firestone Fire tent permit (400 sq ft or more).
 
 ## Category Pages
 
@@ -134,6 +149,8 @@ Secondary angles in use (don't build a second page around these without differen
 | Colorado event insurance / certificate of insurance (COI) | /resources/colorado-event-insurance-guide | 2026-11-04 |
 | Colorado event site plan / site plan for event permit | /resources/colorado-event-site-plan-guide | 2026-11-11 |
 | accessible event rentals / ADA event planning (routes, ramps, seating) | /resources/accessible-event-rental-guide | 2026-11-11 |
+| Colorado event tent heater / heating a tent | /resources/colorado-event-tent-heater-guide | 2026-11-18 |
+| how far ahead to book event rentals Colorado / rental booking timeline | /resources/colorado-event-rental-booking-timeline | 2026-11-18 |
 
 Secondary angles in use for resources (don't build a second page around these without differentiating it):
 
@@ -168,6 +185,30 @@ Secondary angles in use for resources (don't build a second page around these wi
 - Accessibility guide: 2010 ADA Standards for routes (36 in, 1:20, 1:48, 1/4–1/2 in level changes, 1/2 in openings),
   ramps (1:12, 30 in rise, 60 in landings, handrails over 6 in rise), performance-area routes (206.2.6), wheelchair spaces
   table (221.2.1.1); restroom 5 percent and dining 5 percent point to existing guides.
+- Tent heater guide: 2024 IFC Chapter 41 (temporary heating equipment), Denver Fire tent and patio heater guidance,
+  Windsor Severance Fire Rescue FP003, Berthoud and Windsor tent rules; heater placement outside the tent, ducted heat,
+  fuel storage and CO; no heater prices or BTU sizing claims.
+- Booking timeline guide: city permit lead times already published on ERF pages (plus Glendale, Johnstown, Severance,
+  Carbondale, Frederick); order of booking (site and permit first, then tent, restrooms, tables); no invented
+  provider lead times.
+
+### Sources logged 2026-11-18 (official only)
+
+- Glendale: glendale.co.us Park Rental Fees, Guidelines and Application (PDF, still names Mir Park); Parks & Recreation;
+  Parks & Facilities; Fire Department pages.
+- Johnstown: johnstown.colorado.gov Park Reservation Information and Rules; Reserve a Park Shelter; Reserve a Public Park
+  / Space; Special Event Permit; Block Party Permit; 2026 fee schedule. Front Range Fire Rescue Special Event Permits.
+- Severance: townofseverance.org Special Events; online Park Reservation Form; Block Party/Street Closure Permit
+  Request; printable Special Event, Block Party and Park Reservation Form (PDF); Facilities; fee schedule. Windsor
+  Severance Fire Rescue Tent/Temporary Membrane Structure Permits and policy FP003.
+- Carbondale: carbondalegov.org Parks and Special Event Permit pages; Carbondale Recreation rental forms page and 2024
+  Park Shelter Rental form (PDF); Carbondale & Rural Fire Protection District Prevention Permit Fees.
+- Frederick: frederickco.gov Special Event & Temporary Use Permits; Special Event Application; Block Party Permit Request
+  Form; 2026 Fee Schedule; Centennial Park. Frederick-Firestone Fire Protection District tent/membrane structure permit
+  application.
+- Tent heater guide: 2024 International Fire Code Chapter 41 (up.codes, Colorado listing); Denver Fire Department special
+  event and patio heater guidance; WSFR FP003.
+- Dropped: New Castle (official site blocked to every fetch path); Delta (no official forms found).
 
 ### Sources logged 2026-11-11 (official only)
 

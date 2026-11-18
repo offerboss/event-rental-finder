@@ -84,6 +84,11 @@ How it displays: the city page hero renders the image in an `aspect-[3/2]` frame
 | edgewater-co | public/images/locations/edgewater-co-event-rentals.webp | 1080x720, 198 KB | Sandbag-weighted canopy over banquet tables beside a picnic pavilion under cottonwoods in Edgewater, Colorado | 2026-11-11 |
 | greenwood-village-co | public/images/locations/greenwood-village-co-event-rentals.webp | 1080x720, 112 KB | Weighted frame tent with round tables and a small stage near a park pavilion and pond in Greenwood Village, Colorado | 2026-11-11 |
 | cherry-hills-village-co | public/images/locations/cherry-hills-village-co-event-rentals.webp | 1080x720, 179 KB | Pole tent with string lights, round tables and a dance floor on a backyard lawn in Cherry Hills Village, Colorado | 2026-11-11 |
+| glendale-co | public/images/locations/glendale-co-event-rentals.webp | 1080x720, 107 KB | Draped canopy over banquet tables beside a metal-roof park pavilion with round tables and apartment towers in Glendale, CO | 2026-11-18 |
+| johnstown-co | public/images/locations/johnstown-co-event-rentals.webp | 1080x720, 104 KB | Frame tent with round tables and teal-sashed chairs by a wooden stage, with ponds and plains beyond in Johnstown, Colorado | 2026-11-18 |
+| severance-co | public/images/locations/severance-co-event-rentals.webp | 1080x720, 146 KB | Weighted canopy over a round table beside a park picnic shelter and pond, new homes and plains beyond in Severance, CO | 2026-11-18 |
+| carbondale-co | public/images/locations/carbondale-co-event-rentals.webp | 1080x720, 100 KB | Tent edge with round tables, gold chiavari chairs and string lights on a meadow below a snowy peak near Carbondale, Colorado | 2026-11-18 |
+| frederick-co | public/images/locations/frederick-co-event-rentals.webp | 1080x720, 178 KB | Pole tent with round tables, white chiavari chairs and rope stanchions on a lawn above open plains near Frederick, Colorado | 2026-11-18 |
 
 The older Denver, Colorado Springs, Fort Collins and Boulder images are 2 to 3 MB PNG skyline or landmark scenes, and
 two of them contain AI-generated signage text. They don't meet this standard and are on the Friday QA deferred list.
@@ -108,6 +113,8 @@ hero renders beside the H1 only when `heroImage` is set; the resources hub cards
 | colorado-event-insurance-guide | public/images/resources/colorado-event-insurance-guide.webp | 1080x720, 104 KB | Rental crew setup with a weighted frame tent, stacked chairs and a sandbagged bounce house beside a Colorado park pavilion | Shipped 2026-11-04 (QA passed, unattended) |
 | colorado-event-site-plan-guide | public/images/resources/colorado-event-site-plan-guide.webp | 1080x720, 135 KB | Event layout on a Colorado park lawn with a frame tent, portable restrooms, handwashing, bins and a fenced generator | Shipped 2026-11-11 (QA passed, unattended) |
 | accessible-event-rental-guide | public/images/resources/accessible-event-rental-guide.webp | 1080x720, 180 KB | Frame tent with a level floor and open table places, a smooth walkway across the lawn and a stage ramp with handrails | Shipped 2026-11-11 (QA passed, unattended) |
+| colorado-event-tent-heater-guide | public/images/resources/colorado-event-tent-heater-guide.webp | 1080x720, 158 KB | Clear-sided event tent at dusk on a frosty lawn, with a portable heater outside ducting warm air in through a flexible hose | Shipped 2026-11-18 (QA passed, unattended) |
+| colorado-event-rental-booking-timeline | public/images/resources/colorado-event-rental-booking-timeline.webp | 1080x720, 101 KB | Unmarked box truck with stacked chairs, a linen-covered cart and a frame tent with folding chairs on a Colorado park lawn | Shipped 2026-11-18 (QA passed, unattended) |
 
 ## Reference Images
 

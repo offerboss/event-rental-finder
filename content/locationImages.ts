@@ -168,4 +168,24 @@ export const locationImages: Record<string, LocationImage> = {
     src: "/images/locations/cherry-hills-village-co-event-rentals.webp",
     alt: "Pole tent with string lights, round tables and a dance floor on a backyard lawn in Cherry Hills Village, Colorado",
   },
+  "glendale-co": {
+    src: "/images/locations/glendale-co-event-rentals.webp",
+    alt: "Draped canopy over banquet tables beside a metal-roof park pavilion with round tables and apartment towers in Glendale, CO",
+  },
+  "johnstown-co": {
+    src: "/images/locations/johnstown-co-event-rentals.webp",
+    alt: "Frame tent with round tables and teal-sashed chairs by a wooden stage, with ponds and plains beyond in Johnstown, Colorado",
+  },
+  "severance-co": {
+    src: "/images/locations/severance-co-event-rentals.webp",
+    alt: "Weighted canopy over a round table beside a park picnic shelter and pond, new homes and plains beyond in Severance, CO",
+  },
+  "carbondale-co": {
+    src: "/images/locations/carbondale-co-event-rentals.webp",
+    alt: "Tent edge with round tables, gold chiavari chairs and string lights on a meadow below a snowy peak near Carbondale, Colorado",
+  },
+  "frederick-co": {
+    src: "/images/locations/frederick-co-event-rentals.webp",
+    alt: "Pole tent with round tables, white chiavari chairs and rope stanchions on a lawn above open plains near Frederick, Colorado",
+  },
 };

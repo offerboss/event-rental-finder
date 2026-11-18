@@ -1,12 +1,43 @@
 # ERF Published Page Inventory
 
-Last audited: 2026-11-11 (Denver Infill III: Castle Pines, Superior, Edgewater, Greenwood Village, Cherry Hills Village; Colorado event site plan guide; accessible event rental guide)
+Last audited: 2026-11-18 (Colorado Growth Towns: Glendale, Johnstown, Severance, Carbondale, Frederick; tent heater guide; event rental booking timeline)
 
 Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to www). Deploys: push to `main`, then Vercel auto-deploys.
 
 ---
 
 ## Run Log
+
+### 2026-11-18: ERF Colorado Growth Towns (Glendale, NoCo, Carbon Valley, Roaring Fork)
+
+- **Cluster choice:** named candidates from the Next Candidate Clusters table: Glendale (Denver infill row), Johnstown and
+  Severance (Northern Colorado row), Carbondale (Western Slope row). New Castle was scoped and swapped out because the
+  Town site (newcastlecolorado.org) returned a Cloudflare block from every fetch path, so its rules couldn't be verified.
+  Frederick was added as an in-cluster expansion next to the shipped Erie and Longmont pages because its permit, block
+  party and fire district sources were verifiable. Delta is still unverifiable (no official forms found).
+- **New rich city pages:** Glendale (`/locations/glendale-co`); Johnstown (`/locations/johnstown-co`); Severance
+  (`/locations/severance-co`); Carbondale (`/locations/carbondale-co`); Frederick (`/locations/frederick-co`). Written to
+  search intent and sourced facts, not padded. Similarity gate (03_guardrail.py, rendered main text vs 46 ERF city
+  pages): all PASS, max cosine 0.432 (Johnstown vs Windsor), max 5-gram Jaccard 0.027.
+- **New resource guides** (publishedAt 2026-11-18, heroes shipped): Heating a Rented Event Tent in Colorado: Heaters, Propane and Fire Code Rules
+  (`/resources/colorado-event-tent-heater-guide`); How Far Ahead to Book Event Rentals and Permits in Colorado
+  (`/resources/colorado-event-rental-booking-timeline`).
+- **Heroes:** five city heroes + two resource heroes, 1080x720 WebP, QA passed unattended (see hero-image-style.md).
+- **Links:** nearby lists updated reciprocally on Denver, Aurora, Englewood, Cherry Hills Village (Glendale); Loveland,
+  Windsor, Berthoud, Greeley (Johnstown); Windsor, Greeley, Fort Collins (Severance); Glenwood Springs, Rifle
+  (Carbondale); Erie, Longmont, Broomfield (Frederick).
+- **Source conflicts (left out of copy or flagged on page disclaimers, not resolved):** Windsor Severance Fire Rescue tent
+  threshold (policy FP003, effective 2026-01-01: tents over 700 sq ft and temporary special event structures over
+  400 sq ft, vs the live Windsor page's Town-guideline figures of tents over 600 / canopies over 900; Severance page
+  omits the number). Severance lead time (Special Events page 14 business days vs online form and PDF 10), barricades
+  (applicant-obtained/Public Works for a fee online vs Town-provided in the PDF) and alcohol (allowed with a Special
+  Event Permit and liquor license online vs no alcohol in any park in the PDF); online rules used. Frederick private-event
+  threshold ("over 100" on the permit page vs "100 or more" on the application) and block party fees (fee schedule vs
+  form). Denver Fire guideline canopy thresholds differ inside its own documents (not used in the heater guide).
+  Glendale's guidelines PDF still calls Glendale Park "Mir Park" (noted in the disclaimer).
+- **Not used:** fees and rental rates (all cities); New Castle; Delta.
+- **Sources:** see used-keywords.md "Sources logged 2026-11-18".
+- **Sitemap URLs:** 176, now 183. **Location pages:** 46, now 51. **Resource pages:** 16, now 18.
 
 ### 2026-11-11: ERF Denver Infill III (South Metro, Superior and Edgewater)
 
@@ -310,7 +341,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Contact | https://www.eventrentalfinder.com/contact | Yes |
 | Providers | https://www.eventrentalfinder.com/providers | No (empty page) |
 
-## Location Pages (46)
+## Location Pages (51)
 
 | City | County | Format | URL | Added |
 |---|---|---|---|---|
@@ -361,6 +392,11 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Edgewater | Jefferson County | Rich | https://www.eventrentalfinder.com/locations/edgewater-co | 2026-11-11 |
 | Greenwood Village | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/greenwood-village-co | 2026-11-11 |
 | Cherry Hills Village | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/cherry-hills-village-co | 2026-11-11 |
+| Glendale | Arapahoe County | Rich | https://www.eventrentalfinder.com/locations/glendale-co | 2026-11-18 |
+| Johnstown | Weld and Larimer Counties | Rich | https://www.eventrentalfinder.com/locations/johnstown-co | 2026-11-18 |
+| Severance | Weld County | Rich | https://www.eventrentalfinder.com/locations/severance-co | 2026-11-18 |
+| Carbondale | Garfield County | Rich | https://www.eventrentalfinder.com/locations/carbondale-co | 2026-11-18 |
+| Frederick | Weld County | Rich | https://www.eventrentalfinder.com/locations/frederick-co | 2026-11-18 |
 
 ## Category Pages (10)
 
@@ -377,7 +413,7 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Stage Rentals | https://www.eventrentalfinder.com/categories/stage-rentals |
 | AV & Lighting Rentals | https://www.eventrentalfinder.com/categories/av-lighting-rentals |
 
-## Resource Pages (16)
+## Resource Pages (18)
 
 | Title | URL | Published |
 |---|---|---|
@@ -397,6 +433,8 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 | Event Insurance for Colorado Rentals: Certificates, Additional Insured and Deadlines | https://www.eventrentalfinder.com/resources/colorado-event-insurance-guide | 2026-11-04 |
 | How to Make an Event Site Plan for a Colorado Permit | https://www.eventrentalfinder.com/resources/colorado-event-site-plan-guide | 2026-11-11 |
 | Accessible Event Rentals: Routes, Ramps, Flooring and Seating | https://www.eventrentalfinder.com/resources/accessible-event-rental-guide | 2026-11-11 |
+| Heating a Rented Event Tent in Colorado: Heaters, Propane and Fire Code Rules | https://www.eventrentalfinder.com/resources/colorado-event-tent-heater-guide | 2026-11-18 |
+| How Far Ahead to Book Event Rentals and Permits in Colorado | https://www.eventrentalfinder.com/resources/colorado-event-rental-booking-timeline | 2026-11-18 |
 
 ### 2026-10-23: ERF QA expansion of thin hub pages
 - **Expanded (official sources only):** Denver, Fort Collins, Boulder, Greeley (about 1,600 words each, up from about 290).
@@ -410,5 +448,5 @@ Base URL: https://www.eventrentalfinder.com (the apex domain 308-redirects to ww
 
 | File | URL |
 |---|---|
-| Sitemap (176 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
+| Sitemap (183 URLs) | https://www.eventrentalfinder.com/sitemap.xml |
 | Robots | https://www.eventrentalfinder.com/robots.txt |

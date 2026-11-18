@@ -3355,4 +3355,379 @@ export const resources: ResourceArticle[] = [
       secondaryHref: "/categories/stage-rentals",
     },
   },
+  {
+    title: "Heating a Rented Event Tent in Colorado: Heaters, Propane and Fire Code Rules",
+    slug: "colorado-event-tent-heater-guide",
+    excerpt: "Which heaters can be used with a rented event tent, where propane tanks and patio heaters have to go, and the local fire rules that change the plan in Colorado.",
+    category: "Tents",
+    stateCode: "CO",
+    publishedAt: "2026-11-18",
+    heroImage: {
+      src: "/images/resources/colorado-event-tent-heater-guide.webp",
+      alt: "Clear-sided event tent at dusk on a frosty lawn, with a portable heater outside ducting warm air in through a flexible hose",
+    },
+    metaTitle: "Colorado Event Tent Heater Guide | Event Rental Finder",
+    metaDescription: "How to heat a rented event tent in Colorado: why patio heaters stay outside, ducted and electric heat, propane tank placement, refueling rules and local fire district limits.",
+    h1: "Heating a Rented Event Tent in Colorado: Heaters, Propane and Fire Code Rules",
+    topicCategorySlug: "tent-rentals",
+    intro: [
+      "A tent with sidewalls holds some warmth, but a fall wedding or a holiday party in Colorado usually needs a heater too. The catch is that the familiar propane patio heater isn't allowed inside a tent under the fire code, and many fire districts add their own distance and permit rules on top.",
+      "This guide walks through the heater types rental companies offer, where each one can go, how propane and fuel are handled, and the local rules that most often change the plan. Fire districts adopt their own code editions and amendments, so the district that covers your site has the final say.",
+    ],
+    sections: [
+      {
+        id: "patio-heaters",
+        heading: "Patio Heaters Stay Outside the Tent",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The 2024 International Fire Code (Section 4103.1.2) treats the tall propane patio heater as a portable outdoor gas-fired heating appliance and prohibits storing or using one inside tents, canopies and membrane structures. Outdoors, it has to sit at least 5 feet from buildings, at least 5 feet from exits, and not under or within 5 feet of combustible awnings, sunshades or decorations.",
+          },
+          {
+            type: "list",
+            items: [
+              "It must be listed to ANSI Z83.26/CSA 2.37 and use a fuel container built into the appliance",
+              "It needs a tip-over switch that cuts the gas if it tilts more than 15 degrees, and a permanent guard around the burner",
+              "Each gas container can hold no more than 20 pounds",
+              "Containers can't be swapped while the public is present",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Denver Fire's special event guidelines say the same thing in plain terms: mushroom heaters can't be used under tents or canopies, and they can't be within 10 feet of any building opening. Its patio permit notice adds that propane heaters and propane fire pits aren't allowed in enclosed spaces, including tents. A row of patio heaters can still warm an outdoor cocktail area or the path between the tent and the parking lot.",
+          },
+        ],
+      },
+      {
+        id: "inside-heat",
+        heading: "Heating the Inside: Ducted and Electric Heat",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "For heat inside the tent, rental companies typically offer two approaches. A ducted, or indirect-fired, heater sits outside the tent and blows warm air in through a flexible duct, so the burner and fuel stay outside. Denver Fire asks for the make and model of blow-in heaters, the type of fuel and the size of the propane cylinder or fuel tank when you apply for the permit.",
+          },
+          {
+            type: "paragraph",
+            text: "Electric heaters are the other option. Under the 2024 IFC (Section 4102), portable electric space heaters must be listed and labeled, plugged directly into an approved receptacle rather than an extension cord, and kept at least 3 feet from combustible materials. Denver adds that they should be UL-listed with a switch that shuts off the element if the heater tips over. Electric heat needs real power, so ask whether the venue's circuits can carry it or whether a generator is part of the quote; the [generator and power guide](/resources/colorado-event-generator-power-guide) covers sizing and placement.",
+          },
+          {
+            type: "callout",
+            text: "Plan the tent layout around the heat. Keep tables, linens and draped sidewalls clear of heaters and ducts, and don't let a duct or cord cross an exit.",
+          },
+        ],
+      },
+      {
+        id: "propane-fuel",
+        heading: "Propane Tanks, Fuel and Refueling",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "When a heater burns propane, the tank stays outside. The 2024 IFC (Section 4101.6) requires LP-gas containers to be located outside, with pressure relief devices pointed away from the tent, and requires tanks, piping and fittings that feed equipment inside a tent to be protected from tampering and vehicle damage and secured against movement.",
+          },
+          {
+            type: "list",
+            items: [
+              "Windsor Severance Fire Rescue's tent policy keeps flammable and combustible liquids stored outside and 50 feet from a tent, and refueling at least 20 feet away",
+              "Denver Fire doesn't allow heaters to be refueled while the event is open to the public, and wants propane cylinders secured away from the public so they can't tip",
+              "The 2024 IFC calls for liquid-fueled equipment to be turned off and cooled before refueling, by trained staff, at least 10 feet from any building or structure",
+            ],
+          },
+        ],
+      },
+      {
+        id: "local-rules",
+        heading: "Local Fire Rules That Change the Plan",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Colorado fire districts often go further than the model code. These are rules already published by districts and cities covered on this site:",
+          },
+          {
+            type: "table",
+            rows: [
+              {
+                label: "Windsor Severance Fire Rescue",
+                value: "No open flame or other device emitting flame, fire or heat inside or within 20 feet of a tent, LP-gas containers outside, and generators at least 20 feet from a tent and fenced off from the public (policy FP003, 2026)",
+              },
+              {
+                label: "Denver Fire",
+                value: "A permit for all temporary heating, including propane, diesel, electric, natural gas and kerosene units, and no heating or cooking under tents or canopies",
+              },
+              {
+                label: "Berthoud Fire",
+                value: "No cooking, heating or fuel under any tent",
+              },
+              {
+                label: "Town of Windsor (event guidelines)",
+                value: "Outdoor propane heaters secured to the ground and kept 20 feet from combustible materials",
+              },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The [Windsor](/locations/windsor-co), [Severance](/locations/severance-co) and [Berthoud](/locations/berthoud-co) pages have the rest of each town's tent rules. Tent permits and heater rules often travel together. When a tent needs a fire permit, list the heaters, tanks and generator on the application too, so the district reviews the whole setup at once.",
+          },
+        ],
+      },
+      {
+        id: "attendance",
+        heading: "Attendance and Fire Extinguishers",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The 2024 IFC (Section 4101.4) requires portable heating equipment to be constantly attended while it's running and until it has cooled, and calls for at least one portable fire extinguisher with a minimum 4-A rating, or other approved equipment, to be available. Denver Fire asks for at least one serviced 2A:10BC extinguisher wherever tents and canopies are used. Ask the rental company who stays with the heaters during the event and who shuts them down at the end of the night.",
+          },
+        ],
+      },
+      {
+        id: "site-plan",
+        heading: "Put Heaters on the Site Plan",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Denver Fire's guidelines ask event site plans to show every tent, temporary generator, temporary heater, fire pit, cooking area and propane storage area. Even where the city doesn't ask, drawing them helps the rental company place tanks and ducts before delivery day. The [event site plan guide](/resources/colorado-event-site-plan-guide) shows how to draw one, and the [outdoor tent planning guide](/resources/colorado-outdoor-event-tent-planning) covers sidewalls, anchoring and weather.",
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Questions for Your Rental Company",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "What kind of heat do you recommend for this tent: ducted, electric or patio heaters outside?",
+              "Where will the heaters, ducts and propane tanks sit, and how far are they from the tent fabric and exits?",
+              "Does the heater need its own fire permit here, and who files it?",
+              "How much power do electric heaters need, and will you bring a generator?",
+              "Who refuels or swaps tanks, and when?",
+              "Who attends the heaters during the event and shuts them down afterward?",
+              "Which sidewalls do you include, and can they be opened if the tent gets too warm?",
+            ],
+          },
+          {
+            type: "callout",
+            text: "Code sections here are from the 2024 International Fire Code; your fire district may use a different edition or local amendments. This guide isn't legal advice, so confirm heater and permit rules with the district that covers your site.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-outdoor-event-tent-planning",
+      "colorado-event-generator-power-guide",
+      "colorado-event-site-plan-guide",
+    ],
+    relatedCategorySlugs: ["tent-rentals", "av-lighting-rentals", "wedding-rentals"],
+    cta: {
+      heading: "Ready to Book a Heated Tent?",
+      description: "Browse tent rental options and ask providers about sidewalls, heaters and fuel placement.",
+      primaryLabel: "Find Tent Rentals",
+      primaryHref: "/categories/tent-rentals",
+      secondaryLabel: "Find Wedding Rentals",
+      secondaryHref: "/categories/wedding-rentals",
+    },
+  },
+  {
+    title: "How Far Ahead to Book Event Rentals and Permits in Colorado",
+    slug: "colorado-event-rental-booking-timeline",
+    excerpt: "Colorado permit deadlines run from 48 hours to six months, and they usually set the rental schedule. A city-by-city look at lead times and a working-back plan for booking rentals.",
+    category: "Permits",
+    stateCode: "CO",
+    publishedAt: "2026-11-18",
+    heroImage: {
+      src: "/images/resources/colorado-event-rental-booking-timeline.webp",
+      alt: "Unmarked box truck with stacked chairs, a linen-covered cart and a frame tent with folding chairs on a Colorado park lawn",
+    },
+    metaTitle: "How Far Ahead to Book Event Rentals in Colorado | Event Rental Finder",
+    metaDescription: "Colorado event permit deadlines, from 48-hour shelter rentals to six-month special event windows, plus insurance, fire permit and block party lead times and a plan for booking rentals around them.",
+    h1: "How Far Ahead to Book Event Rentals and Permits in Colorado",
+    topicCategorySlug: "party-rentals",
+    intro: [
+      "Most people start an event by calling rental companies, but in Colorado the permit calendar usually decides how early you need to start. A shelter party can be booked days ahead in some towns, while a public event in others needs an application half a year out, and several cities stack separate deadlines for the site plan, insurance and fire permits.",
+      "This guide gathers real lead times from Colorado cities and fire districts covered on this site, then lays out a working-back plan for rentals. Deadlines change and differ by event type, so confirm yours with the city before you put down deposits.",
+    ],
+    sections: [
+      {
+        id: "longest-first",
+        heading: "Start With the Longest Lead Time",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Find the slowest permit your event needs and plan backward from it. A few examples of long windows:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Golden](/locations/golden-co): a new public event files a New Event Application at least 180 days ahead; returning events file at least 90 days ahead",
+              "[Lone Tree](/locations/lone-tree-co): the City Clerk must receive a special event application no later than 90 days and no earlier than six months before the event",
+              "[Edgewater](/locations/edgewater-co): at least 60 business days ahead, and events lasting more than one day apply between January 1 and February 28 for the following 12 months",
+              "[Carbondale](/locations/carbondale-co): the Special Event Task Force approves events on Town property each December for the following calendar year",
+              "[Windsor](/locations/windsor-co) and [Wheat Ridge](/locations/wheat-ridge-co): special event applications at least 90 days ahead",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A wedding or private party usually avoids these, but the trigger lists are broader than many people expect: alcohol, amplified sound, tents, inflatables or a guest count over a threshold can turn a private party into a permitted event. Check the triggers on your city's page first.",
+          },
+        ],
+      },
+      {
+        id: "typical-windows",
+        heading: "Typical Special Event Windows",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Mid-range deadlines are the most common. These come from city pages on this site:",
+          },
+          {
+            type: "table",
+            rows: [
+              { label: "Denver", value: "Office of Special Events permit at least 60 days before setup begins" },
+              { label: "Lafayette", value: "Community Event Permit at least 60 days ahead" },
+              { label: "Berthoud", value: "Special event permit 30 to 60 days ahead depending on attendance; alcohol permits no later than 45 days before" },
+              { label: "Woodland Park", value: "Temporary Use Permit 45 days ahead" },
+              { label: "Frederick", value: "A late fee for special event applications submitted less than 30 days before the event" },
+              { label: "Castle Pines", value: "Special Event Permit at least 15 business days ahead and no more than a year out" },
+              { label: "Cherry Hills Village", value: "City property at least 10 business days and no more than six months ahead" },
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Details and triggers are on the [Denver](/locations/denver-co), [Lafayette](/locations/lafayette-co), [Berthoud](/locations/berthoud-co), [Woodland Park](/locations/woodland-park-co), [Frederick](/locations/frederick-co), [Castle Pines](/locations/castle-pines-co) and [Cherry Hills Village](/locations/cherry-hills-village-co) pages.",
+          },
+        ],
+      },
+      {
+        id: "short-notice",
+        heading: "Short-Notice Shelter and Park Reservations",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Simple park and shelter rentals move faster, though popular dates can still be gone early:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Carbondale](/locations/carbondale-co): a basic shelter rental needs payment and an approved form 48 hours ahead, processed weekdays only, but 30 days if you add the Sopris Park Gazebo, amplified music or a bounce house",
+              "[Golden](/locations/golden-co): pavilions book online at least seven days ahead",
+              "[Glendale](/locations/glendale-co): park permits at least 10 business days ahead, with payment and documents at least five business days before",
+              "[Severance](/locations/severance-co): the Town needs up to 10 business days to review a park reservation, and it isn't approved until you get official confirmation",
+            ],
+          },
+          {
+            type: "callout",
+            text: "Until the city confirms a reservation, treat rental bookings as tentative and ask each company what its hold and cancellation terms are.",
+          },
+        ],
+      },
+      {
+        id: "hidden-deadlines",
+        heading: "Deadlines Inside the Permit",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Many permits have their own internal calendar after the application is in. These are easy to miss because they fall closer to the event:",
+          },
+          {
+            type: "list",
+            items: [
+              "[Manitou Springs](/locations/manitou-springs-co): the final site plan is due 60 days out, tent details 30 days out, and insurance and the final delivery schedule 14 days out",
+              "[Glendale](/locations/glendale-co): the insurance certificate for groups of 100 or more is due 21 days before the event",
+              "[Golden](/locations/golden-co): the host's certificate of insurance naming the City is due 14 days before",
+              "[Frederick](/locations/frederick-co): written notice to affected neighbors and businesses at least 14 days ahead for public or disruptive events",
+              "[Thornton](/locations/thornton-co): special event liquor permit applications at least 45 days ahead",
+              "[Colorado Springs](/locations/colorado-springs-co): a Noise Hardship Permit for amplified sound in a city park, requested about 30 days ahead",
+              "[Severance](/locations/severance-co): Windsor Severance Fire Rescue needs at least 48 hours' notice to schedule a tent inspection",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Insurance deadlines usually depend on the rental companies too, since a bounce house or tent provider may need to name the city on its own certificate. The [event insurance guide](/resources/colorado-event-insurance-guide) explains what to ask for, and the [liquor permit guide](/resources/colorado-special-event-liquor-permit-guide) covers alcohol timelines.",
+          },
+        ],
+      },
+      {
+        id: "block-parties",
+        heading: "Block Parties Run on a Shorter Clock",
+        blocks: [
+          {
+            type: "list",
+            items: [
+              "[Johnstown](/locations/johnstown-co): at least 10 days ahead, with a petition from at least half the residents in the closure area",
+              "[Lafayette](/locations/lafayette-co): at least 10 business days ahead, with a 75 percent petition",
+              "[Severance](/locations/severance-co): at least 14 business days ahead, with every affected resident in agreement",
+              "[Golden](/locations/golden-co): at least 21 days ahead",
+              "[Frederick](/locations/frederick-co): at least four weeks ahead",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Petitions take time to collect, so start knocking on doors before the deadline count begins. The [block party permit guide](/resources/colorado-block-party-permit-guide) covers barricades and closures.",
+          },
+        ],
+      },
+      {
+        id: "working-back",
+        heading: "A Working-Back Plan for Rentals",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "Pick the venue and read its rules, then list every permit the event triggers and its deadline.",
+              "Ask rental companies for the sizes the permits ask about: tent dimensions, structure heights, restroom counts, generator output and bounce house footprints.",
+              "Put a tentative hold on the rentals you can't easily replace, such as large tents, restroom trailers and stages.",
+              "Draw the site plan with those measurements and file the applications by the earliest deadline.",
+              "Collect insurance certificates from the host and from any provider the city requires to name it.",
+              "Confirm the fire district permit and inspection time with the tent company.",
+              "Send final counts, the delivery window and the site contact to each provider once the permit is approved.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The [event site plan guide](/resources/colorado-event-site-plan-guide) shows which rental measurements to collect for step 4.",
+          },
+        ],
+      },
+      {
+        id: "questions",
+        heading: "Timing Questions for Rental Companies",
+        blocks: [
+          {
+            type: "list",
+            ordered: true,
+            items: [
+              "How far ahead do you usually book for this date and item?",
+              "Can you hold the order while the permit is pending, and for how long?",
+              "What deposit is due, and what are the cancellation terms if the permit is denied?",
+              "When do you need final counts?",
+              "Do you file the fire permit for tents, and how much notice does the district need?",
+              "What delivery and pickup windows can you offer for this venue's hours?",
+            ],
+          },
+          {
+            type: "callout",
+            text: "Lead times here come from the city and fire district pages linked above and can change. Rental company booking windows, deposits and cancellation terms vary by provider, so ask each one.",
+          },
+        ],
+      },
+    ],
+    relatedHeading: "Related Planning Guides",
+    relatedResourceSlugs: [
+      "colorado-event-site-plan-guide",
+      "colorado-event-insurance-guide",
+      "colorado-block-party-permit-guide",
+    ],
+    relatedCategorySlugs: ["party-rentals", "tent-rentals", "restroom-trailer-rentals"],
+    cta: {
+      heading: "Ready to Start Booking?",
+      description: "Browse party and tent rental options and ask providers about holds, deposits and delivery windows.",
+      primaryLabel: "Find Party Rentals",
+      primaryHref: "/categories/party-rentals",
+      secondaryLabel: "Find Tent Rentals",
+      secondaryHref: "/categories/tent-rentals",
+    },
+  },
 ];

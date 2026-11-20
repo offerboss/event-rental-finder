@@ -735,6 +735,112 @@ export const locations: Location[] = [
     county: "Mesa County",
     featured: true,
     nearbyCities: ["fruita-co", "palisade-co", "montrose-co", "rifle-co"],
+    metaDescription: "Plan event rentals in Grand Junction, CO: shelter reservations in four-hour blocks, permits for tents and bounce houses in parks, 21-day special event permits, and the City's restroom and dumpster counts by crowd size.",
+    heroSupportingCopy: "Tents, tables, restroom trailers, generators and bounce houses for Grand Junction shelter parties, Lincoln Park and Las Colonias events, and valley weddings.",
+    heroTagline: "Grand Junction parks require a permit before a tent or bounce house goes up, set portable restroom and dumpster counts for larger events, and limit shelter outlets to 15 amps.",
+    categoriesIntro: "Rental categories Grand Junction hosts book most for shelter parties, park weddings, Lincoln Park and Las Colonias events, and backyard gatherings in the valley.",
+    localIntro: [
+      "Grand Junction runs 25 reservable picnic shelters across its parks. Reservations are paid in full when booked and cover a four-hour block, and they can be made online except within one week of the date, when Parks and Recreation takes them by phone. Whitman Park is reserved by phone only.",
+      "Park rules decide much of the rental order. No structure or enclosure, including tents, can be erected, staked or attached to park facilities without a permit, and bump-and-jumps and bounce houses need a permit too. Ropes and straps can't be tied to trees, and glass containers are prohibited. Open-sided shade shelters and sports nets are allowed.",
+      "Bigger events move to a Special Event Permit, which the City requires for weddings, company picnics, concerts, tournaments and other uses beyond ordinary park activity. Applications are due at least 21 days before the event, or 90 days for events in the street right-of-way. The Lincoln Park Barn, Las Colonias Amphitheater, Lincoln Park Hospitality Suite and Whitman Park each have their own application, and downtown events are processed by the Business Improvement District.",
+      "Tents follow Grand Junction Fire Department guidelines based on the International Fire Code: larger tents and canopies need a fire permit with a narrative, a scaled site plan and an interior floor plan, flame-resistance documentation, a 2A10BC extinguisher, 44-inch aisles, and no cooking or open flame within 20 feet while open to the public.",
+    ],
+    useCases: {
+      heading: "Popular Rentals for Grand Junction Events",
+      intro: "Common Grand Junction setups, from four-hour shelter parties to permitted events at Lincoln Park and Las Colonias.",
+      items: [
+        {
+          title: "Four-Hour Shelter Parties",
+          description: "A shelter reservation covers four hours, so choose [party rentals](/categories/party-rentals) and [tables and chairs](/categories/table-chair-rentals) the crew can set and strike inside that window.",
+          categorySlug: "party-rentals",
+        },
+        {
+          title: "Permitted Tents",
+          description: "Any tent in a City park needs a permit, and staked tents must be approved by Parks and Recreation staff. Larger tents also need a Fire Department permit, so ask the [tent rental](/categories/tent-rentals) company for its flame-resistance certificate.",
+          categorySlug: "tent-rentals",
+        },
+        {
+          title: "Bounce Houses",
+          description: "Bump-and-jumps and bounce houses need a park permit. Confirm the [inflatable rental](/categories/inflatable-rentals) company can anchor without tying to trees.",
+          categorySlug: "inflatable-rentals",
+        },
+        {
+          title: "Restrooms for Large Events",
+          description: "Special events supply portable restrooms by crowd size, starting at one ADA and one regular unit for 200 people. Lincoln Park and Canyon View counts are negotiated because those parks already have restrooms. Compare [restroom trailer rentals](/categories/restroom-trailer-rentals) for weddings.",
+          categorySlug: "restroom-trailer-rentals",
+        },
+        {
+          title: "Power for Sound and Lighting",
+          description: "Shelter and park outlets are limited to 15 amps (20 at Long Family Memorial Park), and the City suggests a backup generator. Plan [AV and lighting](/categories/av-lighting-rentals) loads with that in mind.",
+          categorySlug: "av-lighting-rentals",
+        },
+        {
+          title: "Weddings at Park Venues",
+          description: "Park weddings run through the Special Event Permit, and the Lincoln Park Barn has its own application. Book [wedding rentals](/categories/wedding-rentals) after the venue date is confirmed.",
+          categorySlug: "wedding-rentals",
+        },
+      ],
+    },
+    considerations: {
+      heading: "What Grand Junction Asks of Event Hosts",
+      intro: "Grand Junction details to settle before you book rentals.",
+      items: [
+        "Shelter reservations paid in full, in four-hour blocks; phone only within a week of the date",
+        "A park permit before any tent, enclosure, bounce house or bump-and-jump goes up",
+        "Special Event Permit applications 21 days out, or 90 days for events in the street",
+        "Separate applications for the Lincoln Park Barn, Las Colonias Amphitheater, Hospitality Suite and Whitman Park",
+        "Portable restrooms and dumpsters by attendance, placed where Parks staff direct",
+        "Insurance naming the City, at $1,000,000 per occurrence, received 10 days ahead when required",
+        "Outlets limited to 15 amps (20 at Long Family Memorial Park)",
+        "Park hours end at 10 p.m. March 2 to October 31 and 8 p.m. November 1 to March 1, later at sports parks",
+        "Each provider's delivery area, pricing, setup windows and weather policy, which vary from company to company",
+      ],
+      disclaimer: "Details here summarize the City of Grand Junction's Park Shelters, Park Rules and Special Event Permits pages, the Parks and Recreation Special Event Application, the Special Event Permit (Non-Parks) Information and Guidelines, and the Fire Prevention fee schedule. Confirm current rules with the City before you book.",
+      closing: "Planning a larger event? The [park pavilion reservation guide](/resources/colorado-park-pavilion-reservation-guide) covers shelter booking, and the [event generator and power guide](/resources/colorado-event-generator-power-guide) covers sizing power when outlets fall short.",
+    },
+    checklist: {
+      heading: "Grand Junction Event Rental Checklist",
+      intro: "Have these ready before you contact Grand Junction rental companies:",
+      items: [
+        "Which park and shelter, or a private venue or backyard",
+        "Guest count, and whether it reaches 200",
+        "Tent size, stakes and park and fire permits",
+        "Bounce house permit and anchoring plan",
+        "Power needs against the 15-amp outlet limit",
+        "Restroom and dumpster counts and placement",
+        "Insurance certificate timing",
+        "Setup and strike inside the reservation window",
+      ],
+    },
+    faqs: {
+      heading: "Grand Junction Event Rental FAQ",
+      items: [
+        {
+          question: "Can I put up a tent in a Grand Junction park?",
+          answer: "Only with a permit. Park rules bar tents and other structures without one, and tents that need stakes must be approved by Parks and Recreation staff. Larger tents and canopies also need a Grand Junction Fire Department permit.",
+        },
+        {
+          question: "Do I need a permit for a bounce house in a Grand Junction park?",
+          answer: "Yes. Park rules require a permit for bump-and-jumps and bounce houses, and ropes or straps can't be tied to trees.",
+        },
+        {
+          question: "How far ahead do I apply for a Grand Junction special event permit?",
+          answer: "At least 21 days before the event, or 90 days for events in the street right-of-way. Applications filed late may be denied.",
+        },
+        {
+          question: "How many portable restrooms does a Grand Junction park event need?",
+          answer: "The City's table starts at one ADA and one regular restroom plus a 2-yard dumpster for 200 people, rising to two ADA and four regular units and a 4-yard dumpster at 500. Lincoln Park and Canyon View requirements are negotiated.",
+        },
+        {
+          question: "Can I plug sound equipment into a Grand Junction shelter?",
+          answer: "Outlets in shelters and parks are limited to 15 amps, or 20 at Long Family Memorial Park. Overloaded circuits may not be reset, so the City suggests a backup generator.",
+        },
+      ],
+    },
+    providerCta: {
+      heading: "Rent Tents, Restrooms or Bounce Houses in Grand Junction?",
+      description: "List your business on Event Rental Finder so Grand Junction hosts planning shelter parties, Lincoln Park and Las Colonias events, and valley weddings can find you.",
+    },
   },
   {
     city: "Aurora",

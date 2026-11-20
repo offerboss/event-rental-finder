@@ -139,11 +139,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Denver?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Denver and the metro area.",
-    },
   },
   {
     city: "Colorado Springs",
@@ -288,11 +283,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Colorado Springs?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Colorado Springs and the Pikes Peak region.",
-    },
   },
   {
     city: "Fort Collins",
@@ -431,11 +421,6 @@ export const locations: Location[] = [
             "The City says private events on private property that do not close streets or affect traffic flow do not need a Special Event Permit. Tent permits and vendor requirements can still apply.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Fort Collins?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Fort Collins and Northern Colorado.",
     },
   },
   {
@@ -577,11 +562,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Boulder?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Boulder and Boulder County.",
-    },
   },
   {
     city: "Greeley",
@@ -721,11 +701,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Greeley?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings, parties and events across Greeley and Weld County.",
-    },
   },
   {
     city: "Grand Junction",
@@ -836,10 +811,6 @@ export const locations: Location[] = [
           answer: "Outlets in shelters and parks are limited to 15 amps, or 20 at Long Family Memorial Park. Overloaded circuits may not be reset, so the City suggests a backup generator.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Rent Tents, Restrooms or Bounce Houses in Grand Junction?",
-      description: "List your business on Event Rental Finder so Grand Junction hosts planning shelter parties, Lincoln Park and Las Colonias events, and valley weddings can find you.",
     },
   },
   {
@@ -974,11 +945,6 @@ export const locations: Location[] = [
             "Not always. Tents are most useful for shade, weather protection and outdoor events, but the need for one depends on your venue, the season and how much of the event happens outdoors.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Aurora?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Aurora and the surrounding Denver metro.",
     },
   },
   {
@@ -1116,11 +1082,6 @@ export const locations: Location[] = [
             "Not always, but outdoor events may benefit from tents, sidewalls, shade, heaters or fans depending on the venue, season and forecast.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Lakewood?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Lakewood and the western Denver metro.",
     },
   },
   {
@@ -1260,11 +1221,6 @@ export const locations: Location[] = [
             "It depends on the company. Some offer a range of categories under one roof, while others specialize in just one or two, so it's worth asking directly what a provider can supply together versus what you'd need to source from a separate company.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Arvada?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Arvada and the northwest Denver metro.",
     },
   },
   {
@@ -1410,11 +1366,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Castle Rock?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Castle Rock and the south Denver metro.",
-    },
   },
   {
     city: "Loveland",
@@ -1556,11 +1507,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Loveland?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers searching for event rentals in Loveland and across Northern Colorado.",
-    },
   },
   {
     city: "Monument",
@@ -1699,11 +1645,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Monument?",
-      description:
-        "List your business on Event Rental Finder and get discovered by customers planning events in Monument, Palmer Lake, Woodmoor and the rest of the Tri-Lakes area.",
-    },
   },
   {
     city: "Manitou Springs",
@@ -1837,11 +1778,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Manitou Springs?",
-      description:
-        "List your business on Event Rental Finder and get discovered by couples and planners arranging weddings and events in Manitou Springs and the west side of the Pikes Peak region.",
-    },
   },
   {
     city: "Woodland Park",
@@ -1974,11 +1910,6 @@ export const locations: Location[] = [
             "Some may, but delivery areas, mountain travel charges and scheduling vary by provider. Confirm your exact address is covered and ask about gravel drives or steep access.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Woodland Park?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning weddings and events in Woodland Park and the Teller County high country.",
     },
   },
   {
@@ -2115,11 +2046,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Fountain?",
-      description:
-        "List your business on Event Rental Finder and get discovered by people planning parties, reunions and community events in Fountain and the south end of El Paso County.",
-    },
   },
   {
     city: "Pueblo",
@@ -2253,11 +2179,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Pueblo?",
-      description:
-        "List your business on Event Rental Finder and get discovered by couples and planners arranging weddings, festivals and events in Pueblo and southern Colorado.",
-    },
   },
   {
     city: "Littleton",
@@ -2389,11 +2310,6 @@ export const locations: Location[] = [
             "South Metro Fire Rescue requires permits for tents and membrane structures over 400 square feet, which means anything larger than a 20-by-20. Tents also count as a trigger for the City Event Permit, so check both before you order.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Littleton?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging weddings, graduations and events in Littleton and the south Denver metro.",
     },
   },
   {
@@ -2527,11 +2443,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Centennial?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families, HOAs and planners arranging parties and events in Centennial and the south Denver metro.",
-    },
   },
   {
     city: "Westminster",
@@ -2663,11 +2574,6 @@ export const locations: Location[] = [
             "If it's open to the public, expects 25 or more people and uses City property, yes: a Special Event – Temporary Use Permit, submitted at least 45 days ahead. Public events that spill from a business into a parking lot or onto adjacent property need one too.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Westminster?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Westminster and the northwest Denver metro.",
     },
   },
   {
@@ -2802,11 +2708,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Thornton?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, reunions and events in Thornton and the north Denver metro.",
-    },
   },
   {
     city: "Parker",
@@ -2938,11 +2839,6 @@ export const locations: Location[] = [
             "For events from January through June, applications open November 1; for July through December, they open February 15. Allow at least 60 days for approval, and don't promote the event until it has concept approval.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Parker?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Parker and northern Douglas County.",
     },
   },
   {
@@ -3077,11 +2973,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Windsor?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging graduations, park parties and events in Windsor and Northern Colorado.",
-    },
   },
   {
     city: "Longmont",
@@ -3214,11 +3105,6 @@ export const locations: Location[] = [
             "The City says private-property events may need a Temporary Use Special Event Permit from Planning and Development Services, and events with alcohol service or sales to the public need liquor approval. The noise code applies to every event, and there's no permit to exceed it.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Longmont?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging parties, weddings and events in Longmont and the St. Vrain Valley.",
     },
   },
   {
@@ -3355,11 +3241,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Estes Park?",
-      description:
-        "List your business on Event Rental Finder and get discovered by couples and planners arranging mountain weddings, reunions and events in Estes Park and the Estes Valley.",
-    },
   },
   {
     city: "Berthoud",
@@ -3493,11 +3374,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Berthoud?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and couples arranging parties, farm weddings and events in Berthoud and Northern Colorado.",
-    },
   },
   {
     city: "Erie",
@@ -3630,11 +3506,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Erie?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, block parties and backyard events in Erie and the north metro.",
-    },
   },
   {
     city: "Fruita",
@@ -3764,11 +3635,6 @@ export const locations: Location[] = [
             "Mesa County Public Health asks event coordinators to submit a plan review 30 days before the event and a vendor list at least two weeks before. Every food vendor needs an approved Mesa County event vendor license.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Fruita?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, bike events, festivals and backyard celebrations in Fruita and the Grand Valley.",
     },
   },
   {
@@ -3900,11 +3766,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Palisade?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging park gatherings, reunions, weddings and festivals in Palisade and the Grand Valley.",
-    },
   },
   {
     city: "Montrose",
@@ -4035,11 +3896,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Montrose?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, concerts, banquets and weddings in Montrose and the Uncompahgre Valley.",
-    },
   },
   {
     city: "Rifle",
@@ -4169,11 +4025,6 @@ export const locations: Location[] = [
             "The organizer does, including vendor waste, stage construction and teardown debris and extra portable toilet service. All trash receptacles need lids, and one is required at each vendor location.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Rifle?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, street events, reunions and weddings in Rifle and western Garfield County.",
     },
   },
   {
@@ -4306,11 +4157,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Glenwood Springs?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and planners arranging shelter parties, weddings, plaza events and festivals in Glenwood Springs and Garfield County.",
-    },
   },
   {
     city: "Englewood",
@@ -4440,11 +4286,6 @@ export const locations: Location[] = [
             "Yes. Groups of more than 15 need a Park Use Permit from Parks, Recreation, Library and Golf, and use over two hours in a 24-hour period now requires a pavilion reservation.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Englewood?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard celebrations and community events in Englewood.",
     },
   },
   {
@@ -4576,11 +4417,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Northglenn?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, community events, races and backyard celebrations in Northglenn.",
-    },
   },
   {
     city: "Broomfield",
@@ -4710,11 +4546,6 @@ export const locations: Location[] = [
             "North Metro Fire Rescue District generally requires plan review and construction and operational permits for tents over 400 square feet that aren't open on all sides, or over 700 square feet when open on all sides, with an inspection before use.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Broomfield?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, weddings, community events and backyard celebrations in Broomfield.",
     },
   },
   {
@@ -4846,11 +4677,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Commerce City?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, quinceañeras, block parties and community events in Commerce City.",
-    },
   },
   {
     city: "Brighton",
@@ -4981,11 +4807,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Brighton?",
-      description:
-        "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, weddings, community events and backyard celebrations in Brighton.",
-    },
   },
   {
     city: "Wheat Ridge",
@@ -5098,10 +4919,6 @@ export const locations: Location[] = [
           answer: "The City Code allows beer to be consumed in parks when it's bought and consumed lawfully, but other alcohol needs a special event permit, and glass bottles aren't allowed. Selling any alcohol requires a special event permit.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Wheat Ridge?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, backyard celebrations and community events in Wheat Ridge.",
     },
   },
   {
@@ -5216,10 +5033,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Golden?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, backyard weddings, block parties and community events in Golden.",
-    },
   },
   {
     city: "Lone Tree",
@@ -5332,10 +5145,6 @@ export const locations: Location[] = [
           answer: "South Suburban says alcohol isn't allowed in its parks unless the event is a nonprofit fundraiser, which needs additional permits from the city.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Lone Tree?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, neighborhood events and backyard celebrations in Lone Tree.",
     },
   },
   {
@@ -5450,10 +5259,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Louisville?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, backyard weddings and neighborhood celebrations in Louisville.",
-    },
   },
   {
     city: "Lafayette",
@@ -5566,10 +5371,6 @@ export const locations: Location[] = [
           answer: "No. Shelters stay open in all weather, and the City doesn't refund for actual or forecast bad weather.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Lafayette?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, block parties, backyard weddings and community events in Lafayette.",
     },
   },
   {
@@ -5684,10 +5485,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Castle Pines?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard celebrations and community events in Castle Pines.",
-    },
   },
   {
     city: "Superior",
@@ -5800,10 +5597,6 @@ export const locations: Location[] = [
           answer: "Submit the Street Obstruction Permit Application to Public Works at least 14 days before the party. The Town supplies barricades and cones, which go out no earlier than 9 a.m. and come down before 9 p.m.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Superior?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, block parties, backyard weddings and community events in Superior.",
     },
   },
   {
@@ -5918,10 +5711,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Edgewater?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, indoor gatherings, block parties and community events in Edgewater.",
-    },
   },
   {
     city: "Greenwood Village",
@@ -6034,10 +5823,6 @@ export const locations: Location[] = [
           answer: "The park rules ban glass and spirituous liquor unless you have a special occasion permit, and they exempt malt beverages and wine from that ban. Bring cans, and confirm the rules for your park when you book.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Greenwood Village?",
-      description: "List your business on Event Rental Finder and get discovered by families, businesses and organizers planning pavilion parties, special events, corporate gatherings and backyard celebrations in Greenwood Village.",
     },
   },
   {
@@ -6152,10 +5937,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Cherry Hills Village?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning backyard weddings, garden parties, pavilion picnics and neighborhood events in Cherry Hills Village.",
-    },
   },
   {
     city: "Glendale",
@@ -6267,10 +6048,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Glendale?",
-      description: "List your business on Event Rental Finder and get discovered by people planning pavilion parties, park picnics, team gatherings and small receptions in Glendale.",
-    },
   },
   {
     city: "Johnstown",
@@ -6380,10 +6157,6 @@ export const locations: Location[] = [
           answer: "Yes, but the Town's rules say plastic or a dance floor laid on the grass has to be removed in a timely manner so the grass doesn't die. Plan the pickup for right after the event.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Johnstown?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning shelter parties, reunions, block parties and receptions in Johnstown.",
     },
   },
   {
@@ -6495,10 +6268,6 @@ export const locations: Location[] = [
         },
       ],
     },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Severance?",
-      description: "List your business on Event Rental Finder and get discovered by families and organizers planning pavilion parties, birthdays, neighborhood gatherings and block parties in Severance.",
-    },
   },
   {
     city: "Carbondale",
@@ -6608,10 +6377,6 @@ export const locations: Location[] = [
           answer: "No. The parks crew doesn't work weekends and the trash bins are locked, so renters have to bring their own bags and remove all trash at the end of the rental.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Carbondale?",
-      description: "List your business on Event Rental Finder and get discovered by couples, families and organizers planning park weddings, shelter parties, ranch receptions and community events in Carbondale.",
     },
   },
   {
@@ -6725,10 +6490,6 @@ export const locations: Location[] = [
           answer: "For events on Town property, the Public Works Department can specify the number of waste receptacles and restrooms when it reviews your Trash & Sanitation Plan.",
         },
       ],
-    },
-    providerCta: {
-      heading: "Do You Provide Event Rentals in Frederick?",
-      description: "List your business on Event Rental Finder and get discovered by organizers planning park events, fundraisers, festivals and block parties in Frederick.",
     },
   },
 ];

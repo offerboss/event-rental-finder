@@ -140,6 +140,23 @@ export function ProviderCtaPanel({
   );
 }
 
+// Shared provider sign-up panel for city pages. Conversion copy only, the
+// same on every city page; local SEO copy stays in each location's data.
+export const CITY_PROVIDER_CTA = {
+  heading: "Run an Event Rental Business?",
+  description:
+    "List your company on Event Rental Finder so people planning events in the cities you serve can find you.",
+};
+
+export function CityProviderCta() {
+  return (
+    <ProviderCtaPanel
+      heading={CITY_PROVIDER_CTA.heading}
+      description={CITY_PROVIDER_CTA.description}
+    />
+  );
+}
+
 export const primaryActionClass =
   "inline-flex h-12 items-center justify-center rounded-lg bg-[#2C7A78] px-7 text-base font-semibold text-white transition hover:bg-[#256866] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C7A78]";
 

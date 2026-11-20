@@ -108,10 +108,6 @@ export type Location = {
     heading: string;
     items: LocationFaq[];
   };
-  providerCta?: {
-    heading: string;
-    description: string;
-  };
 };
 
 export type ProviderSpecialty = {

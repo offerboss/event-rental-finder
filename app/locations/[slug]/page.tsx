@@ -10,7 +10,7 @@ import { locationImages } from "@/content/locationImages";
 import { providers } from "@/content/providers";
 import {
   Breadcrumb,
-  ProviderCtaPanel,
+  CityProviderCta,
   Section,
   SectionHeading,
   cardClass,
@@ -451,13 +451,7 @@ export default async function LocationPage({ params }: Props) {
           </Section>
         )}
 
-        <ProviderCtaPanel
-          heading={location.providerCta?.heading ?? `Do You Serve ${city}?`}
-          description={
-            location.providerCta?.description ??
-            `List your event rental business on Event Rental Finder and get discovered by customers searching in ${city} and surrounding communities.`
-          }
-        />
+        <CityProviderCta />
       </main>
     </div>
   );

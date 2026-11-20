@@ -4,6 +4,10 @@
 export type LocationImage = { src: string; alt: string };
 
 export const locationImages: Record<string, LocationImage> = {
+  "aurora-co": {
+    src: "/images/locations/aurora-co-event-rentals.webp",
+    alt: "Frame tent with round tables and white chairs on a park lawn at the edge of the eastern plains in Aurora, Colorado",
+  },
   "denver-co": {
     src: "/images/locations/denver-co-event-rentals.webp",
     alt: "Downtown Denver skyline and snowcapped Front Range peaks at golden hour above a park lake and historic pavilion",

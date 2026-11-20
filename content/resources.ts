@@ -14,6 +14,10 @@ export const resources: ResourceArticle[] = [
       "Learn what affects tent rental prices, including tent size, type, delivery, setup, flooring, lighting, sidewalls and other event rental costs.",
     h1: "How Much Does a Tent Rental Cost?",
     topicCategorySlug: "tent-rentals",
+    heroImage: {
+      src: "/images/resources/tent-rental-cost.webp",
+      alt: "Pop-up canopy, frame tent and pole tent set up side by side on a lawn, with dance floor panels and folded tables on pallets",
+    },
     intro: [
       "If you're planning an outdoor wedding, party, or corporate event, tent rental cost is usually one of the first questions that comes up — and one of the hardest to answer with a single number. Pricing can vary substantially from one event to the next based on the tent itself, the site it's going on, and everything you add around it.",
       "This guide walks through the main factors that drive tent rental pricing, what's typically included in a quote, and what to ask so you can compare providers with confidence.",
@@ -259,6 +263,10 @@ export const resources: ResourceArticle[] = [
       "Use this event tent size guide to estimate how much space you may need based on guest count, seating style, dance floors, buffets, stages and other event features.",
     h1: "What Size Tent Do I Need for My Event?",
     topicCategorySlug: "tent-rentals",
+    heroImage: {
+      src: "/images/resources/what-size-tent-do-i-need.webp",
+      alt: "Large frame tent laid out with round tables, a dance floor, a buffet line and a stage on a foothills lawn at golden hour",
+    },
     intro: [
       "Guest count is usually the first number people think about when planning a tent rental, but it's really just the starting point. The right tent size also depends on how you plan to use the space — seating style, tables, a dance floor, a stage, a buffet or bar, a DJ or band, aisles for guest flow, weather protection, and whatever setup requirements your venue or provider has.",
       "This guide walks through the planning factors that affect tent size, so you can go into a quote with a clearer picture of what you actually need. The ranges below are rough planning estimates, not guarantees or engineering calculations — a local tent rental provider can help translate your specific layout into an accurate recommendation.",

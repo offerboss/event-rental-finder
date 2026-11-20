@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -23,10 +24,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = categories.find((c) => c.slug === slug);
   if (!category) return {};
 
+  const title = category.metaTitle ?? `${category.name} | Event Rental Finder`;
+  const description = category.metaDescription ?? category.shortDescription;
   return {
-    title: category.metaTitle ?? `${category.name} | Event Rental Finder`,
-    description: category.metaDescription ?? category.shortDescription,
+    title,
+    description,
     alternates: { canonical: `/categories/${category.slug}` },
+    ...socialMeta({
+      title,
+      description,
+      path: `/categories/${category.slug}`,
+      image: categoryImages[category.slug],
+    }),
   };
 }
 

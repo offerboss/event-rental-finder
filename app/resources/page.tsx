@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import {
   Breadcrumb,
@@ -12,11 +13,15 @@ import {
 } from "@/components/PageBlocks";
 import { resources } from "@/content/resources";
 
+const TITLE = "Event Rental Resources | Event Rental Finder";
+const DESCRIPTION =
+  "Explore event rental planning guides, tips and resources for tents, tables and chairs, weddings, party rentals, restrooms, staging, AV and more.";
+
 export const metadata: Metadata = {
-  title: "Event Rental Resources | Event Rental Finder",
-  description:
-    "Explore event rental planning guides, tips and resources for tents, tables and chairs, weddings, party rentals, restrooms, staging, AV and more.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/resources" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/resources" }),
 };
 
 // Topics ERF plans to cover. These are intentionally not links: the guides

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import {
@@ -11,11 +12,15 @@ import {
   linkCardClass,
 } from "@/components/PageBlocks";
 
+const TITLE = "Contact Event Rental Finder";
+const DESCRIPTION =
+  "Contact Event Rental Finder with questions about event rental listings, directory coverage, provider information and local event rental resources.";
+
 export const metadata: Metadata = {
-  title: "Contact Event Rental Finder",
-  description:
-    "Contact Event Rental Finder with questions about event rental listings, directory coverage, provider information and local event rental resources.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/contact" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/contact" }),
 };
 
 const iconProps = {

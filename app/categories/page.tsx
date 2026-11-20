@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { categories } from "@/content/categories";
 import { categoryImages } from "@/content/categoryImages";
 
+const TITLE = "Event Rental Categories | Event Rental Finder";
+const DESCRIPTION =
+  "Browse event rental categories including tents, tables and chairs, wedding rentals, inflatables, photo booths, restroom trailers, staging, AV and more.";
+
 export const metadata: Metadata = {
-  title: "Event Rental Categories | Event Rental Finder",
-  description:
-    "Browse event rental categories including tents, tables and chairs, wedding rentals, inflatables, photo booths, restroom trailers, staging, AV and more.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/categories" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/categories" }),
 };
 
 export default function CategoriesPage() {

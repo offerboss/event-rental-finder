@@ -6,6 +6,14 @@ import { categories } from "@/content/categories";
 import { categoryImages } from "@/content/categoryImages";
 import { resources } from "@/content/resources";
 import type { ResourceContentBlock } from "@/types";
+import JsonLd from "@/components/JsonLd";
+import {
+  ORGANIZATION_ID,
+  WEBSITE_ID,
+  absoluteUrl,
+  breadcrumbList,
+  socialMeta,
+} from "@/lib/seo";
 import {
   Breadcrumb,
   cardClass,
@@ -29,10 +37,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = resources.find((a) => a.slug === slug);
   if (!article) return {};
 
+  const title = article.metaTitle ?? `${article.title} | Event Rental Finder`;
+  const description = article.metaDescription ?? article.excerpt;
   return {
-    title: article.metaTitle ?? `${article.title} | Event Rental Finder`,
-    description: article.metaDescription ?? article.excerpt,
+    title,
+    description,
     alternates: { canonical: `/resources/${article.slug}` },
+    ...socialMeta({
+      title,
+      description,
+      path: `/resources/${article.slug}`,
+      image: article.heroImage?.src,
+      imageAlt: article.heroImage?.alt,
+    }),
   };
 }
 
@@ -137,9 +154,38 @@ export default async function ResourceArticlePage({ params }: Props) {
     secondaryHref: "/locations",
   };
 
+  const articleUrl = absoluteUrl(`/resources/${article.slug}`);
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${articleUrl}#article`,
+        headline: article.h1 ?? article.title,
+        description: article.metaDescription ?? article.excerpt,
+        url: articleUrl,
+        mainEntityOfPage: articleUrl,
+        isPartOf: { "@id": WEBSITE_ID },
+        publisher: { "@id": ORGANIZATION_ID },
+        ...(article.publishedAt ? { datePublished: article.publishedAt } : {}),
+        ...(article.updatedAt ? { dateModified: article.updatedAt } : {}),
+        ...(article.heroImage ? { image: absoluteUrl(article.heroImage.src) } : {}),
+      },
+      {
+        "@id": `${articleUrl}#breadcrumb`,
+        ...breadcrumbList([
+          { name: "Home", path: "/" },
+          { name: "Resources", path: "/resources" },
+          { name: article.title, path: `/resources/${article.slug}` },
+        ]),
+      },
+    ],
+  };
+
   return (
     <div className="flex-1 overflow-x-hidden bg-[#F8F5EF] text-[#1F2937]">
       <main>
+        <JsonLd data={articleJsonLd} />
         {/* Hero */}
         <section className={heroBackground}>
           <div className={`${container} pb-14 pt-8 lg:pb-16 lg:pt-10`}>

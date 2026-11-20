@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import GhlForm from "@/components/GhlForm";
 import {
   Breadcrumb,
@@ -9,11 +10,15 @@ import {
   heroBackground,
 } from "@/components/PageBlocks";
 
+const TITLE = "Apply to Be Featured on Event Rental Finder";
+const DESCRIPTION =
+  "Put your event rental company in front of customers actively searching in the markets you serve. Apply for featured placement on Event Rental Finder.";
+
 export const metadata: Metadata = {
-  title: "Apply to Be Featured on Event Rental Finder",
-  description:
-    "Put your event rental company in front of customers actively searching in the markets you serve. Apply for featured placement on Event Rental Finder.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/for-rental-companies" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/for-rental-companies" }),
 };
 
 const iconProps = {

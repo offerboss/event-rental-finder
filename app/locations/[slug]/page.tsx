@@ -8,6 +8,14 @@ import { categoryImages } from "@/content/categoryImages";
 import { locations } from "@/content/locations";
 import { locationImages } from "@/content/locationImages";
 import { providers } from "@/content/providers";
+import JsonLd from "@/components/JsonLd";
+import {
+  WEBSITE_ID,
+  absoluteUrl,
+  breadcrumbList,
+  plainText,
+  socialMeta,
+} from "@/lib/seo";
 import {
   Breadcrumb,
   CityProviderCta,
@@ -45,13 +53,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!location) return {};
 
   const place = `${location.city}, ${location.stateCode}`;
+  const title =
+    location.metaTitle ?? `Event Rentals in ${place} | Event Rental Finder`;
+  const description =
+    location.metaDescription ??
+    `Find event rental companies in ${place} for tents, tables and chairs, weddings, parties, inflatables, photo booths, restroom trailers, staging, AV and more.`;
+  const image = locationImages[location.slug];
   return {
-    title:
-      location.metaTitle ?? `Event Rentals in ${place} | Event Rental Finder`,
-    description:
-      location.metaDescription ??
-      `Find event rental companies in ${place} for tents, tables and chairs, weddings, parties, inflatables, photo booths, restroom trailers, staging, AV and more.`,
+    title,
+    description,
     alternates: { canonical: `/locations/${location.slug}` },
+    ...socialMeta({
+      title,
+      description,
+      path: `/locations/${location.slug}`,
+      image: image?.src,
+      imageAlt: image?.alt,
+    }),
   };
 }
 
@@ -106,9 +124,54 @@ export default async function LocationPage({ params }: Props) {
     sand = !sand;
   }
 
+  const pageUrl = absoluteUrl(`/locations/${location.slug}`);
+  const faqItems = location.faqs?.items ?? [];
+  const pageJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: location.metaTitle ?? `Event Rentals in ${place} | Event Rental Finder`,
+        description:
+          location.metaDescription ??
+          `Find event rental companies in ${place} for tents, tables and chairs, weddings, parties, inflatables, photo booths, restroom trailers, staging, AV and more.`,
+        isPartOf: { "@id": WEBSITE_ID },
+        about: { "@type": "Place", name: place },
+        breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
+        ...(image
+          ? { primaryImageOfPage: { "@type": "ImageObject", url: absoluteUrl(image.src) } }
+          : {}),
+      },
+      {
+        "@id": `${pageUrl}#breadcrumb`,
+        ...breadcrumbList([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: city, path: `/locations/${location.slug}` },
+        ]),
+      },
+      ...(faqItems.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              "@id": `${pageUrl}#faq`,
+              mainEntity: faqItems.map((faq) => ({
+                "@type": "Question",
+                name: plainText(faq.question),
+                acceptedAnswer: { "@type": "Answer", text: plainText(faq.answer) },
+              })),
+            },
+          ]
+        : []),
+    ],
+  };
+
   return (
     <div className="flex-1 overflow-x-hidden bg-[#F8F5EF] text-[#1F2937]">
       <main>
+        <JsonLd data={pageJsonLd} />
         {/* Hero */}
         <section className={heroBackground}>
           <div className={`${container} pb-14 pt-8 lg:pb-20 lg:pt-10`}>

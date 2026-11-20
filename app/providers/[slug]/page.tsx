@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories } from "@/content/categories";
@@ -39,10 +40,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .filter(Boolean);
   const description = `${provider.name} offers ${categoryNames.join(", ") || "event rentals"} serving ${place}. Compare local event rental providers on Event Rental Finder.`;
 
+  const title = `${provider.name} | Event Rental Finder`;
   return {
-    title: `${provider.name} | Event Rental Finder`,
+    title,
     description,
     alternates: { canonical: `/providers/${provider.slug}` },
+    ...socialMeta({ title, description, path: `/providers/${provider.slug}` }),
     // Thin profiles (few documented details) still get a page, but aren't
     // submitted for indexing as a near-duplicate result. See lib/providers.ts.
     robots: isProviderProfileThin(provider)

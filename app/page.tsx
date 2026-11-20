@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { DEFAULT_DESCRIPTION, DEFAULT_TITLE, socialMeta } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { categories } from "@/content/categories";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  ...socialMeta({ title: DEFAULT_TITLE, description: DEFAULT_DESCRIPTION, path: "/" }),
 };
 
 const iconProps = {

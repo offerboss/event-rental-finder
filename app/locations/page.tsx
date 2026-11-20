@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { locations } from "@/content/locations";
@@ -10,11 +11,15 @@ import {
   linkCardClass,
 } from "@/components/PageBlocks";
 
+const TITLE = "Event Rental Locations | Event Rental Finder";
+const DESCRIPTION =
+  "Browse local event rental companies serving cities across Colorado. Explore rental categories, compare options, and connect with providers serving your area.";
+
 export const metadata: Metadata = {
-  title: "Event Rental Locations | Event Rental Finder",
-  description:
-    "Browse local event rental companies serving cities across Colorado. Explore rental categories, compare options, and connect with providers serving your area.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/locations" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/locations" }),
 };
 
 export default function LocationsPage() {

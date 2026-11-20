@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import ProviderRow from "@/components/ProviderRow";
 import {
@@ -21,11 +22,15 @@ import { resources } from "@/content/resources";
 import { providers } from "@/content/providers";
 import { providersForRegion, topLabels } from "@/lib/providers";
 
+const TITLE = "Colorado Event Rental Providers | Event Rental Finder";
+const DESCRIPTION =
+  "Browse event rental providers and discover companies offering tents, tables and chairs, weddings, inflatables, photo booths, restroom trailers, staging, AV and more.";
+
 export const metadata: Metadata = {
-  title: "Colorado Event Rental Providers | Event Rental Finder",
-  description:
-    "Browse event rental providers and discover companies offering tents, tables and chairs, weddings, inflatables, photo booths, restroom trailers, staging, AV and more.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: "/providers" },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/providers" }),
 };
 
 const categoryNameBySlug = new Map(categories.map((c) => [c.slug, c.name]));
